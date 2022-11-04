@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../corema_schema/corema_glyph.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../corema_schema/corema_glyph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Electronic transcription of München, Bayerische Staatsbibliothek, Clm 15632</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Hyperdiplomatische Basistranskription der Handschrift München, Bayerische Staatsbibliothek, Clm 15632</edition>
+            <editor>
+               <forename>Astrid</forename>
+               <surname>Böhm</surname>
+            </editor>
+            <principal>
+               <forename>Helmut W.</forename>
+               <surname>Klug</surname>
+            </principal>
+            <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+            </publisher>
+            <authority>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+							Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+            </authority>
+            <distributor>
+               <ref target="https://gams.uni-graz.at"/>
+               <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+               <licence n="facsimile"
+                        target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+            </availability>
+            <!-- Lizenz muss noch geklärt werden -->
+            <date when="2020-01-01"/>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:corema.m10</idno>
+            <ref target="context:corema" type="context"/>
+            <ref target="context:corema.glyph" type="context"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>München</settlement>
+                  <institution ref="https://www.bsb-muenchen.de">Bayerische Staatsbibliothek</institution>
+                  <idno>Clm 15632</idno>
+                  <altIdentifier type="abbr">
+                     <idno>M10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang ana="manuscript">
+                     <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     <lang ana="other" n="Q29540">Bavarian</lang> Näheres zur Schreibsprachenbestimmung der Kochrezepttexte s. Ehlert S. 233-241.</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="composite-Manuscript">
+                     <supportDesc>
+                        <extent>
+                           <measure unit="leaf" type="leavesCount">164</measure>
+                           <dimensions type="block" unit="mm">
+                              <height>160</height>
+                              <width>130</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>
+                           <ab type="completeness">Eine neuere Blattzählung wurde nachträglich von moderner Hand eingefügt. 
+											Diese nicht immer durchgängige Zählung ist mit Bleistift ergänzt worden. Nicht mitgezählt wurden diverse Leerseiten.</ab>
+                        </foliation>
+                        <collation>
+                           <ab>Vor der ersten Textseite befindet sich ein leeres Vorsatzblatt sowie am Ende ein leeres Abschlußblatt. 
+											Die Handschrift scheint im Ganzen vollständig.</ab>
+                        </collation>
+                        <condition>
+                           <desc>Die Blätter 1-24 bestehen aus stark nachgedunkeltem Pergament, die restlichen Blätter 25-164 bestehen aus grobem Papier. 
+											Viele Seiten sind durch Flecken und Verschmutzungen verunreinigt. Auf der Innenseite des Buchdeckels steht mit Bleistift die Signatur <q>15632</q>. 
+											Auf Blatt 1r sind unten zwei Klebesignaturen angebracht: <q>Rot 132</q> und <q>Cod. lat. 15632</q>. An dieser Stelle steht auch noch eine weitere handschriftliche Signatur <q>Rot 132</q>. </desc>
+                           <material xml:lang="de">Pergament, Papier</material>
+                           <material xml:lang="en">parchment, paper</material>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p ana="measure">variierend, ab fol. 143r 125 x 80 mm</p>
+                           <p ana="text">Unterschiedliche Schriften und Schriftgrößen. Bis fol. 83r Rubrizierungen vorhanden. Auf Bl. 124v ist eine Initiale mit schwarzer Tinte verziert. 
+											Die Texte sind ansonsten mit blasser dunkler Tinte geschrieben.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Verschiedene Hände. Im Bereich der Kochrezepttexte (fol. 143r-152v) drei unterschiedliche Hände (s. scriptDesc).</handNote>
+                  </handDesc>
+                  <scriptDesc facs="fol. 143r-152v" resp="Astrid Böhm">
+                     <scriptNote source="fol. 143r-150v">
+                        <ab>fol. 143r-150v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>klare Struktur, Rezepte voneinander abgesetzt, Rezeptbeginn außerhalb des Schriftspiegels, ab 145r Überschriften am Blattrand von anderer Hand</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Duktus</desc>
+                        <p>zu Beginn recht ordentlich, lässt dann nach</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offenen Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; und rundes &lt;r&gt;</p>
+                        <p>Übergang fließend</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Diakritika</desc>
+                        <p>punktförmig, Doppelpunkt über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Terminatoren</desc>
+                        <p>unikal: Zeilenfüller 150v4</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Worttrennung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichungen</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                        <p>andere Hand (2) übernimmt auf fol. 150v4 mitten im Rezept bis 150v14, danach erneuter Wechsel (Hand 3)</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ jetzt Schreibweise ‚twu‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <ab>fol. 150v-152v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>Schriftspiegel vergrößert sich, kaum noch Rand; Schrift wird größer</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ und ‚ny:m‘ jetzt Schreibweise ‚twu‘ und ‚nymm‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Duktus</desc>
+                        <p>flüchtige, teils krakelige Schrift</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offene Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>&lt;b&gt;, &lt;d&gt;, &lt;l&gt; mit und ohne Schlaufe, &lt;h&gt;, k&gt; mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; </p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Diakritika</desc>
+                        <p>Doppelpunkt, teils Strich über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken, etc.-Kürzung, er-Kürzung in Verbindung mit Schaft-s</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Terminatoren</desc>
+                        <p>fol. 151r Rezeptblöcke durch waagerechten Strich voneinander abgegrenzt</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Worttrennung</desc>
+                        <p>Doppelstrich</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichung, Einfügung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                     </scriptNote>
+                  </scriptDesc>
+                  <bindingDesc>
+                     <binding corresp="#Einband">
+                        <condition>Der braune Ledereinband der Handschrift stammt von einer Restaurierung im 19. Jahrhundert. </condition>
+                        <decoNote type="bindingMaterial">Leder</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date xml:lang="de" notBefore="1300" notAfter="1400">14. und 15. Jh.</date>
+                        <date xml:lang="en" notBefore="1300" notAfter="1400">14th and 15th c.</date>
+                     </origDate>
+                     <note>Der Rotter Bibliothekskatalog verzeichnet den Inhalt der Handschrift nur bis Fol. 87/89. Dies läßt den Schluß zu, dass diese Texte möglicherweise erst später, also erst nach der Anfertigung des Kataloges um 1490, hinzugefügt wurden. 
+									Da bis Bl. 103 die Angaben der Liste recht genau mit dem Inhalt der Handschrift übereinstimmen und über die danach stehenden Texte wie z.B. die Disticha Catonis (Bl. 113) keine Angaben gemacht werden, liegt diese Folgerung nahe.
+									Die Aufzeichnung der Kochrezepttexte ist also vermutlich erst ab etwa 1490 anzusetzen. 
+									Als Ort der Abfassung der Rezepte könnte Rott am Inn angenommen werden.</note>
+                     <origPlace>
+                        <placeName xml:lang="de">Entstehungsort unbekannt (Kochrezepttexte vermutl. Rott am Inn)</placeName>
+                        <placeName xml:lang="en">place of origin unknown (Recipe texts probably Rott am Inn) </placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance>Bis zur Säkularisation gehörte die Sammelhandschrift dem Benediktinerkloster Rott am Inn. 
+								<lb/>Die Handschrift Clm 15632 läßt sich inzwischen noch genauer lokalisieren. 
+								Sie stammt aus dem Besitz des Ulrich Wülfing, der urkundlich mehrfach als Pfarrer und Dechant in Walpertshausen (Landkreis Erding) belegt ist.
+								In dieser Eigenschaft erwarb er zwischen 1455 und 1473 eine ganze Reihe Handschriften, darunter auch den Clm 15632. 
+								Seit 1485 war Wülfing nachweislich in Rott am Inn als Priester tätig. 
+								Wülfing vermachte in seinem Testament vom Dezember 1487 eine ganze Reihe von Codices der Abtei, darunter auch die Handschrift Clm 15632. 
+								Einige dieser Codices weisen zusätzlich Register bzw. Inhaltsverzeichnisse und Besitzvermerke (Namens- initialen <q>V W</q>) Wülfings am Anfang auf. 
+								Bei einer Restaurierung im 19. Jahrhundert wurde diese Inhaltsliste der Handschrift Clm 15632 vernichtet, was allerdings keinen Einfluß auf die Identifikation der Handschrift hatte. 
+							<lb/>Eine zusätzliche Bestätigung der Herkunft der Handschrift Clm 15632 liefert ein wiederentdeckter mittelalterlicher Bibliothekskatalog der Bibliothek des Klosters Rott am Inn. 
+							Dieser Katalog stammte nach den Angaben des Melker Benediktiners P. Bernhard Pez, der 1717 auf seiner Reise durch bayerische Klöster auch in Rott am Inn Station machte, etwa aus dem Jahre 1490. 
+							Die Erwähnung dieses Kataloges war lange Zeit der letzte Hinweis auf einen Rotter Bibliothekskatalog, der seit dieser Zeit als verschollen galt. 
+							Er tauchte eher zufällig wieder auf und wurde von Glauche als der vermißte Rotter Bibliothekskatalog identifiziert (enthalten in Hs. 12737 der mittelalterlichen lateinischen Handschriften des Germanischen Nationalmuseums Nürnberg). 
+							<lb/>Auf Bl. 4v der Handschrift 12737 findet sich der Eintrag, mit dem Clm 15632 zu identifizieren ist.
+							Der Inhalt der Handschrift Clm 15632 stimmt bis zu einem gewissen Maße mit den Angaben in diesem Rotter Bibliothekskatalog überein. 
+							Eine Übereinstimmung kann nur bis Bl. 87 oder 89 (beides musikalische Texte) festgestellt werden. 
+							Über die folgenden Texte wird in der Bücherliste keine Angabe mehr gemacht. </provenance>
+                  <acquisition>Das Kloster Rott am Inn wurde 1803 im Zuge der Säkularisierung aufgelöst. Die Handschrift Clm 15632 gelangte mit den übrigen Bibliotheksbesitzen in die Königliche Staatsbibliothek München.
+								
+							</acquisition>
+               </history>
+               <msPart n="1-24">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.1-24.1">
+                        <locus ana="folio">1-24</locus>
+                        <title>Etymologicum latinum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="21">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.21.2">
+                        <locus ana="folio">21</locus>
+                        <title>De praepositionibus graecis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="25">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.25.3">
+                        <locus ana="folio">25</locus>
+                        <title>Compendium humanae salvationis metricum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="35">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.35.4">
+                        <locus ana="folio">35</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="47">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.47.5">
+                        <locus ana="folio">47</locus>
+                        <title>Conversio et vita s. Barbarae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="79">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.79.6">
+                        <locus ana="folio">79</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="86">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.86.7">
+                        <locus ana="folio">86</locus>
+                        <title>,Sanctus' cum noti</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="87">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.87.8">
+                        <locus ana="folio">87</locus>
+                        <title>Patrum aliquot et bibliae librorum explanationes dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="89">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.89.9">
+                        <locus ana="folio">89</locus>
+                        <title>Johannis de Muris ars cantus mensurabilis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="103">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.103.10">
+                        <locus ana="folio">103</locus>
+                        <title>'Regulae cantandi super rectum cantum' (videntur esse excerpta)</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="113">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.113.11">
+                        <locus ana="folio">113</locus>
+                        <title>'Disticha Catonis', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="130">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.130.12">
+                        <locus ana="folio">130</locus>
+                        <title>'Poeniteas cito peccator', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="136">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.136.13">
+                        <locus ana="folio">136</locus>
+                        <title>Orationes; de peccatis, virtutibus etc.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="140">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.140.14">
+                        <locus ana="folio">140</locus>
+                        <title>,Catonis disticha' cum commentario</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart ana="cooking_recipes" n="143r-152v">
+                  <head>Kochrezepttexte</head>
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#cooking" xml:id="m10.143r-152v.15">
+                        <locus ana="folio">143r-152v</locus>
+                        <title>Kochrezepttexte</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="153">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.153.16">
+                        <locus ana="folio">153</locus>
+                        <title>Orationes germanicae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
+            <listBibl type="catalogues">
+               <biblStruct type="book"
+                           xml:id="Halm1878"
+                           corresp="http://zotero.org/groups/2455111/items/4IMB3MZH">
+                  <monogr>
+                     <title level="m">Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Bd. II,3:
+									Codices num. 15121-21313 complectens</title>
+                     <author>
+                        <forename>Karl</forename>
+                        <surname>Halm</surname>
+                     </author>
+                     <author>
+                        <forename>Georg von</forename>
+                        <surname>Laubmann</surname>
+                     </author>
+                     <author>
+                        <forename>Wilhelm</forename>
+                        <surname>Meyer</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <date>1878</date>
+                        <note type="url">https://daten.digitale-sammlungen.de/0000/bsb00008254/images/index.html?fip=193.174.98.30&amp;id=00008254&amp;seite=1</note>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis.
+								IV,3.</title>
+                  </series>
+                  <citedRange unit="page">25-26</citedRange>
+                  <note type="display">Halm, K., Laubmann, G. von and Meyer, W. (1878) <hi rend="italic">Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Bd. II,3: Codices num. 15121-21313 complectens</hi>. München (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis. IV,3.), cf. pp. 25-26. Available at: <ref target="https://daten.digitale-sammlungen.de/0000/bsb00008254/images/index.html?fip=193.174.98.30&amp;id=00008254&amp;seite=1">https://daten.digitale-sammlungen.de/0000/bsb00008254/images/index.html?fip=193.174.98.30&amp;id=00008254&amp;seite=1</ref>.
+							</note>
+               </biblStruct>
+               <biblStruct type="webpage"
+                           xml:id="Glaßner2017"
+                           corresp="http://zotero.org/groups/2455111/items/ABNI4NH7">
+                  <analytic>
+                     <title level="a">Handschriftencensus | München, Staatsbibl., Clm 15632</title>
+                     <author>
+                        <name>Glaßner</name>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Handschriftencensus</title>
+                     <imprint>
+                        <date>2017</date>
+                        <note type="accessed">2020-10-16T09:40:15Z</note>
+                        <note type="url">https://handschriftencensus.de/6394</note>
+                     </imprint>
+                  </monogr>
+                  <note type="display">Glaßner, C. (2017) <hi rend="italic">Handschriftencensus | München, Staatsbibl., Clm 15632, Handschriftencensus</hi>. Available at: <ref target="https://handschriftencensus.de/6394">https://handschriftencensus.de/6394</ref> (Accessed: 16 October 2020).
+							</note>
+               </biblStruct>
+            </listBibl>
+            <listBibl type="transcriptions">
+               <biblStruct type="book"
+                           xml:id="Ehlert1999"
+                           corresp="http://zotero.org/groups/2455111/items/ERVDJAZR">
+                  <monogr>
+                     <title level="m">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384,
+									467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold,
+									Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian
+									Suda und Monika Ullrich</title>
+                     <idno type="ISBN">3-403-03364-3</idno>
+                     <idno type="callNumber">SBB-PK Berlin &lt;1+1A&gt; !2:HsLS! Hs LS HM 862 1 A 412720 !2!
+									1 A 413554</idno>
+                     <author>
+                        <forename>Trude</forename>
+                        <surname>Ehlert</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>Frankfurt a. M.</pubPlace>
+                        <publisher>Tupperware</publisher>
+                        <date>1999</date>
+                     </imprint>
+                  </monogr>
+                  <note type="display">Ehlert, T. (1999) <hi rend="italic">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384, 467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold, Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian Suda und Monika Ullrich</hi>. Frankfurt a. M.: Tupperware.
+							</note>
+               </biblStruct>
+            </listBibl>
+            <!--<listBibl type="catalogues">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften, S.228-241.</bibl>
+						<bibl>Karl Halm u.a., Catalogus codicum latinorum Bibliothecae Regiae Monacensis, Bd. II,3: Codices num. 15121-21313 complectens (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis IV,3), München 1878 (Nachdruck Wiesbaden 1969), S. 25f. Url: <ref target="urn:nbn:de:bvb:12-bsb00008254-3"></ref>
+						</bibl>
+						<bibl>Christine Glaßner: München, Staatsbibl., Clm 15632. In: Handschriftencensus. 2017. Url: <ref target="http://www.handschriftencensus.de/6394">http://www.handschriftencensus.de/6394</ref>.</bibl>
+					</listBibl>
+					<listBibl type="transcriptions">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften </bibl> 
+					</listBibl>-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#M10_143r">
+         <graphic xml:id="IMG.143r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_143r.jpg"/>
+      </surface>
+      <surface start="#M10_143v">
+         <graphic xml:id="IMG.143v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_143v.jpg"/>
+      </surface>
+      <surface start="#M10_144r">
+         <graphic xml:id="IMG.144r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_144r.jpg"/>
+      </surface>
+      <surface start="#M10_144v">
+         <graphic xml:id="IMG.144v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_144v.jpg"/>
+      </surface>
+      <surface start="#M10_145r">
+         <graphic xml:id="IMG.145r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_145r.jpg"/>
+      </surface>
+      <surface start="#M10_145v">
+         <graphic xml:id="IMG.145v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_145v.jpg"/>
+      </surface>
+      <surface start="#M10_146r">
+         <graphic xml:id="IMG.146r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_146r.jpg"/>
+      </surface>
+      <surface start="#M10_146v">
+         <graphic xml:id="IMG.146v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_146v.jpg"/>
+      </surface>
+      <surface start="#M10_147r">
+         <graphic xml:id="IMG.147r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_147r.jpg"/>
+      </surface>
+      <surface start="#M10_147v">
+         <graphic xml:id="IMG.147v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_147v.jpg"/>
+      </surface>
+      <surface start="#M10_148r">
+         <graphic xml:id="IMG.148r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_148r.jpg"/>
+      </surface>
+      <surface start="#M10_148v">
+         <graphic xml:id="IMG.148v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_148v.jpg"/>
+      </surface>
+      <surface start="#M10_149r">
+         <graphic xml:id="IMG.149r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_149r.jpg"/>
+      </surface>
+      <surface start="#M10_149v">
+         <graphic xml:id="IMG.149v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_149v.jpg"/>
+      </surface>
+      <surface start="#M10_150r">
+         <graphic xml:id="IMG.150r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_150r.jpg"/>
+      </surface>
+      <surface start="#M10_150v">
+         <graphic xml:id="IMG.150v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_150v.jpg"/>
+      </surface>
+      <surface start="#M10_151r">
+         <graphic xml:id="IMG.151r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_151r.jpg"/>
+      </surface>
+      <surface start="#M10_151v">
+         <graphic xml:id="IMG.151v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_151v.jpg"/>
+      </surface>
+      <surface start="#M10_152r">
+         <graphic xml:id="IMG.152r"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_152r.jpg"/>
+      </surface>
+      <surface start="#M10_152v">
+         <graphic xml:id="IMG.152v"
+                  url="München_Bayerische_Staatsbibliothek_Clm_15632_152v.jpg"/>
+      </surface>
+      <surface start="#">
+         <graphic xml:id="CUTOUT" url="cutouts/m10.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body xml:space="preserve"><ab>
+			<pb xml:id="M10_143r" n="143r"/>
+			
+				<seg><lb n="N001"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m czway<g ref="#combuml"/> ho<g ref="#combuml"/>ltze<g ref="#rrot">r</g> die man zw SLONGamen 
+				<lb n="N002"/>leg vnd Innen gefo<g ref="#rrot">r</g>mie<g ref="#rrot">r</g>t SLONGein als ein 
+				<lb n="N003"/>rep huen vnd ny<g ref="#combuml"/>m viSLONGch vnd thue die 
+				<lb n="N004"/>g<g ref="#rrot">r</g>a<g ref="#combuml"/>t vnd die <abbr>SLONGchu<g ref="#combuml"/>epp<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da <abbr>uo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd hack 
+				<lb n="N005"/>daz gep<g ref="#rrot">r</g>a<g ref="#combuml"/>t gar clain vnde<g ref="#rrot">r</g> ein ande<g ref="#rrot">r</g> 
+				<lb n="N006"/>vnd gewu<g ref="#rrot">r</g>tz daz wol vnd leg daz in die 
+				<lb n="N007"/><abbr>fu<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> holtze<g ref="#rrot">r</g> vnd SLONGewt das alSLONGo vaSLONGt 
+				<lb n="N008"/>darnach p<g ref="#rrot">r</g>at es vnd SLONGpick es mit <abbr>hecht<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N009"/>p<g ref="#rrot">r</g>a<g ref="#combuml"/>t</seg><seg>
+				<lb n="N010"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m g<g ref="#rrot">r</g>oß viSLONGch wie die SLONGein vnd thue 
+				<lb n="N011"/>die g<g ref="#rrot">r</g>a<g ref="#combuml"/>t vnd die <abbr>SLONGchu<g ref="#combuml"/>epp<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> dar <abbr>uo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd 
+				<lb n="N012"/>hack daz clain vnd rey<g ref="#combuml"/>b ein p<g ref="#rrot">r</g>ot dar 
+				<lb n="N013"/>vnde<g ref="#rrot">r</g> vnd gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz eß woll vnd mach 
+				<lb n="N014"/>daz zw <abbr>SLONGam<ex>m</ex><am><g ref="#bar_m"/></am>en</abbr> mit <abbr>naSLONGSLONGen<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>meSLONGSLONGe<g ref="#rrot">r</g>n<ex>n</ex><am><g ref="#bar_n"/></am></abbr> auff 
+				<lb n="N015"/>de<g ref="#rrot">r</g> anricht in die <abbr>fu<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ho<g ref="#combuml"/>ltze<g ref="#rrot">r</g> alz 
+				<lb n="N016"/>ein rech <abbr>p<g ref="#rrot">r</g>at<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGto<g ref="#combuml"/>ß an einen SLONGpiß 
+				<lb n="N017"/>vnd prat SLONGein genueg</seg><seg>
+				<lb n="N018"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m <abbr>geSLONGchelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd SLONGtoß den in 
+				<lb n="N019"/>einem morSLONGer vnd mach milch <abbr>dauo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd 
+				<lb n="N020"/>SLONGey<g ref="#combuml"/>ch SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch ein thuech In ein pfann 
+				<lb n="N021"/>vnd rey<g ref="#combuml"/>b ein wenig SLONGemel dar ein 
+				<lb n="N022"/>Ee ez wall vnd ein wenig guetz weins 
+				<lb n="N023"/>vnd wan ez e<g ref="#rrot">r</g>wall SLONGo zewch ez auSLONGs 
+				<lb n="N024"/>de<g ref="#rrot">r</g> pfann auff ein SLONGib ode<g ref="#rrot">r</g> auff ein thuech  
+			
+			<pb xml:id="M10_143v" n="143v"/>
+			
+				<lb n="N001"/>daz daz waSLONGSLONGe<g ref="#rrot">r</g> da<g ref="#rrot">r</g> <abbr>uo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> SLONGey<g ref="#combuml"/>ch daz <del><g ref="#rrot">r</g>ich</del> richt 
+				<lb n="N002"/>an alz den pan p<g ref="#rrot">r</g>ein vnd beSLONGteck in mit 
+				<lb n="N003"/><abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> <abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> auch macht <del>macht</del>  man in 
+				<lb n="N004"/>in eine<g ref="#rrot">r</g> <abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> <del>nich</del> milch</seg><seg>
+				<lb n="N005"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m <abbr>geSLONGchelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd hack den klain 
+				<lb n="N006"/>vnd ve<g ref="#rrot">r</g>b in <abbr>halb<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> mit SLONGaff<g ref="#rrot">r</g>an vnd leg 
+				<lb n="N007"/>daz beSLONGunde<g ref="#rrot">r</g> In ein <abbr>SLONGtauff<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> auch ny<g ref="#combuml"/>m wein
+				<lb n="N008"/>pe<g ref="#rrot">r</g> die SLONGchon e<g ref="#rrot">r</g>clawpt SLONGein vnd e<g ref="#rrot">r</g>wel 
+				<lb n="N009"/>die daz SLONGi SLONGinwel <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> Auch ny<g ref="#combuml"/>m <abbr><g ref="#rrot">r</g>og<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N010"/><del>vnd</del> <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>viSLONGch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wie die SLONGein vnd SLONGtoß die in 
+				<lb n="N011"/>einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> mit einem <abbr>wenig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>wey<g ref="#combuml"/>SLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N012"/>mel daz e<g ref="#rrot">r</g> we<g ref="#rrot">r</g> alz ein <abbr>SLONGt<g ref="#rrot">r</g>aub<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> taig 
+				<lb n="N013"/>vnd gilb daz vnd thue daz ab <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da<g ref="#rrot">r</g> 
+				<lb n="N014"/>vnde<g ref="#rrot">r</g> vnd gewß auff die fladen vnd pachs 
+				<lb n="N015"/>in einem <abbr>ofen<ex>n</ex><am><g ref="#bar_n"/></am></abbr></seg><seg>
+				<lb n="N016"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> SLONGtoß nuß <abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd <abbr>vey<g ref="#combuml"/>g<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnde<g ref="#rrot">r</g> ein 
+				<lb n="N017"/>ande<g ref="#rrot">r</g> In einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> vnd gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz 
+				<lb n="N018"/>ez wol vnd gilbs mit SLONGaffran vnd leg 
+				<lb n="N019"/>daz In ein <abbr>pfan<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd gewß o<g ref="#combuml"/>ll dar 
+				<lb n="N020"/>an vnd e<g ref="#rrot">r</g>well ez wol da<g ref="#rrot">r</g>nach mach 
+				<lb n="N021"/><abbr>krapff<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da<g ref="#rrot">r</g> auß alz dw SLONGi <abbr>hab<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wilt 
+				<lb n="N022"/>In <abbr>e<g ref="#rrot">r</g>hab<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> taig vnd pachs in o<g ref="#combuml"/>ll vnd
+				<lb n="N023"/> gibs kalt ze eSLONGSLONGen</seg><seg>
+			
+			<pb xml:id="M10_144r" n="144r"/>
+			
+				<lb n="N001"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m SLONGenif SLONGam vnd <abbr>de<g ref="#rrot">r</g><g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am></abbr> den SLONGchon 
+				<lb n="N002"/>vnd SLONGtoß den ga<g ref="#rrot">r</g> clain In einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> 
+				<lb n="N003"/>vnd t<g ref="#rrot">r</g>ey<g ref="#combuml"/>b in <abbr>da<ex>r</ex><am><g ref="#combcomma_r"/></am>nach</abbr> du<g ref="#rrot">r</g>ch ein eng 
+				<lb n="N004"/>thuech vnd miSLONGch <abbr>geSLONGto<g ref="#combuml"/>SLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> thimend 
+				<lb n="N005"/>plu<g ref="#combuml"/>e vnd den SLONGeniff vnd reib eß 
+				<lb n="N006"/>vaSLONGt <del>d</del> vnde<g ref="#rrot">r</g> ein ande<g ref="#rrot">r</g> alz de<g ref="#rrot">r</g> wachs 
+				<lb n="N007"/>pe<g ref="#rrot">r</g>t vnd <abbr>wan<ex>n</ex><am><g ref="#bar_n"/></am></abbr> dw wilt SLONGo nym<note xml:lang="de">Revision: ein SNORMGchaft bei 'n' zuviel, gestrichen.</note><note xml:lang="en">Revision: 'n' one stroke too many, deleted.</note> 
+				<lb n="N008"/>dez <abbr>SLONGelb<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein wenigs vnd ze reib 
+				<lb n="N009"/>ez mit wein SLONGo haSLONGtu <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGeniff</seg><seg>
+				<lb n="N010"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> SLONGchlach ay<g ref="#combuml"/>e<g ref="#rrot">r</g> auff an dem <abbr>g<g ref="#rrot">r</g>oSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGpitz<note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note>
+				<lb n="N011"/>vnd thue daz Inde<g ref="#rrot">r</g> da<g ref="#rrot">r</g> auß vnd ze<g ref="#rrot">r</g> 
+				<lb n="N012"/>reib daz wol vnd gilbs vnd pfeffe<g ref="#rrot">r</g>s 
+				<lb n="N013"/>vnd hack pete<g ref="#rrot">r</g>SLONGil vnd SLONGaluan vnd <g ref="#rrot">r</g>o<g ref="#combuml"/>SLONGt 
+				<lb n="N014"/>daz mit SLONGchmaltz in eine<g ref="#rrot">r</g> <abbr>pfan<ex>n</ex><am><g ref="#bar_n"/></am></abbr> da<g ref="#rrot">r</g> 
+				<lb n="N015"/>nach hack ez clain vnd thue ez <abbr>wid<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> 
+				<lb n="N016"/>in die <abbr>guck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGtoß an einen SLONGpiß 
+				<lb n="N017"/>vnd p<g ref="#rrot">r</g>atz auff einem roSLONGt</seg><seg>
+				<lb n="N018"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m gleich milch vnd ay<g ref="#combuml"/>e<g ref="#rrot">r</g> vnd SLONGchlach<note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note>
+				<lb n="N019"/>die wol du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> vnd gilbs vnd 
+				<lb n="N020"/>gewß in einen <abbr>hafen<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd SLONGetz in einem 
+				<lb n="N021"/><abbr>keSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> mit waSLONGSLONGe<g ref="#rrot">r</g> vnd laz ez da<g ref="#rrot">r</g> in 
+				<lb n="N022"/><abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vntz daz ez zw SLONGamen get da<g ref="#rrot">r</g> 
+				<lb n="N023"/>nach SLONGchu<g ref="#combuml"/>tt ez auff ein thuech SLONGo wi<g ref="#rrot">r</g>t 
+				<lb n="N024"/>ez he<g ref="#rrot">r</g>t alz ein ka<g ref="#combuml"/>ß daz daz waSLONGSLONGe<g ref="#rrot">r</g> da<g ref="#rrot">r</g> 
+				<lb n="N025"/>von SLONGey<g ref="#combuml"/>ch da<g ref="#rrot">r</g> nach SLONGchney<g ref="#combuml"/>t ez als
+			
+			<pb xml:id="M10_144v" n="144v"/>
+			
+				<lb n="N001"/>ein <abbr>pute<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGto<g ref="#combuml"/>ß an ein <abbr>SLONGpiSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd 
+				<lb n="N002"/>p<g ref="#rrot">r</g>atz auff einem <g ref="#rrot">r</g>oSLONGt vnd SLONGa<g ref="#combuml"/> gewu<g ref="#rrot">r</g>tz 
+				<lb n="N003"/>da<g ref="#rrot">r</g> auff vnd begewß mit SLONGchmaltz 
+				<lb n="N004"/>vnd gibs ze <abbr>eSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg>
+				<lb n="N005"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m wein waSLONGSLONGe<g ref="#rrot">r</g> vnd eSLONGSLONGich geley<g ref="#combuml"/>ch 
+				<lb n="N006"/>vnd SLONGeud viSLONGch da<g ref="#rrot">r</g> in vnd gewu<g ref="#rrot">r</g>tz vnd 
+				<lb n="N007"/>SLONGaff<g ref="#rrot">r</g>an da<g ref="#rrot">r</g> an vnd gewß kaltz auff 
+				<lb n="N008"/>die viSLONGch</seg><seg>
+				<lb n="N009"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m eSLONGSLONG<g ref="#inodot">i</g>ch ho<g ref="#combuml"/>nig vnd <abbr>leczelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGto<g ref="#combuml"/>ß 
+				<lb n="N010"/>vnde<g ref="#rrot">r</g> ein <abbr>and<ex>e</ex><am><g ref="#bar_e"/></am><g ref="#rrot">r</g></abbr> vnd SLONGey<g ref="#combuml"/>chs du<g ref="#rrot">r</g>ch 
+				<lb n="N011"/>ein thuech vnd SLONGeudt eß vnd iß kalt</seg><seg>
+				<lb n="N012"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m <abbr>k<g ref="#rrot">r</g>ebSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGchney<g ref="#combuml"/>d daz poß pey<g ref="#combuml"/> 
+				<lb n="N013"/>den <abbr>aug<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da<g ref="#rrot">r</g> uon vnd SLONGtoß die 
+				<lb n="N014"/><abbr>k<g ref="#rrot">r</g>ebSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> In einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> vnd t<g ref="#rrot">r</g>ey<g ref="#combuml"/>b 
+				<lb n="N015"/>daz mit eine<g ref="#rrot">r</g> milch du<g ref="#rrot">r</g>ch ein SLONGib 
+				<lb n="N016"/>vnd <g ref="#rrot">r</g>ey<g ref="#combuml"/>b ein SLONGemel da<g ref="#rrot">r</g> zw vnd thue 
+				<lb n="N017"/>ay<g ref="#combuml"/>e<g ref="#rrot">r</g> tho<g ref="#combuml"/>te<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein vnd SLONGchlachs du<g ref="#rrot">r</g>ch 
+				<lb n="N018"/>ein <abbr>and<ex>e</ex><am><g ref="#bar_e"/></am><g ref="#rrot">r</g></abbr> vnd mach ein gemu<g ref="#combuml"/>eß da<g ref="#rrot">r</g> 
+				<lb n="N019"/>auß in eine<g ref="#rrot">r</g> <abbr>pfan<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> daz wi<g ref="#rrot">r</g>t den 
+				<lb n="N020"/>Rot</seg><seg>
+				<lb n="N021"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ka<g ref="#combuml"/>ß de<g ref="#rrot">r</g> gut SLONGey<g ref="#combuml"/> vnd 
+				<lb n="N022"/>halb als vil mel vnd SLONGchlach ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> 
+				<lb n="N023"/>an daz ez SLONGich laß <abbr>well<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd pulue<g ref="#rrot">r</g> 
+				<lb n="N024"/>daz wol vnd wi<g ref="#rrot">r</g>ch ez auff einem 
+				<lb n="N025"/>p<g ref="#rrot">r</g>ett lang alz die wu<g ref="#combuml"/><g ref="#rrot">r</g>SLONGt vnd mach 
+				<lb n="N026"/>ez <del>thu<g ref="#combuml"/>n</del> du<g ref="#combuml"/>n vnd k<g ref="#rrot">r</g>u<g ref="#combuml"/>mpt ez alz
+			
+			<pb xml:id="M10_145r" n="145r"/>
+			
+				<lb n="N001"/>die hu<g ref="#combuml"/>eff <abbr>ey<g ref="#combuml"/>SLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd pachs alSLONGo in 
+				<lb n="N002"/>SLONGchmaltz</seg><seg>
+				<lb n="N003"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> mach ein tay<g ref="#combuml"/>g <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>he<g ref="#rrot">r</g>t<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>ay<g ref="#combuml"/>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo 
+				<lb n="N004"/>du alle<g ref="#rrot">r</g> he<g ref="#rrot">r</g>teSLONGt magSLONGt vnd gilb in 
+				<lb n="N005"/>vnd wu<g ref="#rrot">r</g>ch du<g ref="#combuml"/>nne <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> da<g ref="#rrot">r</g> auß 
+				<lb n="N006"/>alz <abbr>pfanczelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd pach ez in SLONGchmaltz 
+				<lb n="N007"/>auch ny<g ref="#combuml"/>m <abbr>guet<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wein vnd halb als 
+				<lb n="N008"/>vil ho<g ref="#combuml"/>nigk vnd well daz vnde<g ref="#rrot">r</g> ein 
+				<lb n="N009"/><abbr>ande<ex>r</ex><am><g ref="#combcomma_r"/></am></abbr> vnd zeuch daz <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da<g ref="#rrot">r</g> du<g ref="#rrot">r</g>ch 
+				<lb n="N010"/>SLONGo du ez wilt an <abbr><g ref="#rrot">r</g>icht<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg> <seg><hi style="heading">a<g ref="#inodot">i</g>n <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr><note xml:lang="de">Überschrift von anderer Hand.</note><note xml:lang="en">Heading by different hand.</note></hi>
+				<lb n="N011"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m <abbr>ge<g ref="#rrot">r</g><g ref="#inodot">i</g>b<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ka<g ref="#combuml"/>ß vnd SLONGchlach ay<g ref="#combuml"/>e<g ref="#rrot">r</g> 
+				<lb n="N012"/>da<g ref="#rrot">r</g> an vnd gewu<g ref="#rrot">r</g>tz wol vnd SLONGewd ez 
+				<lb n="N013"/>du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> vnd mach ez zw <abbr>lang<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N014"/><abbr>SLONGtru<g ref="#combuml"/>tzl<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> auff ein p<g ref="#rrot">r</g>et die du<g ref="#combuml"/>n SLONGein vnd 
+				<lb n="N015"/>pachs in SLONGchmaltz vnd SLONGchney<g ref="#combuml"/>tz dan in 
+				<lb n="N016"/>ein <abbr>SLONGchu<g ref="#combuml"/>SLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr></seg><seg>
+				<lb n="N017"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> thue den <abbr>v<g ref="#combuml"/>nte<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> tay<g ref="#combuml"/>l von einem kalbs 
+				<lb n="N018"/>haup vnd SLONGewd daz haup wol <abbr>da<ex>r</ex><am><g ref="#combcomma_r"/></am>nach</abbr> 
+				<lb n="N019"/>p<g ref="#rrot">r</g>ich die <abbr>hie<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGchal auff vnd SLONGaa<g ref="#combuml"/> gut 
+				<lb n="N020"/>gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz da<g ref="#rrot">r</g>ein vnd gewß hay<g ref="#combuml"/>ß SLONGchmaltz 
+				<lb n="N021"/>da<g ref="#rrot">r</g> zw vnd <g ref="#rrot">r</g>o<g ref="#combuml"/>SLONGt in auff einem <g ref="#rrot">r</g>o<g ref="#combuml"/>eSLONGt SLONGo 
+				<lb n="N022"/>wi<g ref="#rrot">r</g>t e<g ref="#rrot">r</g> gut</seg><seg>
+				<lb n="N023"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m eins <abbr>hi<g ref="#rrot">r</g>SLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> lebe<g ref="#rrot">r</g> vnd p<g ref="#rrot">r</g>at die
+				<lb n="N024"/>da<g ref="#rrot">r</g> nach SLONGchney<g ref="#combuml"/>d daz auSLONGSLONGe<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ab 
+			
+			<pb xml:id="M10_145v" n="145v"/>
+			
+				<lb n="N001"/>vnd SLONGto<g ref="#combuml"/>eß es in <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"/></am></abbr> mo<g ref="#combuml"/><g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> mit <abbr>rock<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N002"/>p<g ref="#rrot">r</g>ot ho<g ref="#combuml"/>ning wein vnd eSLONGSLONGich vnd rey<g ref="#combuml"/>b 
+				<lb n="N003"/>ez du<g ref="#rrot">r</g>ch ein thuech vnd thue gewurtz 
+				<lb n="N004"/>da<g ref="#rrot">r</g> an vnd e<g ref="#rrot">r</g>wel ez da<g ref="#rrot">r</g> nach vnd 
+				<lb n="N005"/>g<g ref="#inodot">i</g>bs kalt ze <abbr>eSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg>
+				<lb n="N006"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m ein <g ref="#rrot">r</g>ech haut vnd p<g ref="#rrot">r</g>u<g ref="#combuml"/>e die 
+				<lb n="N007"/>daz daz ha<g ref="#rrot">r</g> da<g ref="#rrot">r</g> von ko<g ref="#combuml"/>m vnd SLONGeudtz 
+				<lb n="N008"/>da<g ref="#rrot">r</g> nach ga<g ref="#rrot">r</g> wol SLONGo SLONGch<g ref="#rrot">r</g>impft SLONGi SLONGich 
+				<lb n="N009"/>ze <abbr>SLONGam<ex>m</ex><am><g ref="#bar_m"/></am>en</abbr> da<g ref="#rrot">r</g> nach SLONGchney<g ref="#combuml"/>d SLONGy<g ref="#combuml"/> SLONGpann 
+				<lb n="N010"/>lanck vnd czway<g ref="#combuml"/>e<g ref="#rrot">r</g> vinge<g ref="#rrot">r</g> p<g ref="#rrot">r</g>ay<g ref="#combuml"/>t vnd 
+				<lb n="N011"/>mach da<g ref="#rrot">r</g> an ein SLONGultz</seg> <seg><hi style="heading">furheß<note xml:lang="de">Überschrift von anderer Hand.</note><note xml:lang="en">Heading by different hand.</note></hi>
+				<lb n="N012"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m die <del>ge</del> <abbr>lung<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd die lebe<g ref="#rrot">r</g> <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> 
+				<lb n="N013"/>einem <abbr>haSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGchney<g ref="#combuml"/>dt daz wu<g ref="#combuml"/><g ref="#rrot">r</g>fla<g ref="#combuml"/>t 
+				<lb n="N014"/>vnd ny<g ref="#combuml"/>m ez mit dem SLONGway<g ref="#combuml"/>ß <g ref="#fracsol"/> vnd thue<del>ß</del> 
+				<lb n="N015"/><del>in</del> ein p<g ref="#rrot">r</g>u<g ref="#combuml"/>e wein vnd eSLONGSLONGich vnd ho<g ref="#combuml"/>n<g ref="#inodot">i</g>ck 
+				<lb n="N016"/>vnd <abbr><g ref="#rrot">r</g>ock<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> p<g ref="#rrot">r</g>ot vnd SLONGcho<g ref="#combuml"/>n SLONGpeck da<g ref="#rrot">r</g>an 
+				<lb n="N017"/>SLONGo haSLONGtu ein gut fu<g ref="#combuml"/><g ref="#rrot">r</g>heß</seg><seg>
+				<lb n="N018"/><note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m kalbs fley<g ref="#combuml"/>SLONGch vnd hack SLONGpeck 
+				<lb n="N019"/>da<g ref="#rrot">r</g> vnde<g ref="#rrot">r</g> vnd thue gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz vnd SLONGaff<g ref="#rrot">r</g>an 
+				<lb n="N020"/>da<g ref="#rrot">r</g>an vnd ay<g ref="#combuml"/>e<g ref="#rrot">r</g> vnd <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> p<g ref="#rrot">r</g>ot daz wey<g ref="#combuml"/>ß 
+				<lb n="N021"/>SLONGey<g ref="#combuml"/> vnd mach ku<g ref="#combuml"/>gel da<g ref="#rrot">r</g> auß vnd SLONGeudtz 
+				<lb n="N022"/>in hay<g ref="#combuml"/>SLONGSLONGem waSLONGSLONGe<g ref="#rrot">r</g> vnd gibs ze <abbr>eSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> mit <abbr>pete<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr>
+				<lb n="N023"/>SLONGil</seg> <seg><hi style="heading"><abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>rog<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr><note xml:lang="de">Überschrift von anderer Hand.</note><note xml:lang="en">Heading by different hand.</note></hi>
+				<lb n="N024"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m viSLONGch <abbr><g ref="#rrot">r</g>og<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGto<g ref="#combuml"/>ß den in <abbr>eine<ex>m</ex><am><g ref="#bar_m"/></am></abbr> 
+			
+			<pb xml:id="M10_146r" n="146r"/>
+			
+				<lb n="N001"/>mo<g ref="#combuml"/><g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> vnd pach da<g ref="#rrot">r</g> auß ein p<g ref="#rrot">r</g>ay<g ref="#combuml"/>tz blad 
+				<lb n="N002"/>in eine<g ref="#rrot">r</g> pfannen vnd SLONGchney<g ref="#combuml"/>d daz wu<g ref="#combuml"/><g ref="#rrot">r</g>fla<g ref="#combuml"/>t 
+				<lb n="N003"/>vnd p<g ref="#rrot">r</g>en ein mel mit o<g ref="#combuml"/>ll in eine<g ref="#rrot">r</g> pfann 
+				<lb n="N004"/>daz ez SLONGchwa<g ref="#rrot">r</g>tz we<g ref="#rrot">r</g> vnd mach da<g ref="#rrot">r</g>auß mit 
+				<lb n="N005"/>viSLONGch p<g ref="#rrot">r</g>u<g ref="#combuml"/>e ein pfeffe<g ref="#rrot">r</g> mit wein vnd eSLONGSLONGich 
+				<lb n="N006"/>vnd mit gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz vnd laz daz zw <abbr>SLONGam<ex>m</ex><am><g ref="#bar_m"/></am>en</abbr> 
+				<lb n="N007"/><abbr>wall<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGchney<g ref="#combuml"/>d von eine<g ref="#rrot">r</g> SLONGemel wu<g ref="#combuml"/><g ref="#rrot">r</g>fflat 
+				<lb n="N008"/><abbr>fo<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> vnd SLONGt<g ref="#rrot">r</g>a<g ref="#combuml"/> daz auff daz <abbr>eSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg> <seg><hi style="heading"><abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr><note xml:lang="de">Überschrift von anderer Hand.</note><note xml:lang="en">Heading by different hand.</note></hi>
+				<lb n="N009"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> ny<g ref="#combuml"/>m eins kalbs <abbr>lung<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd SLONGeudt die 
+				<lb n="N010"/>ga<g ref="#rrot">r</g> wol vnd hack die da<g ref="#rrot">r</g>nach klain 
+				<lb n="N011"/>vnd SLONGchney<g ref="#combuml"/>d SLONGpeck da<g ref="#rrot">r</g> vnde<g ref="#rrot">r</g> auch klain 
+				<lb n="N012"/>vnd SLONGchlach ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein mit pfeffe<g ref="#rrot">r</g> vnd 
+				<lb n="N013"/>SLONGaff<g ref="#rrot">r</g>an vnd pach ein du<g ref="#combuml"/>nß ay<g ref="#combuml"/>e<g ref="#rrot">r</g> plat vnd 
+				<lb n="N014"/>weich da<g ref="#rrot">r</g> ein vnd pachs in SLONGmaltz</seg><seg>
+				<lb n="N015"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m <abbr>geSLONGchelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd SLONGto<g ref="#combuml"/>ß den in 
+				<lb n="N016"/>einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> vnd ob du wilt SLONGo rey<g ref="#combuml"/>b ein 
+				<lb n="N017"/>wenig wey<g ref="#combuml"/>ß p<g ref="#rrot">r</g>o<g ref="#combuml"/>tz da<g ref="#rrot">r</g>vnde<g ref="#rrot">r</g> vnd machs 
+				<lb n="N018"/>SLONGinbel in ein pfannen vnd SLONGetz die <abbr>wa<g ref="#rrot">r</g>me<ex>n</ex><am><g ref="#bar_n"/></am></abbr>
+				<lb n="N019"/>tote<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein vnd wan du wilt an <abbr><g ref="#rrot">r</g>icht<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N020"/>SLONGo gewß hay<g ref="#combuml"/>ß SLONGchmaltz da<g ref="#rrot">r</g> auff vnd SLONGey<g ref="#combuml"/>ch 
+				<lb n="N021"/>daz da<g ref="#rrot">r</g>nach wide<g ref="#rrot">r</g> ab vnd gibs alSLONGo ze 
+				<lb n="N022"/><abbr>eSLONGSLONGen<ex>n</ex><am><g ref="#bar_n"/></am></abbr></seg><seg>
+				<lb n="N023"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu fley<g ref="#combuml"/>SLONGch <abbr>SLONGich<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> <abbr>geSLONGot<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>hab<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo leg<note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note>
+				<lb n="N024"/><abbr>neSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> in daz <abbr>heff<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnden vnd fley<g ref="#combuml"/>SLONGch da<g ref="#rrot">r</g>auff 
+				<lb n="N025"/>SLONGo SLONGeud ez SLONGich</seg><seg> 
+			
+			<pb xml:id="M10_146v" n="146v"/>
+			
+				<lb n="N001"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> SLONGchlach kaSLONGt<g ref="#rrot">r</g>au<g ref="#combuml"/>n fley<g ref="#combuml"/>SLONGch zw <abbr>SLONGtu<g ref="#combuml"/>ck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N002"/>legs in ein <abbr>hef<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd hauß wu<g ref="#rrot">r</g>tz da<g ref="#rrot">r</g>zw 
+				<lb n="N003"/>vnd laß alSLONGo <abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo peley<g ref="#combuml"/>pt alSLONGo gantz</seg><seg>
+				<lb n="N004"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu ay<g ref="#combuml"/>e<g ref="#rrot">r</g> an few<g ref="#combuml"/>e<g ref="#rrot">r</g> <abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo ny<g ref="#combuml"/>m 
+				<lb n="N005"/><abbr>vngeleSLONGcht<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> kalch vnd ze<g ref="#rrot">r</g>ma<g ref="#combuml"/>ll den klain 
+				<lb n="N006"/>vnd leg in in ein <abbr>hef<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd waSLONGSLONGe<g ref="#rrot">r</g> vnd 
+				<lb n="N007"/>ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein SLONGo <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGy<g ref="#combuml"/> he<g ref="#rrot">r</g>t ode<g ref="#rrot">r</g> 
+				<lb n="N008"/>waich wie man wil</seg><seg>
+				<lb n="N009"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> von <g ref="#rrot">r</g>ey<g ref="#combuml"/>ß ein gutz <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N010"/>SLONGo SLONGewdt den in waSLONGSLONGe<g ref="#rrot">r</g> doch nicht ze vaSLONGt 
+				<lb n="N011"/>da<g ref="#rrot">r</g> nach SLONGey<g ref="#combuml"/>ch daz waSLONGSLONGe<g ref="#rrot">r</g> ab vnd thue 
+				<lb n="N012"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note>den <g ref="#rrot">r</g>ey<g ref="#combuml"/>ß vnd einen <g ref="#rrot">r</g>ey<g ref="#combuml"/>b SLONGche<g ref="#rrot">r</g>ben vnd 
+				<lb n="N013"/>rey<g ref="#combuml"/>b in klain vnd ru<g ref="#combuml"/>e<g ref="#rrot">r</g> ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> v<g ref="#combuml"/>nde<g ref="#rrot">r</g> 
+				<lb n="N014"/>nicht ze du<g ref="#combuml"/>nn vnd machs SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch die 
+				<lb n="N015"/>hant in ein pfan In SLONGchmaltz <del>vn</del> als <abbr>p<g ref="#rrot">r</g>ate<ex>n</ex><am><g ref="#bar_n"/></am></abbr> 
+				<lb n="N016"/>ku<g ref="#combuml"/>echel vnd SLONGo SLONGy<g ref="#combuml"/> <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONG<g ref="#inodot">i</g>ndt SLONGo SLONGaa<g ref="#combuml"/> <abbr>czuck<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> 
+				<lb n="N017"/>da<g ref="#rrot">r</g> auff vnd ve<g ref="#rrot">r</g>SLONGaltz nicht</seg><seg>
+				<lb n="N018"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gemu<g ref="#combuml"/>eß <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> ay<g ref="#combuml"/>e<g ref="#rrot">r</g> 
+				<lb n="N019"/>to<g ref="#combuml"/>te<g ref="#rrot">r</g> SLONGo ny<g ref="#combuml"/>m da<g ref="#rrot">r</g> zw <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wein vnd ein 
+				<lb n="N020"/>wenig <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGemel vnd SLONGt<g ref="#rrot">r</g>ey<g ref="#combuml"/>ch daz mit 
+				<lb n="N021"/>ein ande<g ref="#rrot">r</g> du<g ref="#rrot">r</g>ch ein thuech vnd thue 
+				<lb n="N022"/>da<g ref="#rrot">r</g> ein zucke<g ref="#rrot">r</g> ode<g ref="#rrot">r</g> ho<g ref="#combuml"/>nick vnd thue daz 
+				<lb n="N023"/>in ein <abbr>hef<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGetz en auff ein glut vnd <g ref="#rrot">r</g>ue<g ref="#rrot">r</g> 
+				<lb n="N024"/>ez v<g ref="#combuml"/>ntz ez dick wi<g ref="#rrot">r</g>t SLONGo ny<g ref="#combuml"/>m en SLONGunde<g ref="#rrot">r</g> 
+				<lb n="N025"/>vnd ve<g ref="#rrot">r</g>SLONGaltz nicht</seg><seg>
+			
+			<pb xml:id="M10_147r" n="147r"/>
+			
+				<lb n="N001"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> gefu<g ref="#combuml"/>lt <abbr>pi<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo SLONGchney<g ref="#combuml"/>d SLONGy<g ref="#combuml"/> 
+				<lb n="N002"/>alSLONGo daz vnden ein p<g ref="#rrot">r</g>ay<g ref="#combuml"/>t peley<g ref="#combuml"/>b vnd de<g ref="#rrot">r</g> <abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N003"/>SLONGtock davon vnd hack daz ab <abbr>geSLONGchnit<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> klain 
+				<lb n="N004"/>vnd thue ho<g ref="#combuml"/>n<g ref="#inodot">i</g>gk da<g ref="#rrot">r</g> vnde<g ref="#rrot">r</g> vnd gewu<g ref="#rrot">r</g>tz 
+				<lb n="N005"/>vnd SLONGaff<g ref="#rrot">r</g>an vnd mach daz wide<g ref="#rrot">r</g> vmb den 
+				<lb n="N006"/><abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGtock <del>gleaey<g ref="#combuml"/>ch</del> geley<g ref="#combuml"/>ch eine<g ref="#rrot">r</g> <abbr>p<g ref="#inodot">i</g>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N007"/>tauchs in einen tay<g ref="#combuml"/>ch von <abbr>ay<g ref="#combuml"/>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd mel 
+				<lb n="N008"/>vnd legs in ein hay<g ref="#combuml"/>ß SLONGchmaltz vnd laß da<g ref="#rrot">r</g>in 
+				<lb n="N009"/><abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> de<g ref="#rrot">r</g> mach alSLONGo SLONGo vil du wilt</seg><seg>
+				<lb n="N010"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> dez <abbr>geley<g ref="#combuml"/>ch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> mach von <abbr>be<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein fu<g ref="#combuml"/>l mit 
+				<lb n="N011"/>ho<g ref="#combuml"/>nigk vnd gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz vnd kniet ein tay<g ref="#combuml"/>g von 
+				<lb n="N012"/><abbr>ay<g ref="#combuml"/>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd mel vnd mach zeltel da<g ref="#rrot">r</g>awß 
+				<lb n="N013"/>vnd ve<g ref="#rrot">r</g>pindt die fu<g ref="#combuml"/>ll da<g ref="#rrot">r</g>in alz <abbr>k<g ref="#rrot">r</g>apff<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N014"/>SLONGein <abbr>SLONGu<g ref="#combuml"/>ll<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd pachs in SLONGchmaltz</seg><seg>
+				<lb n="N015"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> halbe gefu<g ref="#combuml"/>lte ay<g ref="#combuml"/>e<g ref="#rrot">r</g> <g ref="#fracsol"/> SLONGewdt die ay<g ref="#combuml"/>e<g ref="#rrot">r</g> ga<g ref="#rrot">r</g> he<g ref="#rrot">r</g>t<note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note>
+				<lb n="N016"/>vnd SLONGchney<g ref="#combuml"/>dt SLONGy<g ref="#combuml"/> da<g ref="#rrot">r</g>nach nach lengs von 
+				<lb n="N017"/>ein ande<g ref="#rrot">r</g> vnd ny<g ref="#combuml"/>m den tote<g ref="#rrot">r</g> da<g ref="#rrot">r</g>auß vnd 
+				<lb n="N018"/>hack in klain vnd gilb<del>s</del> daz vnd hack <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"/></am>SLONGil</abbr> 
+				<lb n="N019"/>da<g ref="#rrot">r</g> v<g ref="#combuml"/>nde<g ref="#rrot">r</g> ab du den <abbr>gehab<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> mu<g ref="#combuml"/>gSLONGt vnd thue 
+				<lb n="N020"/>daz wide<g ref="#rrot">r</g> an daz tote<g ref="#rrot">r</g>s SLONGtat in die <abbr>halb<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N021"/>wey<g ref="#combuml"/>SLONGSLONGe ay<g ref="#combuml"/>e<g ref="#rrot">r</g> vnd legs alSLONGo in hay<g ref="#combuml"/>ß SLONGchmaltz 
+				<lb n="N022"/>vnd pachs da<g ref="#rrot">r</g> v<g ref="#combuml"/>nde<g ref="#rrot">r</g></seg><seg>
+				<lb n="N023"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> gantze gefu<g ref="#combuml"/>lte ay<g ref="#combuml"/>e<g ref="#rrot">r</g> 
+			
+			<pb xml:id="M10_147v" n="147v"/>
+			
+				<lb n="N001"/>SLONGo SLONGewdt die ay<g ref="#combuml"/>e<g ref="#rrot">r</g> len <abbr>da<ex>r</ex><am><g ref="#combcomma_r"/></am>nach</abbr> SLONGchlags 
+				<lb n="N002"/>an einen o<g ref="#rrot">r</g>t auff vnd thue daz Inde<g ref="#rrot">r</g> 
+				<lb n="N003"/><abbr><del>dauo<ex>n</ex><am><g ref="#bar_n"/></am></del></abbr> da<g ref="#rrot">r</g> auß vnd ra<g ref="#combuml"/>SLONGtz in eine<g ref="#rrot">r</g> <abbr>pfanne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> 
+				<lb n="N004"/>mit einem <abbr>wenig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGchmaltz vnd rue<g ref="#rrot">r</g>s 
+				<lb n="N005"/>mit einem lo<g ref="#combuml"/>ffel hin vnd he<g ref="#rrot">r</g> daz 
+				<lb n="N006"/>ez nicht an p<g ref="#rrot">r</g>in vnd doch he<g ref="#rrot">r</g>t we<g ref="#rrot">r</g> 
+				<lb n="N007"/>da<g ref="#rrot">r</g>nach thue ez wide<g ref="#rrot">r</g> in die ay<g ref="#combuml"/>e<g ref="#rrot">r</g> 
+				<lb n="N008"/><abbr>guck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGewdt SLONGy<g ref="#combuml"/> in hay<g ref="#combuml"/>SLONGSLONGen SLONGchmaltz 
+				<lb n="N009"/>daz SLONGy<g ref="#combuml"/> he<g ref="#rrot">r</g>t <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> da<g ref="#rrot">r</g>nach SLONGchel 
+				<lb n="N010"/>SLONGy<g ref="#combuml"/> vnd gibs in <abbr>SLONGchwa<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> pfeffe<g ref="#rrot">r</g></seg><seg>
+				<lb n="N011"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>k<g ref="#rrot">r</g>aph<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ade<g ref="#rrot">r</g> chuechel 
+				<lb n="N012"/><abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo ny<g ref="#combuml"/>m <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ka<g ref="#combuml"/>ß vnd 
+				<lb n="N013"/>ein wenig mel vnd mach daz 
+				<lb n="N014"/>mit <abbr>ay<g ref="#combuml"/>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> an vnd thue ez mit einem 
+				<lb n="N015"/>lo<g ref="#combuml"/>ffel klain vnd g<g ref="#rrot">r</g>oß In ein pfannen 
+				<lb n="N016"/>mit SLONGchmaltz vnd pachs da<g ref="#rrot">r</g> in 
+				<lb n="N017"/>vnd g<g ref="#inodot">i</g>lb den taig vo<g ref="#rrot">r</g> Wildu 
+				<lb n="N018"/>ein p<g ref="#rrot">r</g>u<g ref="#combuml"/>e da<g ref="#rrot">r</g> auff <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo <del>mach</del>
+				<lb n="N019"/>ny<g ref="#combuml"/>m ay<g ref="#combuml"/>e<g ref="#rrot">r</g> to<g ref="#combuml"/>te<g ref="#rrot">r</g> vnd milch vnd 
+				<lb n="N020"/>ru<g ref="#combuml"/>e<g ref="#rrot">r</g> daz wol du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> vnd 
+				<lb n="N021"/>SLONGewdt ez SLONGo du wild an richten</seg><seg>
+				<lb n="N022"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> gefu<g ref="#combuml"/>lt <abbr>k<g ref="#rrot">r</g>aph<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N023"/>mit <abbr>a<g ref="#combuml"/>pfel<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg> 
+			
+			<pb xml:id="M10_148r" n="148r"/>
+			
+				<lb n="N001"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> eine guete galrei 
+				<lb n="N002"/>von <abbr>viSLONGch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> de<g ref="#rrot">r</g> nem die viSLONGch <abbr>SLONGchu<g ref="#combuml"/>epp<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N003"/>vnd SLONGto<g ref="#combuml"/>ß SLONGy<g ref="#combuml"/> in einem mo<g ref="#combuml"/><g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> vnd SLONGchlach 
+				<lb n="N004"/>SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch ein thuech vnd SLONGeudt SLONGy<g ref="#combuml"/> mit 
+				<lb n="N005"/>den <abbr>viSLONGch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> haSLONGtu abe<g ref="#rrot">r</g> <abbr>hauSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>plater<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> daz 
+				<lb n="N006"/>iSLONGt auch gut da<g ref="#rrot">r</g> nach ny<g ref="#combuml"/>m <abbr>geSLONGtoSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>na<g ref="#combuml"/>g<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr>
+				<lb n="N007"/><abbr>lein</abbr> vnd thue da<g ref="#rrot">r</g> nach da<g ref="#rrot">r</g> zw <abbr>mand<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> 
+				<lb n="N008"/><abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd czucke<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein</seg><seg>
+				<lb n="N009"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gute gal<g ref="#rrot">r</g>ay<g ref="#combuml"/>d 
+				<lb n="N010"/>de<g ref="#rrot">r</g> nem hu<g ref="#combuml"/>ne<g ref="#rrot">r</g> vnd SLONGwein pain vnd 
+				<lb n="N011"/>kalbs fueß vnd laß die klain <abbr>SLONG<g ref="#inodot">i</g>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr>
+				<lb n="N012"/>vnd SLONGchlach die kalb fu<g ref="#combuml"/>eß du<g ref="#rrot">r</g>ch ein 
+				<lb n="N013"/>thuech</seg><seg>
+				<lb n="N014"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> wil <abbr>p<g ref="#rrot">r</g>at<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> all de<g ref="#rrot">r</g> 
+				<lb n="N015"/>SLONGchney<g ref="#combuml"/>d In zw <abbr>SLONGtuck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGaltz In vnd 
+				<lb n="N016"/>SLONGto<g ref="#combuml"/>ß In an ein klains <abbr>SLONGpiSLONGSLONGl<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd be
+				<lb n="N017"/>t<g ref="#rrot">r</g>auf in mit <abbr>pute<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd mit eSLONGSLONGich 
+				<lb n="N018"/>vnd wein vnde<g ref="#rrot">r</g> ein ande<g ref="#rrot">r</g></seg><seg>
+				<lb n="N019"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> ein gut gemu<g ref="#combuml"/>eß wel <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N020"/>von <abbr>lung<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> de<g ref="#rrot">r</g> nem die <abbr>lung<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd
+			
+			<pb xml:id="M10_148v" n="148v"/>
+			
+				<lb n="N001"/>rey<g ref="#combuml"/>b da<g ref="#rrot">r</g> <abbr>vnt<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> ein <abbr>p<g ref="#rrot">r</g>oSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd mach ez 
+				<lb n="N002"/>da<g ref="#rrot">r</g>nach ab mit gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz</seg><seg>
+				<lb n="N003"/><note xml:lang="de">Nota-Zeichen am linken Rand.</note><note xml:lang="en">Nota symbol on left margin.</note><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> wel ein gut <abbr>gep<g ref="#rrot">r</g>at<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGpan va<g ref="#combuml"/>ckel 
+				<lb n="N004"/><abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> de<g ref="#rrot">r</g> SLONGeu<g ref="#combuml"/>dt vie<g ref="#rrot">r</g> ay<g ref="#combuml"/>e<g ref="#rrot">r</g> vnd hack 
+				<lb n="N005"/>die klain vnd thue czwifel da<g ref="#rrot">r</g>vnte<g ref="#rrot">r</g> 
+				<lb n="N006"/>vnd puluer daz wol mit y<g ref="#combuml"/>mbe<g ref="#rrot">r</g></seg><seg>
+				<lb n="N007"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> we<g ref="#rrot">r</g> wel <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gute <abbr>leb<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> SLONGultz 
+				<lb n="N008"/>von einem Iungen SLONGwein de<g ref="#rrot">r</g> nem die 
+				<lb n="N009"/>lebe<g ref="#rrot">r</g> vnd SLONGtoß SLONGy<g ref="#combuml"/> in einem mo<g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> SLONGtain 
+				<lb n="N010"/>vnd SLONGewdt ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> zw SLONGechs ode<g ref="#rrot">r</g> a<g ref="#combuml"/>chte 
+				<lb n="N011"/>he<g ref="#rrot">r</g>t vnd da<g ref="#rrot">r</g> zw SLONGemel p<g ref="#rrot">r</g>oß vnd SLONGto<g ref="#combuml"/>ß 
+				<lb n="N012"/>daz du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> In einem mo<g ref="#combuml"/><g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> 
+				<lb n="N013"/>SLONGtain vnd SLONGchlach daz du<g ref="#rrot">r</g>ch mit <abbr>geSLONGot<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N014"/>wein <abbr>od<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>SLONGawe<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wein vnd gilb 
+				<lb n="N015"/>daz mit SLONGaff<g ref="#rrot">r</g>an vnd SLONGtell ez wol mit 
+				<lb n="N016"/><abbr>ande<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> gewu<g ref="#rrot">r</g>tz</seg><seg>
+				<lb n="N017"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gute <abbr>SLONGalSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> In dem 
+				<lb n="N018"/>may<g ref="#combuml"/> SLONGo ny<g ref="#combuml"/>m <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"/></am>SLONGil</abbr> vnd pfeffe<g ref="#rrot">r</g> k<g ref="#rrot">r</g>aut vnd 
+				<lb n="N019"/>mangold plete<g ref="#rrot">r</g> als vil du wilt vnd hack 
+				<lb n="N020"/>daz klain du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> dez <abbr>mo<g ref="#rrot">r</g>g<ex>e</ex><am><g ref="#bar_e"/></am>ns</abbr> 
+				<lb n="N021"/>ga<g ref="#rrot">r</g> f<g ref="#rrot">r</g>u<g ref="#combuml"/>e SLONGo vach daz taw In ein wey<g ref="#combuml"/>ß 
+			
+			<pb xml:id="M10_149r" n="149r"/>
+			
+				<lb n="N001"/>thuech vnd leg daz k<g ref="#rrot">r</g>aut da<g ref="#rrot">r</g> ein 
+				<lb n="N002"/>vnd thue es in ein molte<g ref="#rrot">r</g> vnd SLONGetz 
+				<lb n="N003"/>ez an die <abbr>SLONGun<ex>n</ex><am><g ref="#bar_n"/></am>en</abbr> SLONGo ve<g ref="#rrot">r</g>leuSLONGt ez den 
+				<lb n="N004"/>taw vnd laß ez <abbr>t<g ref="#rrot">r</g>uck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> alz 
+				<lb n="N005"/>ein SLONGtupp vnd mach ez in <abbr>blaSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N006"/>wen du wilt in dem Ia<g ref="#rrot">r</g> SLONGo netz ab 
+				<lb n="N007"/>mit wein ode<g ref="#rrot">r</g> mit eSLONGSLONGich</seg><seg>
+				<lb n="N008"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein <abbr>SLONGalSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> wein <abbr>t<g ref="#rrot">r</g>aub<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N009"/>vnd von <abbr>SLONGawe<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>a<g ref="#combuml"/>pfel<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo SLONGto<g ref="#combuml"/>ß daz 
+				<lb n="N010"/>ze <abbr>SLONGam<ex>m</ex><am><g ref="#bar_m"/></am>en</abbr> vnd miSLONGch ez mit wein <abbr>od<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> 
+				<lb n="N011"/>mit eSLONGSLONGich vnd thue den SLONGafft da<g ref="#rrot">r</g> auß 
+				<lb n="N012"/>die <abbr>SLONGalSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> iSLONGt gut zw <abbr>SLONGafftig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>p<g ref="#rrot">r</g>at<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N013"/>zw <abbr>viSLONGch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg>
+				<lb n="N014"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gut latwa<g ref="#combuml"/><g ref="#rrot">r</g>ing 
+				<lb n="N015"/>von <abbr>wey<g ref="#combuml"/>chSLONGel<ex>n</ex><am><g ref="#bar_n"/></am></abbr> SLONGo thue SLONGy<g ref="#combuml"/> in ein <abbr>haf<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N016"/>vnd SLONGetz In auff ein glut vnd gewß 
+				<lb n="N017"/>nichtz da<g ref="#rrot">r</g> an <g ref="#fracsol"/> wen ez <abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wi<g ref="#rrot">r</g>t SLONGo 
+				<lb n="N018"/>la ez kalt <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGt<g ref="#rrot">r</g>ey<g ref="#combuml"/>ch ez du<g ref="#rrot">r</g>ch 
+				<lb n="N019"/>ein thuech vnd thue ez in einen keSLONGSLONGel<note xml:lang="de">Kürzungsstrich unklar.</note><note xml:lang="en">Abbreviation mark unclear.</note> 
+				<lb n="N020"/>vnd SLONGetz in auff einen d<g ref="#rrot">r</g>ifueß vnd thue 
+				<lb n="N021"/>ein glut da<g ref="#rrot">r</g> v<g ref="#combuml"/>nte<g ref="#rrot">r</g> vnd la ez <abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N022"/>piß ez dick wi<g ref="#rrot">r</g>t vnd <del>d</del> thue dan da<g ref="#rrot">r</g> 
+				<lb n="N023"/>ein ho<g ref="#combuml"/>nig vnd <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>leczelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+			
+			<pb xml:id="M10_149v" n="149v"/>
+			
+				<lb n="N001"/>gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz ez wol vnd <g ref="#rrot">r</g>u<g ref="#combuml"/>e<g ref="#rrot">r</g> ez fu<g ref="#combuml"/><g ref="#rrot">r</g>SLONGta<g ref="#rrot">r</g> vnd 
+				<lb n="N002"/>wan du ez nicht <abbr>ge<g ref="#rrot">r</g>u<g ref="#combuml"/>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> magSLONGt SLONGo hat 
+				<lb n="N003"/>es genug</seg><seg>
+				<lb n="N004"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gu<g ref="#combuml"/>te latwa<g ref="#combuml"/><g ref="#rrot">r</g>ing von 
+				<lb n="N005"/><abbr>weinpe<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGo p<g ref="#rrot">r</g>ich die pe<g ref="#rrot">r</g> ab dem 
+				<lb n="N006"/><abbr>kam<ex>m</ex><am><g ref="#bar_m"/></am>en</abbr> vnd SLONGy<g ref="#combuml"/> in ein keSLONGSLONGel vnd SLONGetz auff 
+				<lb n="N007"/>ein d<g ref="#rrot">r</g>ifueß vnd thue ein glut da<g ref="#rrot">r</g> <abbr>vnd<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> 
+				<lb n="N008"/>vnd gewß nichtz da<g ref="#rrot">r</g> an vnd wen ez 
+				<lb n="N009"/><abbr>SLONGy<g ref="#combuml"/>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wi<g ref="#rrot">r</g>t SLONGo laß ez dan <abbr>e<g ref="#rrot">r</g>kalt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N010"/>SLONGt<g ref="#rrot">r</g>ey<g ref="#combuml"/>ch SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch ein thuech vnd thue ez 
+				<lb n="N011"/>wide<g ref="#rrot">r</g> in den keSLONGSLONGel vnd SLONGetz w<g ref="#inodot">i</g>de<g ref="#rrot">r</g> auff 
+				<lb n="N012"/>ein d<g ref="#rrot">r</g>ifueß vnd la ez wol <abbr>SLONG<g ref="#inodot">i</g>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N013"/>wu<g ref="#combuml"/><g ref="#rrot">r</g>tz ez wol ab mit gutem gewu<g ref="#combuml"/><g ref="#rrot">r</g>tz 
+				<lb n="N014"/>vnd gewß SLONGy<g ref="#combuml"/> dan auff ein p<g ref="#rrot">r</g>et vnd la 
+				<lb n="N015"/>SLONGy<g ref="#combuml"/> <abbr>kalt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vj tag SLONGo SLONGchney<g ref="#combuml"/>dtz du SLONGy<g ref="#combuml"/> wie 
+				<lb n="N016"/>du wilt</seg><seg>
+				<lb n="N017"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein gemacht k<g ref="#rrot">r</g>aut SLONGo 
+				<lb n="N018"/>SLONGeudt wey<g ref="#combuml"/>SLONGSLONGe ha<g ref="#combuml"/>uppe<g ref="#rrot">r</g> vnd czway<g ref="#combuml"/> tay<g ref="#combuml"/>l 
+				<lb n="N019"/>SLONGeniff vnd d<g ref="#rrot">r</g>ew tay<g ref="#combuml"/>l ho<g ref="#combuml"/>nigk vnd die 
+				<lb n="N020"/><abbr>SLONGelb<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> p<g ref="#rrot">r</g>u<g ref="#combuml"/>e mach du<g ref="#rrot">r</g>ch ein ande<g ref="#rrot">r</g> mit 
+				<lb n="N021"/>wein vnd thue da<g ref="#rrot">r</g> ein ku<g ref="#combuml"/>m vnd a<g ref="#combuml"/>niß 
+				<lb n="N022"/>dez genueg SLONGein vnd leg <abbr>dan<ex>n</ex><am><g ref="#bar_n"/></am></abbr> daz <abbr>geSLONGot<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N023"/>k<g ref="#rrot">r</g>aut da<g ref="#rrot">r</g> ein vnd gib ez kalt ze <abbr>eSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg>
+				<lb n="N024"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>ns</abbr> von einem 
+				<lb n="N025"/><abbr>apph<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> von vie<g ref="#rrot">r</g>lay<g ref="#combuml"/> va<g ref="#rrot">r</g>b SLONGo ny<g ref="#combuml"/>m ein ge
+				<lb n="N026"/>ru<g ref="#combuml"/>e<g ref="#rrot">r</g>te ay<g ref="#combuml"/>e<g ref="#rrot">r</g> von vie<g ref="#rrot">r</g>lay<g ref="#combuml"/> <abbr>va<g ref="#rrot">r</g>b<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd SLONGchneid
+			
+			<pb xml:id="M10_150r" n="150r"/>
+			
+				<lb n="N001"/>einen apphel ein vie<g ref="#rrot">r</g> tay<g ref="#combuml"/>l vnd ny<g ref="#combuml"/>m auß 
+				<lb n="N002"/>y<g ref="#combuml"/>edem tay<g ref="#combuml"/>l den <abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd die SLONGchelf 
+				<lb n="N003"/>die vmb <del>die</del> den <abbr>ke<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> iSLONGt vnd fu<g ref="#combuml"/>ll 
+				<lb n="N004"/>da<g ref="#rrot">r</g> ein y<g ref="#combuml"/>etwede<g ref="#rrot">r</g> va<g ref="#rrot">r</g>b aine vnd SLONGteck 
+				<lb n="N005"/>SLONGy<g ref="#combuml"/> dan an <abbr>SLONGpiSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>l</abbr> vnd zewch SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch 
+				<lb n="N006"/>ein du<g ref="#combuml"/>nnen <abbr>SLONGt<g ref="#rrot">r</g>aub<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> taig vnd wen 
+				<lb n="N007"/>ez gepach SLONGo SLONGchney<g ref="#combuml"/>d ez auff vnd be
+				<lb n="N008"/>SLONGt<g ref="#rrot">r</g>ey<g ref="#combuml"/>ch ez mit czucke<g ref="#rrot">r</g></seg><seg>
+				<lb n="N009"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein krichel<note xml:lang="de">Lesart unsicher, Ehlert liest 'kachel'.</note><note xml:lang="en">Reading unclear, Ehlert reads 'kachel'.</note> mueß <hi style="heading"><abbr>krewSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></hi><note xml:lang="de">Überschrift von anderer Hand. Nota Zeichen am rechten Rand</note><note xml:lang="en">Heading by different hand. Nota symbol on right margin.</note>
+				<lb n="N010"/>von k<g ref="#rrot">r</g>ebSLONGen SLONGo SLONGchel die <abbr>k<g ref="#rrot">r</g>epSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGchon 
+				<lb n="N011"/>vnd ny<g ref="#combuml"/>m die helß vnd die SLONGcha<g ref="#combuml"/><g ref="#rrot">r</g> vnd 
+				<lb n="N012"/>leg die beSLONGunde<g ref="#rrot">r</g> da<g ref="#rrot">r</g> nach SLONGto<g ref="#combuml"/>ß 
+				<lb n="N013"/>die <abbr>SLONGchell<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ga<g ref="#rrot">r</g> klain vnd SLONGchon vnd 
+				<lb n="N014"/>SLONGt<g ref="#rrot">r</g>ey<g ref="#combuml"/>ch SLONGy<g ref="#combuml"/> du<g ref="#rrot">r</g>ch ein thuech mit eine<g ref="#rrot">r</g> 
+				<lb n="N015"/><abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGemel vnd mit einem <abbr>wenig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N016"/>eSLONGSLONGich vnd well ez ab mit einem <abbr>leczelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N017"/>daz ez dick we<g ref="#rrot">r</g> vnd wu<g ref="#combuml"/><g ref="#rrot">r</g>tz ez wol 
+				<lb n="N018"/>vnd la ez pey<g ref="#combuml"/> SLONGeine<g ref="#rrot">r</g> va<g ref="#rrot">r</g>b vnd leg 
+				<lb n="N019"/>dan die SLONGcha<g ref="#combuml"/><g ref="#rrot">r</g> vnd die helß da<g ref="#rrot">r</g> ein 
+				<lb n="N020"/>vnd la SLONGy<g ref="#combuml"/> <abbr><g ref="#rrot">r</g>eck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>ob<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> auß de<g ref="#rrot">r</g> p<g ref="#rrot">r</g>ue 
+				<lb n="N021"/>vnd ve<g ref="#rrot">r</g>SLONGaltz nicht</seg><seg> 
+				<lb n="N022"/><abbr>It<ex>e</ex><am><g ref="#bar_e"/></am>m</abbr> wildu <abbr>mach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ein <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>Mey<g ref="#combuml"/>chSLONGiSLONGch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr><note xml:lang="de">Nota-Zeichen am rechten Rand.</note><note xml:lang="en">Nota symbol on right margin.</note>
+				<lb n="N023"/><abbr>kuech<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> zw eine<g ref="#rrot">r</g> <abbr>he<g ref="#rrot">r</g><g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGchu<g ref="#combuml"/>SLONGSLONGel SLONGo ny<g ref="#combuml"/>m 
+				<lb n="N024"/>auff <abbr>zeh<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ay<g ref="#combuml"/>e<g ref="#rrot">r</g> vnd ze<g ref="#rrot">r</g>SLONGchlach SLONGy ga<g ref="#rrot">r</g> 
+				<lb n="N025"/>wol vnd nym da<g ref="#rrot">r</g> pete<g ref="#rrot">r</g>SLONGil vnd <g ref="#rrot">r</g>u<g ref="#combuml"/>e<g ref="#rrot">r</g> ez 
+			
+			<pb xml:id="M10_150v" n="150v"/>
+			
+				<lb n="N001"/>vnde<g ref="#rrot">r</g> ein ande<g ref="#rrot">r</g> vnd ny<g ref="#combuml"/>m einen mo<g ref="#combuml"/><g ref="#rrot">r</g>SLONGe<g ref="#rrot">r</g> 
+				<lb n="N002"/>vnd SLONGetz In auff ein glut vnd thue da<g ref="#rrot">r</g> 
+				<lb n="N003"/>ein ein wenig SLONGchmaltz vnd gewß dan die 
+				<lb n="N004"/><abbr>geSLONGchlag<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ay<g ref="#combuml"/>e<g ref="#rrot">r</g> da<g ref="#rrot">r</g> ein vnd laß alSLONGo <g ref="#tridotright"/>
+				<lb n="N005"/><abbr>SLONGied<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd ke<g ref="#rrot">r</g> In dan <g ref="#fracsol"/> vmb <del>vnd</del><note xml:lang="de">SNORMGchreiberhandwechsel, Hand 2.</note><note xml:lang="en">Hand shift, hand 2.</note> thw ein <w>we<g ref="#dbloblhyph">=</g>
+				<lb n="N006"/>n<g ref="#inodot">i</g>g</w> <abbr>ger<g ref="#inodot">i</g>b<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGemel mel dar<note xml:lang="de">Lesart unsicher: Zierstrich oder Kürzungshaken.</note><note xml:lang="en">Reading unclear: Ornamental line or abbreviation mark?</note> zw</seg><seg>
+				<lb n="N007"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ein putter milch mach alSLONGo <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ay<g ref="#combuml"/>r
+				<lb n="N008"/>als vil dw wild vnd gews ein gutew 
+				<lb n="N009"/>milch dar an laß ein wenig zw <abbr>SLONGam<ex>en</ex><am><g ref="#bar_en"/></am></abbr> 
+				<lb n="N010"/><abbr>SLONGyed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd gews auf den tuch das es 
+				<lb n="N011"/>erSLONGeych vnd SLONGchneid ein putter dar 
+				<lb n="N012"/>vnder vnd SLONGchlach dy<g ref="#combuml"/> matery<g ref="#combuml"/> mit ein 
+				<lb n="N013"/>ander ader tbings durch e<g ref="#inodot">i</g>n tuch vnd 
+				<lb n="N014"/>thws alSLONGo kalt auf ein SLONGchuSLONGSLONGel <g ref="#tridotright"/></seg><seg>
+				<lb n="N015"/><note xml:lang="de">SNORMGchreiberhandwechsel, Hand 3.</note><note xml:lang="en">Hand shift, hand 3.</note> <abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> den SLONGtockviSLONGch plew vnd waych den ein 
+				<lb n="N016"/>waSLONGch den vnd erklawb in <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ein <w><abbr>SLONGch<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N017"/><abbr>malcz</abbr></w> vnd roSLONGt dy<g ref="#combuml"/> zbifal dar <abbr>in<ex>n</ex><am><g ref="#bar_n"/></am></abbr> vnd thw 
+				<lb n="N018"/>dy<g ref="#combuml"/> prwe vnd milchram an den viSLONGch vnd 
+				<lb n="N019"/>mit ein ander an das SLONGchmalcz vnd 
+				<lb n="N020"/>laß den <abbr>SNORMGy<g ref="#combuml"/>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></seg><seg>
+				<lb n="N021"/><del><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ein wein muß nym x ay<g ref="#combuml"/>r I <abbr>trink<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr></del>
+				<lb n="N022"/><del>wein vnd pa<g ref="#combuml"/> ein <g ref="#jnodotstrok">1/2</g> SLONGemel vnd zer</del>
+				<lb n="N023"/><del>reibs in den ay<g ref="#combuml"/>ren</del>
+			
+			<pb xml:id="M10_151r" n="151r"/>
+			
+				<lb n="N001"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ein wein muß ny<g ref="#combuml"/>m x ay<g ref="#combuml"/>r toter zer
+				<lb n="N002"/>SLONGchlag dy<g ref="#combuml"/> SLONGchon pa<g ref="#combuml"/>e ein <g ref="#jnodotstrok">1/2</g> SLONGemel SLONGchab 
+				<lb n="N003"/>dy<g ref="#combuml"/> SLONGawber vnd zer waych in <abbr>e<g ref="#inodot">i</g>ne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> 
+				<lb n="N004"/><abbr>trinck<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wein vnd <del>p<g ref="#inodot">i</g>ch</del> prich dy<g ref="#combuml"/> <w><abbr>ma<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N005"/><abbr>tery<g ref="#combuml"/></abbr></w> alle durch ein tuch thw dar 
+				<lb n="N006"/>vnder honig vnd thw das in ein 
+				<lb n="N007"/><abbr>glaSLONGirt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> tegel mit <abbr>erhiczt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGchmalz 
+				<lb n="N008"/>gilbt vnd gew<g ref="#inodot">i</g>rtzt vnd laß <abbr>SLONGy<g ref="#combuml"/>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N009"/>ob <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> glu<g ref="#combuml"/>t vnd rurs das es SLONGich 
+				<lb n="N010"/>nit an leg</seg><seg>
+				<lb n="N011"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>krewSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SNORMGewd <abbr>krewSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N012"/>vnd thw das <abbr>vnSLONGawb<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> dar <abbr>vo<ex>n</ex><am><g ref="#bar_n"/></am></abbr> zer
+				<lb n="N013"/>SLONGto<g ref="#combuml"/>s mit ein ander Ny<g ref="#combuml"/>m x ay<g ref="#combuml"/>r dar 
+				<lb n="N014"/>vnder Milch ram ein wenig vnd 
+				<lb n="N015"/>SLONGchlach das alles durch ein tuch<note xml:lang="de">Revision: 'c' aus 'g?'.</note><note xml:lang="en">Revision: 'g' transformed into 'c'?</note> ein 
+				<lb n="N016"/><abbr>wenig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wein vnd waSLONGSLONGer <g ref="#fracsol"/> Laß dar 
+				<lb n="N017"/>nach <abbr>SLONGy<g ref="#combuml"/>ed<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd geburcz <del>z?e</del> SNORMGo 
+				<lb n="N018"/>wirt ein topfen dar aus vnd preß 
+				<lb n="N019"/>den aws Vnd SLONGchneid das <g ref="#fracsol"/> als dw 
+				<lb n="N020"/>wild vnd prich das in <abbr>e<g ref="#inodot">i</g>ne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>lene<ex>n</ex><am><g ref="#bar_n"/></am></abbr><note xml:lang="de">Ehlert liest 'leinen'.</note><note xml:lang="en">Ehlert reads 'leinen'.</note>
+				<lb n="N021"/>taygel vnd gib in <abbr>eine<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <abbr>gut<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> pfeffer 
+				<lb n="N022"/>von <abbr>leczelt<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr><ex>etc.</ex><am><g ref="#etcamp"/></am></abbr></seg><seg>
+			
+			<pb xml:id="M10_151v" n="151v"/>
+			
+				<lb n="N001"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> <abbr>eine<ex>n</ex><am><g ref="#bar_n"/></am></abbr> arbas <abbr>prat<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>Nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> gut arbas vnd 
+				<lb n="N002"/>hey<g ref="#combuml"/>t dy<g ref="#combuml"/> in klatgoß <abbr>geSLONGot<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <g ref="#fracsol"/> SNORMGewd SLONGy<g ref="#combuml"/> 
+				<lb n="N003"/>dar nach in <abbr>waSLONG<ex>ser</ex><am><g ref="#slongflour"/></am></abbr> vnd wein das SLONGy<g ref="#combuml"/> 
+				<lb n="N004"/>SLONGich <abbr>ger<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>trey<g ref="#combuml"/>b<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>laSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd <abbr>v<ex>er</ex><am><g ref="#combcomma_er"/></am>SLONGtotz</abbr> 
+				<lb n="N005"/>nit zer reibs in <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"/></am></abbr> morSLONGer vnd 
+				<lb n="N006"/><abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> x ay<g ref="#combuml"/>r vnd ein putter als ein 
+				<lb n="N007"/><del>ganns</del> <add>enten</add> ay<g ref="#combuml"/>e <abbr>Nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ein <abbr>gerib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> SLONGemel 
+				<lb n="N008"/>ein wenig vnd dy<g ref="#combuml"/> matery<g ref="#combuml"/> kny<g ref="#combuml"/>t 
+				<lb n="N009"/>zw SLONGamen das zach SLONGey<g ref="#combuml"/> Es SLONGol auch 
+				<lb n="N010"/>geSLONGaltzt gilbt vnd geburczt SLONGein 
+				<lb n="N011"/>vnd SLONGpick das mit <abbr>hawSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>od<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> mit 
+				<lb n="N012"/><abbr>eine<ex>m</ex><am><g ref="#bar_m"/></am></abbr> <abbr>ander<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> viSLONGch der pra<g ref="#combuml"/>t hat 
+				<lb n="N013"/>vnd prat das wal ob <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> glut 
+				<lb n="N014"/>das es prawn wert vnd aus zich</seg><seg>
+				<lb n="N015"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> vber dy<g ref="#combuml"/> ror <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> e<g ref="#inodot">i</g>n <abbr>SLONGtrawb<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N016"/>tay<g ref="#combuml"/>g vnd my<g ref="#combuml"/>ß dy<g ref="#combuml"/> ror recht nach d<supplied reason="overbinding">er</supplied>
+				<lb n="N017"/><abbr>pfanne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> <add>legs <g ref="#inodot">i</g>n das SLONGchmals SNORMGo gen SLONGy<g ref="#combuml"/> <abbr>ger<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> ab</add> SLONGcherff an den <abbr>orter<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> way<supplied reason="overbinding">?</supplied> 
+				<lb n="N018"/>in den tay<g ref="#combuml"/>g vnd legs in dy<g ref="#combuml"/> <abbr>pfann<ex>en</ex><am><g ref="#bar_en"/></am></abbr> 
+				<lb n="N019"/>in das hey<g ref="#combuml"/>s SLONGchmalcz vnd zewchs 
+				<lb n="N020"/>hofflich ab <seg><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> wil dws <abbr>full<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N021"/>SNORMGo <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ay<g ref="#combuml"/>r ein wenig <abbr>gerib<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N022"/>SLONGemel oder apfel gero<g ref="#combuml"/>SLONGt peterSLONG<g ref="#inodot">i</g>l
+			
+			<pb xml:id="M10_152r" n="152r"/>
+			
+				<lb n="N001"/>Aney<g ref="#combuml"/>s geburczt <abbr><ex>etc.</ex><am><g ref="#etcamp"/></am></abbr> Auch <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ein 
+				<lb n="N002"/>wenig lorberch vnd wein per 
+				<lb n="N003"/>hack das durch ein ander vnd 
+				<lb n="N004"/>thus vnder dy<g ref="#combuml"/> ay<g ref="#combuml"/>r vnd dar nach 
+				<lb n="N005"/>ein wenig SLONGchmalcz vnd raSLONGt das 
+				<lb n="N006"/>durch ein ander vnd full das in 
+				<lb n="N007"/>das ror <abbr>ku<g ref="#combuml"/>ch<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd las mit <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"/></am></abbr> 
+				<lb n="N008"/><abbr>le<g ref="#inodot">i</g>ne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> tay<g ref="#combuml"/>g <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> an den <abbr>orter<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> 
+				<lb n="N009"/>in dem SLONGchmalcz</seg></seg><seg>
+				<lb n="N010"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ein Czogens <abbr>pach<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> <abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> ny<g ref="#combuml"/>m ain ay<g ref="#combuml"/>e 
+				<lb n="N011"/>SNORMGalcz vnd laß hay<g ref="#combuml"/>s SLONGchmalcz in <abbr>eine<ex>r</ex><am><g ref="#combcomma_r"/></am></abbr> 
+				<lb n="N012"/><abbr>pfan<ex>en</ex><am><g ref="#bar_en"/></am></abbr> vmb <abbr>lawff<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> als wey<g ref="#combuml"/>tz y<g ref="#combuml"/>s vnd 
+				<lb n="N013"/>gews das der <abbr>SLONGchlag<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> aye auf dy<g ref="#combuml"/> <abbr>pfan<ex>en</ex><am><g ref="#bar_en"/></am></abbr> 
+				<lb n="N014"/>vnd laß vmb <abbr>lauff<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> als weyt dy<g ref="#combuml"/> <abbr>pfan<ex>en</ex><am><g ref="#bar_en"/></am></abbr>
+				<lb n="N015"/>iSLONGt vnd kers <abbr>auSLONGSLONG<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> auch zw dem fewr 
+				<lb n="N016"/>daß es <abbr>prawn<ex>n</ex><am><g ref="#bar_n"/></am></abbr> wert <abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> <abbr>nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> ein le<g ref="#inodot">i</g>ns
+				<lb n="N017"/>tay<g ref="#combuml"/>gel mit iij <abbr>ay<g ref="#combuml"/>er<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd zerSLONGchneid 
+				<lb n="N018"/>das plat Als dws <abbr>hab<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> wild vnd 
+				<lb n="N019"/>necz in dem taygel zw <abbr>ainczig<ex>e</ex><am><g ref="#bar_e"/></am>n</abbr> vnd 
+				<lb n="N020"/>pachs in <abbr>eine<ex>m</ex><am><g ref="#bar_m"/></am></abbr> SLONGchmalcz</seg><seg>
+			
+			<pb xml:id="M10_152v" n="152v"/>
+			
+				<lb n="N001"/><abbr>It<ex>em</ex><am><g ref="#bar_em"/></am></abbr> mach ein groß ay<g ref="#combuml"/>e <abbr>Nym<ex>m</ex><am><g ref="#bar_m"/></am></abbr> xx <abbr>od<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> xxx 
+				<lb n="N002"/>ay<g ref="#combuml"/>r SLONGchay<g ref="#combuml"/>d das wey<g ref="#combuml"/>s vnd das rot dar 
+				<lb n="N003"/>von vnd mach den toter mit geburczt 
+				<lb n="N004"/>SLONGewde in in <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"/></am></abbr> klain plater das er 
+				<lb n="N005"/>hertalat wert SLONGchneyd dy<g ref="#combuml"/> plater d<supplied reason="damaged">ar</supplied> 
+				<lb n="N006"/>von vnd mach dy<g ref="#combuml"/> klar in ein groSLONGSLONGe 
+				<lb n="N007"/>plater vnd SLONGewd dy<g ref="#combuml"/> das SLONGy<g ref="#combuml"/> an SLONG<supplied reason="damaged">?</supplied>
+				<lb n="N008"/>tig wert SLONGo thw <abbr>dan<ex>n</ex><am><g ref="#bar_n"/></am></abbr> den toter da<supplied reason="damaged">r</supplied> 
+				<lb n="N009"/>ein SNORMGo SLONGewd es zw ein andr vnd 
+				<lb n="N010"/>thw es in <abbr>e<g ref="#inodot">i</g>ne<ex>n</ex><am><g ref="#bar_n"/></am></abbr> hefen <abbr><ex>etc.</ex><am><g ref="#etcamp"/></am></abbr></seg> 
+			
+		</ab></body>
+   </text>
+</TEI>

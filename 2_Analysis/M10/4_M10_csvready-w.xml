@@ -1,0 +1,677 @@
+<?xml-model href="../corema_schema/corema_glyph.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../corema_schema/corema_glyph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Electronic transcription of München, Bayerische Staatsbibliothek, Clm 15632</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Hyperdiplomatische Basistranskription der Handschrift München, Bayerische Staatsbibliothek, Clm 15632</edition>
+            <editor>
+               <forename>Astrid</forename>
+               <surname>Böhm</surname>
+            </editor>
+            <principal>
+               <forename>Helmut W.</forename>
+               <surname>Klug</surname>
+            </principal>
+            <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+            </publisher>
+            <authority>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+							Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+            </authority>
+            <distributor>
+               <ref target="https://gams.uni-graz.at"/>
+               <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+               <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+            </availability>
+            <!-- Lizenz muss noch geklärt werden -->
+            <date when="2020-01-01"/>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:corema.m10</idno>
+            <ref target="context:corema" type="context"/>
+            <ref target="context:corema.glyph" type="context"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>München</settlement>
+                  <institution ref="https://www.bsb-muenchen.de">Bayerische Staatsbibliothek</institution>
+                  <idno>Clm 15632</idno>
+                  <altIdentifier type="abbr">
+                     <idno>M10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang ana="manuscript">
+                     <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     <lang ana="other" n="Q29540">Bavarian</lang> Näheres zur Schreibsprachenbestimmung der Kochrezepttexte s. Ehlert S. 233-241.</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="composite-Manuscript">
+                     <supportDesc>
+                        <extent>
+                           <measure unit="leaf" type="leavesCount">164</measure>
+                           <dimensions type="block" unit="mm">
+                              <height>160</height>
+                              <width>130</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>
+                           <ab type="completeness">Eine neuere Blattzählung wurde nachträglich von moderner Hand eingefügt. 
+											Diese nicht immer durchgängige Zählung ist mit Bleistift ergänzt worden. Nicht mitgezählt wurden diverse Leerseiten.</ab>
+                        </foliation>
+                        <collation>
+                           <ab>Vor der ersten Textseite befindet sich ein leeres Vorsatzblatt sowie am Ende ein leeres Abschlußblatt. 
+											Die Handschrift scheint im Ganzen vollständig.</ab>
+                        </collation>
+                        <condition>
+                           <desc>Die Blätter 1-24 bestehen aus stark nachgedunkeltem Pergament, die restlichen Blätter 25-164 bestehen aus grobem Papier. 
+											Viele Seiten sind durch Flecken und Verschmutzungen verunreinigt. Auf der Innenseite des Buchdeckels steht mit Bleistift die Signatur <q>15632</q>. 
+											Auf Blatt 1r sind unten zwei Klebesignaturen angebracht: <q>Rot 132</q> und <q>Cod. lat. 15632</q>. An dieser Stelle steht auch noch eine weitere handschriftliche Signatur <q>Rot 132</q>. </desc>
+                           <material xml:lang="de">Pergament, Papier</material>
+                           <material xml:lang="en">parchment, paper</material>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p ana="measure">variierend, ab fol. 143r 125 x 80 mm</p>
+                           <p ana="text">Unterschiedliche Schriften und Schriftgrößen. Bis fol. 83r Rubrizierungen vorhanden. Auf Bl. 124v ist eine Initiale mit schwarzer Tinte verziert. 
+											Die Texte sind ansonsten mit blasser dunkler Tinte geschrieben.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Verschiedene Hände. Im Bereich der Kochrezepttexte (fol. 143r-152v) drei unterschiedliche Hände (s. scriptDesc).</handNote>
+                  </handDesc>
+                  <scriptDesc facs="fol. 143r-152v" resp="Astrid Böhm">
+                     <scriptNote source="fol. 143r-150v">
+                        <ab>fol. 143r-150v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>klare Struktur, Rezepte voneinander abgesetzt, Rezeptbeginn außerhalb des Schriftspiegels, ab 145r Überschriften am Blattrand von anderer Hand</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Duktus</desc>
+                        <p>zu Beginn recht ordentlich, lässt dann nach</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offenen Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; und rundes &lt;r&gt;</p>
+                        <p>Übergang fließend</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Diakritika</desc>
+                        <p>punktförmig, Doppelpunkt über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Terminatoren</desc>
+                        <p>unikal: Zeilenfüller 150v4</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Worttrennung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichungen</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                        <p>andere Hand (2) übernimmt auf fol. 150v4 mitten im Rezept bis 150v14, danach erneuter Wechsel (Hand 3)</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ jetzt Schreibweise ‚twu‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <ab>fol. 150v-152v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>Schriftspiegel vergrößert sich, kaum noch Rand; Schrift wird größer</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ und ‚ny:m‘ jetzt Schreibweise ‚twu‘ und ‚nymm‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Duktus</desc>
+                        <p>flüchtige, teils krakelige Schrift</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offene Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>&lt;b&gt;, &lt;d&gt;, &lt;l&gt; mit und ohne Schlaufe, &lt;h&gt;, k&gt; mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; </p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Diakritika</desc>
+                        <p>Doppelpunkt, teils Strich über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken, etc.-Kürzung, er-Kürzung in Verbindung mit Schaft-s</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Terminatoren</desc>
+                        <p>fol. 151r Rezeptblöcke durch waagerechten Strich voneinander abgegrenzt</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Worttrennung</desc>
+                        <p>Doppelstrich</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichung, Einfügung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                     </scriptNote>
+                  </scriptDesc>
+                  <bindingDesc>
+                     <binding corresp="#Einband">
+                        <condition>Der braune Ledereinband der Handschrift stammt von einer Restaurierung im 19. Jahrhundert. </condition>
+                        <decoNote type="bindingMaterial">Leder</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date xml:lang="de" notBefore="1300" notAfter="1400">14. und 15. Jh.</date>
+                        <date xml:lang="en" notBefore="1300" notAfter="1400">14th and 15th c.</date>
+                     </origDate>
+                     
+                     <origPlace>
+                        <placeName xml:lang="de">Entstehungsort unbekannt (Kochrezepttexte vermutl. Rott am Inn)</placeName>
+                        <placeName xml:lang="en">place of origin unknown (Recipe texts probably Rott am Inn) </placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance>Bis zur Säkularisation gehörte die Sammelhandschrift dem Benediktinerkloster Rott am Inn. 
+								<lb/>Die Handschrift Clm 15632 läßt sich inzwischen noch genauer lokalisieren. 
+								Sie stammt aus dem Besitz des Ulrich Wülfing, der urkundlich mehrfach als Pfarrer und Dechant in Walpertshausen (Landkreis Erding) belegt ist.
+								In dieser Eigenschaft erwarb er zwischen 1455 und 1473 eine ganze Reihe Handschriften, darunter auch den Clm 15632. 
+								Seit 1485 war Wülfing nachweislich in Rott am Inn als Priester tätig. 
+								Wülfing vermachte in seinem Testament vom Dezember 1487 eine ganze Reihe von Codices der Abtei, darunter auch die Handschrift Clm 15632. 
+								Einige dieser Codices weisen zusätzlich Register bzw. Inhaltsverzeichnisse und Besitzvermerke (Namens- initialen <q>V W</q>) Wülfings am Anfang auf. 
+								Bei einer Restaurierung im 19. Jahrhundert wurde diese Inhaltsliste der Handschrift Clm 15632 vernichtet, was allerdings keinen Einfluß auf die Identifikation der Handschrift hatte. 
+							<lb/>Eine zusätzliche Bestätigung der Herkunft der Handschrift Clm 15632 liefert ein wiederentdeckter mittelalterlicher Bibliothekskatalog der Bibliothek des Klosters Rott am Inn. 
+							Dieser Katalog stammte nach den Angaben des Melker Benediktiners P. Bernhard Pez, der 1717 auf seiner Reise durch bayerische Klöster auch in Rott am Inn Station machte, etwa aus dem Jahre 1490. 
+							Die Erwähnung dieses Kataloges war lange Zeit der letzte Hinweis auf einen Rotter Bibliothekskatalog, der seit dieser Zeit als verschollen galt. 
+							Er tauchte eher zufällig wieder auf und wurde von Glauche als der vermißte Rotter Bibliothekskatalog identifiziert (enthalten in Hs. 12737 der mittelalterlichen lateinischen Handschriften des Germanischen Nationalmuseums Nürnberg). 
+							<lb/>Auf Bl. 4v der Handschrift 12737 findet sich der Eintrag, mit dem Clm 15632 zu identifizieren ist.
+							Der Inhalt der Handschrift Clm 15632 stimmt bis zu einem gewissen Maße mit den Angaben in diesem Rotter Bibliothekskatalog überein. 
+							Eine Übereinstimmung kann nur bis Bl. 87 oder 89 (beides musikalische Texte) festgestellt werden. 
+							Über die folgenden Texte wird in der Bücherliste keine Angabe mehr gemacht. </provenance>
+                  <acquisition>Das Kloster Rott am Inn wurde 1803 im Zuge der Säkularisierung aufgelöst. Die Handschrift Clm 15632 gelangte mit den übrigen Bibliotheksbesitzen in die Königliche Staatsbibliothek München.
+								
+							</acquisition>
+               </history>
+               <msPart n="1-24">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.1-24.1">
+                        <locus ana="folio">1-24</locus>
+                        <title>Etymologicum latinum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="21">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.21.2">
+                        <locus ana="folio">21</locus>
+                        <title>De praepositionibus graecis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="25">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.25.3">
+                        <locus ana="folio">25</locus>
+                        <title>Compendium humanae salvationis metricum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="35">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.35.4">
+                        <locus ana="folio">35</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="47">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.47.5">
+                        <locus ana="folio">47</locus>
+                        <title>Conversio et vita s. Barbarae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="79">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.79.6">
+                        <locus ana="folio">79</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="86">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.86.7">
+                        <locus ana="folio">86</locus>
+                        <title>,Sanctus' cum noti</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="87">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.87.8">
+                        <locus ana="folio">87</locus>
+                        <title>Patrum aliquot et bibliae librorum explanationes dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="89">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.89.9">
+                        <locus ana="folio">89</locus>
+                        <title>Johannis de Muris ars cantus mensurabilis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="103">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.103.10">
+                        <locus ana="folio">103</locus>
+                        <title>'Regulae cantandi super rectum cantum' (videntur esse excerpta)</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="113">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.113.11">
+                        <locus ana="folio">113</locus>
+                        <title>'Disticha Catonis', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="130">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.130.12">
+                        <locus ana="folio">130</locus>
+                        <title>'Poeniteas cito peccator', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="136">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.136.13">
+                        <locus ana="folio">136</locus>
+                        <title>Orationes; de peccatis, virtutibus etc.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="140">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.140.14">
+                        <locus ana="folio">140</locus>
+                        <title>,Catonis disticha' cum commentario</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart ana="cooking_recipes" n="143r-152v">
+                  <head>Kochrezepttexte</head>
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#cooking" xml:id="m10.143r-152v.15">
+                        <locus ana="folio">143r-152v</locus>
+                        <title>Kochrezepttexte</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="153">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.153.16">
+                        <locus ana="folio">153</locus>
+                        <title>Orationes germanicae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
+            <listBibl type="catalogues">
+               <biblStruct type="book" xml:id="Halm1878" corresp="http://zotero.org/groups/2455111/items/4IMB3MZH">
+                  <monogr>
+                     <title level="m">Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Bd. II,3:
+									Codices num. 15121-21313 complectens</title>
+                     <author>
+                        <forename>Karl</forename>
+                        <surname>Halm</surname>
+                     </author>
+                     <author>
+                        <forename>Georg von</forename>
+                        <surname>Laubmann</surname>
+                     </author>
+                     <author>
+                        <forename>Wilhelm</forename>
+                        <surname>Meyer</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <date>1878</date>
+                        
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis.
+								IV,3.</title>
+                  </series>
+                  <citedRange unit="page">25-26</citedRange>
+                  
+               </biblStruct>
+               <biblStruct type="webpage" xml:id="Glaßner2017" corresp="http://zotero.org/groups/2455111/items/ABNI4NH7">
+                  <analytic>
+                     <title level="a">Handschriftencensus | München, Staatsbibl., Clm 15632</title>
+                     <author>
+                        <name>Glaßner</name>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Handschriftencensus</title>
+                     <imprint>
+                        <date>2017</date>
+                        
+                        
+                     </imprint>
+                  </monogr>
+                  
+               </biblStruct>
+            </listBibl>
+            <listBibl type="transcriptions">
+               <biblStruct type="book" xml:id="Ehlert1999" corresp="http://zotero.org/groups/2455111/items/ERVDJAZR">
+                  <monogr>
+                     <title level="m">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384,
+									467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold,
+									Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian
+									Suda und Monika Ullrich</title>
+                     <idno type="ISBN">3-403-03364-3</idno>
+                     <idno type="callNumber">SBB-PK Berlin &lt;1+1A&gt; !2:HsLS! Hs LS HM 862 1 A 412720 !2!
+									1 A 413554</idno>
+                     <author>
+                        <forename>Trude</forename>
+                        <surname>Ehlert</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>Frankfurt a. M.</pubPlace>
+                        <publisher>Tupperware</publisher>
+                        <date>1999</date>
+                     </imprint>
+                  </monogr>
+                  
+               </biblStruct>
+            </listBibl>
+            <!--<listBibl type="catalogues">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften, S.228-241.</bibl>
+						<bibl>Karl Halm u.a., Catalogus codicum latinorum Bibliothecae Regiae Monacensis, Bd. II,3: Codices num. 15121-21313 complectens (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis IV,3), München 1878 (Nachdruck Wiesbaden 1969), S. 25f. Url: <ref target="urn:nbn:de:bvb:12-bsb00008254-3"></ref>
+						</bibl>
+						<bibl>Christine Glaßner: München, Staatsbibl., Clm 15632. In: Handschriftencensus. 2017. Url: <ref target="http://www.handschriftencensus.de/6394">http://www.handschriftencensus.de/6394</ref>.</bibl>
+					</listBibl>
+					<listBibl type="transcriptions">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften </bibl> 
+					</listBibl>-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#M10_143r">
+         <graphic xml:id="IMG.143r" url="München_Bayerische_Staatsbibliothek_Clm_15632_143r.jpg"/>
+      </surface>
+      <surface start="#M10_143v">
+         <graphic xml:id="IMG.143v" url="München_Bayerische_Staatsbibliothek_Clm_15632_143v.jpg"/>
+      </surface>
+      <surface start="#M10_144r">
+         <graphic xml:id="IMG.144r" url="München_Bayerische_Staatsbibliothek_Clm_15632_144r.jpg"/>
+      </surface>
+      <surface start="#M10_144v">
+         <graphic xml:id="IMG.144v" url="München_Bayerische_Staatsbibliothek_Clm_15632_144v.jpg"/>
+      </surface>
+      <surface start="#M10_145r">
+         <graphic xml:id="IMG.145r" url="München_Bayerische_Staatsbibliothek_Clm_15632_145r.jpg"/>
+      </surface>
+      <surface start="#M10_145v">
+         <graphic xml:id="IMG.145v" url="München_Bayerische_Staatsbibliothek_Clm_15632_145v.jpg"/>
+      </surface>
+      <surface start="#M10_146r">
+         <graphic xml:id="IMG.146r" url="München_Bayerische_Staatsbibliothek_Clm_15632_146r.jpg"/>
+      </surface>
+      <surface start="#M10_146v">
+         <graphic xml:id="IMG.146v" url="München_Bayerische_Staatsbibliothek_Clm_15632_146v.jpg"/>
+      </surface>
+      <surface start="#M10_147r">
+         <graphic xml:id="IMG.147r" url="München_Bayerische_Staatsbibliothek_Clm_15632_147r.jpg"/>
+      </surface>
+      <surface start="#M10_147v">
+         <graphic xml:id="IMG.147v" url="München_Bayerische_Staatsbibliothek_Clm_15632_147v.jpg"/>
+      </surface>
+      <surface start="#M10_148r">
+         <graphic xml:id="IMG.148r" url="München_Bayerische_Staatsbibliothek_Clm_15632_148r.jpg"/>
+      </surface>
+      <surface start="#M10_148v">
+         <graphic xml:id="IMG.148v" url="München_Bayerische_Staatsbibliothek_Clm_15632_148v.jpg"/>
+      </surface>
+      <surface start="#M10_149r">
+         <graphic xml:id="IMG.149r" url="München_Bayerische_Staatsbibliothek_Clm_15632_149r.jpg"/>
+      </surface>
+      <surface start="#M10_149v">
+         <graphic xml:id="IMG.149v" url="München_Bayerische_Staatsbibliothek_Clm_15632_149v.jpg"/>
+      </surface>
+      <surface start="#M10_150r">
+         <graphic xml:id="IMG.150r" url="München_Bayerische_Staatsbibliothek_Clm_15632_150r.jpg"/>
+      </surface>
+      <surface start="#M10_150v">
+         <graphic xml:id="IMG.150v" url="München_Bayerische_Staatsbibliothek_Clm_15632_150v.jpg"/>
+      </surface>
+      <surface start="#M10_151r">
+         <graphic xml:id="IMG.151r" url="München_Bayerische_Staatsbibliothek_Clm_15632_151r.jpg"/>
+      </surface>
+      <surface start="#M10_151v">
+         <graphic xml:id="IMG.151v" url="München_Bayerische_Staatsbibliothek_Clm_15632_151v.jpg"/>
+      </surface>
+      <surface start="#M10_152r">
+         <graphic xml:id="IMG.152r" url="München_Bayerische_Staatsbibliothek_Clm_15632_152r.jpg"/>
+      </surface>
+      <surface start="#M10_152v">
+         <graphic xml:id="IMG.152v" url="München_Bayerische_Staatsbibliothek_Clm_15632_152v.jpg"/>
+      </surface>
+      <surface start="#">
+         <graphic xml:id="CUTOUT" url="cutouts/m10.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+<body xml:space="preserve"><ab><pb xml:id="M10_143r" n="143r"/><lb n="N001"/><w>Item</w><w>nym</w><w>czway</w><w>holtzer</w><w>die</w><w>man</w><w>zw</w><w><g ref="#slong">|s|</g>amen</w><lb n="N002"/><w>leg</w><w>vnd</w><w>Innen</w><w>geformiert</w><w><g ref="#slong">|s|</g>ein</w><w>al<g ref="#snorm">-s-</g></w><w>ein</w><lb n="N003"/><w>rep</w><w>huen</w><w>vnd</w><w>nym</w><w>vi<g ref="#slong">|s|</g>ch</w><w>vnd</w><w>thue</w><w>die</w><lb n="N004"/><w>grat</w><w>vnd</w><w>die</w><w><g ref="#slong">|s|</g>chueppen</w><w>da</w><w>uon</w><w>vnd</w><w>hack</w><lb n="N005"/><w>daz</w><w>geprat</w><w>gar</w><w>clain</w><w>vnder</w><w>ein</w><w>ander</w><lb n="N006"/><w>vnd</w><w>gewurtz</w><w>daz</w><w>wol</w><w>vnd</w><w>leg</w><w>daz</w><w>in</w><w>die</w><lb n="N007"/><w>furem</w><w>holtzer</w><w>vnd</w><w><g ref="#slong">|s|</g>ewt</w><w>da<g ref="#snorm">-s-</g></w><w>al<g ref="#slong">|s|</g>o</w><w>va<g ref="#slong">|s|</g>t</w><lb n="N008"/><w>darnach</w><w>prat</w><w>e<g ref="#snorm">-s-</g></w><w>vnd</w><w><g ref="#slong">|s|</g>pick</w><w>e<g ref="#snorm">-s-</g></w><w>mit</w><w>hechten</w><lb n="N009"/><w>prat</w><lb n="N010"/><w>Item</w><w>nym</w><w>groß</w><w>vi<g ref="#slong">|s|</g>ch</w><w>wie</w><w>die</w><w><g ref="#slong">|s|</g>ein</w><w>vnd</w><w>thue</w><lb n="N011"/><w>die</w><w>grat</w><w>vnd</w><w>die</w><w><g ref="#slong">|s|</g>chueppen</w><w>dar</w><w>uon</w><w>vnd</w><lb n="N012"/><w>hack</w><w>daz</w><w>clain</w><w>vnd</w><w>reyb</w><w>ein</w><w>prot</w><w>dar</w><lb n="N013"/><w>vnder</w><w>vnd</w><w>gewurtz</w><w>eß</w><w>woll</w><w>vnd</w><w>mach</w><lb n="N014"/><w>daz</w><w>zw</w><w><g ref="#slong">|s|</g>ammen</w><w>mit</w><w>na<g ref="#slong">|s|</g><g ref="#slong">|s|</g>enn</w><w>me<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ernn</w><w>auff</w><lb n="N015"/><w>der</w><w>anricht</w><w>in</w><w>die</w><w>furem</w><w>holtzer</w><w>alz</w><lb n="N016"/><w>ein</w><w>rech</w><w>praten</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>an</w><w>einen</w><w><g ref="#slong">|s|</g>piß</w><lb n="N017"/><w>vnd</w><w>prat</w><w><g ref="#slong">|s|</g>ein</w><w>genueg</w><lb n="N018"/><w>Item</w><w>nym</w><w>ge<g ref="#slong">|s|</g>chelten</w><w>mandel</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>den</w><w>in</w><lb n="N019"/><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w>mach</w><w>milch</w><w>dauon</w><w>vnd</w><lb n="N020"/><w><g ref="#slong">|s|</g>eych</w><w><g ref="#slong">|s|</g>y</w><w>durch</w><w>ein</w><w>thuech</w><w>In</w><w>ein</w><w>pfann</w><lb n="N021"/><w>vnd</w><w>reyb</w><w>ein</w><w>wenig</w><w><g ref="#slong">|s|</g>emel</w><w>dar</w><w>ein</w><lb n="N022"/><w>Ee</w><w>ez</w><w>wall</w><w>vnd</w><w>ein</w><w>wenig</w><w>guetz</w><w>wein<g ref="#snorm">-s-</g></w><lb n="N023"/><w>vnd</w><w>wan</w><w>ez</w><w>erwall</w><w><g ref="#slong">|s|</g>o</w><w>zewch</w><w>ez</w><w>au<g ref="#slong">|s|</g><g ref="#snorm">-s-</g></w><lb n="N024"/><w>der</w><w>pfann</w><w>auff</w><w>ein</w><w><g ref="#slong">|s|</g>ib</w><w>oder</w><w>auff</w><w>ein</w><w>thuech</w><pb xml:id="M10_143v" n="143v"/><lb n="N001"/><w>daz</w><w>daz</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>dar</w><w>uon</w><w><g ref="#slong">|s|</g>eych</w><w>daz</w><w>rich</w><w>richt</w><lb n="N002"/><w>an</w><w>alz</w><w>den</w><w>pan</w><w>prein</w><w>vnd</w><w>be<g ref="#slong">|s|</g>teck</w><w>in</w><w>mit</w><lb n="N003"/><w>mandel</w><w>keren</w><w>auch</w><w>macht</w><w>macht</w><w>man</w><w>in</w><lb n="N004"/><w>in</w><w>einer</w><w>mandel</w><w>nich</w><w>milch</w><lb n="N005"/><w>Item</w><w>nym</w><w>ge<g ref="#slong">|s|</g>chelten</w><w>mandel</w><w>vnd</w><w>hack</w><w>den</w><w>klain</w><lb n="N006"/><w>vnd</w><w>verb</w><w>in</w><w>halben</w><w>mit</w><w><g ref="#slong">|s|</g>affran</w><w>vnd</w><w>leg</w><lb n="N007"/><w>daz</w><w>be<g ref="#slong">|s|</g>under</w><w>In</w><w>ein</w><w><g ref="#slong">|s|</g>tauffel</w><w>auch</w><w>nym</w><w>wein</w><lb n="N008"/><w>per</w><w>die</w><w><g ref="#slong">|s|</g>chon</w><w>erclawpt</w><w><g ref="#slong">|s|</g>ein</w><w>vnd</w><w>erwel</w><lb n="N009"/><w>die</w><w>daz</w><w><g ref="#slong">|s|</g>i</w><w><g ref="#slong">|s|</g>inwel</w><w>werden</w><w>Auch</w><w>nym</w><w>rogen</w><lb n="N010"/><w>vnd</w><w>von</w><w>vi<g ref="#slong">|s|</g>chen</w><w>wie</w><w>die</w><w><g ref="#slong">|s|</g>ein</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>die</w><w>in</w><lb n="N011"/><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>mit</w><w>einem</w><w>wenigen</w><w>wey<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N012"/><w>mel</w><w>daz</w><w>er</w><w>wer</w><w>alz</w><w>ein</w><w><g ref="#slong">|s|</g>trauben</w><w>taig</w><lb n="N013"/><w>vnd</w><w>gilb</w><w>daz</w><w>vnd</w><w>thue</w><w>daz</w><w>ab</w><w>geriben</w><w>dar</w><lb n="N014"/><w>vnder</w><w>vnd</w><w>gewß</w><w>auff</w><w>die</w><w>fladen</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><lb n="N015"/><w>in</w><w>einem</w><w>ofenn</w><lb n="N016"/><w>Item</w><w><g ref="#slong">|s|</g>toß</w><w>nuß</w><w>keren</w><w>vnd</w><w>veygen</w><w>vnder</w><w>ein</w><lb n="N017"/><w>ander</w><w>In</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w>gewurtz</w><lb n="N018"/><w>ez</w><w>wol</w><w>vnd</w><w>gilb<g ref="#snorm">-s-</g></w><w>mit</w><w><g ref="#slong">|s|</g>affran</w><w>vnd</w><w>leg</w><lb n="N019"/><w>daz</w><w>In</w><w>ein</w><w>pfann</w><w>vnd</w><w>gewß</w><w>oll</w><w>dar</w><lb n="N020"/><w>an</w><w>vnd</w><w>erwell</w><w>ez</w><w>wol</w><w>darnach</w><w>mach</w><lb n="N021"/><w>krapffen</w><w>dar</w><w>auß</w><w>alz</w><w>dw</w><w><g ref="#slong">|s|</g>i</w><w>haben</w><w>wilt</w><lb n="N022"/><w>In</w><w>erhaben</w><w>taig</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>in</w><w>oll</w><w>vnd</w><lb n="N023"/><w>gib<g ref="#snorm">-s-</g></w><w>kalt</w><w>ze</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><pb xml:id="M10_144r" n="144r"/><lb n="N001"/><w>Item</w><w>nym</w><w><g ref="#slong">|s|</g>enif</w><w><g ref="#slong">|s|</g>am</w><w>vnd</w><w>derre</w><w>den</w><w><g ref="#slong">|s|</g>chon</w><lb n="N002"/><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>den</w><w>gar</w><w>clain</w><w>In</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><lb n="N003"/><w>vnd</w><w>treyb</w><w>in</w><w>darnach</w><w>durch</w><w>ein</w><w>eng</w><lb n="N004"/><w>thuech</w><w>vnd</w><w>mi<g ref="#slong">|s|</g>ch</w><w>ge<g ref="#slong">|s|</g>to<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>thimend</w><lb n="N005"/><w>plue</w><w>vnd</w><w>den</w><w><g ref="#slong">|s|</g>eniff</w><w>vnd</w><w>reib</w><w>eß</w><lb n="N006"/><w>va<g ref="#slong">|s|</g>t</w><w>d</w><w>vnder</w><w>ein</w><w>ander</w><w>alz</w><w>der</w><w>wach<g ref="#snorm">-s-</g></w><lb n="N007"/><w>pert</w><w>vnd</w><w>wann</w><w>dw</w><w>wilt</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><lb n="N008"/><w>dez</w><w><g ref="#slong">|s|</g>elben</w><w>ein</w><w>wenig<g ref="#snorm">-s-</g></w><w>vnd</w><w>ze</w><w>reib</w><lb n="N009"/><w>ez</w><w>mit</w><w>wein</w><w><g ref="#slong">|s|</g>o</w><w>ha<g ref="#slong">|s|</g>tu</w><w>guten</w><w><g ref="#slong">|s|</g>eniff</w><lb n="N010"/><w>Item</w><w><g ref="#slong">|s|</g>chlach</w><w>ayer</w><w>auff</w><w>an</w><w>dem</w><w>gro<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w><g ref="#slong">|s|</g>pitz</w><lb n="N011"/><w>vnd</w><w>thue</w><w>daz</w><w>Inder</w><w>dar</w><w>auß</w><w>vnd</w><w>zer</w><lb n="N012"/><w>reib</w><w>daz</w><w>wol</w><w>vnd</w><w>gilb<g ref="#snorm">-s-</g></w><w>vnd</w><w>pfeffer<g ref="#snorm">-s-</g></w><lb n="N013"/><w>vnd</w><w>hack</w><w>peter<g ref="#slong">|s|</g>il</w><w>vnd</w><w><g ref="#slong">|s|</g>aluan</w><w>vnd</w><w>ro<g ref="#slong">|s|</g>t</w><lb n="N014"/><w>daz</w><w>mit</w><w><g ref="#slong">|s|</g>chmaltz</w><w>in</w><w>einer</w><w>pfann</w><w>dar</w><lb n="N015"/><w>nach</w><w>hack</w><w>ez</w><w>clain</w><w>vnd</w><w>thue</w><w>ez</w><w>wider</w><lb n="N016"/><w>in</w><w>die</w><w>gucken</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>an</w><w>einen</w><w><g ref="#slong">|s|</g>piß</w><lb n="N017"/><w>vnd</w><w>pratz</w><w>auff</w><w>einem</w><w>ro<g ref="#slong">|s|</g>t</w><lb n="N018"/><w>Item</w><w>nym</w><w>gleich</w><w>milch</w><w>vnd</w><w>ayer</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><lb n="N019"/><w>die</w><w>wol</w><w>durch</w><w>ein</w><w>ander</w><w>vnd</w><w>gilb<g ref="#snorm">-s-</g></w><w>vnd</w><lb n="N020"/><w>gewß</w><w>in</w><w>einen</w><w>hafenn</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>in</w><w>einem</w><lb n="N021"/><w>ke<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>mit</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>vnd</w><w>laz</w><w>ez</w><w>dar</w><w>in</w><lb n="N022"/><w><g ref="#slong">|s|</g>ieden</w><w>vntz</w><w>daz</w><w>ez</w><w>zw</w><w><g ref="#slong">|s|</g>amen</w><w>get</w><w>dar</w><lb n="N023"/><w>nach</w><w><g ref="#slong">|s|</g>chutt</w><w>ez</w><w>auff</w><w>ein</w><w>thuech</w><w><g ref="#slong">|s|</g>o</w><w>wirt</w><lb n="N024"/><w>ez</w><w>hert</w><w>alz</w><w>ein</w><w>kaß</w><w>daz</w><w>daz</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>dar</w><lb n="N025"/><w>von</w><w><g ref="#slong">|s|</g>eych</w><w>dar</w><w>nach</w><w><g ref="#slong">|s|</g>chneyt</w><w>ez</w><w>al<g ref="#snorm">-s-</g></w><pb xml:id="M10_144v" n="144v"/><lb n="N001"/><w>ein</w><w>puteren</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>an</w><w>ein</w><w><g ref="#slong">|s|</g>pi<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>vnd</w><lb n="N002"/><w>pratz</w><w>auff</w><w>einem</w><w>ro<g ref="#slong">|s|</g>t</w><w>vnd</w><w><g ref="#slong">|s|</g>a</w><w>gewurtz</w><lb n="N003"/><w>dar</w><w>auff</w><w>vnd</w><w>begewß</w><w>mit</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N004"/><w>vnd</w><w>gib<g ref="#snorm">-s-</g></w><w>ze</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N005"/><w>Item</w><w>nym</w><w>wein</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>vnd</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>geleych</w><lb n="N006"/><w>vnd</w><w><g ref="#slong">|s|</g>eud</w><w>vi<g ref="#slong">|s|</g>ch</w><w>dar</w><w>in</w><w>vnd</w><w>gewurtz</w><w>vnd</w><lb n="N007"/><w><g ref="#slong">|s|</g>affran</w><w>dar</w><w>an</w><w>vnd</w><w>gewß</w><w>kaltz</w><w>auff</w><lb n="N008"/><w>die</w><w>vi<g ref="#slong">|s|</g>ch</w><lb n="N009"/><w>Item</w><w>nym</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>honig</w><w>vnd</w><w>leczelten</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><lb n="N010"/><w>vnder</w><w>ein</w><w>ander</w><w>vnd</w><w><g ref="#slong">|s|</g>eych<g ref="#snorm">-s-</g></w><w>durch</w><lb n="N011"/><w>ein</w><w>thuech</w><w>vnd</w><w><g ref="#slong">|s|</g>eudt</w><w>eß</w><w>vnd</w><w>iß</w><w>kalt</w><lb n="N012"/><w>Item</w><w>nym</w><w>kreb<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>vnd</w><w><g ref="#slong">|s|</g>chneyd</w><w>daz</w><w>poß</w><w>pey</w><lb n="N013"/><w>den</w><w>augen</w><w>dar</w><w>uon</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>die</w><lb n="N014"/><w>kreb<g ref="#slong">|s|</g>en</w><w>In</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w>treyb</w><lb n="N015"/><w>daz</w><w>mit</w><w>einer</w><w>milch</w><w>durch</w><w>ein</w><w><g ref="#slong">|s|</g>ib</w><lb n="N016"/><w>vnd</w><w>reyb</w><w>ein</w><w><g ref="#slong">|s|</g>emel</w><w>dar</w><w>zw</w><w>vnd</w><w>thue</w><lb n="N017"/><w>ayer</w><w>thoter</w><w>dar</w><w>ein</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach<g ref="#snorm">-s-</g></w><w>durch</w><lb n="N018"/><w>ein</w><w>ander</w><w>vnd</w><w>mach</w><w>ein</w><w>gemueß</w><w>dar</w><lb n="N019"/><w>auß</w><w>in</w><w>einer</w><w>pfanen</w><w>daz</w><w>wirt</w><w>den</w><lb n="N020"/><w>Rot</w><lb n="N021"/><w>Item</w><w>nym</w><w>geriben</w><w>kaß</w><w>der</w><w>gut</w><w><g ref="#slong">|s|</g>ey</w><w>vnd</w><lb n="N022"/><w>halb</w><w>al<g ref="#snorm">-s-</g></w><w>vil</w><w>mel</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>ayer</w><w>dar</w><lb n="N023"/><w>an</w><w>daz</w><w>ez</w><w><g ref="#slong">|s|</g>ich</w><w>laß</w><w>wellen</w><w>vnd</w><w>puluer</w><lb n="N024"/><w>daz</w><w>wol</w><w>vnd</w><w>wirch</w><w>ez</w><w>auff</w><w>einem</w><lb n="N025"/><w>prett</w><w>lang</w><w>alz</w><w>die</w><w>wur<g ref="#slong">|s|</g>t</w><w>vnd</w><w>mach</w><lb n="N026"/><w>ez</w><w>thun</w><w>dun</w><w>vnd</w><w>krumpt</w><w>ez</w><w>alz</w><pb xml:id="M10_145r" n="145r"/><lb n="N001"/><w>die</w><w>hueff</w><w>ey<g ref="#slong">|s|</g>en</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>al<g ref="#slong">|s|</g>o</w><w>in</w><lb n="N002"/><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N003"/><w>Item</w><w>mach</w><w>ein</w><w>tayg</w><w>von</w><w>herten</w><w>ayeren</w><w><g ref="#slong">|s|</g>o</w><lb n="N004"/><w>du</w><w>aller</w><w>herte<g ref="#slong">|s|</g>t</w><w>mag<g ref="#slong">|s|</g>t</w><w>vnd</w><w>gilb</w><w>in</w><lb n="N005"/><w>vnd</w><w>wurch</w><w>dunne</w><w>pleter</w><w>dar</w><w>auß</w><lb n="N006"/><w>alz</w><w>pfanczelten</w><w>vnd</w><w>pach</w><w>ez</w><w>in</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N007"/><w>auch</w><w>nym</w><w>gueten</w><w>wein</w><w>vnd</w><w>halb</w><w>al<g ref="#snorm">-s-</g></w><lb n="N008"/><w>vil</w><w>honigk</w><w>vnd</w><w>well</w><w>daz</w><w>vnder</w><w>ein</w><lb n="N009"/><w>ander</w><w>vnd</w><w>zeuch</w><w>daz</w><w>pachen</w><w>dar</w><w>durch</w><lb n="N010"/><w><g ref="#slong">|s|</g>o</w><w>du</w><w>ez</w><w>wilt</w><w>an</w><w>richten</w><w>ain</w><w>pachen</w><lb n="N011"/><w>Item</w><w>nym</w><w>geriben</w><w>kaß</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>ayer</w><lb n="N012"/><w>dar</w><w>an</w><w>vnd</w><w>gewurtz</w><w>wol</w><w>vnd</w><w><g ref="#slong">|s|</g>ewd</w><w>ez</w><lb n="N013"/><w>durch</w><w>ein</w><w>ander</w><w>vnd</w><w>mach</w><w>ez</w><w>zw</w><w>langen</w><lb n="N014"/><w><g ref="#slong">|s|</g>trutzlen</w><w>auff</w><w>ein</w><w>pret</w><w>die</w><w>dun</w><w><g ref="#slong">|s|</g>ein</w><w>vnd</w><lb n="N015"/><w>pach<g ref="#snorm">-s-</g></w><w>in</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vnd</w><w><g ref="#slong">|s|</g>chneytz</w><w>dan</w><w>in</w><lb n="N016"/><w>ein</w><w><g ref="#slong">|s|</g>chu<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><lb n="N017"/><w>Item</w><w>thue</w><w>den</w><w>vnteren</w><w>tayl</w><w>von</w><w>einem</w><w>kalb<g ref="#snorm">-s-</g></w><lb n="N018"/><w>haup</w><w>vnd</w><w><g ref="#slong">|s|</g>ewd</w><w>daz</w><w>haup</w><w>wol</w><w>darnach</w><lb n="N019"/><w>prich</w><w>die</w><w>hieren</w><w><g ref="#slong">|s|</g>chal</w><w>auff</w><w>vnd</w><w><g ref="#slong">|s|</g>aa</w><w>gut</w><lb n="N020"/><w>gewurtz</w><w>darein</w><w>vnd</w><w>gewß</w><w>hayß</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N021"/><w>dar</w><w>zw</w><w>vnd</w><w>ro<g ref="#slong">|s|</g>t</w><w>in</w><w>auff</w><w>einem</w><w>roe<g ref="#slong">|s|</g>t</w><w><g ref="#slong">|s|</g>o</w><lb n="N022"/><w>wirt</w><w>er</w><w>gut</w><lb n="N023"/><w>Item</w><w>nym</w><w>ein<g ref="#snorm">-s-</g></w><w>hir<g ref="#slong">|s|</g>en</w><w>leber</w><w>vnd</w><w>prat</w><w>die</w><lb n="N024"/><w>dar</w><w>nach</w><w><g ref="#slong">|s|</g>chneyd</w><w>daz</w><w>au<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>dar</w><w>ab</w><pb xml:id="M10_145v" n="145v"/><lb n="N001"/><w>vnd</w><w><g ref="#slong">|s|</g>toeß</w><w>e<g ref="#snorm">-s-</g></w><w>in</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>mit</w><w>rocken</w><lb n="N002"/><w>prot</w><w>honing</w><w>wein</w><w>vnd</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>vnd</w><w>reyb</w><lb n="N003"/><w>ez</w><w>durch</w><w>ein</w><w>thuech</w><w>vnd</w><w>thue</w><w>gewurtz</w><lb n="N004"/><w>dar</w><w>an</w><w>vnd</w><w>erwel</w><w>ez</w><w>dar</w><w>nach</w><w>vnd</w><lb n="N005"/><w>gib<g ref="#snorm">-s-</g></w><w>kalt</w><w>ze</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N006"/><w>Item</w><w>nym</w><w>ein</w><w>rech</w><w>haut</w><w>vnd</w><w>prue</w><w>die</w><lb n="N007"/><w>daz</w><w>daz</w><w>har</w><w>dar</w><w>von</w><w>kom</w><w>vnd</w><w><g ref="#slong">|s|</g>eudtz</w><lb n="N008"/><w>dar</w><w>nach</w><w>gar</w><w>wol</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>chrimpft</w><w><g ref="#slong">|s|</g>i</w><w><g ref="#slong">|s|</g>ich</w><lb n="N009"/><w>ze</w><w><g ref="#slong">|s|</g>ammen</w><w>dar</w><w>nach</w><w><g ref="#slong">|s|</g>chneyd</w><w><g ref="#slong">|s|</g>y</w><w><g ref="#slong">|s|</g>pann</w><lb n="N010"/><w>lanck</w><w>vnd</w><w>czwayer</w><w>vinger</w><w>prayt</w><w>vnd</w><lb n="N011"/><w>mach</w><w>dar</w><w>an</w><w>ein</w><w><g ref="#slong">|s|</g>ultz</w><w>furheß</w><lb n="N012"/><w>Item</w><w>nym</w><w>die</w><w>ge</w><w>lungel</w><w>vnd</w><w>die</w><w>leber</w><w>von</w><lb n="N013"/><w>einem</w><w>ha<g ref="#slong">|s|</g>en</w><w>vnd</w><w><g ref="#slong">|s|</g>chneydt</w><w>daz</w><w>wurflat</w><lb n="N014"/><w>vnd</w><w>nym</w><w>ez</w><w>mit</w><w>dem</w><w><g ref="#slong">|s|</g>wayß</w><w>vnd</w><w>thueß</w><lb n="N015"/><w>in</w><w>ein</w><w>prue</w><w>wein</w><w>vnd</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>vnd</w><w>honick</w><lb n="N016"/><w>vnd</w><w>rocken</w><w>prot</w><w>vnd</w><w><g ref="#slong">|s|</g>chon</w><w><g ref="#slong">|s|</g>peck</w><w>daran</w><lb n="N017"/><w><g ref="#slong">|s|</g>o</w><w>ha<g ref="#slong">|s|</g>tu</w><w>ein</w><w>gut</w><w>furheß</w><lb n="N018"/><w>Item</w><w>nym</w><w>kalb<g ref="#snorm">-s-</g></w><w>fley<g ref="#slong">|s|</g>ch</w><w>vnd</w><w>hack</w><w><g ref="#slong">|s|</g>peck</w><lb n="N019"/><w>dar</w><w>vnder</w><w>vnd</w><w>thue</w><w>gewurtz</w><w>vnd</w><w><g ref="#slong">|s|</g>affran</w><lb n="N020"/><w>daran</w><w>vnd</w><w>ayer</w><w>vnd</w><w>geriben</w><w>prot</w><w>daz</w><w>weyß</w><lb n="N021"/><w><g ref="#slong">|s|</g>ey</w><w>vnd</w><w>mach</w><w>kugel</w><w>dar</w><w>auß</w><w>vnd</w><w><g ref="#slong">|s|</g>eudtz</w><lb n="N022"/><w>in</w><w>hay<g ref="#slong">|s|</g><g ref="#slong">|s|</g>em</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>vnd</w><w>gib<g ref="#snorm">-s-</g></w><w>ze</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>mit</w><w>peteer</w><lb n="N023"/><w><g ref="#slong">|s|</g>il</w><w>pachen</w><w>von</w><w>rogen</w><lb n="N024"/><w>Item</w><w>nym</w><w>vi<g ref="#slong">|s|</g>ch</w><w>rogen</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>den</w><w>in</w><w>einem</w><pb xml:id="M10_146r" n="146r"/><lb n="N001"/><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w>pach</w><w>dar</w><w>auß</w><w>ein</w><w>praytz</w><w>blad</w><lb n="N002"/><w>in</w><w>einer</w><w>pfannen</w><w>vnd</w><w><g ref="#slong">|s|</g>chneyd</w><w>daz</w><w>wurflat</w><lb n="N003"/><w>vnd</w><w>pren</w><w>ein</w><w>mel</w><w>mit</w><w>oll</w><w>in</w><w>einer</w><w>pfann</w><lb n="N004"/><w>daz</w><w>ez</w><w><g ref="#slong">|s|</g>chwartz</w><w>wer</w><w>vnd</w><w>mach</w><w>darauß</w><w>mit</w><lb n="N005"/><w>vi<g ref="#slong">|s|</g>ch</w><w>prue</w><w>ein</w><w>pfeffer</w><w>mit</w><w>wein</w><w>vnd</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><lb n="N006"/><w>vnd</w><w>mit</w><w>gewurtz</w><w>vnd</w><w>laz</w><w>daz</w><w>zw</w><w><g ref="#slong">|s|</g>ammen</w><lb n="N007"/><w>wallen</w><w>vnd</w><w><g ref="#slong">|s|</g>chneyd</w><w>von</w><w>einer</w><w><g ref="#slong">|s|</g>emel</w><w>wurfflat</w><lb n="N008"/><w>forem</w><w>vnd</w><w><g ref="#slong">|s|</g>tra</w><w>daz</w><w>auff</w><w>daz</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>pachen</w><lb n="N009"/><w>Item</w><w>nym</w><w>ein<g ref="#snorm">-s-</g></w><w>kalb<g ref="#snorm">-s-</g></w><w>lungel</w><w>vnd</w><w><g ref="#slong">|s|</g>eudt</w><w>die</w><lb n="N010"/><w>gar</w><w>wol</w><w>vnd</w><w>hack</w><w>die</w><w>darnach</w><w>klain</w><lb n="N011"/><w>vnd</w><w><g ref="#slong">|s|</g>chneyd</w><w><g ref="#slong">|s|</g>peck</w><w>dar</w><w>vnder</w><w>auch</w><w>klain</w><lb n="N012"/><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>ayer</w><w>dar</w><w>ein</w><w>mit</w><w>pfeffer</w><w>vnd</w><lb n="N013"/><w><g ref="#slong">|s|</g>affran</w><w>vnd</w><w>pach</w><w>ein</w><w>dunß</w><w>ayer</w><w>plat</w><w>vnd</w><lb n="N014"/><w>weich</w><w>dar</w><w>ein</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>in</w><w><g ref="#slong">|s|</g>maltz</w><lb n="N015"/><w>Item</w><w>nym</w><w>ge<g ref="#slong">|s|</g>chelten</w><w>mandel</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w>den</w><w>in</w><lb n="N016"/><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w>ob</w><w>du</w><w>wilt</w><w><g ref="#slong">|s|</g>o</w><w>reyb</w><w>ein</w><lb n="N017"/><w>wenig</w><w>weyß</w><w>protz</w><w>darvnder</w><w>vnd</w><w>mach<g ref="#snorm">-s-</g></w><lb n="N018"/><w><g ref="#slong">|s|</g>inbel</w><w>in</w><w>ein</w><w>pfannen</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>die</w><w>warmen</w><lb n="N019"/><w>toter</w><w>dar</w><w>ein</w><w>vnd</w><w>wan</w><w>du</w><w>wilt</w><w>an</w><w>richten</w><lb n="N020"/><w><g ref="#slong">|s|</g>o</w><w>gewß</w><w>hayß</w><w><g ref="#slong">|s|</g>chmaltz</w><w>dar</w><w>auff</w><w>vnd</w><w><g ref="#slong">|s|</g>eych</w><lb n="N021"/><w>daz</w><w>darnach</w><w>wider</w><w>ab</w><w>vnd</w><w>gib<g ref="#snorm">-s-</g></w><w>al<g ref="#slong">|s|</g>o</w><w>ze</w><lb n="N022"/><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>enn</w><lb n="N023"/><w>Item</w><w>wildu</w><w>fley<g ref="#slong">|s|</g>ch</w><w><g ref="#slong">|s|</g>icher</w><w>ge<g ref="#slong">|s|</g>oten</w><w>haben</w><w><g ref="#slong">|s|</g>o</w><w>leg</w><lb n="N024"/><w>ne<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>in</w><w>daz</w><w>heffen</w><w>vnden</w><w>vnd</w><w>fley<g ref="#slong">|s|</g>ch</w><w>darauff</w><lb n="N025"/><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>eud</w><w>ez</w><w><g ref="#slong">|s|</g>ich</w><pb xml:id="M10_146v" n="146v"/><lb n="N001"/><w>Item</w><w><g ref="#slong">|s|</g>chlach</w><w>ka<g ref="#slong">|s|</g>traun</w><w>fley<g ref="#slong">|s|</g>ch</w><w>zw</w><w><g ref="#slong">|s|</g>tucken</w><w>vnd</w><lb n="N002"/><w>leg<g ref="#snorm">-s-</g></w><w>in</w><w>ein</w><w>hefen</w><w>vnd</w><w>hauß</w><w>wurtz</w><w>darzw</w><lb n="N003"/><w>vnd</w><w>laß</w><w>al<g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>ieden</w><w><g ref="#slong">|s|</g>o</w><w>peleypt</w><w>al<g ref="#slong">|s|</g>o</w><w>gantz</w><lb n="N004"/><w>Item</w><w>wildu</w><w>ayer</w><w>an</w><w>fewer</w><w><g ref="#slong">|s|</g>ieden</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><lb n="N005"/><w>vngele<g ref="#slong">|s|</g>chten</w><w>kalch</w><w>vnd</w><w>zermall</w><w>den</w><w>klain</w><lb n="N006"/><w>vnd</w><w>leg</w><w>in</w><w>in</w><w>ein</w><w>hefen</w><w>vnd</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>vnd</w><lb n="N007"/><w>ayer</w><w>dar</w><w>ein</w><w><g ref="#slong">|s|</g>o</w><w>werden</w><w><g ref="#slong">|s|</g>y</w><w>hert</w><w>oder</w><lb n="N008"/><w>waich</w><w>wie</w><w>man</w><w>wil</w><lb n="N009"/><w>Item</w><w>wildu</w><w>machen</w><w>von</w><w>reyß</w><w>ein</w><w>gutz</w><w>pachen</w><lb n="N010"/><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>ewdt</w><w>den</w><w>in</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>doch</w><w>nicht</w><w>ze</w><w>va<g ref="#slong">|s|</g>t</w><lb n="N011"/><w>dar</w><w>nach</w><w><g ref="#slong">|s|</g>eych</w><w>daz</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>ab</w><w>vnd</w><w>thue</w><lb n="N012"/><w>den</w><w>reyß</w><w>vnd</w><w>einen</w><w>reyb</w><w><g ref="#slong">|s|</g>cherben</w><w>vnd</w><lb n="N013"/><w>reyb</w><w>in</w><w>klain</w><w>vnd</w><w>ruer</w><w>ayer</w><w>dar</w><w>vnder</w><lb n="N014"/><w>nicht</w><w>ze</w><w>dunn</w><w>vnd</w><w>mach<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>y</w><w>durch</w><w>die</w><lb n="N015"/><w>hant</w><w>in</w><w>ein</w><w>pfan</w><w>In</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vn</w><w>al<g ref="#snorm">-s-</g></w><w>praten</w><lb n="N016"/><w>kuechel</w><w>vnd</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>y</w><w>pachen</w><w><g ref="#slong">|s|</g>indt</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>aa</w><w>czucker</w><lb n="N017"/><w>dar</w><w>auff</w><w>vnd</w><w>ver<g ref="#slong">|s|</g>altz</w><w>nicht</w><lb n="N018"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>gemueß</w><w>von</w><w>ayer</w><lb n="N019"/><w>toter</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><w>dar</w><w>zw</w><w>guten</w><w>wein</w><w>vnd</w><w>ein</w><lb n="N020"/><w>wenig</w><w>geriben</w><w><g ref="#slong">|s|</g>emel</w><w>vnd</w><w><g ref="#slong">|s|</g>treych</w><w>daz</w><w>mit</w><lb n="N021"/><w>ein</w><w>ander</w><w>durch</w><w>ein</w><w>thuech</w><w>vnd</w><w>thue</w><lb n="N022"/><w>dar</w><w>ein</w><w>zucker</w><w>oder</w><w>honick</w><w>vnd</w><w>thue</w><w>daz</w><lb n="N023"/><w>in</w><w>ein</w><w>hefen</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>en</w><w>auff</w><w>ein</w><w>glut</w><w>vnd</w><w>ruer</w><lb n="N024"/><w>ez</w><w>vntz</w><w>ez</w><w>dick</w><w>wirt</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><w>en</w><w><g ref="#slong">|s|</g>under</w><lb n="N025"/><w>vnd</w><w>ver<g ref="#slong">|s|</g>altz</w><w>nicht</w><pb xml:id="M10_147r" n="147r"/><lb n="N001"/><w>Item</w><w>wildu</w><w>machen</w><w>gefult</w><w>piren</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>chneyd</w><w><g ref="#slong">|s|</g>y</w><lb n="N002"/><w>al<g ref="#slong">|s|</g>o</w><w>daz</w><w>vnden</w><w>ein</w><w>prayt</w><w>peleyb</w><w>vnd</w><w>der</w><w>keren</w><lb n="N003"/><w><g ref="#slong">|s|</g>tock</w><w>davon</w><w>vnd</w><w>hack</w><w>daz</w><w>ab</w><w>ge<g ref="#slong">|s|</g>chniten</w><w>klain</w><lb n="N004"/><w>vnd</w><w>thue</w><w>honigk</w><w>dar</w><w>vnder</w><w>vnd</w><w>gewurtz</w><lb n="N005"/><w>vnd</w><w><g ref="#slong">|s|</g>affran</w><w>vnd</w><w>mach</w><w>daz</w><w>wider</w><w>vmb</w><w>den</w><lb n="N006"/><w>keren</w><w><g ref="#slong">|s|</g>tock</w><w>gleaeych</w><w>geleych</w><w>einer</w><w>pieren</w><w>vnd</w><lb n="N007"/><w>tauch<g ref="#snorm">-s-</g></w><w>in</w><w>einen</w><w>taych</w><w>von</w><w>ayeren</w><w>vnd</w><w>mel</w><lb n="N008"/><w>vnd</w><w>leg<g ref="#snorm">-s-</g></w><w>in</w><w>ein</w><w>hayß</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vnd</w><w>laß</w><w>darin</w><lb n="N009"/><w>pachen</w><w>der</w><w>mach</w><w>al<g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>o</w><w>vil</w><w>du</w><w>wilt</w><lb n="N010"/><w>Item</w><w>dez</w><w>geleychen</w><w>mach</w><w>von</w><w>beren</w><w>ein</w><w>ful</w><w>mit</w><lb n="N011"/><w>honigk</w><w>vnd</w><w>gewurtz</w><w>vnd</w><w>kniet</w><w>ein</w><w>tayg</w><w>von</w><lb n="N012"/><w>ayeren</w><w>vnd</w><w>mel</w><w>vnd</w><w>mach</w><w>zeltel</w><w>darawß</w><lb n="N013"/><w>vnd</w><w>verpindt</w><w>die</w><w>full</w><w>darin</w><w>alz</w><w>krapffen</w><lb n="N014"/><w><g ref="#slong">|s|</g>ein</w><w><g ref="#slong">|s|</g>ullen</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>in</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N015"/><w>Item</w><w>halbe</w><w>gefulte</w><w>ayer</w><w><g ref="#slong">|s|</g>ewdt</w><w>die</w><w>ayer</w><w>gar</w><w>hert</w><lb n="N016"/><w>vnd</w><w><g ref="#slong">|s|</g>chneydt</w><w><g ref="#slong">|s|</g>y</w><w>darnach</w><w>nach</w><w>leng<g ref="#snorm">-s-</g></w><w>von</w><lb n="N017"/><w>ein</w><w>ander</w><w>vnd</w><w>nym</w><w>den</w><w>toter</w><w>darauß</w><w>vnd</w><lb n="N018"/><w>hack</w><w>in</w><w>klain</w><w>vnd</w><w>gilb<g ref="#snorm">-s-</g></w><w>daz</w><w>vnd</w><w>hack</w><w>peter<g ref="#slong">|s|</g>il</w><lb n="N019"/><w>dar</w><w>vnder</w><w>ab</w><w>du</w><w>den</w><w>gehaben</w><w>mug<g ref="#slong">|s|</g>t</w><w>vnd</w><w>thue</w><lb n="N020"/><w>daz</w><w>wider</w><w>an</w><w>daz</w><w>toter<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>tat</w><w>in</w><w>die</w><w>halben</w><lb n="N021"/><w>wey<g ref="#slong">|s|</g><g ref="#slong">|s|</g>e</w><w>ayer</w><w>vnd</w><w>leg<g ref="#snorm">-s-</g></w><w>al<g ref="#slong">|s|</g>o</w><w>in</w><w>hayß</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N022"/><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>dar</w><w>vnder</w><lb n="N023"/><w>Item</w><w>wildu</w><w>machen</w><w>gantze</w><w>gefulte</w><w>ayer</w><pb xml:id="M10_147v" n="147v"/><lb n="N001"/><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>ewdt</w><w>die</w><w>ayer</w><w>len</w><w>darnach</w><w><g ref="#slong">|s|</g>chlag<g ref="#snorm">-s-</g></w><lb n="N002"/><w>an</w><w>einen</w><w>ort</w><w>auff</w><w>vnd</w><w>thue</w><w>daz</w><w>Inder</w><lb n="N003"/><w>dauon</w><w>dar</w><w>auß</w><w>vnd</w><w>ra<g ref="#slong">|s|</g>tz</w><w>in</w><w>einer</w><w>pfannen</w><lb n="N004"/><w>mit</w><w>einem</w><w>wenigen</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vnd</w><w>ruer<g ref="#snorm">-s-</g></w><lb n="N005"/><w>mit</w><w>einem</w><w>loffel</w><w>hin</w><w>vnd</w><w>her</w><w>daz</w><lb n="N006"/><w>ez</w><w>nicht</w><w>an</w><w>prin</w><w>vnd</w><w>doch</w><w>hert</w><w>wer</w><lb n="N007"/><w>darnach</w><w>thue</w><w>ez</w><w>wider</w><w>in</w><w>die</w><w>ayer</w><lb n="N008"/><w>gucken</w><w>vnd</w><w><g ref="#slong">|s|</g>ewdt</w><w><g ref="#slong">|s|</g>y</w><w>in</w><w>hay<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w><g ref="#slong">|s|</g>chmaltz</w><lb n="N009"/><w>daz</w><w><g ref="#slong">|s|</g>y</w><w>hert</w><w>werden</w><w>darnach</w><w><g ref="#slong">|s|</g>chel</w><lb n="N010"/><w><g ref="#slong">|s|</g>y</w><w>vnd</w><w>gib<g ref="#snorm">-s-</g></w><w>in</w><w><g ref="#slong">|s|</g>chwartzen</w><w>pfeffer</w><lb n="N011"/><w>Item</w><w>wildu</w><w>kraphen</w><w>ader</w><w>chuechel</w><lb n="N012"/><w>machen</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><w>geriben</w><w>kaß</w><w>vnd</w><lb n="N013"/><w>ein</w><w>wenig</w><w>mel</w><w>vnd</w><w>mach</w><w>daz</w><lb n="N014"/><w>mit</w><w>ayeren</w><w>an</w><w>vnd</w><w>thue</w><w>ez</w><w>mit</w><w>einem</w><lb n="N015"/><w>loffel</w><w>klain</w><w>vnd</w><w>groß</w><w>In</w><w>ein</w><w>pfannen</w><lb n="N016"/><w>mit</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vnd</w><w>pach<g ref="#snorm">-s-</g></w><w>dar</w><w>in</w><lb n="N017"/><w>vnd</w><w>gilb</w><w>den</w><w>taig</w><w>vor</w><w>Wildu</w><lb n="N018"/><w>ein</w><w>prue</w><w>dar</w><w>auff</w><w>machen</w><w><g ref="#slong">|s|</g>o</w><w>mach</w><lb n="N019"/><w>nym</w><w>ayer</w><w>toter</w><w>vnd</w><w>milch</w><w>vnd</w><lb n="N020"/><w>ruer</w><w>daz</w><w>wol</w><w>durch</w><w>ein</w><w>ander</w><w>vnd</w><lb n="N021"/><w><g ref="#slong">|s|</g>ewdt</w><w>ez</w><w><g ref="#slong">|s|</g>o</w><w>du</w><w>wild</w><w>an</w><w>richten</w><lb n="N022"/><w>Item</w><w>wildu</w><w>machen</w><w>gefult</w><w>kraphen</w><lb n="N023"/><w>mit</w><w>apfelen</w><pb xml:id="M10_148r" n="148r"/><lb n="N001"/><w>Item</w><w>wer</w><w>wil</w><w>machen</w><w>eine</w><w>guete</w><w>galrei</w><lb n="N002"/><w>von</w><w>vi<g ref="#slong">|s|</g>chen</w><w>der</w><w>nem</w><w>die</w><w>vi<g ref="#slong">|s|</g>ch</w><w><g ref="#slong">|s|</g>chueppen</w><lb n="N003"/><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w><g ref="#slong">|s|</g>y</w><w>in</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><lb n="N004"/><w><g ref="#slong">|s|</g>y</w><w>durch</w><w>ein</w><w>thuech</w><w>vnd</w><w><g ref="#slong">|s|</g>eudt</w><w><g ref="#slong">|s|</g>y</w><w>mit</w><lb n="N005"/><w>den</w><w>vi<g ref="#slong">|s|</g>chen</w><w>ha<g ref="#slong">|s|</g>tu</w><w>aber</w><w>hau<g ref="#slong">|s|</g>en</w><w>plateren</w><w>daz</w><lb n="N006"/><w>i<g ref="#slong">|s|</g>t</w><w>auch</w><w>gut</w><w>dar</w><w>nach</w><w>nym</w><w>ge<g ref="#slong">|s|</g>to<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>nagel</w><lb n="N007"/><w>lein</w><w>vnd</w><w>thue</w><w>dar</w><w>nach</w><w>dar</w><w>zw</w><w>mandel</w><lb n="N008"/><w>keren</w><w>vnd</w><w>czucker</w><w>dar</w><w>ein</w><lb n="N009"/><w>Item</w><w>wer</w><w>wil</w><w>machen</w><w>ein</w><w>gute</w><w>galrayd</w><lb n="N010"/><w>der</w><w>nem</w><w>huner</w><w>vnd</w><w><g ref="#slong">|s|</g>wein</w><w>pain</w><w>vnd</w><lb n="N011"/><w>kalb<g ref="#snorm">-s-</g></w><w>fueß</w><w>vnd</w><w>laß</w><w>die</w><w>klain</w><w><g ref="#slong">|s|</g>ieden</w><lb n="N012"/><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>die</w><w>kalb</w><w>fueß</w><w>durch</w><w>ein</w><lb n="N013"/><w>thuech</w><lb n="N014"/><w>Item</w><w>wer</w><w>wil</w><w>praten</w><w>ein</w><w>guten</w><w>all</w><w>der</w><lb n="N015"/><w><g ref="#slong">|s|</g>chneyd</w><w>In</w><w>zw</w><w><g ref="#slong">|s|</g>tucken</w><w>vnd</w><w><g ref="#slong">|s|</g>altz</w><w>In</w><w>vnd</w><lb n="N016"/><w><g ref="#slong">|s|</g>toß</w><w>In</w><w>an</w><w>ein</w><w>klain<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>pi<g ref="#slong">|s|</g><g ref="#slong">|s|</g>len</w><w>vnd</w><w>be</w><lb n="N017"/><w>trauf</w><w>in</w><w>mit</w><w>puteren</w><w>vnd</w><w>mit</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><lb n="N018"/><w>vnd</w><w>wein</w><w>vnder</w><w>ein</w><w>ander</w><lb n="N019"/><w>Item</w><w>wer</w><w>ein</w><w>gut</w><w>gemueß</w><w>wel</w><w>machen</w><lb n="N020"/><w>von</w><w>lungel</w><w>der</w><w>nem</w><w>die</w><w>lungel</w><w>vnd</w><pb xml:id="M10_148v" n="148v"/><lb n="N001"/><w>reyb</w><w>dar</w><w>vnter</w><w>ein</w><w>pro<g ref="#slong">|s|</g>en</w><w>vnd</w><w>mach</w><w>ez</w><lb n="N002"/><w>darnach</w><w>ab</w><w>mit</w><w>gewurtz</w><lb n="N003"/><w>Item</w><w>wer</w><w>wel</w><w>ein</w><w>gut</w><w>gepraten</w><w><g ref="#slong">|s|</g>pan</w><w>vackel</w><lb n="N004"/><w>machen</w><w>der</w><w><g ref="#slong">|s|</g>eudt</w><w>vier</w><w>ayer</w><w>vnd</w><w>hack</w><lb n="N005"/><w>die</w><w>klain</w><w>vnd</w><w>thue</w><w>czwifel</w><w>darvnter</w><lb n="N006"/><w>vnd</w><w>puluer</w><w>daz</w><w>wol</w><w>mit</w><w>ymber</w><lb n="N007"/><w>Item</w><w>wer</w><w>wel</w><w>machen</w><w>ein</w><w>gute</w><w>leber</w><w><g ref="#slong">|s|</g>ultz</w><lb n="N008"/><w>von</w><w>einem</w><w>Iungen</w><w><g ref="#slong">|s|</g>wein</w><w>der</w><w>nem</w><w>die</w><lb n="N009"/><w>leber</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><w><g ref="#slong">|s|</g>y</w><w>in</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w><g ref="#slong">|s|</g>tain</w><lb n="N010"/><w>vnd</w><w><g ref="#slong">|s|</g>ewdt</w><w>ayer</w><w>dar</w><w>zw</w><w><g ref="#slong">|s|</g>ech<g ref="#snorm">-s-</g></w><w>oder</w><w>achte</w><lb n="N011"/><w>hert</w><w>vnd</w><w>dar</w><w>zw</w><w><g ref="#slong">|s|</g>emel</w><w>proß</w><w>vnd</w><w><g ref="#slong">|s|</g>toß</w><lb n="N012"/><w>daz</w><w>durch</w><w>ein</w><w>ander</w><w>In</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><lb n="N013"/><w><g ref="#slong">|s|</g>tain</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>daz</w><w>durch</w><w>mit</w><w>ge<g ref="#slong">|s|</g>oten</w><lb n="N014"/><w>wein</w><w>oder</w><w>guten</w><w><g ref="#slong">|s|</g>aweren</w><w>wein</w><w>vnd</w><w>gilb</w><lb n="N015"/><w>daz</w><w>mit</w><w><g ref="#slong">|s|</g>affran</w><w>vnd</w><w><g ref="#slong">|s|</g>tell</w><w>ez</w><w>wol</w><w>mit</w><lb n="N016"/><w>anderem</w><w>gewurtz</w><lb n="N017"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>gute</w><w><g ref="#slong">|s|</g>al<g ref="#slong">|s|</g>en</w><w>In</w><w>dem</w><lb n="N018"/><w>may</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><w>peter<g ref="#slong">|s|</g>il</w><w>vnd</w><w>pfeffer</w><w>kraut</w><w>vnd</w><lb n="N019"/><w>mangold</w><w>pleter</w><w>al<g ref="#snorm">-s-</g></w><w>vil</w><w>du</w><w>wilt</w><w>vnd</w><w>hack</w><lb n="N020"/><w>daz</w><w>klain</w><w>durch</w><w>ein</w><w>ander</w><w>dez</w><w>morgen<g ref="#snorm">-s-</g></w><lb n="N021"/><w>gar</w><w>frue</w><w><g ref="#slong">|s|</g>o</w><w>vach</w><w>daz</w><w>taw</w><w>In</w><w>ein</w><w>weyß</w><pb xml:id="M10_149r" n="149r"/><lb n="N001"/><w>thuech</w><w>vnd</w><w>leg</w><w>daz</w><w>kraut</w><w>dar</w><w>ein</w><lb n="N002"/><w>vnd</w><w>thue</w><w>e<g ref="#snorm">-s-</g></w><w>in</w><w>ein</w><w>molter</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><lb n="N003"/><w>ez</w><w>an</w><w>die</w><w><g ref="#slong">|s|</g>unnen</w><w><g ref="#slong">|s|</g>o</w><w>verleu<g ref="#slong">|s|</g>t</w><w>ez</w><w>den</w><lb n="N004"/><w>taw</w><w>vnd</w><w>laß</w><w>ez</w><w>trucken</w><w>werden</w><w>alz</w><lb n="N005"/><w>ein</w><w><g ref="#slong">|s|</g>tupp</w><w>vnd</w><w>mach</w><w>ez</w><w>in</w><w>bla<g ref="#slong">|s|</g>en</w><w>vnd</w><lb n="N006"/><w>wen</w><w>du</w><w>wilt</w><w>in</w><w>dem</w><w>Iar</w><w><g ref="#slong">|s|</g>o</w><w>netz</w><w>ab</w><lb n="N007"/><w>mit</w><w>wein</w><w>oder</w><w>mit</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><lb n="N008"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w><g ref="#slong">|s|</g>al<g ref="#slong">|s|</g>en</w><w>von</w><w>wein</w><w>trauben</w><lb n="N009"/><w>vnd</w><w>von</w><w><g ref="#slong">|s|</g>aweren</w><w>apfelen</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>toß</w><w>daz</w><lb n="N010"/><w>ze</w><w><g ref="#slong">|s|</g>ammen</w><w>vnd</w><w>mi<g ref="#slong">|s|</g>ch</w><w>ez</w><w>mit</w><w>wein</w><w>oder</w><lb n="N011"/><w>mit</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>vnd</w><w>thue</w><w>den</w><w><g ref="#slong">|s|</g>afft</w><w>dar</w><w>auß</w><lb n="N012"/><w>die</w><w><g ref="#slong">|s|</g>al<g ref="#slong">|s|</g>en</w><w>i<g ref="#slong">|s|</g>t</w><w>gut</w><w>zw</w><w><g ref="#slong">|s|</g>afftigen</w><w>praten</w><w>vnd</w><lb n="N013"/><w>zw</w><w>vi<g ref="#slong">|s|</g>chen</w><lb n="N014"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>gut</w><w>latwaring</w><lb n="N015"/><w>von</w><w>weych<g ref="#slong">|s|</g>eln</w><w><g ref="#slong">|s|</g>o</w><w>thue</w><w><g ref="#slong">|s|</g>y</w><w>in</w><w>ein</w><w>hafen</w><lb n="N016"/><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>In</w><w>auff</w><w>ein</w><w>glut</w><w>vnd</w><w>gewß</w><lb n="N017"/><w>nichtz</w><w>dar</w><w>an</w><w>wen</w><w>ez</w><w><g ref="#slong">|s|</g>ieden</w><w>wirt</w><w><g ref="#slong">|s|</g>o</w><lb n="N018"/><w>la</w><w>ez</w><w>kalt</w><w>werden</w><w>vnd</w><w><g ref="#slong">|s|</g>treych</w><w>ez</w><w>durch</w><lb n="N019"/><w>ein</w><w>thuech</w><w>vnd</w><w>thue</w><w>ez</w><w>in</w><w>einen</w><w>ke<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><lb n="N020"/><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>in</w><w>auff</w><w>einen</w><w>drifueß</w><w>vnd</w><w>thue</w><lb n="N021"/><w>ein</w><w>glut</w><w>dar</w><w>vnter</w><w>vnd</w><w>la</w><w>ez</w><w><g ref="#slong">|s|</g>ieden</w><lb n="N022"/><w>piß</w><w>ez</w><w>dick</w><w>wirt</w><w>vnd</w><w>d</w><w>thue</w><w>dan</w><w>dar</w><lb n="N023"/><w>ein</w><w>honig</w><w>vnd</w><w>geriben</w><w>leczelten</w><w>vnd</w><pb xml:id="M10_149v" n="149v"/><lb n="N001"/><w>gewurtz</w><w>ez</w><w>wol</w><w>vnd</w><w>ruer</w><w>ez</w><w>fur<g ref="#slong">|s|</g>tar</w><w>vnd</w><lb n="N002"/><w>wan</w><w>du</w><w>ez</w><w>nicht</w><w>gerueren</w><w>mag<g ref="#slong">|s|</g>t</w><w><g ref="#slong">|s|</g>o</w><w>hat</w><lb n="N003"/><w>e<g ref="#snorm">-s-</g></w><w>genug</w><lb n="N004"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>gute</w><w>latwaring</w><w>von</w><lb n="N005"/><w>weinperen</w><w><g ref="#slong">|s|</g>o</w><w>prich</w><w>die</w><w>per</w><w>ab</w><w>dem</w><lb n="N006"/><w>kammen</w><w>vnd</w><w><g ref="#slong">|s|</g>y</w><w>in</w><w>ein</w><w>ke<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>auff</w><lb n="N007"/><w>ein</w><w>drifueß</w><w>vnd</w><w>thue</w><w>ein</w><w>glut</w><w>dar</w><w>vnder</w><lb n="N008"/><w>vnd</w><w>gewß</w><w>nichtz</w><w>dar</w><w>an</w><w>vnd</w><w>wen</w><w>ez</w><lb n="N009"/><w><g ref="#slong">|s|</g>yeden</w><w>wirt</w><w><g ref="#slong">|s|</g>o</w><w>laß</w><w>ez</w><w>dan</w><w>erkalten</w><w>vnd</w><lb n="N010"/><w><g ref="#slong">|s|</g>treych</w><w><g ref="#slong">|s|</g>y</w><w>durch</w><w>ein</w><w>thuech</w><w>vnd</w><w>thue</w><w>ez</w><lb n="N011"/><w>wider</w><w>in</w><w>den</w><w>ke<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>wider</w><w>auff</w><lb n="N012"/><w>ein</w><w>drifueß</w><w>vnd</w><w>la</w><w>ez</w><w>wol</w><w><g ref="#slong">|s|</g>ieden</w><w>vnd</w><lb n="N013"/><w>wurtz</w><w>ez</w><w>wol</w><w>ab</w><w>mit</w><w>gutem</w><w>gewurtz</w><lb n="N014"/><w>vnd</w><w>gewß</w><w><g ref="#slong">|s|</g>y</w><w>dan</w><w>auff</w><w>ein</w><w>pret</w><w>vnd</w><w>la</w><lb n="N015"/><w><g ref="#slong">|s|</g>y</w><w>kalten</w><w>vj</w><w>tag</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>chneydtz</w><w>du</w><w><g ref="#slong">|s|</g>y</w><w>wie</w><lb n="N016"/><w>du</w><w>wilt</w><lb n="N017"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>gemacht</w><w>kraut</w><w><g ref="#slong">|s|</g>o</w><lb n="N018"/><w><g ref="#slong">|s|</g>eudt</w><w>wey<g ref="#slong">|s|</g><g ref="#slong">|s|</g>e</w><w>haupper</w><w>vnd</w><w>czway</w><w>tayl</w><lb n="N019"/><w><g ref="#slong">|s|</g>eniff</w><w>vnd</w><w>drew</w><w>tayl</w><w>honigk</w><w>vnd</w><w>die</w><lb n="N020"/><w><g ref="#slong">|s|</g>elben</w><w>prue</w><w>mach</w><w>durch</w><w>ein</w><w>ander</w><w>mit</w><lb n="N021"/><w>wein</w><w>vnd</w><w>thue</w><w>dar</w><w>ein</w><w>kum</w><w>vnd</w><w>aniß</w><lb n="N022"/><w>dez</w><w>genueg</w><w><g ref="#slong">|s|</g>ein</w><w>vnd</w><w>leg</w><w>dann</w><w>daz</w><w>ge<g ref="#slong">|s|</g>oten</w><lb n="N023"/><w>kraut</w><w>dar</w><w>ein</w><w>vnd</w><w>gib</w><w>ez</w><w>kalt</w><w>ze</w><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N024"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>pachen<g ref="#snorm">-s-</g></w><w>von</w><w>einem</w><lb n="N025"/><w>apphel</w><w>von</w><w>vierlay</w><w>varb</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><w>ein</w><w>ge</w><lb n="N026"/><w>ruerte</w><w>ayer</w><w>von</w><w>vierlay</w><w>varben</w><w>vnd</w><w><g ref="#slong">|s|</g>chneid</w><pb xml:id="M10_150r" n="150r"/><lb n="N001"/><w>einen</w><w>apphel</w><w>ein</w><w>vier</w><w>tayl</w><w>vnd</w><w>nym</w><w>auß</w><lb n="N002"/><w>yedem</w><w>tayl</w><w>den</w><w>keren</w><w>vnd</w><w>die</w><w><g ref="#slong">|s|</g>chelf</w><lb n="N003"/><w>die</w><w>vmb</w><w>die</w><w>den</w><w>keren</w><w>i<g ref="#slong">|s|</g>t</w><w>vnd</w><w>full</w><lb n="N004"/><w>dar</w><w>ein</w><w>yetweder</w><w>varb</w><w>aine</w><w>vnd</w><w><g ref="#slong">|s|</g>teck</w><lb n="N005"/><w><g ref="#slong">|s|</g>y</w><w>dan</w><w>an</w><w><g ref="#slong">|s|</g>pi<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w>vnd</w><w>zewch</w><w><g ref="#slong">|s|</g>y</w><w>durch</w><lb n="N006"/><w>ein</w><w>dunnen</w><w><g ref="#slong">|s|</g>trauben</w><w>taig</w><w>vnd</w><w>wen</w><lb n="N007"/><w>ez</w><w>gepach</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>chneyd</w><w>ez</w><w>auff</w><w>vnd</w><w>be</w><lb n="N008"/><w><g ref="#slong">|s|</g>treych</w><w>ez</w><w>mit</w><w>czucker</w><lb n="N009"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>krichel</w><w>mueß</w><w>krew<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N010"/><w>von</w><w>kreb<g ref="#slong">|s|</g>en</w><w><g ref="#slong">|s|</g>o</w><w><g ref="#slong">|s|</g>chel</w><w>die</w><w>krep<g ref="#slong">|s|</g>en</w><w><g ref="#slong">|s|</g>chon</w><lb n="N011"/><w>vnd</w><w>nym</w><w>die</w><w>helß</w><w>vnd</w><w>die</w><w><g ref="#slong">|s|</g>char</w><w>vnd</w><lb n="N012"/><w>leg</w><w>die</w><w>be<g ref="#slong">|s|</g>under</w><w>dar</w><w>nach</w><w><g ref="#slong">|s|</g>toß</w><lb n="N013"/><w>die</w><w><g ref="#slong">|s|</g>chellen</w><w>gar</w><w>klain</w><w>vnd</w><w><g ref="#slong">|s|</g>chon</w><w>vnd</w><lb n="N014"/><w><g ref="#slong">|s|</g>treych</w><w><g ref="#slong">|s|</g>y</w><w>durch</w><w>ein</w><w>thuech</w><w>mit</w><w>einer</w><lb n="N015"/><w>geriben</w><w><g ref="#slong">|s|</g>emel</w><w>vnd</w><w>mit</w><w>einem</w><w>wenigen</w><lb n="N016"/><w>e<g ref="#slong">|s|</g><g ref="#slong">|s|</g>ich</w><w>vnd</w><w>well</w><w>ez</w><w>ab</w><w>mit</w><w>einem</w><w>leczelten</w><lb n="N017"/><w>daz</w><w>ez</w><w>dick</w><w>wer</w><w>vnd</w><w>wurtz</w><w>ez</w><w>wol</w><lb n="N018"/><w>vnd</w><w>la</w><w>ez</w><w>pey</w><w><g ref="#slong">|s|</g>einer</w><w>varb</w><w>vnd</w><w>leg</w><lb n="N019"/><w>dan</w><w>die</w><w><g ref="#slong">|s|</g>char</w><w>vnd</w><w>die</w><w>helß</w><w>dar</w><w>ein</w><lb n="N020"/><w>vnd</w><w>la</w><w><g ref="#slong">|s|</g>y</w><w>recken</w><w>oben</w><w>auß</w><w>der</w><w>prue</w><lb n="N021"/><w>vnd</w><w>ver<g ref="#slong">|s|</g>altz</w><w>nicht</w><lb n="N022"/><w>Item</w><w>wildu</w><w>machen</w><w>ein</w><w>guten</w><w>Meych<g ref="#slong">|s|</g>i<g ref="#slong">|s|</g>chen</w><lb n="N023"/><w>kuechen</w><w>zw</w><w>einer</w><w>herren</w><w><g ref="#slong">|s|</g>chu<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><w><g ref="#slong">|s|</g>o</w><w>nym</w><lb n="N024"/><w>auff</w><w>zehen</w><w>ayer</w><w>vnd</w><w>zer<g ref="#slong">|s|</g>chlach</w><w><g ref="#slong">|s|</g>y</w><w>gar</w><lb n="N025"/><w>wol</w><w>vnd</w><w>nym</w><w>dar</w><w>peter<g ref="#slong">|s|</g>il</w><w>vnd</w><w>ruer</w><w>ez</w><pb xml:id="M10_150v" n="150v"/><lb n="N001"/><w>vnder</w><w>ein</w><w>ander</w><w>vnd</w><w>nym</w><w>einen</w><w>mor<g ref="#slong">|s|</g>er</w><lb n="N002"/><w>vnd</w><w><g ref="#slong">|s|</g>etz</w><w>In</w><w>auff</w><w>ein</w><w>glut</w><w>vnd</w><w>thue</w><w>dar</w><lb n="N003"/><w>ein</w><w>ein</w><w>wenig</w><w><g ref="#slong">|s|</g>chmaltz</w><w>vnd</w><w>gewß</w><w>dan</w><w>die</w><lb n="N004"/><w>ge<g ref="#slong">|s|</g>chlagen</w><w>ayer</w><w>dar</w><w>ein</w><w>vnd</w><w>laß</w><w>al<g ref="#slong">|s|</g>o</w><lb n="N005"/><w><g ref="#slong">|s|</g>ieden</w><w>vnd</w><w>ker</w><w>In</w><w>dan</w><w>vmb</w><w>vnd</w><w>thw</w><w>ein</w><w>we=<lb n="N006"/>nig</w><w>geriben</w><w><g ref="#slong">|s|</g>emel</w><w>mel</w><w>dar</w><w>zw</w><lb n="N007"/><w>Item</w><w>ein</w><w>putter</w><w>milch</w><w>mach</w><w>al<g ref="#slong">|s|</g>o</w><w>nymm</w><w>ayr</w><lb n="N008"/><w>al<g ref="#snorm">-s-</g></w><w>vil</w><w>dw</w><w>wild</w><w>vnd</w><w>gew<g ref="#snorm">-s-</g></w><w>ein</w><w>gutew</w><lb n="N009"/><w>milch</w><w>dar</w><w>an</w><w>laß</w><w>ein</w><w>wenig</w><w>zw</w><w><g ref="#slong">|s|</g>amen</w><lb n="N010"/><w><g ref="#slong">|s|</g>yeden</w><w>vnd</w><w>gew<g ref="#snorm">-s-</g></w><w>auf</w><w>den</w><w>tuch</w><w>da<g ref="#snorm">-s-</g></w><w>e<g ref="#snorm">-s-</g></w><lb n="N011"/><w>er<g ref="#slong">|s|</g>eych</w><w>vnd</w><w><g ref="#slong">|s|</g>chneid</w><w>ein</w><w>putter</w><w>dar</w><lb n="N012"/><w>vnder</w><w>vnd</w><w><g ref="#slong">|s|</g>chlach</w><w>dy</w><w>matery</w><w>mit</w><w>ein</w><lb n="N013"/><w>ander</w><w>ader</w><w>tbing<g ref="#snorm">-s-</g></w><w>durch</w><w>ein</w><w>tuch</w><w>vnd</w><lb n="N014"/><w>thw<g ref="#snorm">-s-</g></w><w>al<g ref="#slong">|s|</g>o</w><w>kalt</w><w>auf</w><w>ein</w><w><g ref="#slong">|s|</g>chu<g ref="#slong">|s|</g><g ref="#slong">|s|</g>el</w><lb n="N015"/><w>Item</w><w>den</w><w><g ref="#slong">|s|</g>tockvi<g ref="#slong">|s|</g>ch</w><w>plew</w><w>vnd</w><w>waych</w><w>den</w><w>ein</w><lb n="N016"/><w>wa<g ref="#slong">|s|</g>ch</w><w>den</w><w>vnd</w><w>erklawb</w><w>in</w><w>nymm</w><w>ein</w><w><g ref="#slong">|s|</g>ch=<lb n="N017"/>malcz</w><w>vnd</w><w>ro<g ref="#slong">|s|</g>t</w><w>dy</w><w>zbifal</w><w>dar</w><w>inn</w><w>vnd</w><w>thw</w><lb n="N018"/><w>dy</w><w>prwe</w><w>vnd</w><w>milchram</w><w>an</w><w>den</w><w>vi<g ref="#slong">|s|</g>ch</w><w>vnd</w><lb n="N019"/><w>mit</w><w>ein</w><w>ander</w><w>an</w><w>da<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>chmalcz</w><w>vnd</w><lb n="N020"/><w>laß</w><w>den</w><w><g ref="#snorm">-S-</g>yeden</w><lb n="N021"/><w>Item</w><w>ein</w><w>wein</w><w>muß</w><w>nym</w><w>x</w><w>ayr</w><w>I</w><w>trinken</w><lb n="N022"/><w>wein</w><w>vnd</w><w>pa</w><w>ein</w><w>1/2</w><w><g ref="#slong">|s|</g>emel</w><w>vnd</w><w>zer</w><lb n="N023"/><w>reib<g ref="#snorm">-s-</g></w><w>in</w><w>den</w><w>ayren</w><pb xml:id="M10_151r" n="151r"/><lb n="N001"/><w>Item</w><w>ein</w><w>wein</w><w>muß</w><w>nym</w><w>x</w><w>ayr</w><w>toter</w><w>zer</w><lb n="N002"/><w><g ref="#slong">|s|</g>chlag</w><w>dy</w><w><g ref="#slong">|s|</g>chon</w><w>pae</w><w>ein</w><w>1/2</w><w><g ref="#slong">|s|</g>emel</w><w><g ref="#slong">|s|</g>chab</w><lb n="N003"/><w>dy</w><w><g ref="#slong">|s|</g>awber</w><w>vnd</w><w>zer</w><w>waych</w><w>in</w><w>einen</w><lb n="N004"/><w>trincken</w><w>wein</w><w>vnd</w><w>pich</w><w>prich</w><w>dy</w><w>ma=<lb n="N005"/>tery</w><w>alle</w><w>durch</w><w>ein</w><w>tuch</w><w>thw</w><w>dar</w><lb n="N006"/><w>vnder</w><w>honig</w><w>vnd</w><w>thw</w><w>da<g ref="#snorm">-s-</g></w><w>in</w><w>ein</w><lb n="N007"/><w>gla<g ref="#slong">|s|</g>irten</w><w>tegel</w><w>mit</w><w>erhiczten</w><w><g ref="#slong">|s|</g>chmalz</w><lb n="N008"/><w>gilbt</w><w>vnd</w><w>gewirtzt</w><w>vnd</w><w>laß</w><w><g ref="#slong">|s|</g>yeden</w><lb n="N009"/><w>ob</w><w>einer</w><w>glut</w><w>vnd</w><w>rur<g ref="#snorm">-s-</g></w><w>da<g ref="#snorm">-s-</g></w><w>e<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>ich</w><lb n="N010"/><w>nit</w><w>an</w><w>leg</w><lb n="N011"/><w>Item</w><w>pachen</w><w>krew<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w><g ref="#snorm">-S-</g>ewd</w><w>krew<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><lb n="N012"/><w>vnd</w><w>thw</w><w>da<g ref="#snorm">-s-</g></w><w>vn<g ref="#slong">|s|</g>awber</w><w>dar</w><w>von</w><w>zer</w><lb n="N013"/><w><g ref="#slong">|s|</g>to<g ref="#snorm">-s-</g></w><w>mit</w><w>ein</w><w>ander</w><w>Nym</w><w>x</w><w>ayr</w><w>dar</w><lb n="N014"/><w>vnder</w><w>Milch</w><w>ram</w><w>ein</w><w>wenig</w><w>vnd</w><lb n="N015"/><w><g ref="#slong">|s|</g>chlach</w><w>da<g ref="#snorm">-s-</g></w><w>alle<g ref="#snorm">-s-</g></w><w>durch</w><w>ein</w><w>tuch</w><w>ein</w><lb n="N016"/><w>wenigen</w><w>wein</w><w>vnd</w><w>wa<g ref="#slong">|s|</g><g ref="#slong">|s|</g>er</w><w>Laß</w><w>dar</w><lb n="N017"/><w>nach</w><w><g ref="#slong">|s|</g>yeden</w><w>vnd</w><w>geburcz</w><w>z</w><w>?e</w><w><g ref="#snorm">-S-</g>o</w><lb n="N018"/><w>wirt</w><w>ein</w><w>topfen</w><w>dar</w><w>au<g ref="#snorm">-s-</g></w><w>vnd</w><w>preß</w><lb n="N019"/><w>den</w><w>aw<g ref="#snorm">-s-</g></w><w>Vnd</w><w><g ref="#slong">|s|</g>chneid</w><w>da<g ref="#snorm">-s-</g></w><w>al<g ref="#snorm">-s-</g></w><w>dw</w><lb n="N020"/><w>wild</w><w>vnd</w><w>prich</w><w>da<g ref="#snorm">-s-</g></w><w>in</w><w>einen</w><w>lenen</w><lb n="N021"/><w>taygel</w><w>vnd</w><w>gib</w><w>in</w><w>einen</w><w>guten</w><w>pfeffer</w><lb n="N022"/><w>von</w><w>leczelten</w><w>etc</w><w>.</w><pb xml:id="M10_151v" n="151v"/><lb n="N001"/><w>Item</w><w>einen</w><w>arba<g ref="#snorm">-s-</g></w><w>praten</w><w>Nymm</w><w>gut</w><w>arba<g ref="#snorm">-s-</g></w><w>vnd</w><lb n="N002"/><w>heyt</w><w>dy</w><w>in</w><w>klatgoß</w><w>ge<g ref="#slong">|s|</g>oten</w><w><g ref="#snorm">-S-</g>ewd</w><w><g ref="#slong">|s|</g>y</w><lb n="N003"/><w>dar</w><w>nach</w><w>in</w><w>wa<g ref="#slong">|s|</g><g ref="#snorm">-s-</g>er</w><w>vnd</w><w>wein</w><w>da<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>y</w><lb n="N004"/><w><g ref="#slong">|s|</g>ich</w><w>geren</w><w>treyben</w><w>la<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>vnd</w><w>ver<g ref="#slong">|s|</g>totz</w><lb n="N005"/><w>nit</w><w>zer</w><w>reib<g ref="#snorm">-s-</g></w><w>in</w><w>einem</w><w>mor<g ref="#slong">|s|</g>er</w><w>vnd</w><lb n="N006"/><w>nymm</w><w>x</w><w>ayr</w><w>vnd</w><w>ein</w><w>putter</w><w>al<g ref="#snorm">-s-</g></w><w>ein</w><lb n="N007"/><w>gann<g ref="#snorm">-s-</g></w><w>enten</w><w>aye</w><w>Nymm</w><w>ein</w><w>geriben</w><w><g ref="#slong">|s|</g>emel</w><lb n="N008"/><w>ein</w><w>wenig</w><w>vnd</w><w>dy</w><w>matery</w><w>knyt</w><lb n="N009"/><w>zw</w><w><g ref="#slong">|s|</g>amen</w><w>da<g ref="#snorm">-s-</g></w><w>zach</w><w><g ref="#slong">|s|</g>ey</w><w>E<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>ol</w><w>auch</w><lb n="N010"/><w>ge<g ref="#slong">|s|</g>altzt</w><w>gilbt</w><w>vnd</w><w>geburczt</w><w><g ref="#slong">|s|</g>ein</w><lb n="N011"/><w>vnd</w><w><g ref="#slong">|s|</g>pick</w><w>da<g ref="#snorm">-s-</g></w><w>mit</w><w>haw<g ref="#slong">|s|</g>en</w><w>oder</w><w>mit</w><lb n="N012"/><w>einem</w><w>anderen</w><w>vi<g ref="#slong">|s|</g>ch</w><w>der</w><w>prat</w><w>hat</w><lb n="N013"/><w>vnd</w><w>prat</w><w>da<g ref="#snorm">-s-</g></w><w>wal</w><w>ob</w><w>einer</w><w>glut</w><lb n="N014"/><w>da<g ref="#snorm">-s-</g></w><w>e<g ref="#snorm">-s-</g></w><w>prawn</w><w>wert</w><w>vnd</w><w>au<g ref="#snorm">-s-</g></w><w>zich</w><lb n="N015"/><w>Item</w><w>vber</w><w>dy</w><w>ror</w><w>pachen</w><w>nymm</w><w>ein</w><w><g ref="#slong">|s|</g>trawben</w><lb n="N016"/><w>tayg</w><w>vnd</w><w>myß</w><w>dy</w><w>ror</w><w>recht</w><w>nach</w><w>der</w><lb n="N017"/><w>pfannen</w><w>leg<g ref="#snorm">-s-</g></w><w>in</w><w>da<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>chmal<g ref="#snorm">-s-</g></w><w><g ref="#snorm">-S-</g>o</w><w>gen</w><w><g ref="#slong">|s|</g>y</w><w>geren</w><w>ab</w><w><g ref="#slong">|s|</g>cherff</w><w>an</w><w>den</w><w>orteren</w><w>way</w><w>?</w><lb n="N018"/><w>in</w><w>den</w><w>tayg</w><w>vnd</w><w>leg<g ref="#snorm">-s-</g></w><w>in</w><w>dy</w><w>pfannen</w><lb n="N019"/><w>in</w><w>da<g ref="#snorm">-s-</g></w><w>hey<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>chmalcz</w><w>vnd</w><w>zewch<g ref="#snorm">-s-</g></w><lb n="N020"/><w>hofflich</w><w>ab</w><w>Item</w><w>wil</w><w>dw<g ref="#snorm">-s-</g></w><w>fullen</w><lb n="N021"/><w><g ref="#snorm">-S-</g>o</w><w>nymm</w><w>ayr</w><w>ein</w><w>wenig</w><w>geriben</w><lb n="N022"/><w><g ref="#slong">|s|</g>emel</w><w>oder</w><w>apfel</w><w>gero<g ref="#slong">|s|</g>t</w><w>peter<g ref="#slong">|s|</g>il</w><pb xml:id="M10_152r" n="152r"/><lb n="N001"/><w>Aney<g ref="#snorm">-s-</g></w><w>geburczt</w><w>etc</w><w>.</w><w>Auch</w><w>nymm</w><w>ein</w><lb n="N002"/><w>wenig</w><w>lorberch</w><w>vnd</w><w>wein</w><w>per</w><lb n="N003"/><w>hack</w><w>da<g ref="#snorm">-s-</g></w><w>durch</w><w>ein</w><w>ander</w><w>vnd</w><lb n="N004"/><w>thu<g ref="#snorm">-s-</g></w><w>vnder</w><w>dy</w><w>ayr</w><w>vnd</w><w>dar</w><w>nach</w><lb n="N005"/><w>ein</w><w>wenig</w><w><g ref="#slong">|s|</g>chmalcz</w><w>vnd</w><w>ra<g ref="#slong">|s|</g>t</w><w>da<g ref="#snorm">-s-</g></w><lb n="N006"/><w>durch</w><w>ein</w><w>ander</w><w>vnd</w><w>full</w><w>da<g ref="#snorm">-s-</g></w><w>in</w><lb n="N007"/><w>da<g ref="#snorm">-s-</g></w><w>ror</w><w>kuchen</w><w>vnd</w><w>la<g ref="#snorm">-s-</g></w><w>mit</w><w>einem</w><lb n="N008"/><w>leinen</w><w>tayg</w><w>pachen</w><w>an</w><w>den</w><w>orteren</w><lb n="N009"/><w>in</w><w>dem</w><w><g ref="#slong">|s|</g>chmalcz</w><lb n="N010"/><w>Item</w><w>ein</w><w>Czogen<g ref="#snorm">-s-</g></w><w>pachen</w><w>Item</w><w>nym</w><w>ain</w><w>aye</w><lb n="N011"/><w><g ref="#snorm">-S-</g>alcz</w><w>vnd</w><w>laß</w><w>hay<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>chmalcz</w><w>in</w><w>einer</w><lb n="N012"/><w>pfanen</w><w>vmb</w><w>lawffen</w><w>al<g ref="#snorm">-s-</g></w><w>weytz</w><w>y<g ref="#snorm">-s-</g></w><w>vnd</w><lb n="N013"/><w>gew<g ref="#snorm">-s-</g></w><w>da<g ref="#snorm">-s-</g></w><w>der</w><w><g ref="#slong">|s|</g>chlagen</w><w>aye</w><w>auf</w><w>dy</w><w>pfanen</w><lb n="N014"/><w>vnd</w><w>laß</w><w>vmb</w><w>lauffen</w><w>al<g ref="#snorm">-s-</g></w><w>weyt</w><w>dy</w><w>pfanen</w><lb n="N015"/><w>i<g ref="#slong">|s|</g>t</w><w>vnd</w><w>ker<g ref="#snorm">-s-</g></w><w>au<g ref="#slong">|s|</g><g ref="#slong">|s|</g>en</w><w>auch</w><w>zw</w><w>dem</w><w>fewr</w><lb n="N016"/><w>daß</w><w>e<g ref="#snorm">-s-</g></w><w>prawnn</w><w>wert</w><w>Item</w><w>nymm</w><w>ein</w><w>lein<g ref="#snorm">-s-</g></w><lb n="N017"/><w>taygel</w><w>mit</w><w>iij</w><w>ayeren</w><w>vnd</w><w>zer<g ref="#slong">|s|</g>chneid</w><lb n="N018"/><w>da<g ref="#snorm">-s-</g></w><w>plat</w><w>Al<g ref="#snorm">-s-</g></w><w>dw<g ref="#snorm">-s-</g></w><w>haben</w><w>wild</w><w>vnd</w><lb n="N019"/><w>necz</w><w>in</w><w>dem</w><w>taygel</w><w>zw</w><w>ainczigen</w><w>vnd</w><lb n="N020"/><w>pach<g ref="#snorm">-s-</g></w><w>in</w><w>einem</w><w><g ref="#slong">|s|</g>chmalcz</w><pb xml:id="M10_152v" n="152v"/><lb n="N001"/><w>Item</w><w>mach</w><w>ein</w><w>groß</w><w>aye</w><w>Nymm</w><w>xx</w><w>oder</w><w>xxx</w><lb n="N002"/><w>ayr</w><w><g ref="#slong">|s|</g>chayd</w><w>da<g ref="#snorm">-s-</g></w><w>wey<g ref="#snorm">-s-</g></w><w>vnd</w><w>da<g ref="#snorm">-s-</g></w><w>rot</w><w>dar</w><lb n="N003"/><w>von</w><w>vnd</w><w>mach</w><w>den</w><w>toter</w><w>mit</w><w>geburczt</w><lb n="N004"/><w><g ref="#slong">|s|</g>ewde</w><w>in</w><w>in</w><w>einer</w><w>klain</w><w>plater</w><w>da<g ref="#snorm">-s-</g></w><w>er</w><lb n="N005"/><w>hertalat</w><w>wert</w><w><g ref="#slong">|s|</g>chneyd</w><w>dy</w><w>plater</w><w>dar</w><lb n="N006"/><w>von</w><w>vnd</w><w>mach</w><w>dy</w><w>klar</w><w>in</w><w>ein</w><w>gro<g ref="#slong">|s|</g><g ref="#slong">|s|</g>e</w><lb n="N007"/><w>plater</w><w>vnd</w><w><g ref="#slong">|s|</g>ewd</w><w>dy</w><w>da<g ref="#snorm">-s-</g></w><w><g ref="#slong">|s|</g>y</w><w>an</w><w><g ref="#slong">|s|</g></w><w>?</w><lb n="N008"/><w>tig</w><w>wert</w><w><g ref="#slong">|s|</g>o</w><w>thw</w><w>dann</w><w>den</w><w>toter</w><w>dar</w><lb n="N009"/><w>ein</w><w><g ref="#snorm">-S-</g>o</w><w><g ref="#slong">|s|</g>ewd</w><w>e<g ref="#snorm">-s-</g></w><w>zw</w><w>ein</w><w>andr</w><w>vnd</w><lb n="N010"/><w>thw</w><w>e<g ref="#snorm">-s-</g></w><w>in</w><w>einen</w><w>hefen</w><w>etc</w><w>.</w></ab></body>   </text>
+</TEI>

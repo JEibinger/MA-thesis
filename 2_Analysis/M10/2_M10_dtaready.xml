@@ -1,0 +1,1193 @@
+<?xml-model href="../corema_schema/corema_glyph.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../corema_schema/corema_glyph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Electronic transcription of München, Bayerische Staatsbibliothek, Clm 15632</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Hyperdiplomatische Basistranskription der Handschrift München, Bayerische Staatsbibliothek, Clm 15632</edition>
+            <editor>
+               <forename>Astrid</forename>
+               <surname>Böhm</surname>
+            </editor>
+            <principal>
+               <forename>Helmut W.</forename>
+               <surname>Klug</surname>
+            </principal>
+            <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+            </publisher>
+            <authority>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+							Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+            </authority>
+            <distributor>
+               <ref target="https://gams.uni-graz.at"/>
+               <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+               <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+            </availability>
+            <!-- Lizenz muss noch geklärt werden -->
+            <date when="2020-01-01"/>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:corema.m10</idno>
+            <ref target="context:corema" type="context"/>
+            <ref target="context:corema.glyph" type="context"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>München</settlement>
+                  <institution ref="https://www.bsb-muenchen.de">Bayerische Staatsbibliothek</institution>
+                  <idno>Clm 15632</idno>
+                  <altIdentifier type="abbr">
+                     <idno>M10</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang ana="manuscript">
+                     <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     <lang ana="other" n="Q29540">Bavarian</lang> Näheres zur Schreibsprachenbestimmung der Kochrezepttexte s. Ehlert S. 233-241.</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="composite-Manuscript">
+                     <supportDesc>
+                        <extent>
+                           <measure unit="leaf" type="leavesCount">164</measure>
+                           <dimensions type="block" unit="mm">
+                              <height>160</height>
+                              <width>130</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>
+                           <ab type="completeness">Eine neuere Blattzählung wurde nachträglich von moderner Hand eingefügt. 
+											Diese nicht immer durchgängige Zählung ist mit Bleistift ergänzt worden. Nicht mitgezählt wurden diverse Leerseiten.</ab>
+                        </foliation>
+                        <collation>
+                           <ab>Vor der ersten Textseite befindet sich ein leeres Vorsatzblatt sowie am Ende ein leeres Abschlußblatt. 
+											Die Handschrift scheint im Ganzen vollständig.</ab>
+                        </collation>
+                        <condition>
+                           <desc>Die Blätter 1-24 bestehen aus stark nachgedunkeltem Pergament, die restlichen Blätter 25-164 bestehen aus grobem Papier. 
+											Viele Seiten sind durch Flecken und Verschmutzungen verunreinigt. Auf der Innenseite des Buchdeckels steht mit Bleistift die Signatur <q>15632</q>. 
+											Auf Blatt 1r sind unten zwei Klebesignaturen angebracht: <q>Rot 132</q> und <q>Cod. lat. 15632</q>. An dieser Stelle steht auch noch eine weitere handschriftliche Signatur <q>Rot 132</q>. </desc>
+                           <material xml:lang="de">Pergament, Papier</material>
+                           <material xml:lang="en">parchment, paper</material>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p ana="measure">variierend, ab fol. 143r 125 x 80 mm</p>
+                           <p ana="text">Unterschiedliche Schriften und Schriftgrößen. Bis fol. 83r Rubrizierungen vorhanden. Auf Bl. 124v ist eine Initiale mit schwarzer Tinte verziert. 
+											Die Texte sind ansonsten mit blasser dunkler Tinte geschrieben.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Verschiedene Hände. Im Bereich der Kochrezepttexte (fol. 143r-152v) drei unterschiedliche Hände (s. scriptDesc).</handNote>
+                  </handDesc>
+                  <scriptDesc facs="fol. 143r-152v" resp="Astrid Böhm">
+                     <scriptNote source="fol. 143r-150v">
+                        <ab>fol. 143r-150v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>klare Struktur, Rezepte voneinander abgesetzt, Rezeptbeginn außerhalb des Schriftspiegels, ab 145r Überschriften am Blattrand von anderer Hand</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Duktus</desc>
+                        <p>zu Beginn recht ordentlich, lässt dann nach</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offenen Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; und rundes &lt;r&gt;</p>
+                        <p>Übergang fließend</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Diakritika</desc>
+                        <p>punktförmig, Doppelpunkt über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Terminatoren</desc>
+                        <p>unikal: Zeilenfüller 150v4</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Worttrennung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichungen</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 143r-150v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                        <p>andere Hand (2) übernimmt auf fol. 150v4 mitten im Rezept bis 150v14, danach erneuter Wechsel (Hand 3)</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ jetzt Schreibweise ‚twu‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <ab>fol. 150v-152v</ab>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>Schriftspiegel vergrößert sich, kaum noch Rand; Schrift wird größer</p>
+                        <p>gerades &lt;r&gt;, statt ‚thue‘ und ‚ny:m‘ jetzt Schreibweise ‚twu‘ und ‚nymm‘</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Duktus</desc>
+                        <p>flüchtige, teils krakelige Schrift</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze, Unterbogen reicht meist bis zur Punze hinauf</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offene Punze</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>finaler Schaft in finaler Stellung reicht teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>&lt;b&gt;, &lt;d&gt;, &lt;l&gt; mit und ohne Schlaufe, &lt;h&gt;, k&gt; mit Schlaufe</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades &lt;r&gt; </p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>geschwänztes &lt;z&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>i-Markierung</desc>
+                        <p>weitgehend i-Markierung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>ß-Ligatur</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffern/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Rezeptbeginn, vereinzelt textintern</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Verzierungen</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Diakritika</desc>
+                        <p>Doppelpunkt, teils Strich über &lt;y&gt;</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r-/er-Haken, etc.-Kürzung, er-Kürzung in Verbindung mit Schaft-s</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Interpunktion</desc>
+                        <p>vereinzelt Virgel</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Terminatoren</desc>
+                        <p>fol. 151r Rezeptblöcke durch waagerechten Strich voneinander abgegrenzt</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Worttrennung</desc>
+                        <p>Doppelstrich</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Korrekturen</desc>
+                        <p>Streichung, Einfügung</p>
+                     </scriptNote>
+                     <scriptNote source="fol. 150v-152v">
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                     </scriptNote>
+                  </scriptDesc>
+                  <bindingDesc>
+                     <binding corresp="#Einband">
+                        <condition>Der braune Ledereinband der Handschrift stammt von einer Restaurierung im 19. Jahrhundert. </condition>
+                        <decoNote type="bindingMaterial">Leder</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date xml:lang="de" notBefore="1300" notAfter="1400">14. und 15. Jh.</date>
+                        <date xml:lang="en" notBefore="1300" notAfter="1400">14th and 15th c.</date>
+                     </origDate>
+                     
+                     <origPlace>
+                        <placeName xml:lang="de">Entstehungsort unbekannt (Kochrezepttexte vermutl. Rott am Inn)</placeName>
+                        <placeName xml:lang="en">place of origin unknown (Recipe texts probably Rott am Inn) </placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance>Bis zur Säkularisation gehörte die Sammelhandschrift dem Benediktinerkloster Rott am Inn. 
+								<lb/>Die Handschrift Clm 15632 läßt sich inzwischen noch genauer lokalisieren. 
+								Sie stammt aus dem Besitz des Ulrich Wülfing, der urkundlich mehrfach als Pfarrer und Dechant in Walpertshausen (Landkreis Erding) belegt ist.
+								In dieser Eigenschaft erwarb er zwischen 1455 und 1473 eine ganze Reihe Handschriften, darunter auch den Clm 15632. 
+								Seit 1485 war Wülfing nachweislich in Rott am Inn als Priester tätig. 
+								Wülfing vermachte in seinem Testament vom Dezember 1487 eine ganze Reihe von Codices der Abtei, darunter auch die Handschrift Clm 15632. 
+								Einige dieser Codices weisen zusätzlich Register bzw. Inhaltsverzeichnisse und Besitzvermerke (Namens- initialen <q>V W</q>) Wülfings am Anfang auf. 
+								Bei einer Restaurierung im 19. Jahrhundert wurde diese Inhaltsliste der Handschrift Clm 15632 vernichtet, was allerdings keinen Einfluß auf die Identifikation der Handschrift hatte. 
+							<lb/>Eine zusätzliche Bestätigung der Herkunft der Handschrift Clm 15632 liefert ein wiederentdeckter mittelalterlicher Bibliothekskatalog der Bibliothek des Klosters Rott am Inn. 
+							Dieser Katalog stammte nach den Angaben des Melker Benediktiners P. Bernhard Pez, der 1717 auf seiner Reise durch bayerische Klöster auch in Rott am Inn Station machte, etwa aus dem Jahre 1490. 
+							Die Erwähnung dieses Kataloges war lange Zeit der letzte Hinweis auf einen Rotter Bibliothekskatalog, der seit dieser Zeit als verschollen galt. 
+							Er tauchte eher zufällig wieder auf und wurde von Glauche als der vermißte Rotter Bibliothekskatalog identifiziert (enthalten in Hs. 12737 der mittelalterlichen lateinischen Handschriften des Germanischen Nationalmuseums Nürnberg). 
+							<lb/>Auf Bl. 4v der Handschrift 12737 findet sich der Eintrag, mit dem Clm 15632 zu identifizieren ist.
+							Der Inhalt der Handschrift Clm 15632 stimmt bis zu einem gewissen Maße mit den Angaben in diesem Rotter Bibliothekskatalog überein. 
+							Eine Übereinstimmung kann nur bis Bl. 87 oder 89 (beides musikalische Texte) festgestellt werden. 
+							Über die folgenden Texte wird in der Bücherliste keine Angabe mehr gemacht. </provenance>
+                  <acquisition>Das Kloster Rott am Inn wurde 1803 im Zuge der Säkularisierung aufgelöst. Die Handschrift Clm 15632 gelangte mit den übrigen Bibliotheksbesitzen in die Königliche Staatsbibliothek München.
+								
+							</acquisition>
+               </history>
+               <msPart n="1-24">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.1-24.1">
+                        <locus ana="folio">1-24</locus>
+                        <title>Etymologicum latinum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="21">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="m10.21.2">
+                        <locus ana="folio">21</locus>
+                        <title>De praepositionibus graecis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="25">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.25.3">
+                        <locus ana="folio">25</locus>
+                        <title>Compendium humanae salvationis metricum</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="35">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.35.4">
+                        <locus ana="folio">35</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="47">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.47.5">
+                        <locus ana="folio">47</locus>
+                        <title>Conversio et vita s. Barbarae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="79">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.79.6">
+                        <locus ana="folio">79</locus>
+                        <title>Sermones</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="86">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.86.7">
+                        <locus ana="folio">86</locus>
+                        <title>,Sanctus' cum noti</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="87">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.87.8">
+                        <locus ana="folio">87</locus>
+                        <title>Patrum aliquot et bibliae librorum explanationes dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="89">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.89.9">
+                        <locus ana="folio">89</locus>
+                        <title>Johannis de Muris ars cantus mensurabilis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="103">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.103.10">
+                        <locus ana="folio">103</locus>
+                        <title>'Regulae cantandi super rectum cantum' (videntur esse excerpta)</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="113">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.113.11">
+                        <locus ana="folio">113</locus>
+                        <title>'Disticha Catonis', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="130">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                        <lang ana="other" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.130.12">
+                        <locus ana="folio">130</locus>
+                        <title>'Poeniteas cito peccator', lat. und dt.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="136">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.136.13">
+                        <locus ana="folio">136</locus>
+                        <title>Orationes; de peccatis, virtutibus etc.</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="140">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.140.14">
+                        <locus ana="folio">140</locus>
+                        <title>,Catonis disticha' cum commentario</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart ana="cooking_recipes" n="143r-152v">
+                  <head>Kochrezepttexte</head>
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#cooking" xml:id="m10.143r-152v.15">
+                        <locus ana="folio">143r-152v</locus>
+                        <title>Kochrezepttexte</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="153">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#theol" xml:id="m10.153.16">
+                        <locus ana="folio">153</locus>
+                        <title>Orationes germanicae</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
+            <listBibl type="catalogues">
+               <biblStruct type="book" xml:id="Halm1878" corresp="http://zotero.org/groups/2455111/items/4IMB3MZH">
+                  <monogr>
+                     <title level="m">Catalogus codicum latinorum Bibliothecae Regiae Monacensis. Bd. II,3:
+									Codices num. 15121-21313 complectens</title>
+                     <author>
+                        <forename>Karl</forename>
+                        <surname>Halm</surname>
+                     </author>
+                     <author>
+                        <forename>Georg von</forename>
+                        <surname>Laubmann</surname>
+                     </author>
+                     <author>
+                        <forename>Wilhelm</forename>
+                        <surname>Meyer</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <date>1878</date>
+                        
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis.
+								IV,3.</title>
+                  </series>
+                  <citedRange unit="page">25-26</citedRange>
+                  
+               </biblStruct>
+               <biblStruct type="webpage" xml:id="Glaßner2017" corresp="http://zotero.org/groups/2455111/items/ABNI4NH7">
+                  <analytic>
+                     <title level="a">Handschriftencensus | München, Staatsbibl., Clm 15632</title>
+                     <author>
+                        <name>Glaßner</name>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Handschriftencensus</title>
+                     <imprint>
+                        <date>2017</date>
+                        
+                        
+                     </imprint>
+                  </monogr>
+                  
+               </biblStruct>
+            </listBibl>
+            <listBibl type="transcriptions">
+               <biblStruct type="book" xml:id="Ehlert1999" corresp="http://zotero.org/groups/2455111/items/ERVDJAZR">
+                  <monogr>
+                     <title level="m">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384,
+									467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold,
+									Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian
+									Suda und Monika Ullrich</title>
+                     <idno type="ISBN">3-403-03364-3</idno>
+                     <idno type="callNumber">SBB-PK Berlin &lt;1+1A&gt; !2:HsLS! Hs LS HM 862 1 A 412720 !2!
+									1 A 413554</idno>
+                     <author>
+                        <forename>Trude</forename>
+                        <surname>Ehlert</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>Frankfurt a. M.</pubPlace>
+                        <publisher>Tupperware</publisher>
+                        <date>1999</date>
+                     </imprint>
+                  </monogr>
+                  
+               </biblStruct>
+            </listBibl>
+            <!--<listBibl type="catalogues">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften, S.228-241.</bibl>
+						<bibl>Karl Halm u.a., Catalogus codicum latinorum Bibliothecae Regiae Monacensis, Bd. II,3: Codices num. 15121-21313 complectens (Catalogus codicum manu scriptorum Bibliothecae Regiae Monacensis IV,3), München 1878 (Nachdruck Wiesbaden 1969), S. 25f. Url: <ref target="urn:nbn:de:bvb:12-bsb00008254-3"></ref>
+						</bibl>
+						<bibl>Christine Glaßner: München, Staatsbibl., Clm 15632. In: Handschriftencensus. 2017. Url: <ref target="http://www.handschriftencensus.de/6394">http://www.handschriftencensus.de/6394</ref>.</bibl>
+					</listBibl>
+					<listBibl type="transcriptions">
+						<bibl>Ehlert, Trude - Muenchner Kochbuchhandschriften </bibl> 
+					</listBibl>-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#M10_143r">
+         <graphic xml:id="IMG.143r" url="München_Bayerische_Staatsbibliothek_Clm_15632_143r.jpg"/>
+      </surface>
+      <surface start="#M10_143v">
+         <graphic xml:id="IMG.143v" url="München_Bayerische_Staatsbibliothek_Clm_15632_143v.jpg"/>
+      </surface>
+      <surface start="#M10_144r">
+         <graphic xml:id="IMG.144r" url="München_Bayerische_Staatsbibliothek_Clm_15632_144r.jpg"/>
+      </surface>
+      <surface start="#M10_144v">
+         <graphic xml:id="IMG.144v" url="München_Bayerische_Staatsbibliothek_Clm_15632_144v.jpg"/>
+      </surface>
+      <surface start="#M10_145r">
+         <graphic xml:id="IMG.145r" url="München_Bayerische_Staatsbibliothek_Clm_15632_145r.jpg"/>
+      </surface>
+      <surface start="#M10_145v">
+         <graphic xml:id="IMG.145v" url="München_Bayerische_Staatsbibliothek_Clm_15632_145v.jpg"/>
+      </surface>
+      <surface start="#M10_146r">
+         <graphic xml:id="IMG.146r" url="München_Bayerische_Staatsbibliothek_Clm_15632_146r.jpg"/>
+      </surface>
+      <surface start="#M10_146v">
+         <graphic xml:id="IMG.146v" url="München_Bayerische_Staatsbibliothek_Clm_15632_146v.jpg"/>
+      </surface>
+      <surface start="#M10_147r">
+         <graphic xml:id="IMG.147r" url="München_Bayerische_Staatsbibliothek_Clm_15632_147r.jpg"/>
+      </surface>
+      <surface start="#M10_147v">
+         <graphic xml:id="IMG.147v" url="München_Bayerische_Staatsbibliothek_Clm_15632_147v.jpg"/>
+      </surface>
+      <surface start="#M10_148r">
+         <graphic xml:id="IMG.148r" url="München_Bayerische_Staatsbibliothek_Clm_15632_148r.jpg"/>
+      </surface>
+      <surface start="#M10_148v">
+         <graphic xml:id="IMG.148v" url="München_Bayerische_Staatsbibliothek_Clm_15632_148v.jpg"/>
+      </surface>
+      <surface start="#M10_149r">
+         <graphic xml:id="IMG.149r" url="München_Bayerische_Staatsbibliothek_Clm_15632_149r.jpg"/>
+      </surface>
+      <surface start="#M10_149v">
+         <graphic xml:id="IMG.149v" url="München_Bayerische_Staatsbibliothek_Clm_15632_149v.jpg"/>
+      </surface>
+      <surface start="#M10_150r">
+         <graphic xml:id="IMG.150r" url="München_Bayerische_Staatsbibliothek_Clm_15632_150r.jpg"/>
+      </surface>
+      <surface start="#M10_150v">
+         <graphic xml:id="IMG.150v" url="München_Bayerische_Staatsbibliothek_Clm_15632_150v.jpg"/>
+      </surface>
+      <surface start="#M10_151r">
+         <graphic xml:id="IMG.151r" url="München_Bayerische_Staatsbibliothek_Clm_15632_151r.jpg"/>
+      </surface>
+      <surface start="#M10_151v">
+         <graphic xml:id="IMG.151v" url="München_Bayerische_Staatsbibliothek_Clm_15632_151v.jpg"/>
+      </surface>
+      <surface start="#M10_152r">
+         <graphic xml:id="IMG.152r" url="München_Bayerische_Staatsbibliothek_Clm_15632_152r.jpg"/>
+      </surface>
+      <surface start="#M10_152v">
+         <graphic xml:id="IMG.152v" url="München_Bayerische_Staatsbibliothek_Clm_15632_152v.jpg"/>
+      </surface>
+      <surface start="#">
+         <graphic xml:id="CUTOUT" url="cutouts/m10.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body xml:space="preserve"><ab>
+			<pb xml:id="M10_143r" n="143r"/>
+			
+				<lb n="N001"/>Item nym czway holtzer die man zw SLONGamen 
+				<lb n="N002"/>leg vnd Innen geformiert SLONGein alSNORM ein 
+				<lb n="N003"/>rep huen vnd nym viSLONGch vnd thue die 
+				<lb n="N004"/>grat vnd die SLONGchueppen da uon vnd hack 
+				<lb n="N005"/>daz geprat gar clain vnder ein ander 
+				<lb n="N006"/>vnd gewurtz daz wol vnd leg daz in die 
+				<lb n="N007"/>furem holtzer vnd SLONGewt daSNORM alSLONGo vaSLONGt 
+				<lb n="N008"/>darnach prat eSNORM vnd SLONGpick eSNORM mit hechten 
+				<lb n="N009"/>prat
+				<lb n="N010"/>Item nym groß viSLONGch wie die SLONGein vnd thue 
+				<lb n="N011"/>die grat vnd die SLONGchueppen dar uon vnd 
+				<lb n="N012"/>hack daz clain vnd reyb ein prot dar 
+				<lb n="N013"/>vnder vnd gewurtz eß woll vnd mach 
+				<lb n="N014"/>daz zw SLONGammen mit naSLONGSLONGenn meSLONGSLONGernn auff 
+				<lb n="N015"/>der anricht in die furem holtzer alz 
+				<lb n="N016"/>ein rech praten vnd SLONGtoß an einen SLONGpiß 
+				<lb n="N017"/>vnd prat SLONGein genueg
+				<lb n="N018"/>Item nym geSLONGchelten mandel vnd SLONGtoß den in 
+				<lb n="N019"/>einem morSLONGer vnd mach milch dauon vnd 
+				<lb n="N020"/>SLONGeych SLONGy durch ein thuech In ein pfann 
+				<lb n="N021"/>vnd reyb ein wenig SLONGemel dar ein 
+				<lb n="N022"/>Ee ez wall vnd ein wenig guetz weinSNORM 
+				<lb n="N023"/>vnd wan ez erwall SLONGo zewch ez auSLONGSNORM 
+				<lb n="N024"/>der pfann auff ein SLONGib oder auff ein thuech  
+			
+			<pb xml:id="M10_143v" n="143v"/>
+			
+				<lb n="N001"/>daz daz waSLONGSLONGer dar uon SLONGeych daz rich richt 
+				<lb n="N002"/>an alz den pan prein vnd beSLONGteck in mit 
+				<lb n="N003"/>mandel keren auch macht macht  man in 
+				<lb n="N004"/>in einer mandel nich milch
+				<lb n="N005"/>Item nym geSLONGchelten mandel vnd hack den klain 
+				<lb n="N006"/>vnd verb in halben mit SLONGaffran vnd leg 
+				<lb n="N007"/>daz beSLONGunder In ein SLONGtauffel auch nym wein
+				<lb n="N008"/>per die SLONGchon erclawpt SLONGein vnd erwel 
+				<lb n="N009"/>die daz SLONGi SLONGinwel werden Auch nym rogen 
+				<lb n="N010"/>vnd von viSLONGchen wie die SLONGein vnd SLONGtoß die in 
+				<lb n="N011"/>einem morSLONGer mit einem wenigen weySLONGSLONGen 
+				<lb n="N012"/>mel daz er wer alz ein SLONGtrauben taig 
+				<lb n="N013"/>vnd gilb daz vnd thue daz ab geriben dar 
+				<lb n="N014"/>vnder vnd gewß auff die fladen vnd pachSNORM 
+				<lb n="N015"/>in einem ofenn
+				<lb n="N016"/>Item SLONGtoß nuß keren vnd veygen vnder ein 
+				<lb n="N017"/>ander In einem morSLONGer vnd gewurtz 
+				<lb n="N018"/>ez wol vnd gilbSNORM mit SLONGaffran vnd leg 
+				<lb n="N019"/>daz In ein pfann vnd gewß oll dar 
+				<lb n="N020"/>an vnd erwell ez wol darnach mach 
+				<lb n="N021"/>krapffen dar auß alz dw SLONGi haben wilt 
+				<lb n="N022"/>In erhaben taig vnd pachSNORM in oll vnd
+				<lb n="N023"/> gibSNORM kalt ze eSLONGSLONGen
+			
+			<pb xml:id="M10_144r" n="144r"/>
+			
+				<lb n="N001"/>Item nym SLONGenif SLONGam vnd derre den SLONGchon 
+				<lb n="N002"/>vnd SLONGtoß den gar clain In einem morSLONGer 
+				<lb n="N003"/>vnd treyb in darnach durch ein eng 
+				<lb n="N004"/>thuech vnd miSLONGch geSLONGtoSLONGSLONGen thimend 
+				<lb n="N005"/>plue vnd den SLONGeniff vnd reib eß 
+				<lb n="N006"/>vaSLONGt d vnder ein ander alz der wachSNORM 
+				<lb n="N007"/>pert vnd wann dw wilt SLONGo nym 
+				<lb n="N008"/>dez SLONGelben ein wenigSNORM vnd ze reib 
+				<lb n="N009"/>ez mit wein SLONGo haSLONGtu guten SLONGeniff
+				<lb n="N010"/>Item SLONGchlach ayer auff an dem groSLONGSLONGen SLONGpitz
+				<lb n="N011"/>vnd thue daz Inder dar auß vnd zer 
+				<lb n="N012"/>reib daz wol vnd gilbSNORM vnd pfefferSNORM 
+				<lb n="N013"/>vnd hack peterSLONGil vnd SLONGaluan vnd roSLONGt 
+				<lb n="N014"/>daz mit SLONGchmaltz in einer pfann dar 
+				<lb n="N015"/>nach hack ez clain vnd thue ez wider 
+				<lb n="N016"/>in die gucken vnd SLONGtoß an einen SLONGpiß 
+				<lb n="N017"/>vnd pratz auff einem roSLONGt
+				<lb n="N018"/>Item nym gleich milch vnd ayer vnd SLONGchlach
+				<lb n="N019"/>die wol durch ein ander vnd gilbSNORM vnd 
+				<lb n="N020"/>gewß in einen hafenn vnd SLONGetz in einem 
+				<lb n="N021"/>keSLONGSLONGel mit waSLONGSLONGer vnd laz ez dar in 
+				<lb n="N022"/>SLONGieden vntz daz ez zw SLONGamen get dar 
+				<lb n="N023"/>nach SLONGchutt ez auff ein thuech SLONGo wirt 
+				<lb n="N024"/>ez hert alz ein kaß daz daz waSLONGSLONGer dar 
+				<lb n="N025"/>von SLONGeych dar nach SLONGchneyt ez alSNORM
+			
+			<pb xml:id="M10_144v" n="144v"/>
+			
+				<lb n="N001"/>ein puteren vnd SLONGtoß an ein SLONGpiSLONGSLONGel vnd 
+				<lb n="N002"/>pratz auff einem roSLONGt vnd SLONGa gewurtz 
+				<lb n="N003"/>dar auff vnd begewß mit SLONGchmaltz 
+				<lb n="N004"/>vnd gibSNORM ze eSLONGSLONGen
+				<lb n="N005"/>Item nym wein waSLONGSLONGer vnd eSLONGSLONGich geleych 
+				<lb n="N006"/>vnd SLONGeud viSLONGch dar in vnd gewurtz vnd 
+				<lb n="N007"/>SLONGaffran dar an vnd gewß kaltz auff 
+				<lb n="N008"/>die viSLONGch
+				<lb n="N009"/>Item nym eSLONGSLONGich honig vnd leczelten vnd SLONGtoß 
+				<lb n="N010"/>vnder ein ander vnd SLONGeychSNORM durch 
+				<lb n="N011"/>ein thuech vnd SLONGeudt eß vnd iß kalt
+				<lb n="N012"/>Item nym krebSLONGSLONGen vnd SLONGchneyd daz poß pey 
+				<lb n="N013"/>den augen dar uon vnd SLONGtoß die 
+				<lb n="N014"/>krebSLONGen In einem morSLONGer vnd treyb 
+				<lb n="N015"/>daz mit einer milch durch ein SLONGib 
+				<lb n="N016"/>vnd reyb ein SLONGemel dar zw vnd thue 
+				<lb n="N017"/>ayer thoter dar ein vnd SLONGchlachSNORM durch 
+				<lb n="N018"/>ein ander vnd mach ein gemueß dar 
+				<lb n="N019"/>auß in einer pfanen daz wirt den 
+				<lb n="N020"/>Rot
+				<lb n="N021"/>Item nym geriben kaß der gut SLONGey vnd 
+				<lb n="N022"/>halb alSNORM vil mel vnd SLONGchlach ayer dar 
+				<lb n="N023"/>an daz ez SLONGich laß wellen vnd puluer 
+				<lb n="N024"/>daz wol vnd wirch ez auff einem 
+				<lb n="N025"/>prett lang alz die wurSLONGt vnd mach 
+				<lb n="N026"/>ez thun dun vnd krumpt ez alz
+			
+			<pb xml:id="M10_145r" n="145r"/>
+			
+				<lb n="N001"/>die hueff eySLONGen vnd pachSNORM alSLONGo in 
+				<lb n="N002"/>SLONGchmaltz
+				<lb n="N003"/>Item mach ein tayg von herten ayeren SLONGo 
+				<lb n="N004"/>du aller herteSLONGt magSLONGt vnd gilb in 
+				<lb n="N005"/>vnd wurch dunne pleter dar auß 
+				<lb n="N006"/>alz pfanczelten vnd pach ez in SLONGchmaltz 
+				<lb n="N007"/>auch nym gueten wein vnd halb alSNORM 
+				<lb n="N008"/>vil honigk vnd well daz vnder ein 
+				<lb n="N009"/>ander vnd zeuch daz pachen dar durch 
+				<lb n="N010"/>SLONGo du ez wilt an richten ain pachen
+				<lb n="N011"/>Item nym geriben kaß vnd SLONGchlach ayer 
+				<lb n="N012"/>dar an vnd gewurtz wol vnd SLONGewd ez 
+				<lb n="N013"/>durch ein ander vnd mach ez zw langen 
+				<lb n="N014"/>SLONGtrutzlen auff ein pret die dun SLONGein vnd 
+				<lb n="N015"/>pachSNORM in SLONGchmaltz vnd SLONGchneytz dan in 
+				<lb n="N016"/>ein SLONGchuSLONGSLONGel
+				<lb n="N017"/>Item thue den vnteren tayl von einem kalbSNORM 
+				<lb n="N018"/>haup vnd SLONGewd daz haup wol darnach 
+				<lb n="N019"/>prich die hieren SLONGchal auff vnd SLONGaa gut 
+				<lb n="N020"/>gewurtz darein vnd gewß hayß SLONGchmaltz 
+				<lb n="N021"/>dar zw vnd roSLONGt in auff einem roeSLONGt SLONGo 
+				<lb n="N022"/>wirt er gut
+				<lb n="N023"/>Item nym einSNORM hirSLONGen leber vnd prat die
+				<lb n="N024"/>dar nach SLONGchneyd daz auSLONGSLONGer dar ab 
+			
+			<pb xml:id="M10_145v" n="145v"/>
+			
+				<lb n="N001"/>vnd SLONGtoeß eSNORM in einem morSLONGer mit rocken 
+				<lb n="N002"/>prot honing wein vnd eSLONGSLONGich vnd reyb 
+				<lb n="N003"/>ez durch ein thuech vnd thue gewurtz 
+				<lb n="N004"/>dar an vnd erwel ez dar nach vnd 
+				<lb n="N005"/>gibSNORM kalt ze eSLONGSLONGen
+				<lb n="N006"/>Item nym ein rech haut vnd prue die 
+				<lb n="N007"/>daz daz har dar von kom vnd SLONGeudtz 
+				<lb n="N008"/>dar nach gar wol SLONGo SLONGchrimpft SLONGi SLONGich 
+				<lb n="N009"/>ze SLONGammen dar nach SLONGchneyd SLONGy SLONGpann 
+				<lb n="N010"/>lanck vnd czwayer vinger prayt vnd 
+				<lb n="N011"/>mach dar an ein SLONGultz furheß
+				<lb n="N012"/>Item nym die ge lungel vnd die leber von 
+				<lb n="N013"/>einem haSLONGen vnd SLONGchneydt daz wurflat 
+				<lb n="N014"/>vnd nym ez mit dem SLONGwayß  vnd thueß 
+				<lb n="N015"/>in ein prue wein vnd eSLONGSLONGich vnd honick 
+				<lb n="N016"/>vnd rocken prot vnd SLONGchon SLONGpeck daran 
+				<lb n="N017"/>SLONGo haSLONGtu ein gut furheß
+				<lb n="N018"/>Item nym kalbSNORM fleySLONGch vnd hack SLONGpeck 
+				<lb n="N019"/>dar vnder vnd thue gewurtz vnd SLONGaffran 
+				<lb n="N020"/>daran vnd ayer vnd geriben prot daz weyß 
+				<lb n="N021"/>SLONGey vnd mach kugel dar auß vnd SLONGeudtz 
+				<lb n="N022"/>in haySLONGSLONGem waSLONGSLONGer vnd gibSNORM ze eSLONGSLONGen mit peteer
+				<lb n="N023"/>SLONGil pachen von rogen
+				<lb n="N024"/>Item nym viSLONGch rogen vnd SLONGtoß den in einem 
+			
+			<pb xml:id="M10_146r" n="146r"/>
+			
+				<lb n="N001"/>morSLONGer vnd pach dar auß ein praytz blad 
+				<lb n="N002"/>in einer pfannen vnd SLONGchneyd daz wurflat 
+				<lb n="N003"/>vnd pren ein mel mit oll in einer pfann 
+				<lb n="N004"/>daz ez SLONGchwartz wer vnd mach darauß mit 
+				<lb n="N005"/>viSLONGch prue ein pfeffer mit wein vnd eSLONGSLONGich 
+				<lb n="N006"/>vnd mit gewurtz vnd laz daz zw SLONGammen 
+				<lb n="N007"/>wallen vnd SLONGchneyd von einer SLONGemel wurfflat 
+				<lb n="N008"/>forem vnd SLONGtra daz auff daz eSLONGSLONGen pachen
+				<lb n="N009"/>Item nym einSNORM kalbSNORM lungel vnd SLONGeudt die 
+				<lb n="N010"/>gar wol vnd hack die darnach klain 
+				<lb n="N011"/>vnd SLONGchneyd SLONGpeck dar vnder auch klain 
+				<lb n="N012"/>vnd SLONGchlach ayer dar ein mit pfeffer vnd 
+				<lb n="N013"/>SLONGaffran vnd pach ein dunß ayer plat vnd 
+				<lb n="N014"/>weich dar ein vnd pachSNORM in SLONGmaltz
+				<lb n="N015"/>Item nym geSLONGchelten mandel vnd SLONGtoß den in 
+				<lb n="N016"/>einem morSLONGer vnd ob du wilt SLONGo reyb ein 
+				<lb n="N017"/>wenig weyß protz darvnder vnd machSNORM 
+				<lb n="N018"/>SLONGinbel in ein pfannen vnd SLONGetz die warmen
+				<lb n="N019"/>toter dar ein vnd wan du wilt an richten 
+				<lb n="N020"/>SLONGo gewß hayß SLONGchmaltz dar auff vnd SLONGeych 
+				<lb n="N021"/>daz darnach wider ab vnd gibSNORM alSLONGo ze 
+				<lb n="N022"/>eSLONGSLONGenn
+				<lb n="N023"/>Item wildu fleySLONGch SLONGicher geSLONGoten haben SLONGo leg
+				<lb n="N024"/>neSLONGSLONGel in daz heffen vnden vnd fleySLONGch darauff 
+				<lb n="N025"/>SLONGo SLONGeud ez SLONGich 
+			
+			<pb xml:id="M10_146v" n="146v"/>
+			
+				<lb n="N001"/>Item SLONGchlach kaSLONGtraun fleySLONGch zw SLONGtucken vnd 
+				<lb n="N002"/>legSNORM in ein hefen vnd hauß wurtz darzw 
+				<lb n="N003"/>vnd laß alSLONGo SLONGieden SLONGo peleypt alSLONGo gantz
+				<lb n="N004"/>Item wildu ayer an fewer SLONGieden SLONGo nym 
+				<lb n="N005"/>vngeleSLONGchten kalch vnd zermall den klain 
+				<lb n="N006"/>vnd leg in in ein hefen vnd waSLONGSLONGer vnd 
+				<lb n="N007"/>ayer dar ein SLONGo werden SLONGy hert oder 
+				<lb n="N008"/>waich wie man wil
+				<lb n="N009"/>Item wildu machen von reyß ein gutz pachen 
+				<lb n="N010"/>SLONGo SLONGewdt den in waSLONGSLONGer doch nicht ze vaSLONGt 
+				<lb n="N011"/>dar nach SLONGeych daz waSLONGSLONGer ab vnd thue 
+				<lb n="N012"/>den reyß vnd einen reyb SLONGcherben vnd 
+				<lb n="N013"/>reyb in klain vnd ruer ayer dar vnder 
+				<lb n="N014"/>nicht ze dunn vnd machSNORM SLONGy durch die 
+				<lb n="N015"/>hant in ein pfan In SLONGchmaltz vn alSNORM praten 
+				<lb n="N016"/>kuechel vnd SLONGo SLONGy pachen SLONGindt SLONGo SLONGaa czucker 
+				<lb n="N017"/>dar auff vnd verSLONGaltz nicht
+				<lb n="N018"/>Item wildu machen ein gemueß von ayer 
+				<lb n="N019"/>toter SLONGo nym dar zw guten wein vnd ein 
+				<lb n="N020"/>wenig geriben SLONGemel vnd SLONGtreych daz mit 
+				<lb n="N021"/>ein ander durch ein thuech vnd thue 
+				<lb n="N022"/>dar ein zucker oder honick vnd thue daz 
+				<lb n="N023"/>in ein hefen vnd SLONGetz en auff ein glut vnd ruer 
+				<lb n="N024"/>ez vntz ez dick wirt SLONGo nym en SLONGunder 
+				<lb n="N025"/>vnd verSLONGaltz nicht
+			
+			<pb xml:id="M10_147r" n="147r"/>
+			
+				<lb n="N001"/>Item wildu machen gefult piren SLONGo SLONGchneyd SLONGy 
+				<lb n="N002"/>alSLONGo daz vnden ein prayt peleyb vnd der keren 
+				<lb n="N003"/>SLONGtock davon vnd hack daz ab geSLONGchniten klain 
+				<lb n="N004"/>vnd thue honigk dar vnder vnd gewurtz 
+				<lb n="N005"/>vnd SLONGaffran vnd mach daz wider vmb den 
+				<lb n="N006"/>keren SLONGtock gleaeych geleych einer pieren vnd 
+				<lb n="N007"/>tauchSNORM in einen taych von ayeren vnd mel 
+				<lb n="N008"/>vnd legSNORM in ein hayß SLONGchmaltz vnd laß darin 
+				<lb n="N009"/>pachen der mach alSLONGo SLONGo vil du wilt
+				<lb n="N010"/>Item dez geleychen mach von beren ein ful mit 
+				<lb n="N011"/>honigk vnd gewurtz vnd kniet ein tayg von 
+				<lb n="N012"/>ayeren vnd mel vnd mach zeltel darawß 
+				<lb n="N013"/>vnd verpindt die full darin alz krapffen 
+				<lb n="N014"/>SLONGein SLONGullen vnd pachSNORM in SLONGchmaltz
+				<lb n="N015"/>Item halbe gefulte ayer  SLONGewdt die ayer gar hert
+				<lb n="N016"/>vnd SLONGchneydt SLONGy darnach nach lengSNORM von 
+				<lb n="N017"/>ein ander vnd nym den toter darauß vnd 
+				<lb n="N018"/>hack in klain vnd gilbSNORM daz vnd hack peterSLONGil 
+				<lb n="N019"/>dar vnder ab du den gehaben mugSLONGt vnd thue 
+				<lb n="N020"/>daz wider an daz toterSNORM SLONGtat in die halben 
+				<lb n="N021"/>weySLONGSLONGe ayer vnd legSNORM alSLONGo in hayß SLONGchmaltz 
+				<lb n="N022"/>vnd pachSNORM dar vnder
+				<lb n="N023"/>Item wildu machen gantze gefulte ayer 
+			
+			<pb xml:id="M10_147v" n="147v"/>
+			
+				<lb n="N001"/>SLONGo SLONGewdt die ayer len darnach SLONGchlagSNORM 
+				<lb n="N002"/>an einen ort auff vnd thue daz Inder 
+				<lb n="N003"/>dauon dar auß vnd raSLONGtz in einer pfannen 
+				<lb n="N004"/>mit einem wenigen SLONGchmaltz vnd ruerSNORM 
+				<lb n="N005"/>mit einem loffel hin vnd her daz 
+				<lb n="N006"/>ez nicht an prin vnd doch hert wer 
+				<lb n="N007"/>darnach thue ez wider in die ayer 
+				<lb n="N008"/>gucken vnd SLONGewdt SLONGy in haySLONGSLONGen SLONGchmaltz 
+				<lb n="N009"/>daz SLONGy hert werden darnach SLONGchel 
+				<lb n="N010"/>SLONGy vnd gibSNORM in SLONGchwartzen pfeffer
+				<lb n="N011"/>Item wildu kraphen ader chuechel 
+				<lb n="N012"/>machen SLONGo nym geriben kaß vnd 
+				<lb n="N013"/>ein wenig mel vnd mach daz 
+				<lb n="N014"/>mit ayeren an vnd thue ez mit einem 
+				<lb n="N015"/>loffel klain vnd groß In ein pfannen 
+				<lb n="N016"/>mit SLONGchmaltz vnd pachSNORM dar in 
+				<lb n="N017"/>vnd gilb den taig vor Wildu 
+				<lb n="N018"/>ein prue dar auff machen SLONGo mach
+				<lb n="N019"/>nym ayer toter vnd milch vnd 
+				<lb n="N020"/>ruer daz wol durch ein ander vnd 
+				<lb n="N021"/>SLONGewdt ez SLONGo du wild an richten
+				<lb n="N022"/>Item wildu machen gefult kraphen 
+				<lb n="N023"/>mit apfelen 
+			
+			<pb xml:id="M10_148r" n="148r"/>
+			
+				<lb n="N001"/>Item wer wil machen eine guete galrei 
+				<lb n="N002"/>von viSLONGchen der nem die viSLONGch SLONGchueppen 
+				<lb n="N003"/>vnd SLONGtoß SLONGy in einem morSLONGer vnd SLONGchlach 
+				<lb n="N004"/>SLONGy durch ein thuech vnd SLONGeudt SLONGy mit 
+				<lb n="N005"/>den viSLONGchen haSLONGtu aber hauSLONGen plateren daz 
+				<lb n="N006"/>iSLONGt auch gut dar nach nym geSLONGtoSLONGSLONGen nagel
+				<lb n="N007"/>lein vnd thue dar nach dar zw mandel 
+				<lb n="N008"/>keren vnd czucker dar ein
+				<lb n="N009"/>Item wer wil machen ein gute galrayd 
+				<lb n="N010"/>der nem huner vnd SLONGwein pain vnd 
+				<lb n="N011"/>kalbSNORM fueß vnd laß die klain SLONGieden
+				<lb n="N012"/>vnd SLONGchlach die kalb fueß durch ein 
+				<lb n="N013"/>thuech
+				<lb n="N014"/>Item wer wil praten ein guten all der 
+				<lb n="N015"/>SLONGchneyd In zw SLONGtucken vnd SLONGaltz In vnd 
+				<lb n="N016"/>SLONGtoß In an ein klainSNORM SLONGpiSLONGSLONGlen vnd be
+				<lb n="N017"/>trauf in mit puteren vnd mit eSLONGSLONGich 
+				<lb n="N018"/>vnd wein vnder ein ander
+				<lb n="N019"/>Item wer ein gut gemueß wel machen 
+				<lb n="N020"/>von lungel der nem die lungel vnd
+			
+			<pb xml:id="M10_148v" n="148v"/>
+			
+				<lb n="N001"/>reyb dar vnter ein proSLONGen vnd mach ez 
+				<lb n="N002"/>darnach ab mit gewurtz
+				<lb n="N003"/>Item wer wel ein gut gepraten SLONGpan vackel 
+				<lb n="N004"/>machen der SLONGeudt vier ayer vnd hack 
+				<lb n="N005"/>die klain vnd thue czwifel darvnter 
+				<lb n="N006"/>vnd puluer daz wol mit ymber
+				<lb n="N007"/>Item wer wel machen ein gute leber SLONGultz 
+				<lb n="N008"/>von einem Iungen SLONGwein der nem die 
+				<lb n="N009"/>leber vnd SLONGtoß SLONGy in einem morSLONGer SLONGtain 
+				<lb n="N010"/>vnd SLONGewdt ayer dar zw SLONGechSNORM oder achte 
+				<lb n="N011"/>hert vnd dar zw SLONGemel proß vnd SLONGtoß 
+				<lb n="N012"/>daz durch ein ander In einem morSLONGer 
+				<lb n="N013"/>SLONGtain vnd SLONGchlach daz durch mit geSLONGoten 
+				<lb n="N014"/>wein oder guten SLONGaweren wein vnd gilb 
+				<lb n="N015"/>daz mit SLONGaffran vnd SLONGtell ez wol mit 
+				<lb n="N016"/>anderem gewurtz
+				<lb n="N017"/>Item wildu machen ein gute SLONGalSLONGen In dem 
+				<lb n="N018"/>may SLONGo nym peterSLONGil vnd pfeffer kraut vnd 
+				<lb n="N019"/>mangold pleter alSNORM vil du wilt vnd hack 
+				<lb n="N020"/>daz klain durch ein ander dez morgenSNORM 
+				<lb n="N021"/>gar frue SLONGo vach daz taw In ein weyß 
+			
+			<pb xml:id="M10_149r" n="149r"/>
+			
+				<lb n="N001"/>thuech vnd leg daz kraut dar ein 
+				<lb n="N002"/>vnd thue eSNORM in ein molter vnd SLONGetz 
+				<lb n="N003"/>ez an die SLONGunnen SLONGo verleuSLONGt ez den 
+				<lb n="N004"/>taw vnd laß ez trucken werden alz 
+				<lb n="N005"/>ein SLONGtupp vnd mach ez in blaSLONGen vnd 
+				<lb n="N006"/>wen du wilt in dem Iar SLONGo netz ab 
+				<lb n="N007"/>mit wein oder mit eSLONGSLONGich
+				<lb n="N008"/>Item wildu machen ein SLONGalSLONGen von wein trauben 
+				<lb n="N009"/>vnd von SLONGaweren apfelen SLONGo SLONGtoß daz 
+				<lb n="N010"/>ze SLONGammen vnd miSLONGch ez mit wein oder 
+				<lb n="N011"/>mit eSLONGSLONGich vnd thue den SLONGafft dar auß 
+				<lb n="N012"/>die SLONGalSLONGen iSLONGt gut zw SLONGafftigen praten vnd 
+				<lb n="N013"/>zw viSLONGchen
+				<lb n="N014"/>Item wildu machen ein gut latwaring 
+				<lb n="N015"/>von weychSLONGeln SLONGo thue SLONGy in ein hafen 
+				<lb n="N016"/>vnd SLONGetz In auff ein glut vnd gewß 
+				<lb n="N017"/>nichtz dar an  wen ez SLONGieden wirt SLONGo 
+				<lb n="N018"/>la ez kalt werden vnd SLONGtreych ez durch 
+				<lb n="N019"/>ein thuech vnd thue ez in einen keSLONGSLONGel 
+				<lb n="N020"/>vnd SLONGetz in auff einen drifueß vnd thue 
+				<lb n="N021"/>ein glut dar vnter vnd la ez SLONGieden 
+				<lb n="N022"/>piß ez dick wirt vnd d thue dan dar 
+				<lb n="N023"/>ein honig vnd geriben leczelten vnd 
+			
+			<pb xml:id="M10_149v" n="149v"/>
+			
+				<lb n="N001"/>gewurtz ez wol vnd ruer ez furSLONGtar vnd 
+				<lb n="N002"/>wan du ez nicht gerueren magSLONGt SLONGo hat 
+				<lb n="N003"/>eSNORM genug
+				<lb n="N004"/>Item wildu machen ein gute latwaring von 
+				<lb n="N005"/>weinperen SLONGo prich die per ab dem 
+				<lb n="N006"/>kammen vnd SLONGy in ein keSLONGSLONGel vnd SLONGetz auff 
+				<lb n="N007"/>ein drifueß vnd thue ein glut dar vnder 
+				<lb n="N008"/>vnd gewß nichtz dar an vnd wen ez 
+				<lb n="N009"/>SLONGyeden wirt SLONGo laß ez dan erkalten vnd 
+				<lb n="N010"/>SLONGtreych SLONGy durch ein thuech vnd thue ez 
+				<lb n="N011"/>wider in den keSLONGSLONGel vnd SLONGetz wider auff 
+				<lb n="N012"/>ein drifueß vnd la ez wol SLONGieden vnd 
+				<lb n="N013"/>wurtz ez wol ab mit gutem gewurtz 
+				<lb n="N014"/>vnd gewß SLONGy dan auff ein pret vnd la 
+				<lb n="N015"/>SLONGy kalten vj tag SLONGo SLONGchneydtz du SLONGy wie 
+				<lb n="N016"/>du wilt
+				<lb n="N017"/>Item wildu machen ein gemacht kraut SLONGo 
+				<lb n="N018"/>SLONGeudt weySLONGSLONGe haupper vnd czway tayl 
+				<lb n="N019"/>SLONGeniff vnd drew tayl honigk vnd die 
+				<lb n="N020"/>SLONGelben prue mach durch ein ander mit 
+				<lb n="N021"/>wein vnd thue dar ein kum vnd aniß 
+				<lb n="N022"/>dez genueg SLONGein vnd leg dann daz geSLONGoten 
+				<lb n="N023"/>kraut dar ein vnd gib ez kalt ze eSLONGSLONGen
+				<lb n="N024"/>Item wildu machen ein pachenSNORM von einem 
+				<lb n="N025"/>apphel von vierlay varb SLONGo nym ein ge
+				<lb n="N026"/>ruerte ayer von vierlay varben vnd SLONGchneid
+			
+			<pb xml:id="M10_150r" n="150r"/>
+			
+				<lb n="N001"/>einen apphel ein vier tayl vnd nym auß 
+				<lb n="N002"/>yedem tayl den keren vnd die SLONGchelf 
+				<lb n="N003"/>die vmb die den keren iSLONGt vnd full 
+				<lb n="N004"/>dar ein yetweder varb aine vnd SLONGteck 
+				<lb n="N005"/>SLONGy dan an SLONGpiSLONGSLONGel vnd zewch SLONGy durch 
+				<lb n="N006"/>ein dunnen SLONGtrauben taig vnd wen 
+				<lb n="N007"/>ez gepach SLONGo SLONGchneyd ez auff vnd be
+				<lb n="N008"/>SLONGtreych ez mit czucker
+				<lb n="N009"/>Item wildu machen ein krichel mueß krewSLONGSLONGen
+				<lb n="N010"/>von krebSLONGen SLONGo SLONGchel die krepSLONGen SLONGchon 
+				<lb n="N011"/>vnd nym die helß vnd die SLONGchar vnd 
+				<lb n="N012"/>leg die beSLONGunder dar nach SLONGtoß 
+				<lb n="N013"/>die SLONGchellen gar klain vnd SLONGchon vnd 
+				<lb n="N014"/>SLONGtreych SLONGy durch ein thuech mit einer 
+				<lb n="N015"/>geriben SLONGemel vnd mit einem wenigen 
+				<lb n="N016"/>eSLONGSLONGich vnd well ez ab mit einem leczelten 
+				<lb n="N017"/>daz ez dick wer vnd wurtz ez wol 
+				<lb n="N018"/>vnd la ez pey SLONGeiner varb vnd leg 
+				<lb n="N019"/>dan die SLONGchar vnd die helß dar ein 
+				<lb n="N020"/>vnd la SLONGy recken oben auß der prue 
+				<lb n="N021"/>vnd verSLONGaltz nicht 
+				<lb n="N022"/>Item wildu machen ein guten MeychSLONGiSLONGchen
+				<lb n="N023"/>kuechen zw einer herren SLONGchuSLONGSLONGel SLONGo nym 
+				<lb n="N024"/>auff zehen ayer vnd zerSLONGchlach SLONGy gar 
+				<lb n="N025"/>wol vnd nym dar peterSLONGil vnd ruer ez 
+			
+			<pb xml:id="M10_150v" n="150v"/>
+			
+				<lb n="N001"/>vnder ein ander vnd nym einen morSLONGer 
+				<lb n="N002"/>vnd SLONGetz In auff ein glut vnd thue dar 
+				<lb n="N003"/>ein ein wenig SLONGchmaltz vnd gewß dan die 
+				<lb n="N004"/>geSLONGchlagen ayer dar ein vnd laß alSLONGo 
+				<lb n="N005"/>SLONGieden vnd ker In dan  vmb vnd thw ein <w>we=
+				<lb n="N006"/>nig</w> geriben SLONGemel mel dar zw
+				<lb n="N007"/>Item ein putter milch mach alSLONGo nymm ayr
+				<lb n="N008"/>alSNORM vil dw wild vnd gewSNORM ein gutew 
+				<lb n="N009"/>milch dar an laß ein wenig zw SLONGamen 
+				<lb n="N010"/>SLONGyeden vnd gewSNORM auf den tuch daSNORM eSNORM 
+				<lb n="N011"/>erSLONGeych vnd SLONGchneid ein putter dar 
+				<lb n="N012"/>vnder vnd SLONGchlach dy matery mit ein 
+				<lb n="N013"/>ander ader tbingSNORM durch ein tuch vnd 
+				<lb n="N014"/>thwSNORM alSLONGo kalt auf ein SLONGchuSLONGSLONGel 
+				<lb n="N015"/> Item den SLONGtockviSLONGch plew vnd waych den ein 
+				<lb n="N016"/>waSLONGch den vnd erklawb in nymm ein <w>SLONGch=
+				<lb n="N017"/>malcz</w> vnd roSLONGt dy zbifal dar inn vnd thw 
+				<lb n="N018"/>dy prwe vnd milchram an den viSLONGch vnd 
+				<lb n="N019"/>mit ein ander an daSNORM SLONGchmalcz vnd 
+				<lb n="N020"/>laß den SNORMGyeden
+				<lb n="N021"/>Item ein wein muß nym x ayr I trinken
+				<lb n="N022"/>wein vnd pa ein 1/2 SLONGemel vnd zer
+				<lb n="N023"/>reibSNORM in den ayren
+			
+			<pb xml:id="M10_151r" n="151r"/>
+			
+				<lb n="N001"/>Item ein wein muß nym x ayr toter zer
+				<lb n="N002"/>SLONGchlag dy SLONGchon pae ein 1/2 SLONGemel SLONGchab 
+				<lb n="N003"/>dy SLONGawber vnd zer waych in einen 
+				<lb n="N004"/>trincken wein vnd pich prich dy <w>ma=
+				<lb n="N005"/>tery</w> alle durch ein tuch thw dar 
+				<lb n="N006"/>vnder honig vnd thw daSNORM in ein 
+				<lb n="N007"/>glaSLONGirten tegel mit erhiczten SLONGchmalz 
+				<lb n="N008"/>gilbt vnd gewirtzt vnd laß SLONGyeden 
+				<lb n="N009"/>ob einer glut vnd rurSNORM daSNORM eSNORM SLONGich 
+				<lb n="N010"/>nit an leg
+				<lb n="N011"/>Item pachen krewSLONGSLONGen SNORMGewd krewSLONGSLONGen 
+				<lb n="N012"/>vnd thw daSNORM vnSLONGawber dar von zer
+				<lb n="N013"/>SLONGtoSNORM mit ein ander Nym x ayr dar 
+				<lb n="N014"/>vnder Milch ram ein wenig vnd 
+				<lb n="N015"/>SLONGchlach daSNORM alleSNORM durch ein tuch ein 
+				<lb n="N016"/>wenigen wein vnd waSLONGSLONGer  Laß dar 
+				<lb n="N017"/>nach SLONGyeden vnd geburcz z?e SNORMGo 
+				<lb n="N018"/>wirt ein topfen dar auSNORM vnd preß 
+				<lb n="N019"/>den awSNORM Vnd SLONGchneid daSNORM  alSNORM dw 
+				<lb n="N020"/>wild vnd prich daSNORM in einen lenen
+				<lb n="N021"/>taygel vnd gib in einen guten pfeffer 
+				<lb n="N022"/>von leczelten etc.
+			
+			<pb xml:id="M10_151v" n="151v"/>
+			
+				<lb n="N001"/>Item einen arbaSNORM praten Nymm gut arbaSNORM vnd 
+				<lb n="N002"/>heyt dy in klatgoß geSLONGoten  SNORMGewd SLONGy 
+				<lb n="N003"/>dar nach in waSLONGSNORMer vnd wein daSNORM SLONGy 
+				<lb n="N004"/>SLONGich geren treyben laSLONGSLONGen vnd verSLONGtotz 
+				<lb n="N005"/>nit zer reibSNORM in einem morSLONGer vnd 
+				<lb n="N006"/>nymm x ayr vnd ein putter alSNORM ein 
+				<lb n="N007"/>gannSNORM enten aye Nymm ein geriben SLONGemel 
+				<lb n="N008"/>ein wenig vnd dy matery knyt 
+				<lb n="N009"/>zw SLONGamen daSNORM zach SLONGey ESNORM SLONGol auch 
+				<lb n="N010"/>geSLONGaltzt gilbt vnd geburczt SLONGein 
+				<lb n="N011"/>vnd SLONGpick daSNORM mit hawSLONGen oder mit 
+				<lb n="N012"/>einem anderen viSLONGch der prat hat 
+				<lb n="N013"/>vnd prat daSNORM wal ob einer glut 
+				<lb n="N014"/>daSNORM eSNORM prawn wert vnd auSNORM zich
+				<lb n="N015"/>Item vber dy ror pachen nymm ein SLONGtrawben 
+				<lb n="N016"/>tayg vnd myß dy ror recht nach der
+				<lb n="N017"/>pfannen legSNORM in daSNORM SLONGchmalSNORM SNORMGo gen SLONGy geren ab SLONGcherff an den orteren way? 
+				<lb n="N018"/>in den tayg vnd legSNORM in dy pfannen 
+				<lb n="N019"/>in daSNORM heySNORM SLONGchmalcz vnd zewchSNORM 
+				<lb n="N020"/>hofflich ab Item wil dwSNORM fullen 
+				<lb n="N021"/>SNORMGo nymm ayr ein wenig geriben 
+				<lb n="N022"/>SLONGemel oder apfel geroSLONGt peterSLONGil
+			
+			<pb xml:id="M10_152r" n="152r"/>
+			
+				<lb n="N001"/>AneySNORM geburczt etc. Auch nymm ein 
+				<lb n="N002"/>wenig lorberch vnd wein per 
+				<lb n="N003"/>hack daSNORM durch ein ander vnd 
+				<lb n="N004"/>thuSNORM vnder dy ayr vnd dar nach 
+				<lb n="N005"/>ein wenig SLONGchmalcz vnd raSLONGt daSNORM 
+				<lb n="N006"/>durch ein ander vnd full daSNORM in 
+				<lb n="N007"/>daSNORM ror kuchen vnd laSNORM mit einem 
+				<lb n="N008"/>leinen tayg pachen an den orteren 
+				<lb n="N009"/>in dem SLONGchmalcz
+				<lb n="N010"/>Item ein CzogenSNORM pachen Item nym ain aye 
+				<lb n="N011"/>SNORMGalcz vnd laß haySNORM SLONGchmalcz in einer 
+				<lb n="N012"/>pfanen vmb lawffen alSNORM weytz ySNORM vnd 
+				<lb n="N013"/>gewSNORM daSNORM der SLONGchlagen aye auf dy pfanen 
+				<lb n="N014"/>vnd laß vmb lauffen alSNORM weyt dy pfanen
+				<lb n="N015"/>iSLONGt vnd kerSNORM auSLONGSLONGen auch zw dem fewr 
+				<lb n="N016"/>daß eSNORM prawnn wert Item nymm ein leinSNORM
+				<lb n="N017"/>taygel mit iij ayeren vnd zerSLONGchneid 
+				<lb n="N018"/>daSNORM plat AlSNORM dwSNORM haben wild vnd 
+				<lb n="N019"/>necz in dem taygel zw ainczigen vnd 
+				<lb n="N020"/>pachSNORM in einem SLONGchmalcz
+			
+			<pb xml:id="M10_152v" n="152v"/>
+			
+				<lb n="N001"/>Item mach ein groß aye Nymm xx oder xxx 
+				<lb n="N002"/>ayr SLONGchayd daSNORM weySNORM vnd daSNORM rot dar 
+				<lb n="N003"/>von vnd mach den toter mit geburczt 
+				<lb n="N004"/>SLONGewde in in einer klain plater daSNORM er 
+				<lb n="N005"/>hertalat wert SLONGchneyd dy plater dar 
+				<lb n="N006"/>von vnd mach dy klar in ein groSLONGSLONGe 
+				<lb n="N007"/>plater vnd SLONGewd dy daSNORM SLONGy an SLONG?
+				<lb n="N008"/>tig wert SLONGo thw dann den toter dar 
+				<lb n="N009"/>ein SNORMGo SLONGewd eSNORM zw ein andr vnd 
+				<lb n="N010"/>thw eSNORM in einen hefen etc. 
+			
+		</ab></body>
+   </text>
+</TEI>

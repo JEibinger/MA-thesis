@@ -1,0 +1,2481 @@
+<?xml-model href="../corema_schema/corema_glyph.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../corema_schema/corema_glyph.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Electronic transcription of Wien, Österr. Nationalbibl., Cod. 4995</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Hyperdiplomatische Basistranskription der Handschrift Wien, Österr. Nationalbibl., Cod. 4995</edition>
+            <editor>
+               <forename>Astrid</forename>
+               <surname>Böhm</surname>
+            </editor>
+            <principal>
+               <forename>Helmut W.</forename>
+               <surname>Klug</surname>
+            </principal>
+            <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+            </publisher>
+            <authority>
+               <ref target="https://informationsmodellierung.uni-graz.at"/>
+               <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+						Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+            </authority>
+            <distributor>
+               <ref target="https://gams.uni-graz.at"/>
+               <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+               <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+            </availability>
+            <date when="2020-01-01"/>
+            <pubPlace>Graz</pubPlace>
+            <idno type="PID">o:corema.w3</idno>
+            <ref target="context:corema" type="context"/>
+            <ref target="context:corema.glyph" type="context"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Wien</settlement>
+                  <institution ref="https://www.onb.ac.at/">Österr. Nationalbibl.</institution>
+                  <idno>Cod. 4995</idno>
+                  <altIdentifier type="abbr">
+                     <idno>W3</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang ana="manuscript">
+                     <lang ana="main" n="Q29540">Bavarian</lang>
+                     <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                  </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="composite-Manuscript">
+                     <supportDesc>
+                        <extent>
+                           <measure unit="leaf" type="leavesCount">1+238</measure>
+                           <dimensions type="block" unit="mm">
+                              <height>215</height>
+                              <width>147</width>
+                           </dimensions>
+                        </extent>
+                        <foliation>
+                           <ab type="completeness">Es liegt ein Foliierungsfehler vor.<lb/>
+										Die Foliierung des 19. Jahrhunderts übergeht die kleineren eingebundenen Bl. 27a, 28a (derzeit lose), 33a, zählt jedoch das kleine Bl. 93.<lb/> 
+										Bis Bl. 46 ist in der Mitte des oberen Randes eine zeitgenössische Foliierung erhalten.</ab>
+                        </foliation>
+                        <collation>
+                           <formula style="chroust">Teil I: 1^1 + VI^12 + VI^24 +VI^36(?) +VI^48(?) +VI^60(?) + VI^72 + VI^84 (Bl. 93 ist dazugezählt, gehört aber nicht dazu) + VI^97 + VI^109 + VI^121 + VI^133 + VI^145 + V I^154 + VI^166 (Die genaue Lagenverteilung zwischen Blatt 25 und 60 ist nicht exakt feststellbar.).<lb/>
+										Teil II: VI^178 + VI^190 + VI^202 + VI^214 + VI^226.<lb/>
+										Teil III: VI^238 + 1^1 (Urkundenfragment 2. Hälfte 14. Jh.?);<lb/>
+										Chroustsche Lagenformel: 1^1* + 20VI^238 + 1^1*. Bl. 93 ist wie bereits erwähnt abzuziehen.</formula>
+                           <ab>3 Teile:<lb/>
+										I (Bl. 1r -Bl. 166v),<lb/>
+										II (Bl. 167r -Bl. 226v),<lb/>
+										III (Bl. 227r - Bl. 238v).</ab>
+                        </collation>
+                        <condition>
+                           <desc>Die Sammelhandschrift setzt sich aus drei deutlich voneinander getrennten Teilen zusammen. Im ersten Teil enthält sie einen Kommentar zum 'Graecismus' Eberhards von Bethune (1r -159r), 
+										im zweiten ein Gesundheitsregimen, einen Weintraktat und das Mondseer Kochbuch (168r-170r De regimine sanitatis; 170r-190v De vino eiusque proprietatibus tractatus latinus una, teilweise mit deutscher Übersetzung;
+										191r-224r Kochbuch mit Inhaltsverzeichnis und gereimter Vorrede) 
+										und im dritten Schemata mnemotechnica (227r-235v).</desc>
+                           <material xml:lang="de">Papier</material>
+                           <material xml:lang="en">paper</material>
+                           <watermark xml:id="Waage">Teil I, Teil II: Waage, Typus Piccard V, Abteilung I, Nr. 20ff.
+									</watermark>
+                           <watermark xml:id="Dreiberg">Teil I, Teil III: Dreiberg, Typus Piccard XVI/1, Nr. 1593.
+									</watermark>
+                           <watermark xml:id="Ochsenkopf">Teil I: Ochsenkopf mit einkonturiger Stange mit Blume, Typus Piccard 1173, Abteilung XII, Nr. 231 ff.
+									</watermark>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p ana="measure">155-160 x 85-90 mm</p>
+                           <p ana="lines">24-35</p>
+                           <p ana="text">Nur Teil I ist rubriziert und weist rote Unterstreichungen und Auszeichnungsstriche auf den Blättern 1r-55r, 60r, 61r, 85r-90r, 127v-128r, 138v-139r auf.  
+										Vereinzelt gibt es rote Kommentarlemmata (z.B. Bl. 2v).<lb/> 
+										Teil II ist nicht rubriziert.<lb/>
+										Teil III hat nur rote Auszeichnungsstriche (Bl. 227r -235v).</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Teil I: 1r-158r:<lb/>
+							Haupttext und Kommentar in <term>Bastarda</term> von mehreren Händen, der Kommentar ist in kleinerer Schrift gehalten.<lb/> 
+							158v-159r: Index in vier Spalten zu 38 Zeilen von einer Hand in <term>Bastada</term>. <lb/>
+							Teil II: 168r-224r:<lb/>
+                        <term>Bastarda</term> von mehreren Händen in einer Spalte zu 24-33 Zeilen.<lb/> 
+							Teil III: 227r-235v:<lb/>
+                        <term>Bastarda</term> von zwei (?) Händen.</handNote>
+                  </handDesc>
+                  <scriptDesc facs="fol 191r-224r" resp="Astrid Böhm">
+                     <scriptNote>
+                        <desc>allgemeine Beobachtung</desc>
+                        <p>geübte Hand, strukturierter Aufbau, Überschriften/Rezepte abgesetzt</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Duktus</desc>
+                        <p>relativ gerade, leicht nach rechts geneigt</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Leitbuchstabe &lt;a&gt;</desc>
+                        <p>einstöckiges &lt;a&gt;</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Leitbuchstabe &lt;l&gt;</desc>
+                        <p>mit und ohne Schleife</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Leitbuchstabe &lt;g&gt;</desc>
+                        <p>geschlossene Punze mit geradem Querstrich oben, Unterbogen fast oder ganz geschlossen</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Leitbuchstabe &lt;e&gt;</desc>
+                        <p>offenen Punze</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                        <p>Abstrich beim finalen Schaft in finaler Stellung teils in die Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                        <p>mit und ohne Schleife</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                        <p>‚normale‘ Unterlänge</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Verschiedene r-Formen</desc>
+                        <p>gerades und rundes &lt;r&gt;</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Verschiedene z-Formen</desc>
+                        <p>ungeschwänztes/rundes &lt;z&gt; bzw. geschwänztes &lt;z&gt;, das nicht oder kaum in die Unterlänge reicht</p>
+                        <p>
+                           <graphic facs="193r05" url="img/W3_193r05.jpg" xml:id="W3_193R05"/>
+                           <graphic facs="193r08" url="img/W3_193r08.jpg" xml:id="W3_193R08"/>
+                        </p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem z</desc>
+                        <p>&lt;h&gt; weist im Abstricht teils Unterlänge auf</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                        <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+                        <p>mit und ohne Schleife</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>i-Markierung</desc>
+                        <p>unregelmäßig</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Besonderheiten anderer Grapheme</desc>
+                        <p>sz-Ligatur; Graphe in initialer Stellung teils beim Anstrich starke Unterlänge/Bogen; &lt;cz&gt;- und &lt;tz&gt;-Kombination kaum/nicht zu unterscheiden</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Zahlzeichen</desc>
+                        <p>römische Ziffer/lat. Buchstaben</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Majuskeln (Verwendung)</desc>
+                        <p>Überschriften, Initiale </p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Verzierungen</desc>
+                        <p>teils Unterstreichungen von Überschriften, einfach ausgeführte Initialen</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Rubrizierung</desc>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Diakritika</desc>
+                        <p>&lt;o&gt;, &lt;e&gt; über Vokalen; Trema; kleiner Strich über &lt;u&gt;; teils einzelner Punkt über Vokalen; Übergang zwischen hochgestelltem &lt;e&gt; und diagonal verlaufendem Trema fließend</p>
+                        <p>
+                           <graphic facs="191v22" url="img/W3_191v22.jpg" xml:id="W3_191V22"/>
+                        </p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Abbreviaturen</desc>
+                        <p>Kürzungsstrich, r/er-Kürzungshaken</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Interpunktion</desc>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Terminatoren</desc>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Worttrennung</desc>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Korrekturen</desc>
+                        <p>Streichungen</p>
+                     </scriptNote>
+                     <scriptNote>
+                        <desc>Offensichtliche Schreiberwechsel</desc>
+                     </scriptNote>
+                  </scriptDesc>
+                  <bindingDesc>
+                     <binding corresp="#Einband">
+                        <condition>Spätgotischer originaler Gebrauchseinband, Mondsee, 2. Hälfte 15. Jh.</condition>
+                        <decoNote type="bindingMaterial">Helles glattes Leder über Holz.</decoNote>
+                        <decoNote type="decoration">Streicheisendekoration, Vorderdeckel und Hinterdeckel gleich: Außenrahmen und Andreaskreuz aus Doppelbändern.</decoNote>
+                        <decoNote type="clasps">Auf dem Vorderdeckel Titelschild und Mittelschließe entfernt; auf dem Hinterdeckel Schließenbandbeschlag entfernt. </decoNote>
+                        <decoNote type="spine">Der Rücken hat drei Doppelbünde und ist ganzflächig mit Papier überklebt.  
+									Auf ihm stehen folgende Titel und Signaturen der Mondseer Klosterbibliothek aus dem 18. Jh.:<lb/>
+									1. Feld: Miscellan(ea), darunter klein die Signatur 3611 (18. Jd.).<lb/> 
+									Am 2. Feld zweimal die Signatur 58.<lb/> 
+									Spiegel vorne: Pergament-Bruchstück mit dem Text einer lat. Grammatik des 14. Jh. Breiter Falz des Spiegels zwischen Bl. 226 und 227 sichtbar.<lb/> 
+									Spiegel hinten blank, halbe Pergamenturkunde, dt., geschrieben in Notula des 14. Jh.: 
+									<q>Frantziske Lantrichter ze Graz und Lienhart den speiser</q> betreffend.
+									</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date xml:lang="de" notBefore="1338" notAfter="1360">1339/40 und möglicherweise noch etwas später</date>
+                        <date xml:lang="en">1339/40 and possibly later</date>
+                     </origDate>
+                     
+                     <origDate corresp="#157v">1439</origDate>
+                     <origDate corresp="#238v">1453 </origDate>
+                     <origPlace>
+                        <placeName xml:lang="de">Mondsee (?)</placeName>
+                        <placeName xml:lang="en">Mondsee (?)</placeName>: hier wurden im 15. Jh. die drei Teile zumindest zusammengebunden.</origPlace>
+                  </origin>
+                  <provenance>Nach der Aufhebung des Stiftes Mondsee gelangte der Codex im Jahre 1791 in die Hofbibliothek, wo er die Signatur Lunael. Q 58 hatte, bis er im Zuge der Entstehung des „Tabulae"-Kataloges im 19. Jahrhundert die heutige Signatur Cod. 4995 erhielt.</provenance>
+               </history>
+               <msPart n="1r-159r">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="w3.1r-159r.1">
+                        <locus ana="folio">1r-159r</locus>
+                        <title>Kommentar und Glossen zum Graecismus Eberhards von Béthune</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="159v-166v">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#div" xml:id="w3.159v-166v.2">
+                        <locus ana="folio">159v-166v</locus>
+                        <title>einige Federproben, 1 Notiz, sonst leer</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="167">
+                  <msContents>
+                     <msItem corresp="#leer" xml:id="w3.167.3">
+                        <locus ana="folio">167</locus>
+                        <title>leer</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="168r-170r">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#med_hum" xml:id="w3.168r-170r.4">
+                        <locus ana="folio">168r-170r</locus>
+                        <title>Regimen Sanitatis</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="170r-190v">
+                  <head>De vino eiusque proprietatibus tractatus latinus una cum versione pro parte germanica</head>
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="w3.170r-180v.5">
+                        <locus ana="folio">170r-180v</locus>
+                        <title>Tractatus Latinus</title>
+                     </msItem>
+                     <msItem corresp="#house" xml:id="w3.180v-190v.6">
+                        <locus ana="folio">180v-190v</locus>
+                        <title>Weinbüchl</title>
+                        <textLang>
+                           <lang ana="other" n="Q29540">Bavarian</lang>
+                        </textLang>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart ana="cooking_recipes" n="191r-224r">
+                  <head>Mondseer Kochbuch</head>
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q29540" corresp="ug">Bavarian</lang>
+                     </textLang>
+                     <msItem corresp="#cooking" xml:id="w3.191r.7">
+                        <locus ana="folio">191r</locus>
+                        <title>Kochrezepte</title>
+                     </msItem>
+                     <msItem corresp="#div" xml:id="w3.191r-192v.8">
+                        <locus ana="folio">191r-192v</locus>
+                        <title>Inhaltsverzeichnis</title>
+                     </msItem>
+                     <msItem corresp="#cooking" xml:id="w3.191r-192v.9">
+                        <locus ana="folio">191r-192v</locus>
+                        <title>Kochrezepte</title>
+                     </msItem>
+                     <msItem corresp="#div" xml:id="w3.192v-193r.10">
+                        <locus ana="folio">192v-193r</locus>
+                        <title>Einleitung in 19 Versen (V7 ist unpaarig)</title>
+                     </msItem>
+                     <msItem corresp="#cooking" xml:id="w3.193r-224r.11">
+                        <locus ana="folio">193r-224r</locus>
+                        <title>Kochrezepte</title>
+                     </msItem>
+                     <msItem corresp="#leer" xml:id="w3.224v-226r.12">
+                        <locus ana="folio">224v-226r</locus>
+                        <title>leer</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="227r-235v">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#artes" xml:id="w3.227r-235v.13">
+                        <locus ana="folio">227r-235v</locus>
+                        <title>Schemata mnemotechnica</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="236r-238r">
+                  <msContents>
+                     <msItem corresp="#leer" xml:id="w3.236r-238r.14">
+                        <locus ana="folio">236r-238r</locus>
+                        <title>leer</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+               <msPart n="238v">
+                  <msContents>
+                     <textLang>
+                        <lang ana="main" n="Q1163234">Medieval Latin</lang>
+                     </textLang>
+                     <msItem corresp="#div" xml:id="w3.238v.15">
+                        <locus ana="folio">238v</locus>
+                        <title>Schenkungsvermerk: Frater Benedictus de Piburg obtulit hunc
+									libellum pro monasterio Lunelacensi anno domini etc. LIII°</title>
+                     </msItem>
+                  </msContents>
+               </msPart>
+            </msDesc>
+            <listBibl type="catalogues">
+               <biblStruct type="book" xml:id="Menhardt1961" corresp="http://zotero.org/groups/2455111/items/EBVQ9KNZ">
+                  <monogr>
+                     <title level="m">Verzeichnis der altdeutschen literarischen Handschriften der
+								österreichischen Nationalbibliothek. 2. Band</title>
+                     <author>
+                        <forename>Hermann</forename>
+                        <surname>Menhardt</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>Akademie-Verlag</publisher>
+                        <date>1961</date>
+                        
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Deutsche Akademie der Wissenschaften zu Berlin - Veröffentlichungen
+							des Instituts für deutsche Sprache und Literatur. 13.</title>
+                  </series>
+                  <citedRange unit="page">1085</citedRange>
+                  
+               </biblStruct>
+               <biblStruct type="webpage" xml:id="Wolf2010" corresp="http://zotero.org/groups/2455111/items/AYIIIIWF">
+                  <analytic>
+                     <title level="a">Handschriftencensus | Wien, Österr. Nationalbibl., Cod. 4995</title>
+                     <author>
+                        <forename>Jürgen</forename>
+                        <surname>Wolf</surname>
+                     </author>
+                     <author>
+                        <forename>Klaus</forename>
+                        <surname>Graf</surname>
+                     </author>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Handschriftencensus</title>
+                     <imprint>
+                        <date>2010</date>
+                        
+                        
+                     </imprint>
+                  </monogr>
+                  
+               </biblStruct>
+            </listBibl>
+            <listBibl type="transcriptions">
+               <biblStruct type="book" xml:id="Aichholzer1999" corresp="http://zotero.org/groups/2455111/items/X3WN8548">
+                  <monogr>
+                     <title level="m">"Wildu machen ayn guet essen ..." Drei mittelhochdeutsche Kochbücher:
+								Ersteditionen, Übersetzung, Kommentar</title>
+                     <idno type="ISBN">3-906762-44-0</idno>
+                     <author>
+                        <forename>Doris</forename>
+                        <surname>Aichholzer</surname>
+                     </author>
+                     <imprint>
+                        <pubPlace>Wien [u.a.]</pubPlace>
+                        <publisher>Lang</publisher>
+                        <date>1999</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Wiener Arbeiten zur germanischen Altertumskunde und Philologie.
+							35.</title>
+                  </series>
+                  
+               </biblStruct>
+            </listBibl>
+            <!--<listBibl type="catalogues">
+					<bibl>Aichholzer, Wiltu machen, S. 85-87</bibl> 
+					<bibl>Hermann Menhardt, Verzeichnis der altdeutschen literarischen Handschriften der Österreichischen Nationalbibliothek, Bd. 2 (Veröffentlichungen des Instituts für deutsche Sprache und Literatur 13), Berlin 1961, S. 1085.</bibl>
+				<bibl>HSC</bibl>
+				</listBibl>
+				<listBibl type="transcriptions">
+					<bibl>Aichholzer, Wiltu machen</bibl> 
+				</listBibl>-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#W3_191r">
+         <graphic xml:id="IMG.191r" url="Wien_ÖNB_Cod_4995_191r.jpg"/>
+      </surface>
+      <surface start="#W3_191v">
+         <graphic xml:id="IMG.191v" url="Wien_ÖNB_Cod_4995_191v.jpg"/>
+      </surface>
+      <surface start="#W3_192r">
+         <graphic xml:id="IMG.192r" url="Wien_ÖNB_Cod_4995_192r.jpg"/>
+      </surface>
+      <surface start="#W3_192v">
+         <graphic xml:id="IMG.192v" url="Wien_ÖNB_Cod_4995_192v.jpg"/>
+      </surface>
+      <surface start="#W3_193r">
+         <graphic xml:id="IMG.193r" url="Wien_ÖNB_Cod_4995_193r.jpg"/>
+      </surface>
+      <surface start="#W3_193v">
+         <graphic xml:id="IMG.193v" url="Wien_ÖNB_Cod_4995_193v.jpg"/>
+      </surface>
+      <surface start="#W3_194r">
+         <graphic xml:id="IMG.194r" url="Wien_ÖNB_Cod_4995_194r.jpg"/>
+      </surface>
+      <surface start="#W3_194v">
+         <graphic xml:id="IMG.194v" url="Wien_ÖNB_Cod_4995_194v.jpg"/>
+      </surface>
+      <surface start="#W3_195r">
+         <graphic xml:id="IMG.195r" url="Wien_ÖNB_Cod_4995_195r.jpg"/>
+      </surface>
+      <surface start="#W3_195v">
+         <graphic xml:id="IMG.195v" url="Wien_ÖNB_Cod_4995_195v.jpg"/>
+      </surface>
+      <surface start="#W3_196r">
+         <graphic xml:id="IMG.196r" url="Wien_ÖNB_Cod_4995_196r.jpg"/>
+      </surface>
+      <surface start="#W3_196v">
+         <graphic xml:id="IMG.196v" url="Wien_ÖNB_Cod_4995_196v.jpg"/>
+      </surface>
+      <surface start="#W3_197r">
+         <graphic xml:id="IMG.197r" url="Wien_ÖNB_Cod_4995_197r.jpg"/>
+      </surface>
+      <surface start="#W3_197v">
+         <graphic xml:id="IMG.197v" url="Wien_ÖNB_Cod_4995_197v.jpg"/>
+      </surface>
+      <surface start="#W3_198r">
+         <graphic xml:id="IMG.198r" url="Wien_ÖNB_Cod_4995_198r.jpg"/>
+      </surface>
+      <surface start="#W3_198v">
+         <graphic xml:id="IMG.198v" url="Wien_ÖNB_Cod_4995_198v.jpg"/>
+      </surface>
+      <surface start="#W3_199r">
+         <graphic xml:id="IMG.199r" url="Wien_ÖNB_Cod_4995_199r.jpg"/>
+      </surface>
+      <surface start="#W3_199v">
+         <graphic xml:id="IMG.199v" url="Wien_ÖNB_Cod_4995_199v.jpg"/>
+      </surface>
+      <surface start="#W3_200r">
+         <graphic xml:id="IMG.200r" url="Wien_ÖNB_Cod_4995_200r.jpg"/>
+      </surface>
+      <surface start="#W3_200v">
+         <graphic xml:id="IMG.200v" url="Wien_ÖNB_Cod_4995_200v.jpg"/>
+      </surface>
+      <surface start="#W3_201r">
+         <graphic xml:id="IMG.201r" url="Wien_ÖNB_Cod_4995_201r.jpg"/>
+      </surface>
+      <surface start="#W3_201v">
+         <graphic xml:id="IMG.201v" url="Wien_ÖNB_Cod_4995_201v.jpg"/>
+      </surface>
+      <surface start="#W3_202r">
+         <graphic xml:id="IMG.202r" url="Wien_ÖNB_Cod_4995_202r.jpg"/>
+      </surface>
+      <surface start="#W3_202v">
+         <graphic xml:id="IMG.202v" url="Wien_ÖNB_Cod_4995_202v.jpg"/>
+      </surface>
+      <surface start="#W3_203r">
+         <graphic xml:id="IMG.203r" url="Wien_ÖNB_Cod_4995_203r.jpg"/>
+      </surface>
+      <surface start="#W3_203v">
+         <graphic xml:id="IMG.203v" url="Wien_ÖNB_Cod_4995_203v.jpg"/>
+      </surface>
+      <surface start="#W3_204r">
+         <graphic xml:id="IMG.204r" url="Wien_ÖNB_Cod_4995_204r.jpg"/>
+      </surface>
+      <surface start="#W3_204v">
+         <graphic xml:id="IMG.204v" url="Wien_ÖNB_Cod_4995_204v.jpg"/>
+      </surface>
+      <surface start="#W3_205r">
+         <graphic xml:id="IMG.205r" url="Wien_ÖNB_Cod_4995_205r.jpg"/>
+      </surface>
+      <surface start="#W3_205v">
+         <graphic xml:id="IMG.205v" url="Wien_ÖNB_Cod_4995_205v.jpg"/>
+      </surface>
+      <surface start="#W3_206r">
+         <graphic xml:id="IMG.206r" url="Wien_ÖNB_Cod_4995_206r.jpg"/>
+      </surface>
+      <surface start="#W3_206v">
+         <graphic xml:id="IMG.206v" url="Wien_ÖNB_Cod_4995_206v.jpg"/>
+      </surface>
+      <surface start="#W3_207r">
+         <graphic xml:id="IMG.207r" url="Wien_ÖNB_Cod_4995_207r.jpg"/>
+      </surface>
+      <surface start="#W3_207v">
+         <graphic xml:id="IMG.207v" url="Wien_ÖNB_Cod_4995_207v.jpg"/>
+      </surface>
+      <surface start="#W3_208r">
+         <graphic xml:id="IMG.208r" url="Wien_ÖNB_Cod_4995_208r.jpg"/>
+      </surface>
+      <surface start="#W3_208v">
+         <graphic xml:id="IMG.208v" url="Wien_ÖNB_Cod_4995_208v.jpg"/>
+      </surface>
+      <surface start="#W3_209r">
+         <graphic xml:id="IMG.209r" url="Wien_ÖNB_Cod_4995_209r.jpg"/>
+      </surface>
+      <surface start="#W3_209v">
+         <graphic xml:id="IMG.209v" url="Wien_ÖNB_Cod_4995_209v.jpg"/>
+      </surface>
+      <surface start="#W3_210r">
+         <graphic xml:id="IMG.210r" url="Wien_ÖNB_Cod_4995_210r.jpg"/>
+      </surface>
+      <surface start="#W3_210v">
+         <graphic xml:id="IMG.210v" url="Wien_ÖNB_Cod_4995_210v.jpg"/>
+      </surface>
+      <surface start="#W3_211r">
+         <graphic xml:id="IMG.211r" url="Wien_ÖNB_Cod_4995_211r.jpg"/>
+      </surface>
+      <surface start="#W3_211v">
+         <graphic xml:id="IMG.211v" url="Wien_ÖNB_Cod_4995_211v.jpg"/>
+      </surface>
+      <surface start="#W3_212r">
+         <graphic xml:id="IMG.212r" url="Wien_ÖNB_Cod_4995_212r.jpg"/>
+      </surface>
+      <surface start="#W3_212v">
+         <graphic xml:id="IMG.212v" url="Wien_ÖNB_Cod_4995_212v.jpg"/>
+      </surface>
+      <surface start="#W3_213r">
+         <graphic xml:id="IMG.213r" url="Wien_ÖNB_Cod_4995_213r.jpg"/>
+      </surface>
+      <surface start="#W3_213v">
+         <graphic xml:id="IMG.213v" url="Wien_ÖNB_Cod_4995_213v.jpg"/>
+      </surface>
+      <surface start="#W3_214r">
+         <graphic xml:id="IMG.214r" url="Wien_ÖNB_Cod_4995_214r.jpg"/>
+      </surface>
+      <surface start="#W3_214v">
+         <graphic xml:id="IMG.214v" url="Wien_ÖNB_Cod_4995_214v.jpg"/>
+      </surface>
+      <surface start="#W3_215r">
+         <graphic xml:id="IMG.215r" url="Wien_ÖNB_Cod_4995_215r.jpg"/>
+      </surface>
+      <surface start="#W3_215v">
+         <graphic xml:id="IMG.215v" url="Wien_ÖNB_Cod_4995_215v.jpg"/>
+      </surface>
+      <surface start="#W3_216r">
+         <graphic xml:id="IMG.216r" url="Wien_ÖNB_Cod_4995_216r.jpg"/>
+      </surface>
+      <surface start="#W3_216v">
+         <graphic xml:id="IMG.216v" url="Wien_ÖNB_Cod_4995_216v.jpg"/>
+      </surface>
+      <surface start="#W3_217r">
+         <graphic xml:id="IMG.217r" url="Wien_ÖNB_Cod_4995_217r.jpg"/>
+      </surface>
+      <surface start="#W3_217v">
+         <graphic xml:id="IMG.217v" url="Wien_ÖNB_Cod_4995_217v.jpg"/>
+      </surface>
+      <surface start="#W3_218r">
+         <graphic xml:id="IMG.218r" url="Wien_ÖNB_Cod_4995_218r.jpg"/>
+      </surface>
+      <surface start="#W3_218v">
+         <graphic xml:id="IMG.218v" url="Wien_ÖNB_Cod_4995_218v.jpg"/>
+      </surface>
+      <surface start="#W3_219r">
+         <graphic xml:id="IMG.219r" url="Wien_ÖNB_Cod_4995_219r.jpg"/>
+      </surface>
+      <surface start="#W3_219v">
+         <graphic xml:id="IMG.219v" url="Wien_ÖNB_Cod_4995_219v.jpg"/>
+      </surface>
+      <surface start="#W3_220r">
+         <graphic xml:id="IMG.220r" url="Wien_ÖNB_Cod_4995_220r.jpg"/>
+      </surface>
+      <surface start="#W3_220v">
+         <graphic xml:id="IMG.220v" url="Wien_ÖNB_Cod_4995_220v.jpg"/>
+      </surface>
+      <surface start="#W3_221r">
+         <graphic xml:id="IMG.221r" url="Wien_ÖNB_Cod_4995_221r.jpg"/>
+      </surface>
+      <surface start="#W3_221v">
+         <graphic xml:id="IMG.221v" url="Wien_ÖNB_Cod_4995_221v.jpg"/>
+      </surface>
+      <surface start="#W3_222r">
+         <graphic xml:id="IMG.222r" url="Wien_ÖNB_Cod_4995_222r.jpg"/>
+      </surface>
+      <surface start="#W3_222v">
+         <graphic xml:id="IMG.222v" url="Wien_ÖNB_Cod_4995_222v.jpg"/>
+      </surface>
+      <surface start="#W3_223r">
+         <graphic xml:id="IMG.223r" url="Wien_ÖNB_Cod_4995_223r.jpg"/>
+      </surface>
+      <surface start="#W3_223v">
+         <graphic xml:id="IMG.223v" url="Wien_ÖNB_Cod_4995_223v.jpg"/>
+      </surface>
+      <surface start="#W3_224r">
+         <graphic xml:id="IMG.224r" url="Wien_ÖNB_Cod_4995_224r.jpg"/>
+      </surface>
+      <surface start="#">
+         <graphic xml:id="CUTOUT" url="cutouts/w3.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body xml:space="preserve"><ab>
+			<pb xml:id="W3_191r" n="191r"/>
+			
+				<lb n="N001"/>Nota kaSLONGmad ze machen 
+				<lb n="N002"/>piSLONGceSNORM ad acetum poSLONGt de coccoem
+				<lb n="N003"/>Ain muSNORM von mandelmilch und von kerSLONGen 
+				<lb n="N004"/>vnd reiße wie man aineSNORM hirSLONGen leber ein SLONGultz
+				<lb n="N005"/>Ein muoß oder koch von Cziger vnd mandelmilch 
+				<lb n="N006"/>vnd von reiß mel vnd huner
+				<lb n="N007"/>Von ainem haideniSLONGchen kuchen wie man gehirn
+				<lb n="N008"/>brett an ainem SLONGpiSNORM 
+				<lb n="N009"/>Wie man ein eingefult feckel macht 
+				<lb n="N010"/>Ein muoß oder koch von kriechen von ainem gebra
+				<lb n="N011"/>ten hun In ainem h morSLONGer 
+				<lb n="N012"/>Von einem gebacken
+				<lb n="N013"/>Ein muSNORM oder koch von gebacken birn wie
+				<lb n="N014"/>man paSLONGteden pachen SLONGol
+				<lb n="N015"/>Wie ein Condiment gemacht wirt uber fiSLONGch 
+				<lb n="N016"/>oder wiltprett
+				<lb n="N017"/>Wie man gefult hechSLONGt hecht macht
+				<lb n="N018"/>Von gefulten alen
+				<lb n="N019"/>Wie man lachSLONGe pecht
+				<lb n="N020"/>Wie man ain SLONGtokfiSLONGch brett
+				<lb n="N021"/>Wie man SLONGweinen darm vnd SLONGweinen magen 
+				<lb n="N022"/>In ain Condiment macht 
+				<lb n="N023"/>Wie man macht ein gebachen muoSNORM oder koch 
+				<lb n="N024"/>Wie man von weiSLONGSLONGen brot machet ain mandelmilch 
+				<lb n="N025"/>Wie man milch mag gebraten an ainem SLONGpiSLONGSLONGe 
+			
+			<pb xml:id="W3_191v" n="191v"/>
+			
+				<lb n="N001"/>Wie man ein Condiment ube ein ganSNORM macht
+				<lb n="N002"/>Wie man ain gepachenSNORM macht vnd dar nach 
+				<lb n="N003"/>an einem SLONGpiSNORM bret 
+				<lb n="N004"/>Von gebratten hunern wie man die pechet In 
+				<lb n="N005"/>aim morSLONGer
+				<lb n="N006"/>Wie man ein leber ein macht
+				<lb n="N007"/>Wie man gepratten hunner In ein pfeffer macht
+				<lb n="N008"/>Wie man ein Condiment macht uber hunner
+				<lb n="N009"/>Wie man ein SLONGalSLONGe macht uber hunner morchen oder 
+				<lb n="N010"/>SLONGchwammen
+				<lb n="N011"/>Aber von ainer SLONGalSLONGen
+				<lb n="N012"/>Wie man ein hecht fullen SLONGol
+				<lb n="N013"/>Wie man gefult Ele SLONGol machen
+				<lb n="N014"/>Wie man ain SLONGtockfiSLONGch praten SLONGol
+				<lb n="N015"/>Wie man ein keß von mandelmilch macht
+				<lb n="N016"/>Wie man ritntflaiSLONGch mit aSLONGchlauch SLONGeudt
+				<lb n="N017"/>Wie man ein ganSNORM In einem hefen braten SLONGol vnd ein 
+				<lb n="N018"/>Condiment dar ubermachen
+				<lb n="N019"/>Wie man krapfen bachen SLONGol
+				<lb n="N020"/>Aber von krappfen
+				<lb n="N021"/>Wie man arbaiSNORM praten SLONGol an ainem SLONGpiSNORM
+				<lb n="N022"/>Aber wie man ain hecht fullen SLONGol
+				<lb n="N023"/>Aber wie man milich pret an ainem SLONGpiSNORM
+				<lb n="N024"/>Wie man ain gepraten hun roSLONGt
+				<lb n="N025"/>Wie man ain Condiment macht In ainer pfannen gepachen
+				<lb n="N026"/>Wie man uber ain hun arm Ritter vnd geroSLONGt oppfel
+				<lb n="N027"/>ein Condiment macht gepachen In ainer pfannen
+			
+			<pb xml:id="W3_192r" n="192r"/>
+			
+				<lb n="N001"/>Wie man ain ReiniSLONGchen kuochen macht
+				<lb n="N002"/>Wie man ain muSNORM oder koch von gebraten fiSLONGchen 
+				<lb n="N003"/>macht
+				<lb n="N004"/>Wie man ain fladen macht von fiSLONGchen
+				<lb n="N005"/>Aber ain fladen von fiSLONGchen
+				<lb n="N006"/>Aber krappfen von fiSLONGchen
+				<lb n="N007"/>Aber von aim krappfen von nuSLONGSLONGen
+				<lb n="N008"/>Wie man ain vaSLONGten koch oder muoß macht
+				<lb n="N009"/>Wie man haidniSLONGch arbaiß macht
+				<lb n="N010"/>Wie man koch oder muoSNORM von lauch macht
+				<lb n="N011"/>Ein muoSNORM oder koch von gepachen aiern
+				<lb n="N012"/>Aber ain koch von airn
+				<lb n="N013"/>Aber ain muoSNORM oder koch von airn
+				<lb n="N014"/>Wie man ain koch oder muoSNORM von kutten macht
+				<lb n="N015"/>Wie man ain appfelmuoß macht
+				<lb n="N016"/>Wie man ain ziger von mandelmilch macht 
+				<lb n="N017"/>Wie von mandel ein koch wirt gemacht
+				<lb n="N018"/>Wie man ain guot reiSNORM geSLONGotten macht
+				<lb n="N019"/>Aber wie man ain koch von reiSNORM macht
+				<lb n="N020"/>Wie man ain muoSNORM oder koch von mandelmilch reiSLONG
+				<lb n="N021"/>mele vnd hunrbruSLONGt macht
+				<lb n="N022"/>Ein koch oder muoSNORM von zam milich hunerbruSLONGten 
+				<lb n="N023"/>vnd reiSLONGmele 
+				<lb n="N024"/>Wie man ain koch oder muoSNORM macht von veiol
+				<lb n="N025"/>Wie man ain koch oder muoSNORM von Morachen macht
+				<lb n="N026"/>Wie man ain muoß oder koch von nuSLONGSLONGen macht 
+			
+			<pb xml:id="W3_192v" n="192v"/>
+			
+				<lb n="N001"/>Wie man ein koch von birn macht
+				<lb n="N002"/>Wie man ein koch von kirSLONGen macht
+				<lb n="N003"/>Aber ain koch von kerSLONGchen
+				<lb n="N004"/>Wie man ain kumpoSLONGt macht von weichSLONGlen
+				<lb n="N005"/>Von eim fladen
+				<lb n="N006"/>Aber von aim fladen
+				<lb n="N007"/>Wie man ain praten von kelberleber macht
+				<lb n="N008"/>Aber von aim fladen
+				<lb n="N009"/>Von eim fladen 
+				<lb n="N010"/>Aber von aim fladenn
+				<lb n="N011"/>Ain puoch von kochen
+				<lb n="N012"/>Ich wil euch vnderweySLONGen
+				<lb n="N013"/>Von der kuchen SLONGpeySLONGen
+				<lb n="N014"/>Wer SLONGein nit verSLONGteen kan
+				<lb n="N015"/>Der SLONGol daSNORM buchel SLONGehen an
+				<lb n="N016"/>Wie er groß gerichte lerne machen
+				<lb n="N017"/>Gar von klainen SLONGachen
+				<lb n="N018"/>Die Im wil daSNORM puchel geben
+				<lb n="N019"/>Wen eSNORM kan wol berichten
+				<lb n="N020"/>Von mangerlay gerichten
+				<lb n="N021"/>Von groSLONGSLONGen vnd von klainen
+				<lb n="N022"/>Wie SLONGy SLONGich uerainen
+				<lb n="N023"/>Wie SLONGy SLONGich beSLONGachen
+				<lb n="N024"/>Vnd hohe SLONGpeySLONGe machen
+				<lb n="N025"/>Der SLONGol daSNORM puoch vernemen
+				<lb n="N026"/>Vnd SLONGol SLONGich nicht entSLONGchemen
+				<lb n="N027"/>Ob er fraget daSNORM er nicht enkan 
+			
+			<pb xml:id="W3_193r" n="193r"/>
+			
+				<lb n="N001"/>DaSNORM bericht In SLONGchier ain weiSLONGer man
+				<lb n="N002"/>Wer daSNORM koch wil lernen
+				<lb n="N003"/>Der SLONGol daSNORM buochel merken eben
+				<lb n="N004"/>Ain muoSNORM von Mandelmilch kerSLONGSLONGen vnd Reyß
+				<lb n="N005"/>Man SLONGol nemen ain pfund mandel vnd SLONGol die zuo 
+				<lb n="N006"/>milch SLONGtoSLONGSLONGen vnd kerSLONGSLONGen ain lib### vnd SLONGlahe die durch 
+				<lb n="N007"/>ain SLONGib vnd thuo die milch dar zuo vnd nim ainen 
+				<lb n="N008"/>fierdung reiSLONGeSNORM den SLONGol man zuo SLONGtoSLONGSLONGen zuo mel vnd 
+				<lb n="N009"/>tuo daSNORM In die milch vnd nim den ain rain SLONGmalcz 
+				<lb n="N010"/>oder SLONGpechk vnd SLONGmeltz daSNORM In ainer pfannen vnd 
+				<lb n="N011"/>tuo dar zuo ain halb marck weiSNORM zukerSNORM vnd uerSLONGalcz 
+				<lb n="N012"/>eSNORM nicht
+				<lb n="N013"/>Wie man ain hirSLONGSLONGen leber SLONGulczet 
+				<lb n="N014"/>EineSNORM hirSLONGSLONGen leber SLONGol man pratten auff ainem 
+				<lb n="N015"/>roSLONGt die man lang hallden wil dar nach SLONGol man 
+				<lb n="N016"/>SLONGey dunn SLONGneiden zuo SLONGcheiben vnd nim ainen rai
+				<lb n="N017"/>nen honigSLONGaim den SLONGol man SLONGieden vnd nim den ynber
+				<lb n="N018"/>vnd galgent vnd negelein die SLONGtoß vnder ain ander 
+				<lb n="N019"/>vnd wirff SLONGy dar ein vnd nim den ain uaSNORM oder
+				<lb n="N020"/>ain SLONGchaff dar ein du eSNORM wilt tuon vnd waSLONGch daSNORM 
+				<lb n="N021"/>gar rain vnd geuSNORM denn ein SLONGchicht honigSNORM vnd 
+				<lb n="N022"/>leg ein SLONGchicht leber vnd alSLONGo furbaSNORM
+				<lb n="N023"/>Ain gemuß von zigermilch mandel reiSLONGmel vnd huner 
+				<lb n="N024"/>Man SLONGol nemen zigermilch vnd mach mandelSNORM ain
+			
+			<pb xml:id="W3_193v" n="193v"/>
+			
+				<lb n="N001"/>1/2 lib### ain vierdung reiSLONGeSNORM SLONGol man SLONGtoSLONGSLONGen zuo mele 
+				<lb n="N002"/>vnd tuo daSNORM In die milch kalt vnd nim ainSNORM huonSNORM 
+				<lb n="N003"/>bruSLONGt die SLONGol man zaiSLONGen vnd SLONGol die hacken darein 
+				<lb n="N004"/>vnd ein reineSNORM SLONGmalcz SLONGol man nemen vnd dar zuo 
+				<lb n="N005"/>thuon vnd SLONGol eSNORM dar Inn SLONGieden vnd tuo dar zuo ain 
+				<lb n="N006"/>vierdung zukerSNORM
+				<lb n="N007"/>Ain muoSNORM von ReySLONGe 
+				<lb n="N008"/>Nim waSLONGSLONGer vnd SLONGeud den reiß dar Inn zuo halben 
+				<lb n="N009"/>wegen vnd geuSNORM dan daSNORM waSLONGSLONGer ab vnd SLONGeud In 
+				<lb n="N010"/>reinem SLONGmalcz vnd geuSNORM denn daSNORM SLONGmalcz her ab 
+				<lb n="N011"/>vnd wirff ain zuker oben dar auf vnd SLONGalcz eSNORM nit
+				<lb n="N012"/>Von ainem haidniSLONGchen kuochenn
+				<lb n="N013"/>Man SLONGol nemen ainen taig vnd SLONGoll den dunn braiten 
+				<lb n="N014"/>vnd nim ain gebratten flaiSLONGch vnd SLONGpeck gehackt 
+				<lb n="N015"/>vnd oppfel vnd thuo dar ein pfeffer vnd aier vnd 
+				<lb n="N016"/>pach daSNORM vnd uerSLONGalcz eSNORM nicht
+				<lb n="N017"/>wie man hyrn pratt an dem SLONGpiSLONGße 
+				<lb n="N018"/>Man SLONGol nemen gehirn mel oppfel vnd aier vnd 
+				<lb n="N019"/>meng daSNORM mit wurczen vnd SLONGtreich daSNORM an den SLONGpiß 
+				<lb n="N020"/>vnd brat eSNORM SLONGchon vnd gib eSNORM hin daSNORM SLONGelb tuot man 
+				<lb n="N021"/>ainer geSLONGtoSLONGSLONGen lungen
+				<lb n="N022"/>Ain SLONGelcz an gemuSLONG
+				<lb n="N023"/>Man SLONGol nemen rainfal peterSLONGilg vnd SLONGaluey vnd 
+				<lb n="N024"/>meng daSNORM vnder ein ander vnd tuo ain wenig weiß 
+				<lb n="N025"/>prodSNORM dar zuo vnd wurcz daSNORM vndaer vnd laß daSNORM wol 
+				<lb n="N026"/>mit ain ander SLONGieden 
+			
+			<pb xml:id="W3_194r" n="194r"/>
+			
+				<lb n="N001"/>Ain gefulte SNORMGpenSLONGau guot ze machen 
+				<lb n="N002"/>Nim ain ferhel daSNORM dreyer wochen alt iSLONGt vnd bru 
+				<lb n="N003"/>daSNORM kule vnd zeuch Im daSNORM har ab daSNORM man eSNORM icht 
+				<lb n="N004"/>verwunde SNORMGo SLONGol man Im vm- vnd vm-### die haut ab
+				<lb n="N005"/>loSLONGen vnd loSNORM baide flaiSLONGch vnd gebaine vnd alleSNORM 
+				<lb n="N006"/>daSNORM eSNORM In dem leib haut an die claen vnd nim deSNORM 
+				<lb n="N007"/>fleiSLONGch daSNORM darauSNORM gezogen iSLONGt groß alSNORM zway aer 
+				<lb n="N008"/>vnd SLONGeud eSNORM wol nahet gar vnd nim den SLONGpeck vnd
+				<lb n="N009"/>hack In vnd ain aie tuo dar zuo vnd ain SLONGchnitten 
+				<lb n="N010"/>brotSNORM vnd peterSLONGilg vnd SLONGaltz zuo maSLONGSLONGen da mit 
+				<lb n="N011"/>fulle daSNORM ferchlein nicht zuo uol vnd uerpind Im 
+				<lb n="N012"/>daSNORM maul vnd leg eSNORM SLONGanft In einen keSLONGSLONGel vnd 
+				<lb n="N013"/>lauß eSNORM wallen daSNORM die haut icht preche SNORMGo nim 
+				<lb n="N014"/>eSNORM dan vnd tuo eSNORM auf ain hulczen roSLONGt vnd brat 
+				<lb n="N015"/>eSNORM SLONGanfft alSNORM eSNORM den wol geroSLONGt iSLONGt SNORMGo nim ain brot 
+				<lb n="N016"/>vnd leg eSNORM auf ain SLONGchuSLONGSLONGel vnd mach auf ein brett 
+				<lb n="N017"/>iiij SLONGtecklein vnd claid daSNORM pret mit ainem pluot 
+				<lb n="N018"/>vnd loSLONGe Im daSNORM maul vnd die oren dar auf gen 
+				<lb n="N019"/>vnd trag eSNORM hin
+				<lb n="N020"/>Ain muoSNORM von kerSLONGSLONGen 
+				<lb n="N021"/>Man SLONGol nemen kerSLONGSLONGen die zeittig SLONGein vnd tuo 
+				<lb n="N022"/>die In ainen erdein haffen vnd geuß dar auf wein 
+				<lb n="N023"/>oder waSLONGSLONGer daSNORM SLONGy wol kemen vnd laß SLONGy SLONGyeden 
+				<lb n="N024"/>vnd zuo SLONGtoß SLONGy daSNORM die kern nicht zuo brechen vnd
+				<lb n="N025"/>SLONGlahe die durch ain SLONGib vnd tuo ain SLONGnitten brotSNORM 
+				<lb n="N026"/>dar ein Nim honig vnd lauSNORM eSNORM zuo geen vnd 
+			
+			<pb xml:id="W3_194v" n="194v"/>
+			
+				<lb n="N001"/>tuo eSNORM dar zuo vnd nim wein oder waSLONGSLONGer vnd tuo eSNORM
+				<lb n="N002"/>darzuo In daSNORM koch vnd SLONGee dar auf truken geSLONGtoSLONGSLONGen 
+				<lb n="N003"/>kreutter AlSLONGo machSLONGtu auch maSLONGSLONG machen krichen 
+				<lb n="N004"/>muoSNORM oder SLONGpenling muoSNORM
+				<lb n="N005"/>Ain gebratten huon In ainem morSLONGer 
+				<lb n="N006"/>Nim ain gebratten huon vnd zuo glide eSNORM klain nim 
+				<lb n="N007"/>weiSNORM brot vnd mach ainen dumen aier daig SNORMGaffran 
+				<lb n="N008"/>vnd pfeffer SLONGtoß vnd tuo daSNORM zuo SLONGamen vnd meng 
+				<lb n="N009"/>eSNORM wol In ainem vaSNORM vnd nim ain morSLONGer mit 
+				<lb n="N010"/>friSLONGchem SLONGmalcz vnd SLONGtoß daSNORM alczuomal dar In 
+				<lb n="N011"/>vnd SLONGcham eSNORM SLONGchon mit ainer kellen vnd dek eSNORM 
+				<lb n="N012"/>mit ainer SLONGchuSLONGSLONGel vnd ker den moerSLONGer dik vmb 
+				<lb n="N013"/>gen dem feur daSNORM eSNORM gleiche hicz hab vnd SLONGeige 
+				<lb n="N014"/>den daSNORM SLONGmaltz ab vnd SLONGchut daSNORM hin In ein SLONGchuSLONGSLONGel 
+				<lb n="N015"/>vnd gib eSNORM hin
+				<lb n="N016"/>Ain hubSLONGch gepachenSNORM
+				<lb n="N017"/>Nim gebratten pirn vnd SLONGaur oppfel vnd hack die 
+				<lb n="N018"/>klain vnd tuo dar zuo pfeffer vnd aier vnd SLONGneid dar
+				<lb n="N019"/>zuo SLONGcheiben von weySLONGSLONGen brot vnd full daSNORM daSNORM eSNORM 
+				<lb n="N020"/>nicht SLONGey zuo uol ainSNORM vingerSNORM dik vnd ker daSNORM 
+				<lb n="N021"/>aineSLONGt dar ein vnd bach eSNORM mit buttern In aineer
+				<lb n="N022"/>pfannen biSNORM daSNORM eSNORM rot wirt vnd gib eSNORM hin
+				<lb n="N023"/>Ain muSNORM von gepachen pirnen 
+				<lb n="N024"/>BeSLONGneid birn SLONGchon vnd SLONGneid SLONGy zuo SNORMGnitten vnd 
+				<lb n="N025"/>leg SLONGy In ain haffen vnd bekleid SLONGy mit deig 
+			
+			<pb xml:id="W3_195r" n="195r"/>
+			
+				<lb n="N001"/>daSNORM der pladem boden nicht auß mug vnd bedeck 
+				<lb n="N002"/>den haffen mit ainem weyten SLONGturcze vnd lege dar 
+				<lb n="N003"/>uber gluend kolen vnd lauß eSNORM langSLONGam pachen 
+				<lb n="N004"/>SNORMGo nim den die pirn herauß vnd thuo ain wenig 
+				<lb n="N005"/>honigSNORM dar an alSNORM uil alSNORM der birn iSLONGt vnd SLONGied 
+				<lb n="N006"/>eSNORM mit ain ander biSNORM daSNORM eSNORM dick werde vnd gib eSNORM 
+				<lb n="N007"/>hin vnd tu Imber vnd pfeffer dar an alSLONGo machSLONGtu 
+				<lb n="N008"/>auch machen von oppfeln vnd von kutten
+				<lb n="N009"/>Wie man guot paSLONGteten pachen mag
+				<lb n="N010"/>PaSLONGteten von fiSLONGchen bach alSLONGo SNORMGchueppe die fiSLONGch 
+				<lb n="N011"/>wenn SLONGy erwallen vnd haw SLONGey zuo clainen SLONGtucklein 
+				<lb n="N012"/>hack peterSLONGilg vnd SLONGaluej dar an pfeffer ynger 
+				<lb n="N013"/>zymey vnd SLONGaffran temperer eSNORM alleSNORM mit wein vnd 
+				<lb n="N014"/>mach ain dunnen tag taig der da zech oder hert 
+				<lb n="N015"/>iSLONGt vnd tuo die fiSLONGch dar ein vnd geuSNORM wein dar ein 
+				<lb n="N016"/>vnd deck eSNORM mit ainem dunnen taig vnd mach daSNORM 
+				<lb n="N017"/>vm-### vnd vmb gancz vnd brich oben ain loch dar 
+				<lb n="N018"/>ein vnd leg ain taig uor eIn ain keSLONGSLONGel vnd laß eSNORM 
+				<lb n="N019"/>pachen alSLONGo mag man auch hunner bachen flaiSLONGch 
+				<lb n="N020"/>oder wiltpret
+				<lb n="N021"/>Wie man macht ain guot Condiment uber fiSLONGch oder wildpret 
+				<lb n="N022"/>Man SLONGol nemen leber oder herte aer die SLONGol man SLONGtoSLONGSLONGen 
+				<lb n="N023"/>In ainem morSLONGer vnd daSNORM SLONGol man mengen mit lauterem 
+				<lb n="N024"/>getranck mit wein oder mit eSLONGSLONGig vnd SLONGol eSNORM maln 
+				<lb n="N025"/>In ainer SLONGenf mule oder SLONGunSLONGt reiben vnd nim zwifal 
+				<lb n="N026"/>den SLONGoltu SLONGieden In SLONGmalcz oder ol DaSNORM Condiment 
+				<lb n="N027"/>mag man gieSLONGSLONGen uber fiSLONGch oder wiltprett nach
+			
+			<pb xml:id="W3_195v" n="195v"/>
+			
+				<lb n="N001"/>diSLONGer weiß magSLONGtu uil anderSNORM dingSNORM machen
+				<lb n="N002"/>Wie man gefult hecht macht
+				<lb n="N003"/>Nim gefug hecht vnd SLONGchupp die vnd loSLONGe In ab den 
+				<lb n="N004"/>darm zuo den orn auß Nim viSLONGch welherlay SLONGy SLONGind 
+				<lb n="N005"/>vnd SLONGeud SLONGey vnd laSLONGSNORM SLONGy auSNORM greten vnd SLONGtoß SLONGy In 
+				<lb n="N006"/>ainem morSLONGer hack dar zuo pfeffer SNORMGaluej kumel 
+				<lb n="N007"/>vnd SLONGaffran geSLONGtoSLONGSLONGen SNORMGalcz SLONGy zuo maSLONGSLONGen da mit 
+				<lb n="N008"/>full man die hecht vnd beSLONGpreng SLONGy auSLONGSLONGen mit 
+				<lb n="N009"/>SLONGalcz vnd brat SLONGy gar wol auf ainem hulczen roSLONGt 
+				<lb n="N010"/>alSLONGo machSLONGtu auch machen mit aiern
+				<lb n="N011"/>Von gefulten Alen 
+				<lb n="N012"/>Nim friSLONGch ale vnd waSLONGch In ab dem faym oder flew 
+				<lb n="N013"/>SLONGy mit kalchguß vnd zeuch Im ab die haut bey dem 
+				<lb n="N014"/>haubt hack SLONGaluej peterSLONGilg vnd tuo dar zuo geSLONGtoSLONGSLONGen 
+				<lb n="N015"/>Imber vnd pfeffer vnd SLONGaltz SLONGy zuo maSLONGSLONGen vnd wirf 
+				<lb n="N016"/>daSNORM auf die aele oder In die aele vnd zeuch die 
+				<lb n="N017"/>haut wider uber die2 haut vnd SLONGpreng die ele 
+				<lb n="N018"/>auSLONGSLONGen mit SLONGalcz vnd brat SLONGey auf ainem hultzen 
+				<lb n="N019"/>roSLONGt vnd gib SLONGy hin
+				<lb n="N020"/>Wie man lachSNORM SLONGol pachen 
+				<lb n="N021"/>Nim ain lachSLONGen vnd SLONGchab Im ab die SLONGchueppen 
+				<lb n="N022"/>SLONGpald In vnd SLONGneid In zuo SLONGtuken hack peterSLONGilg vnd
+				<lb n="N023"/>SLONGaluej nim geSLONGtoSLONGSLONGen Ingeber pfeffer aneySNORM SLONGaltz 
+				<lb n="N024"/>eSNORM zuo maSLONGSLONGen mach ain derben taig nach der groß
+				<lb n="N025"/>der SLONGtuk vnd wirff daSNORM kraut auff die SLONGtuk vnd 
+			
+			<pb xml:id="W3_196r" n="196r"/>
+			
+				<lb n="N001"/>bewirff SLONGey mit dem taig kanSLONGtu SLONGy geSLONGtampfen 
+				<lb n="N002"/>In ainer form daSNORM tuo SNORMGo machSLONGtu machen hecht 
+				<lb n="N003"/>vnd forhen vnd pach yegkliche beSLONGonder In SLONGeinem 
+				<lb n="N004"/>taig ISLONGt eSNORM aber aineSNORM fleiSLONGchtagSNORM SNORMGo magSLONGtu 
+				<lb n="N005"/>machen hunner Rebhunner tauben vnd uaSLONGhannen 
+				<lb n="N006"/>ob du haSLONGt die formen vnd pach SLONGy In SLONGmaltz oder 
+				<lb n="N007"/>SLONGeud SLONGy In den formen Nim von hunerbruSLONGten 
+				<lb n="N008"/>oder ander guot flaiSLONGch SLONGo wirt die kunSLONGt deSLONGter 
+				<lb n="N009"/>peSLONGSLONGer verSLONGaltz eSNORM nicht vnd gib eSNORM hin
+				<lb n="N010"/>Wie man SNORMGtockfiSLONGch mag praten 
+				<lb n="N011"/>Nim ainen SLONGtockfiSLONGch der nicht groß iSLONGt vnd thuo
+				<lb n="N012"/>Im die haut ab waich In In kalt waSLONGSLONGer vnd nim
+				<lb n="N013"/>In den herauSNORM vnd druk In den In eSLONGSLONGich alSLONGo daSNORM 
+				<lb n="N014"/>er gancz pleib bind Im auf zwo SLONGchin vnd lege In 
+				<lb n="N015"/>auf ainen hulczen roSLONGt vnd SLONGtreich daSNORM feur dar 
+				<lb n="N016"/>vnder allenthalben daSNORM er erwarm vnd lauSNORM In 
+				<lb n="N017"/>wol belauffen mit putter Dar nach mach ain SLONGcho
+				<lb n="N018"/>nen taig von weiSLONGSLONGem melb vnd von airn dar zuo 
+				<lb n="N019"/>tuo geSLONGtoSLONGSLONGen pfeffer oder zuker vnd ain wenig 
+				<lb n="N020"/>SLONGaffran SLONGalcz eSNORM zuo maSLONGSLONGen vnd SLONGpreng eSNORM auf 
+				<lb n="N021"/>den fiSLONGch vnd wenn der fiSLONGch gar haiß SLONGy SLONGo SLONGlag 
+				<lb n="N022"/>den taig dar auf vnd tuo kolen dar vnder biSNORM 
+				<lb n="N023"/>daSNORM eSNORM rot werde alSLONGo tuo Im ee du In ab nemiSLONGt 
+				<lb n="N024"/>betrouff In uaSLONGt mit puttern vnd gib In hin
+				<lb n="N025"/>Wie man SLONGchwein darm vnd magen In Condiment machet 
+				<lb n="N026"/>Nim geSLONGotten SLONGchweinen darm vnd magen SNORMGneit
+			
+			<pb xml:id="W3_196v" n="196v"/>
+			
+				<lb n="N001"/>die geSLONGotten darmen In uier tail vnd den magnn 
+				<lb n="N002"/>SLONGneid auch klain SLONGmal vnd SLONGneid den den magen 
+				<lb n="N003"/>vnd die darm SLONGo klain du wilt Nim peterSLONGilg 
+				<lb n="N004"/>polay vnd mintzen geSLONGoten SLONGaluej herte aier SLONGchon 
+				<lb n="N005"/>brot kumelSNORM aller majSLONGt ain wenig pfeffer vnd 
+				<lb n="N006"/>ain ay zuo der SLONGchuSLONGSLONGel daSNORM male mit eSLONGSLONGich vnd 
+				<lb n="N007"/>mit SLONGode daSNORM eSNORM nicht zu SLONGaur werd vnd geuSNORM 
+				<lb n="N008"/>eSNORM auf daSNORM Condiment vnd tuo SLONGmalcz dar zuo vnd 
+				<lb n="N009"/>lauß eSNORM erwarmen vnd ee eSNORM zuo dik wirt SNORMGo 
+				<lb n="N010"/>nim eSNORM hin vnd uerSLONGalcz eSNORM nicht
+				<lb n="N011"/>wie man ain guot gebachen muoSNORM machet 
+				<lb n="N012"/>Nim von der bruSLONGt deSNORM huoneSNORM vnd hack eSNORM klain 
+				<lb n="N013"/>vnd SLONGtoß eSNORM In ainem morSLONGer vnd tuo dar zuo ain 
+				<lb n="N014"/>wenig melweSNORM oder brotSNORM pfeffer vnd Ingeber vnd
+				<lb n="N015"/>SLONGaltz eSNORM zuo maSLONGSLONGen nach der menig rure daSNORM wol 
+				<lb n="N016"/>zuo SLONGammen SLONGneid zway klupplein aineSNORM vingerSNORM 
+				<lb n="N017"/>lanck alSNORM ain eln SLONGchafft formen SLONGlecht SLONGnebel In 
+				<lb n="N018"/>der hant vnd fug eSNORM vm- den SLONGpiSNORM alSNORM ain morach 
+				<lb n="N019"/>vnd zeuch eSNORM auSLONGwendig daSNORM eSNORM krauSLONGp werde 
+				<lb n="N020"/>vnd leg eSNORM In ain pfannen vnd lauß eSNORM SLONGieden mit 
+				<lb n="N021"/>den SLONGtecklen alSNORM du eSNORM den auß nimpSLONGt SLONGo leg 
+				<lb n="N022"/>ain anderSNORM hin ein vnd mach Ir alSNORM uil alSNORM du 
+				<lb n="N023"/>wilt wenn SLONGy gar SLONGeind geSLONGotten SLONGo nim SNORMGy auSNORM 
+				<lb n="N024"/>vnd rure ain gehackteSNORM muoSNORM mit puttern vnd
+				<lb n="N025"/>full die In die morchen vnd SLONGtek SLONGy an die weyl 
+				<lb n="N026"/>an den SLONGpiß mach SLONGy haiSNORM vnd betrouf SLONGy mit buttern
+			
+			<pb xml:id="W3_197r" n="197r"/>
+			
+				<lb n="N001"/>vnd gib SLONGy hin AlSLONGo machSLONGtu auch morchen von 
+				<lb n="N002"/>hechten vnd von lachSLONGen vnd von wo du wilt 
+				<lb n="N003"/>machen
+				<lb n="N004"/>Von weiSLONGSLONGembrot ain mandelmilch 
+				<lb n="N005"/>Nim mandelkern vnd lauß die erwallen wol vnd 
+				<lb n="N006"/>wirff SLONGy denn In ain kalt waSLONGSLONGer dar auß SLONGchel SLONGy 
+				<lb n="N007"/>vnd SLONGtoß SLONGy Nim SLONGchon hert brot vnd SLONGneid die 
+				<lb n="N008"/>obriSLONGten rinden ab vnd ? dar nach SLONGneid SLONGcheiben 
+				<lb n="N009"/>SLONGo du dunneSLONGt mugSLONGt daSNORM begin an der obriSLONGten
+				<lb n="N010"/>SLONGinibel vnd SLONGcheiblat vnd fug der SLONGcheiben iiij zuo
+				<lb n="N011"/>SLONGamen vnd SLONGneid SLONGmal alSNORM ainen riemen vnd 
+				<lb n="N012"/>SLONGneidSNORM tunne twereSNORM uber SLONGo du klaineSLONGt magSLONGt 
+				<lb n="N013"/>halt die mandelmilch uber daSNORM feur laSNORM SLONGy warm 
+				<lb n="N014"/>werden vnd wirff daSNORM brot dar ein daSNORM SLONGy dik 
+				<lb n="N015"/>werde halt SLONGy uber daSNORM feur laß SLONGieden vnd gib 
+				<lb n="N016"/>eSNORM In die SLONGchuSLONGSLONGel vnd SLONGtrew ain zuker dar auf 
+				<lb n="N017"/>daSNORM haiSLONGSLONGet galenn vnd gib eSNORM hin alSLONGo mach 
+				<lb n="N018"/>auch ander milich ob du toter dar zuo tuon wilt
+				<lb n="N019"/>Wie man milch an dem SLONGpyße praten mag 
+				<lb n="N020"/>Nim milch die da nicht uaiSLONGt iSLONGt bynnen vnd 
+				<lb n="N021"/>die gelebet SLONGey vnd zuo SLONGlach den haffen daSNORM die
+				<lb n="N022"/>nicht SLONGanfft auß gleide auf ain peuteltuch 
+				<lb n="N023"/>dar Inn bewunden SLONGey vnd beSLONGchwer SLONGy zuo 
+				<lb n="N024"/>erSLONGten SLONGanfft vnd dar nach paß lauß SLONGy SLONGieden 
+				<lb n="N025"/>von dem morgen biSNORM auf den abent SNORMGo SLONGneit 
+			
+			<pb xml:id="W3_197v" n="197v"/>
+			
+				<lb n="N001"/>SLONGy dume vnd SLONGpiSNORM vnd SLONGpreng SLONGy mit SLONGalcze vnd 
+				<lb n="N002"/>leg SLONGy auf ain hulczen roSLONGt vnd laß SLONGy wol roSLONGten 
+				<lb n="N003"/>vnd wirf ain wenig piperiSNORM dar auf vnd beSLONGtreich 
+				<lb n="N004"/>SLONGy mit puttern oder mit SLONGmalcz ob eSNORM ein flaiSLONGch
+				<lb n="N005"/>tag SLONGey
+				<lb n="N006"/>Wie man ain Condiment macht uber ain ganSNORM
+				<lb n="N007"/>SNORMGtoSNORM ain ganSNORM an ainen SLONGpiSNORM vnd SLONGeud daSNORM kroß vnd
+				<lb n="N008"/>nim daSNORM hercz geSLONGotten von der ganSNORM vnd nim dar zuo 
+				<lb n="N009"/>ain SLONGchone broSLONGem brotSNORM vnd kumel vnd ain wenig 
+				<lb n="N010"/>pfefferSNORM vnd SLONGaffranSNORM vnd drey geSLONGotten hunerber 
+				<lb n="N011"/>male SLONGy zuo SLONGamen mit eSLONGSLONGich vnd nim zwifeln 
+				<lb n="N012"/>vnd SLONGneid SLONGy dunn vnd tuo daSNORM dann In ain hefen 
+				<lb n="N013"/>mit SLONGmaltz oder mit waSLONGSLONGer vnd lauß SLONGy SLONGieden 
+				<lb n="N014"/>daSNORM SLONGy waich werden vnd nim dann SLONGaur appfel 
+				<lb n="N015"/>vnd SLONGneid die kern herauSNORM vnd wenn dy zwifeln 
+				<lb n="N016"/>gar SLONGind geSLONGotten wirff die oppfel dar zuo daSNORM SLONGy 
+				<lb n="N017"/>waich werden vnd tuo daSNORM den mit ain ander In 
+				<lb n="N018"/>ain pfan vnd alSNORM die ganSNORM gebraten iSLONGt SLONGo zerleg 
+				<lb n="N019"/>SLONGy SLONGchon In ain uaSNORM vnd geuß daSNORM Condiment dar 
+				<lb n="N020"/>uber vnd gib eSNORM hin
+				<lb n="N021"/>Wie gepachenSNORM an aim SLONGpiSNORM mag praten 
+				<lb n="N022"/>Nim gepraten pirn vnd raw SLONGaur oppfel vnd aßlauch 
+				<lb n="N023"/>geSLONGotten nim pfeffer vnd SLONGaffran vnd SLONGtoß daSNORM zuo 
+				<lb n="N024"/>SLONGamen vnd mach daSNORM waich mit rohen airn SNORMGo 
+				<lb n="N025"/>mach ain plat von airn vnd zuo tail daSNORM fulle die 
+				<lb n="N026"/>materien dar auf daSNORM eSNORM gleich werde SLONGo pint daSNORM
+			
+			<pb xml:id="W3_198r" n="198r"/>
+			
+				<lb n="N001"/>plat zuo SLONGamen vnd mach eSNORM naSNORM von airn vnd 
+				<lb n="N002"/>leg eSNORM In SLONGiedencz SLONGmaltz vnd pach eSNORM hert vnd 
+				<lb n="N003"/>SLONGteck da durch einen SLONGpiSNORM vnd leg eSNORM zuo dem feur 
+				<lb n="N004"/>vnd beSLONGlach eSNORM mit airn vnd mit SLONGmaltz dar nach
+				<lb n="N005"/>mit zwayen SLONGwammen alSNORM lang biSNORM daSNORM eSNORM rot 
+				<lb n="N006"/>werde SLONGo gib eSNORM hin
+				<lb n="N007"/>Wie man lampreden macht 
+				<lb n="N008"/>Nim ain lampred vnd ertrenck SLONGy In dem beSLONGten 
+				<lb n="N009"/>wein den du gehaben magSLONGt vnd SLONGneit SLONGy den In 
+				<lb n="N010"/>vj SLONGtuck alSNORM SLONGi gar geSLONGnitten SLONGind beSLONGpreng SLONGi mit 
+				<lb n="N011"/>SLONGalcz vnd leg SLONGy auff ain roSLONGt vnd prat SLONGy gar 
+				<lb n="N012"/>wol nim daSNORM mittel SLONGtuk alSNORM eSNORM ISLONGt gar ge
+				<lb n="N013"/>roSLONGt SNORMGtoß eSNORM In ainem morSLONGer vnd tuo dar zuo 
+				<lb n="N014"/>SLONGwartz rinden von rukein brot daSNORM uor In eSLONGSLONGich 
+				<lb n="N015"/>gemacht SLONGey vnd dar zuo geSLONGtoSLONGSLONGen galgant pfef
+				<lb n="N016"/>fer vnd Ingeber kumel muSLONGcaten pluomen vnd 
+				<lb n="N017"/>negelein wiltu eSNORM aber lang halden SLONGo mach 
+				<lb n="N018"/>eSNORM SLONGcharpf mit eSLONGSLONGich vnd mit ain wenig honigSNORM 
+				<lb n="N019"/>vnd SLONGeud eSNORM wol vnd leg eSNORM kalt dar ein
+				<lb n="N020"/>Von gebraten hunern wie man die pecht In dem morSLONGer
+				<lb n="N021"/>Nim iunge gebraten hunner haw die klain 
+				<lb n="N022"/>In ain morSLONGer nim friSLONGche aier vnd zuo SLONGlach die 
+				<lb n="N023"/>meng dar zuo geSLONGtoSLONGSLONGen Ingeber vnd ain wenig 
+			
+			<pb xml:id="W3_198v" n="198v"/>
+			
+				<lb n="N001"/>aneiSNORM geuSNORM daSNORM In ainen faiSLONGten morSLONGer der hiczig 
+				<lb n="N002"/>SLONGey mit dem SLONGelben kraut daSNORM du tuoSLONGt zuo den airn 
+				<lb n="N003"/>da mit bewirff die hunner In dem morSLONGer vnd tuo 
+				<lb n="N004"/>darzuo SLONGaffran vnd SLONGaltz zuo maSLONGSLONGen vnd tuo die zuo 
+				<lb n="N005"/>dem feur vnd lauß pachen gleich haiSNORM mit ainem 
+				<lb n="N006"/>wenigen SLONGmalcz vnd gib SLONGy hin
+				<lb n="N007"/>Wie man ain leber In machen SLONGol 
+				<lb n="N008"/>Nim aineSNORM rindeSNORM leber die nicht SLONGtainig SLONGey vnd 
+				<lb n="N009"/>zuo SLONGneid SLONGy zuo funf SLONGtuken vnd leg SLONGy auf ainen 
+				<lb n="N010"/>roSLONGt vnd prat SLONGy wenn SLONGy SLONGich hat geSLONGaubert SNORMGo 
+				<lb n="N011"/>waich SLONGy In waSLONGSLONGer InSLONGode vnd lauß SLONGi braten gar
+				<lb n="N012"/>vnd nim SLONGy denn ab vnd laß SLONGy kalden vnd beSLONGneid 
+				<lb n="N013"/>SLONGy denn SLONGchon vnd nim den ain halb SLONGtuk vnd SLONGtoß 
+				<lb n="N014"/>In ainen morSLONGer vnd SLONGtoß dar zuo ain wenig rinden 
+				<lb n="N015"/>protSNORM tuo pfeffer dar zuo vnd Ingber daSNORM eSNORM SLONGcharpf
+				<lb n="N016"/>werde vnd nim ain wenig aneiSNORM vnd mal daSNORM 
+				<lb n="N017"/>mit eSLONGSLONGich vnd mit honigSLONGam vnd erwell daSNORM biSNORM 
+				<lb n="N018"/>eSNORM dick werde vnd laß eSNORM erkalten vnd leg dar 
+				<lb n="N019"/>ein die leber vnd nach diSLONGe lere erdench auch an
+				<lb n="N020"/>der SLONGpeiß zuo machen
+				<lb n="N021"/>Wie man gebraten hunner In den pfeffer machet
+				<lb n="N022"/>Nim huenner die brat nicht uollen gar vnd zuo 
+				<lb n="N023"/>glide SLONGy laSNORM SLONGy SLONGyeden In SLONGmaltz vnd waSLONGSLONGer vnd 
+				<lb n="N024"/>nim ain rint protSNORM Ingber vnd ain wenig pfeffer
+				<lb n="N025"/>vnd daSNORM mal mit eSLONGSLONGich vnd mit dem SLONGode vnd nim 
+			
+			<pb xml:id="W3_199r" n="199r"/>
+			
+				<lb n="N001"/>dar zuo uier gepraten quitten vnd daSNORM Condiment 
+				<lb n="N002"/>tuo zuo den huennern laSNORM eSNORM wol da mit SLONGieden 
+				<lb n="N003"/>daSNORM eSNORM werde oben dick haSLONGtu nicht kutten SLONGo 
+				<lb n="N004"/>nim gebraten pirn vnd mach eSNORM da mit vnd gib 
+				<lb n="N005"/>eSNORM hin vnd verSLONGaltz nicht
+				<lb n="N006"/>Wie man ain kondiment machet uber pon 
+				<lb n="N007"/>SNORMGeud grun pon alSNORM lang biSNORM daSNORM SLONGy waich 
+				<lb n="N008"/>werden SNORMGo nim dan SLONGchon brot vnd ain wenig 
+				<lb n="N009"/>pfefferSNORM dreySLONGtund alSNORM uil kumelSNORM mit eSLONGSLONGig vnd 
+				<lb n="N010"/>mit bier mal daSNORM zuo SLONGamen vnd tuo dar zuo SLONGaffran 
+				<lb n="N011"/>vnd SLONGeig ab daSNORM SLONGot vnd geuSNORM dar auf daSNORM gemaln 
+				<lb n="N012"/>vnd SLONGalcz eSNORM zuo maSLONGSLONGen laSNORM eSNORM erwallen In dem 
+				<lb n="N013"/>Condiment vnd gib eSNORM hin
+				<lb n="N014"/>Wie man SLONGallSLONGen macht ueber huenner Mauroch vnd SNORMGwammenn
+				<lb n="N015"/>Reib knobloch mit SLONGaltz vnd meng aier dar zuo tuo daSNORM 
+				<lb n="N016"/>weiSNORM ab von den aieren nim eSLONGSLONGig vnd ain wenig 
+				<lb n="N017"/>waSLONGSLONGerSNORM daSNORM eSNORM nicht zuo SLONGaur werde vnd la daSNORM er
+				<lb n="N018"/>wallen daSNORM eSNORM dik pleib da mit mag man machen
+				<lb n="N019"/>praten huener morchen oder SLONGwammen
+				<lb n="N020"/>Wie man ain gefulten aln SLONGol machen 
+				<lb n="N021"/>Nim ain friSLONGchen ale vnd zeuch Im ab die haut 
+				<lb n="N022"/>vnd SLONGneid Im ab daSNORM haubt laSNORM In gar SLONGieden vnd 
+				<lb n="N023"/>tuo her auSNORM die gret SLONGtoß kraut aier vnd SLONGchon brot 
+				<lb n="N024"/>vnd hack den ale mit SLONGaluej dar zuo full die haut
+			
+			<pb xml:id="W3_199v" n="199v"/>
+			
+				<lb n="N001"/>vnd prat In vnd fug daSNORM haubt dar an klaid In
+				<lb n="N002"/>mit ainem dunnen taig vnd mach ain plat von 
+				<lb n="N003"/>airn dar auf roSLONGt In vnd gib In hin
+				<lb n="N004"/>wie man guote SLONGeindre SLONGalSLONGen macht
+				<lb n="N005"/>Nim weintreublin vnd SLONGtoSLONGSLONGe SLONGaur oppfel zuo SLONGamen
+				<lb n="N006"/>meng eSNORM mit wein vnd druk eSNORM auSNORM die SLONGalSLONGe 
+				<lb n="N007"/>iSLONGt guot zuo SLONGcheffen praten zuo huenern zuo uiSLONGchen 
+				<lb n="N008"/>vnd haiSLONGt agreSLONGt
+				<lb n="N009"/>Ain gute SLONGallSLONGen In anderer weiSLONGe von aSLONGlauch
+				<lb n="N010"/>Nim aSLONGlauch vnd SLONGchell den vnd reib In mit SLONGaluej
+				<lb n="N011"/>meng In mit wein oder mit eSLONGSLONGig vnd druck eSNORM 
+				<lb n="N012"/>auß diSLONGe SLONGalSLONGe iSLONGt guot zuo rinderin praten
+				<lb n="N013"/>Ain SLONGallSLONGen von SLONGauren weinperen 
+				<lb n="N014"/>Nim SLONGaur weinper vnd tuo dar zuo SLONGaluei vnd zwaj
+				<lb n="N015"/>knoblauch SLONGchaubt vnd SLONGtoß daSNORM zuo SLONGamen vnd druk 
+				<lb n="N016"/>eSNORM auß vnd gib eSNORM hin fur ain guote SLONGalSNORM
+				<lb n="N017"/>Ain SLONGallSLONGen von holtzappflen 
+				<lb n="N018"/>Nim holtzappfel vnd peterSLONGilg vnd SLONGtoß daSNORM zuo SLONGamen
+				<lb n="N019"/>vnd druk eSNORM auSNORM daSNORM die peterSLONGilg ain wenig 
+				<lb n="N020"/>zuo far daSNORM haiSLONGSLONGet auch agreSLONGt
+				<lb n="N021"/>wie man den hecht mag fullen
+				<lb n="N022"/>Nim ain friSLONGchen hecht vnd loß Im h ab die haut 
+				<lb n="N023"/>alSLONGo gantz vnd SLONGeud In gar vnd loSNORM auSNORM Im die
+			
+			<pb xml:id="W3_200r" n="200r"/>
+			
+				<lb n="N001"/>g### gret nim kraut vnd SLONGtoß daSNORM mit den uiSLONGchen tuo 
+				<lb n="N002"/>dar zuo rohe aier vnd SLONGaffran vnd full die haut 
+				<lb n="N003"/>deSNORM hechteSNORM vnd roSLONGt In ain wenig vnd gib In hin
+				<lb n="N004"/>Wie man ain keSNORM von mandelmilch mag machen
+				<lb n="N005"/>Nim mandelkern vnd mach SLONGy SLONGchon In SLONGiedendem 
+				<lb n="N006"/>waSLONGSLONGer loSLONGe die groSLONGten auß vnd SLONGtoß die beSLONGten 
+				<lb n="N007"/>In ainem morSLONGer alSNORM SLONGy feiSLONGten begunnen SLONGo 
+				<lb n="N008"/>SLONGpreng ain kalt waSLONGSLONGer dar auf vnd meng SLONGy mit 
+				<lb n="N009"/>kaltem waSLONGSLONGer eben dick vnd thwing SLONGy durch 
+				<lb n="N010"/>ain tuoch vnd tuo die kern wider In der moeSLONGer 
+				<lb n="N011"/>SNORMGtoSNORM SLONGy vnd ring SLONGy alleSNORM auf vnd SLONGchutte eSNORM 
+				<lb n="N012"/>alleSNORM In ain pfann vnd halt SLONGy uber daSNORM feur 
+				<lb n="N013"/>vnd tuo dar zuo ain aierSLONGchal uol weinSNORM vnd rur 
+				<lb n="N014"/>eSNORM wol auß daSNORM eSNORM geSLONGied nim ain SLONGchon buteltuoch 
+				<lb n="N015"/>leg eSNORM auf rain SLONGtro vnd geuSNORM dar auf die milch 
+				<lb n="N016"/>biSNORM daSNORM SLONGy uber SLONGiede waSNORM denn auf dem tuoch 
+				<lb n="N017"/>beleibt da uon mach ain keSLONGe wiltu putter
+				<lb n="N018"/>darauff machen SLONGo lauß ain wenig SLONGaffranSNORM da 
+				<lb n="N019"/>mit erwallen vnd gib eSNORM hin
+				<lb n="N020"/>Wie man rintflaiSLONGch mag SLONGieden mit aSLONGlauch 
+				<lb n="N021"/>Nim rintflaiSLONGch alSNORM eSNORM zum erSLONGten zuo kumpt 
+				<lb n="N022"/>vnd SLONGeud eSNORM wol mit aSLONGlauch vnd wein dar zuo 
+				<lb n="N023"/>deSNORM kraucz vnd lauSNORM eSNORM wol SLONGieden In einem feiSLONGtem 
+				<lb n="N024"/>SLONGode vnd reiSNORM wie du wilt vnd gib eSNORM hin
+				<lb n="N025"/>Wie man ain ganSNORM SLONGol machen In ainem hafen 
+				<lb n="N026"/>vnd ain guot Condiment dar uber
+			
+			<pb xml:id="W3_200v" n="200v"/>
+			
+				<lb n="N001"/>Nim ain loni ganSNORM die nicht gar alt SLONGey nim 
+				<lb n="N002"/>an Ir daSNORM kroSNORM SLONGneid ab die flugel vnd die 
+				<lb n="N003"/>diech vnd SLONGtoß SLONGey In ainen erden haffen der eng 
+				<lb n="N004"/>SLONGey GeuSNORM daSNORM waSLONGSLONGer ab oder SLONGeiche eSNORM ab SLONGecz 
+				<lb n="N005"/>den haffen daSNORM der podem nicht auSNORM gee SLONGeud daSNORM 
+				<lb n="N006"/>kroSNORM beSLONGunder vnd SLONGalcz die ganSNORM vnd SLONGeud die 
+				<lb n="N007"/>In den SLONGod biSNORM SLONGy wol truken SLONGey vnd gar geSLONGoten 
+				<lb n="N008"/>vnd nim dan die SLONGuSLONGSLONGe milch vnd SLONGechSNORM totter 
+				<lb n="N009"/>vnd zway haubt koblouchSNORM vnd SLONGchell die SLONGchon 
+				<lb n="N010"/>vnd SLONGtoß SLONGy ain wenig mit SLONGalcz vnd meng daSNORM 
+				<lb n="N011"/>mit der milch vnd mit den tottern vnd SLONGaffran 
+				<lb n="N012"/>tuo dar zuo vnd geuSNORM daSNORM Condiment auf die ganSNORM 
+				<lb n="N013"/>laß SLONGy erwallen vnd gib SLONGy hin
+				<lb n="N014"/>wie man guot kraphen mag machen
+				<lb n="N015"/>Wiltu ain kluoge SLONGpeiSNORM machen von airn vnd von 
+				<lb n="N016"/>SLONGchonem melwe mach daSNORM dik nim SLONGchon brot vnd 
+				<lb n="N017"/>oppfel alSNORM SLONGchell SLONGy SLONGchab SLONGy graber den SLONGpeck auf 
+				<lb n="N018"/>hunner meng eSNORM dar zuo nim ain loffel vnd full 
+				<lb n="N019"/>den taig vnd tail In vnd brat In den nim SLONGmaltz 
+				<lb n="N020"/>oder In puttern ab eSNORM nicht ain flaiSLONGch tag iSLONGt 
+				<lb n="N021"/>vnd gib eSNORM hin
+				<lb n="N022"/>wie man krapfen machet mit keSNORM vnd mit SLONGpeck 
+				<lb n="N023"/>Reib keSNORM meng den mit aiern vnd SLONGchab geSLONGotten SLONGpeck 
+				<lb n="N024"/>dar zuo mach ain darben taig vnd full daSNORM dar ein 
+				<lb n="N025"/>vnd mach krepfflein vnd pach die In puttern oder 
+				<lb n="N026"/>In SLONGmalcz nach dertzeit vnd gib eSNORM hin
+			
+			<pb xml:id="W3_201r" n="201r"/>
+			
+				<lb n="N001"/>Wie man arbaiSNORM mag praten an dem SNORMGpiSLONGße
+				<lb n="N002"/>Nim geSLONGotten arbeiSNORM vnd SLONGlach die durch ain SLONGib 
+				<lb n="N003"/>vnd SLONGlach alSNORM uil aer darzuo alSNORM der arbeiSNORM SLONGint 
+				<lb n="N004"/>vnd SLONGeud eSNORM In puttern nicht zuo vaiSLONGt laSNORM SLONGy kulen 
+				<lb n="N005"/>vnd SLONGneid SLONGy vnd SLONGteck SLONGy an ain SLONGpiß vnd brat 
+				<lb n="N006"/>SLONGy wol vnd beSLONGlach SLONGy wol mit aiern vnd mit 
+				<lb n="N007"/>kraut vnd gib SLONGy hin
+				<lb n="N008"/>Wie man milich mag praten an dem SLONGpiße 
+				<lb n="N009"/>Nim friSLONGch mandelkern vnd waich die vnd SLONGchell 
+				<lb n="N010"/>SLONGy alSNORM uor nim hirSNORM geSLONGoten aier vnd ain wenig 
+				<lb n="N011"/>SLONGchonSNORM brotSNORM vnd gekreut daSNORM mal zuo SLONGamen 
+				<lb n="N012"/>SLONGo du dikeSLONGt magSLONGt vnd geuSNORM eSNORM In ainen pfannen 
+				<lb n="N013"/>vnd lauSNORM eSNORM SLONGieden biSNORM daSNORM eSNORM dick wirt vnd 
+				<lb n="N014"/>mach eSNORM gel mit SLONGaffran vnd veiSLONGt mit puttern 
+				<lb n="N015"/>vnd lauß eSNORM dan kulen vnd SLONGneid eSNORM zuo morSLONGellen 
+				<lb n="N016"/>daSNORM iSLONGt zuo biSLONGSLONGen vnd SLONGteck eSNORM an ainen SLONGpiSLONGß vnd 
+				<lb n="N017"/>lauSNORM eSNORM praten vnd beSLONGlach eSNORM mit aiern vnd 
+				<lb n="N018"/>mit guotem gekreut vnd gib eSNORM hin
+				<lb n="N019"/>Ain Condiment uber pyren CompoSLONGtpeter 
+				<lb n="N020"/>Mal kumel vnd aneiSNORM mit eSLONGSLONGig vnd mit honig 
+				<lb n="N021"/>vnd mach eSNORM gel mit SLONGaffran vnd pfeffer vnd 
+				<lb n="N022"/>tuo dar zuo SLONGenff In daSNORM Condiment
+				<lb n="N023"/>Wie man SNORMGualenberger SLONGulcz machet 
+				<lb n="N024"/>Nim wein vnd honigSLONGam vnd lauß eSNORM SLONGieden 
+				<lb n="N025"/>vnd tuo dar zuo geSLONGtoSLONGSLONGen Ingber mer den pffefferrSNORM 
+			
+			<pb xml:id="W3_201v" n="201v"/>
+			
+				<lb n="N001"/>SLONGtoß knoblauch denoch nicht zuo uil vnd mach eSNORM 
+				<lb n="N002"/>SLONGtarck vnd rur eSNORM mit ain ander mit ainer SLONGchin
+				<lb n="N003"/>nen laSNORM eSNORM SLONGiden biSNORM daSNORM eSNORM brinnen wr be
+				<lb n="N004"/>gunnet daSNORM SLONGol man eSLONGSLONGen Im kalten winter
+				<lb n="N005"/>Wie man uber ain huon geroSLONGt prat machen mag
+				<lb n="N006"/>Man SLONGol ein huon praten vnd roSLONGten ain SLONGnit von 
+				<lb n="N007"/>SLONGemeln vnd bach daSNORM brot In SLONGmalcz vnd SLONGneit 
+				<lb n="N008"/>biSLONGSLONGen alSNORM zuo ainem prot muoSNORM zuo leg daSNORM huon 
+				<lb n="N009"/>klain vnd prat SLONGechSNORM pirn vnd mach ain kondi
+				<lb n="N010"/>ment von wein vnd von honig dar zuo nim 
+				<lb n="N011"/>aneySNORM vnd mach ain platt von funf aiern SLONGlach 
+				<lb n="N012"/>SLONGie In die pfann vnd leg den iegklichSNORM dar ein 
+				<lb n="N013"/>beSLONGunder vnd leg dan daSNORM plat zuo SLONGamen vnd 
+				<lb n="N014"/>deck ain SLONGchuSLONGSLONGel dar auff vnd ker denn die pfann 
+				<lb n="N015"/>vmb SLONGneid oben ein loch vnd geuSNORM daSNORM Condiment 
+				<lb n="N016"/>dar ein vnd begeuSNORM daSNORM plat nicht daSNORM haiSLONGSLONGen 
+				<lb n="N017"/>huenner von ringkan
+				<lb n="N018"/>Wie man uber hunner Arme ritter vnd geroSLONGt oppfel 
+				<lb n="N019"/>ain Condiment machet gepachen In ainer pfannen 
+				<lb n="N020"/>Man SLONGol ain huon braten mit SLONGpeck gefult vnd 
+				<lb n="N021"/>bach die arm ritter nicht zuo truken Inn dem 
+				<lb n="N022"/>SLONGmalcz SLONGchell SLONGaur oppfel vnd SLONGneid die brait zuo 
+				<lb n="N023"/>SLONGcheiben daSNORM die kern auß vallen bach SLONGy ain we
+				<lb n="N024"/>nig In SLONGmalcz SLONGo mach ain groß plat von aiern 
+				<lb n="N025"/>daSNORM die pfann alle begreiff vnd tuo dar zuo wurtzen 
+				<lb n="N026"/>vnd leg den erSLONGten SLONGchilt In wenig wurcz vnd mach 
+				<lb n="N027"/>ain Condiment von wein vnd von honig vnd
+			
+			<pb xml:id="W3_202r" n="202r"/>
+			
+				<lb n="N001"/>wurtz eSNORM nicht all zuo haiSNORM SLONGo leg daSNORM plat zuo 
+				<lb n="N002"/>SLONGamen vnd SLONGturtz ain SLONGchuSLONGSLONGel dar auf vnd 
+				<lb n="N003"/>ker die pfann vmb vnd SLONGneid oben ain venSLONGter 
+				<lb n="N004"/>vnd geuSNORM daSNORM Condiment dar auf vnd gib eSNORM 
+				<lb n="N005"/>hin daSNORM haiSLONGSLONGen hunner von kuochen
+				<lb n="N006"/>Wie man ain reußchkuochen macht 
+				<lb n="N007"/>Hack peterSLONGilg vnd SLONGaluej gleich vil vnd prat daSNORM 
+				<lb n="N008"/>In puttern vnd z tuSLONGtel aier waich vnd tuo daSNORM 
+				<lb n="N009"/>zuo SLONGamen vnd reib keSLONGß vnd brot dar an vnd mach 
+				<lb n="N010"/>ain plat von aiern vnd geuSNORM puttern dar vnder 
+				<lb n="N011"/>gib Im feur vnd lauß eSNORM pachen daSNORM SLONGind reuSLONGch
+				<lb n="N012"/>kuochen
+				<lb n="N013"/>Wie man ain muoß von gebraten viSLONGchen macht
+				<lb n="N014"/>Du SLONGolt nemen ain gebraten viSLONGch der gewaichet 
+				<lb n="N015"/>iSLONGt in eSLONGSLONGig vnd tuo dar auß die gret vnd wirff den 
+				<lb n="N016"/>In milich von mandel gemacht vnd meng dar 
+				<lb n="N017"/>ein weiSNORM mel vnd geuSNORM ain wenig SLONGmalcz dar 
+				<lb n="N018"/>ein daSNORM iSLONGt guot vnd verSLONGalcz eSNORM nicht
+				<lb n="N019"/>Wie man ain fladen macht von viSLONGchen 
+				<lb n="N020"/>Nim ain gepranten oder perSLONGchß oder welherlay 
+				<lb n="N021"/>viSLONGch du wilt vnd wirff die In mandelmilich 
+				<lb n="N022"/>gemengt mit melt vnd ain apfel geSLONGnitten 
+				<lb n="N023"/>vnd ain wenig SLONGmalcz dar ein geworffen ain 
+				<lb n="N024"/>wenig gwurtz auf ain plat von taig gemacht 
+				<lb n="N025"/>vnd SLONGcheuß eSNORM In ain ofen vnd lauß eSNORM pachen
+			
+			<pb xml:id="W3_202v" n="202v"/>
+			
+				<lb n="N001"/>Ain fladen von viSLONGchen gepachen
+				<lb n="N002"/>Nim fiSLONGch vnd pach SLONGy In SLONGmalcz vnd geuSNORM dar 
+				<lb n="N003"/>uber ain guote mandelmilch die dick SLONGey vnd 
+				<lb n="N004"/>menig die mit reißmel vnd tuo ain SLONGmalcz dar 
+				<lb n="N005"/>an vnd meng eSNORM wol mit wurtzen vnd leg 
+				<lb n="N006"/>dar auf ain plat von taig vnd lauß eSNORM pachen 
+				<lb n="N007"/>vnd uerSLONGalcz daSNORM nicht
+				<lb n="N008"/>Ain guoten fladen oder krapfen von viSLONGchen mit mandelmilch 
+				<lb n="N009"/>Nim ain guote mandelmilch vnd alSNORM der uiSLONGch iSLONGt ge
+				<lb n="N010"/>SLONGotten vnd SLONGneide SLONGy dar vnder vnd meng eSNORM mit 
+				<lb n="N011"/>ain wenig reißmel daSNORM iSLONGt guot zuo gefulten krapfen
+				<lb n="N012"/>Guot krapfen ze machen SLONGo man vaSLONGtet
+				<lb n="N013"/>Nim nuSLONGSNORM vnd SLONGtoß dy In ainem morSLONGer vnd nim
+				<lb n="N014"/>oppfel alSNORM uil vnd SLONGneide SLONGy dar In wurfflacht 
+				<lb n="N015"/>vnd meng SLONGy wol mit wurczen welher lay SLONGey 
+				<lb n="N016"/>SLONGind vnd fulle SLONGy In die krapfen vnd leg SLONGy In 
+				<lb n="N017"/>ain pfannen vnd lauß SLONGy pachen
+				<lb n="N018"/>Krapphenn von nuSLONGSLONGen 
+				<lb n="N019"/>Nim gancz kern von nuSLONGSLONGen vnd SLONGneid alSNORM uil opp
+				<lb n="N020"/>fel dar vnder wurfflacht vnd roSLONGt SLONGy wol mit 
+				<lb n="N021"/>ain wenig honigSNORM vnd meng eSNORM mit wurczen 
+				<lb n="N022"/>vnd tuo eSNORM auf die pleter die da gemacht SLONGein 
+				<lb n="N023"/>zuo den krapfen vnd lauß eSNORM pachen vnd ver
+				<lb n="N024"/>SLONGalcz eSNORM nicht 
+				<lb n="N025"/>Krapfen mit welhiSLONGchen weinpern 
+			
+			<pb xml:id="W3_203r" n="203r"/>
+			
+				<lb n="N001"/>Nim weliSLONGch weinber vnd nim uil oppfel dar vnder 
+				<lb n="N002"/>vnd SLONGtoß SLONGy klain vnd tuo wurtz dar zuo vnd full 
+				<lb n="N003"/>SLONGy In die kraphen vnd lauß eSNORM pachen verSLONGalcz 
+				<lb n="N004"/>eSNORM nicht
+				<lb n="N005"/>Ain guot uaSLONGten muoSNORM ze machen
+				<lb n="N006"/>Nim berSLONGige vnd dike mandelmilch vnd tuo zuker 
+				<lb n="N007"/>dar auf daSNORM SLONGol haiSLONGSLONGen von IheruSLONGalem vnd 
+				<lb n="N008"/>man iSLONGt eSNORM kalt oder warm
+				<lb n="N009"/>HaydeniSLONGch arbeiSNORM ze machen
+				<lb n="N010"/>Nim mandelkern vnd SLONGtoß die gar clain vnd meng 
+				<lb n="N011"/>SLONGy mit dritteil alSNORM uil honigSNORM vnd mit guoten 
+				<lb n="N012"/>wurtzen SLONGo man SLONGy aller peSLONGte gehalten mag die 
+				<lb n="N013"/>koSLONGt gibt man kalt oder warm
+				<lb n="N014"/>Ain muoß von weySLONGSLONGem lauch 
+				<lb n="N015"/>Nim weySLONGSLONGen lauch vnd hack In klain vnd meng 
+				<lb n="N016"/>In wol mit gar guoter mandelmilch vnd mit reiß
+				<lb n="N017"/>melb vnd gar wol geSLONGotten
+				<lb n="N018"/>Ain muoSNORM von gepachen pirn ze machen
+				<lb n="N019"/>Mach von aiern dun fladen nim die pleter vnd SLONGneide 
+				<lb n="N020"/>die klain vnd wirff die In ain SLONGuSLONGSLONGe milch vnd 
+				<lb n="N021"/>nim SLONGemeln brot vnd SLONGneid daSNORM wurfflacht dar ein 
+				<lb n="N022"/>vnd meng eSNORM mit aiern tottern vnd SLONGeud eSNORM wol 
+				<lb n="N023"/>vnd tuo ain SLONGmalcz dar auff vnd verSLONGalcz nicht
+				<lb n="N024"/>Ain muoSNORM von aiern ze machen 
+			
+			<pb xml:id="W3_203v" n="203v"/>
+			
+				<lb n="N001"/>Nim aier vnd zuo SLONGlahe SLONGy mit SLONGemel melb dun vnd
+				<lb n="N002"/>pach dunn kuochen geworffen In ain milich vnd 
+				<lb n="N003"/>wol gewermt biSNORM eSNORM geSLONGied vnd meng eSNORM aber
+				<lb n="N004"/>mit aier tottern vnd tuo ain wenig SLONGmalcz dar 
+				<lb n="N005"/>ein vnd gib eSNORM hin
+				<lb n="N006"/>Ain muoß von kuochen ze machen 
+				<lb n="N007"/>Nim kuochen gebachen von aiern vnd SLONGneid die wurf
+				<lb n="N008"/>felecht vnd tuo SLONGy In die milch vnd nim ain apfel 
+				<lb n="N009"/>vnd SLONGneid den wurffelacht dar ein vnd ruer eSNORM 
+				<lb n="N010"/>wol mit aier tottern vnd SLONGeud eSNORM wol vnd gib 
+				<lb n="N011"/>eSNORM hin
+				<lb n="N012"/>Ain muoß von oppfeln ze machen 
+				<lb n="N013"/>Nim opfel vnd SLONGchell die vnd SLONGneid die In kalt 
+				<lb n="N014"/>waSLONGSLONGer vnd SLONGeud SLONGy In ainem hafen vnd menig SLONGy mit 
+				<lb n="N015"/>wein vnd mit SLONGalcz vnd zuo SLONGlahe aier vnd tuo 
+				<lb n="N016"/>SLONGy dar zuo vnd uerSLONGaltz nicht
+				<lb n="N017"/>Ain muoSNORM von kuttm ze machen 
+				<lb n="N018"/>Nim kuttm wie uil du wilt vnd SLONGeud die gar 
+				<lb n="N019"/>SLONGchon vnd nim den ain morSLONGer vnd SLONGtoß SLONGy dar ein 
+				<lb n="N020"/>vnd SLONGlach die durch ain tuoch vnd nim aiern tottern 
+				<lb n="N021"/>darzuo vnd SLONGeud eSNORM da mit vnd tuo Imgber dar ein 
+				<lb n="N022"/>vnd uerSLONGaltz nicht
+				<lb n="N023"/>Ain mandelmuoSNORM guot ze machen 
+				<lb n="N024"/>Nim mandelmilch vnd SLONGemlein brot vnd SLONGneid 
+				<lb n="N025"/>daSNORM wurfflecht vnd tuo daSNORM In die mandelmilch
+			
+			<pb xml:id="W3_204r" n="204r"/>
+			
+				<lb n="N001"/>vnd eerwell daSNORM vnd nim ain oppfel vnd SLONGneid 
+				<lb n="N002"/>den wurfflacht vnd roSLONGt In In aim SLONGmalcz 
+				<lb n="N003"/>vnd tuo daSNORM auf die mandelmilch vnd gib eSNORM hin
+				<lb n="N004"/>Ain ziger oder SLONGchotten von mandelmilch 
+				<lb n="N005"/>Nim mandelkern vnd SLONGtoß die In ainem morSLONGer 
+				<lb n="N006"/>vnd die mandelmilch erwelle vnd SLONGchut die 
+				<lb n="N007"/>auf ain SLONGchon tuoch vnd tuo ain SLONGchaf dar vnder 
+				<lb n="N008"/>vnd laß In erkalten vnd SLONGlach In auf ain SLONGchuSLONGSLONGel 
+				<lb n="N009"/>vnd SLONGtoß dar auf mandelkern vnd SLONGtreu dar auf 
+				<lb n="N010"/>zuker vnd gib daSNORM hin
+				<lb n="N011"/>Ain keSNORM von mandel
+				<lb n="N012"/>Nim mandelkern vnd SLONGtoß die vnd nim die milch 
+				<lb n="N013"/>vnd erwell die vnd SLONGchutt die auf ain tuoch vnd 
+				<lb n="N014"/>lauß eSNORM erkalten vnd leg daSNORM In ain keSNORM nappff 
+				<lb n="N015"/>vnd mach ain keß vnd leg In dan auf ain teller 
+				<lb n="N016"/>beSLONGtreu In mit zuker daSNORM haiSLONGt ain mandelkeß
+				<lb n="N017"/>Wie man ain wel von mandel macht 
+				<lb n="N018"/>Nim mandelkern geSLONGtoSLONGSLONGen zuo ainer milch vnd SLONGeut 
+				<lb n="N019"/>die vnd SLONGchut die auf ain tuoch vnd lauß eSNORM er
+				<lb n="N020"/>kuelen vnd mach den auß dem da da pleibt ain 
+				<lb n="N021"/>wochen vnd tuo In auf ein SLONGchuSLONGSLONGel vnd geuSNORM ain 
+				<lb n="N022"/>mandelmilch dar vnder vnd SLONGtreu ain zuker 
+				<lb n="N023"/>dar auf vnd gib eSNORM hin
+				<lb n="N024"/>Ain kuochen von mandelmilch zuo machen
+			
+			<pb xml:id="W3_204v" n="204v"/>
+			
+				<lb n="N001"/>Nim mandelmilch vnd SLONGeud die wol vnd rur die 
+				<lb n="N002"/>ab mit ainem zuker vnd SLONGchutte die auf ein tuoch 
+				<lb n="N003"/>vnd leg eSNORM auf ain SLONGchaff vnd mach ain taig von 
+				<lb n="N004"/>SLONGemel melb vnd brait daSNORM mit ainer well vnd leg 
+				<lb n="N005"/>deSNORM geSLONGoten mandelSNORM dar auf beSLONGneit den den kuoch
+				<lb n="N006"/>en vnd pach Inn In ainer pfannen In SLONGmalcz
+				<lb n="N007"/>Ain reiß guot geSLONGoten ze machen 
+				<lb n="N008"/>Nim reiß vnd erliß In SLONGchon vnd waSLONGch In SLONGchon vnd 
+				<lb n="N009"/>leg In In ain hefen vnd SLONGalcz In nicht zuo uil vnd 
+				<lb n="N010"/>SLONGeud In daSNORM er trucken werde vnd meng In mit ainer 
+				<lb n="N011"/>mandelmilch vnd rur In ain wenig biSNORM daSNORM er aber 
+				<lb n="N012"/>SLONGiede vnd dik werde vnd gib In hin mit ainem zuker
+				<lb n="N013"/>Ain muoSNORM von reiß ze machen 
+				<lb n="N014"/>Nim guote mandelmilch vnd re meng SLONGy mit reißmel 
+				<lb n="N015"/>vnd SLONGeut daSNORM wol vnd nim ain apfel vnd SLONGneid den 
+				<lb n="N016"/>wurfflacht vnd roSLONGt den In SLONGmalcz vnd SLONGtreu daSNORM 
+				<lb n="N017"/>auff daSNORM muoSNORM vnd gib eSNORM hin
+				<lb n="N018"/>Ain muoSNORM von mandelmilch ReiSNORM vnd hunerbruSLONGt 
+				<lb n="N019"/>Nim mandelmilch v dick vnd huner bruSLONGt ge
+				<lb n="N020"/>zeiSLONGet vnd tuo daSNORM In die mandelmilch vnd rur 
+				<lb n="N021"/>daSNORM mit reißmelb vnd SLONGmalcz genuog vnd tuo ge
+				<lb n="N022"/>nuog zuker dar zuo daSNORM ISLONGt ain pulueriSLONGei
+				<lb n="N023"/>Ain muoSNORM von zemmilch hunerbruSLONGten vnd reiße 
+				<lb n="N024"/>Nim dick zemmilch hunerbruSLONGte gezeiSLONGt vnd wirff 
+			
+			<pb xml:id="W3_205r" n="205r"/>
+			
+				<lb n="N001"/>die In die milch vnd erwell SLONGy vnd rur SLONGy mit 
+				<lb n="N002"/>reyß melb vnd mit aiern tottern vnd tuo SLONGmalcz ge
+				<lb n="N003"/>nug dar an vnd SLONGtreu zukerSNORM genuog dar auf 
+				<lb n="N004"/>daSNORM haiSLONGt pulueriSLONGej
+				<lb n="N005"/>Wie man macht ain muoSNORM von veyol
+				<lb n="N006"/>Man SLONGol nemen dike mandelmilch mit reißmel ge
+				<lb n="N007"/>mengt vnd SLONGmaltz genug vnd verb eSNORM wol 
+				<lb n="N008"/>mit violpluomen daSNORM iSLONGt ain guot koch
+				<lb n="N009"/>Wie man muoSNORM von Maurauchen macht 
+				<lb n="N010"/>Nim morchen vnd erwell die vnd waSLONGch SLONGy den 
+				<lb n="N011"/>auSNORM mit kaltem waSLONGSLONGer vnd hack SLONGy klain vnd 
+				<lb n="N012"/>tuo SLONGy In ain mandelmilch vnd laSNORM die morchen 
+				<lb n="N013"/>dar In erwellen vnd tuo darzuo wurcz genuog vnd
+				<lb n="N014"/>ferb eSNORM mit viol pluomen vnd gib eSNORM hin
+				<lb n="N015"/>wie man von nuSLONGSLONGen muoSNORM machet 
+				<lb n="N016"/>Nim nuß kern vnd SLONGtoß die klain vnd SLONGlach die 
+				<lb n="N017"/>durch ain tuoch mit ainer SLONGuSLONGSLONGen zam milch vnd 
+				<lb n="N018"/>mit ainer broSLONGen brotSNORM von SLONGemel vnd wol geSLONGoten 
+				<lb n="N019"/>In ainem hafen vnd gib Im SLONGmalcz genuog dar an 
+				<lb n="N020"/>vnd mit aiertottern wol ab gerurt vnd wol gerurt 
+				<lb n="N021"/>mit SLONGaffran
+				<lb n="N022"/>Von pirnen ain guot muoSNORM
+			
+			<pb xml:id="W3_205v" n="205v"/>
+			
+				<lb n="N001"/>Nim birn vnd beSLONGneid die SLONGchon vnd SLONGeud SLONGy wol In 
+				<lb n="N002"/>ainem haffen mit wein vnd mit SLONGmalcz durch ge
+				<lb n="N003"/>SLONGlagen durch ain tuoch vnd erwell SLONGy dann mit 
+				<lb n="N004"/>aiern tottern daSNORM eSNORM SLONGiede
+				<lb n="N005"/>von kerSLONGSLONGen ain muoSNORM 
+				<lb n="N006"/>Nim kerSLONGSLONGen vnd brich die SLONGtiln ab vnd SLONGeud SLONGy mit 
+				<lb n="N007"/>ain wenig weinSNORM vnd SLONGlach SLONGy durch ain tuoch mit 
+				<lb n="N008"/>ainer SLONGemelbroSLONGen wol erwellet In ainem heffen vnd 
+				<lb n="N009"/>tuo SLONGmaltz daran genuog vnd rur eSNORM dan auSNORM mit aier 
+				<lb n="N010"/>tottern vnd SLONGtrow dar auf wurcz SLONGo man an richten
+				<lb n="N011"/> wil
+				<lb n="N012"/>von weichSLONGeln ain CompoSLONGt 
+				<lb n="N013"/>Nim SLONGaur weichSLONGlen vnd brich In die SLONGtil ab vnd 
+				<lb n="N014"/>SLONGeud SLONGy In ainem heffen mit Ir aigen pru vnd wenn 
+				<lb n="N015"/>SLONGy geSLONGiedent SLONGo SLONGchutt SLONGy auSNORM vnd lauSNORM SLONGie kulen 
+				<lb n="N016"/>vnd SLONGlach SLONGy durch ain tuoch vnd SLONGchut SLONGy den In 
+				<lb n="N017"/>ain hefen der gebicht SLONGey vnd SLONGchutt die kerSLONGen 
+				<lb n="N018"/>dar ein vnd meng SLONGy mit honig vnd tuo galgant 
+				<lb n="N019"/>wurczen dar vnder geSLONGtreut darauf zuo hant wenn 
+				<lb n="N020"/>man eSLONGSLONGen wil
+				<lb n="N021"/>Ain fladen von flaiSLONGch keSNORM vnd aiern 
+				<lb n="N022"/>Nim flaiSLONGch von lampln oder von dem wenSLONGte vnd 
+				<lb n="N023"/>nim kutten daSNORM eSNORM alleSNORM wol geSLONGotten SLONGey vnd hack
+			
+			<pb xml:id="W3_206r" n="206r"/>
+			
+				<lb n="N001"/>eSNORM alleSNORM klain vnd reib alSNORM uil keSNORM dar ein vnd 
+				<lb n="N002"/>meng eSNORM mit aiern daSNORM eSNORM dick werd vnd wurtz 
+				<lb n="N003"/>eSNORM mit pfeffer vnd SLONGlach daSNORM auf ain plat von 
+				<lb n="N004"/>taig gemacht vnd SLONGcheuß eSNORM In ain offen laSNORM pachen 
+				<lb n="N005"/>vnd gib eSNORM hin
+				<lb n="N006"/>Ain fladen von flaiSLONGch keSNORM vnd aiern ander weiße 
+				<lb n="N007"/>Nim lumbfleiSLONGch wol geSLONGotten vnd hack eSNORM clain 
+				<lb n="N008"/>vnd reib dar ein ain viertail keSNORM vnd meng daSNORM 
+				<lb n="N009"/>wol mit aier totter vnd tuo dar ein wurtz vnd mach 
+				<lb n="N010"/>daSNORM auf ain plat vnd SLONGlach aier gancz dar ein 
+				<lb n="N011"/>vnd trag eSNORM alSLONGo gancz hin
+				<lb n="N012"/>Ain gebratenSNORM von kalbSLONGleber
+				<lb n="N013"/>Nim kelberleber vnd hack die klain vnd gruen 
+				<lb n="N014"/>SLONGpeck dar vnder geSLONGnitten halb gebraten wol vnd 
+				<lb n="N015"/>gemacht zwaier vinger lanck vnd brait geSLONGnitten 
+				<lb n="N016"/>vnd gefult wol mit ainer guoten full vnd wol gepachen
+				<lb n="N017"/>Ain fladen von flaiSLONGch keSNORM vnd aiern
+				<lb n="N018"/>Nim wol geSLONGotten flaiSLONGch von wenSLONGten vnd hack eSNORM 
+				<lb n="N019"/>klain nim ain viertail keSNORM dar zuo vnd SLONGlach aier 
+				<lb n="N020"/>dar vnder vnd SLONGeud SLONGwerteln von grunen SLONGwertten
+				<lb n="N021"/>dar vnder tuo auch dar zuo hunner leber vnd ne
+				<lb n="N022"/>gelein vnd SLONGneid ain pirn legenlecht vnd SLONGtrou 
+			
+			<pb xml:id="W3_206v" n="206v"/>
+			
+				<lb n="N001"/>SLONGy dar vnder vnd mach eSNORM auf ain blat vnd lauß 
+				<lb n="N002"/>eSNORM pachen vnd trag eSNORM hin
+				<lb n="N003"/>Ain fladen von flaiSLONGch keSNORM vnd aieren
+				<lb n="N004"/>Nim lumbflaiSLONGch vnd SLONGeud eSNORM wol vnd hack eSNORM klain 
+				<lb n="N005"/>vnd reib keSNORM genuog dar vnder vnd SLONGlach auch 
+				<lb n="N006"/>aier genuog dar ein vnd wurcz eSNORM wol vnd SLONGecz eSNORM 
+				<lb n="N007"/>auf ain plat von taig vnd pach eSNORM wol
+				<lb n="N008"/>Ain fladen von flaiSLONGch keSNORM vnd aiern
+				<lb n="N009"/>Nim flaiSLONGch von wenSLONGten vnd SLONGeud eSNORM klain vnd tuo 
+				<lb n="N010"/>weliSLONGch nuSLONGSLONGe geuirtailt dar vnder vnd wurcz ge
+				<lb n="N011"/>nuog vnd SLONGpeck tuo dar vnder vnd aier vnd leg
+				<lb n="N012"/>eSNORM auf ain plat vnd lauß eSNORM pachen
+				<lb n="N013"/>Ain weichSLONGSLONGelmuoSNORM 
+				<lb n="N014"/>Man SLONGol nemen weichSLONGSLONGlen vnd von mandel ain 
+				<lb n="N015"/>guote milch machen vnd mit wein die kerSLONGen wol 
+				<lb n="N016"/>SLONGieden vnd mit Ir aigen prue SLONGlahen durch ain 
+				<lb n="N017"/>tuoch vnd den gegoSLONGSLONGen In ain mandelmilch vnd ge
+				<lb n="N018"/>SLONGotten In ainem hafen vnd darzuo wol gerurt mit 
+				<lb n="N019"/>reißmel vnd SLONGmalcz gemengt dar an getan vnd 
+				<lb n="N020"/>auch wurtz genuog vnd zuker dar auf vnd uer
+				<lb n="N021"/>SLONGaltz eSNORM nicht
+				<lb n="N022"/>Ain milch mit k?eiSLONG kreuSLONGSLONGen oder gemuß 
+			
+			<pb xml:id="W3_207r" n="207r"/>
+			
+				<lb n="N001"/>Wiltu machen ain guot gemuß SLONGo nim milch In ainem 
+				<lb n="N002"/>rainen hefen vnd SLONGecz die milch zuo ainem feur vnd 
+				<lb n="N003"/>nim vnd SLONGneide die augen von den kreuSLONGSLONGen vnd 
+				<lb n="N004"/>lauß daSNORM ander tail gancz v an den krepSLONGen vnd 
+				<lb n="N005"/>waSLONGch SLONGy gar rain wenn du SLONGy gewaSLONGchen hauSLONGt 
+				<lb n="N006"/>SLONGo wirff SLONGy In ain moerSLONGer vnd SLONGtoß SLONGy gar wol 
+				<lb n="N007"/>klain wen SLONGy halb geSLONGtoSLONGSLONGen SLONGind SLONGo truk SLONGy auß 
+				<lb n="N008"/>mit ainem rainem tuoch daSNORM der SLONGafft durch gee 
+				<lb n="N009"/>daSNORM ander mal SLONGtoß SLONGy rain vnd wol vnd nim 
+				<lb n="N010"/>ain rain milich die doch roch iSLONGt die geuSNORM In 
+				<lb n="N011"/>den morSLONGer vnd den SLONGafft den du ee haSLONGt außge
+				<lb n="N012"/>drukt den geuß zuo SLONGamen zuo dem erSLONGten vnd rur 
+				<lb n="N013"/>daSNORM zuo SLONGamen vnd SLONGeiche eSNORM rain durch ain SLONGib 
+				<lb n="N014"/>vnd geuSNORM eSNORM mit ain ander In ain SLONGiedendig milch 
+				<lb n="N015"/>SLONGo wirt eSNORM gerinnen wenn eSNORM wol gerunnen iSLONGt 
+				<lb n="N016"/>SLONGo geuSNORM eSNORM auf ain rain tuoch auß dem SLONGelben 
+				<lb n="N017"/>machSLONGtu mer wen ain eSLONGSLONGen Nim eSNORM vnd wirff 
+				<lb n="N018"/>eSNORM In ain rain putter In ain pfan vnd roSLONGt daSNORM 
+				<lb n="N019"/>SLONGo haSLONGtu ain rain eSLONGSLONGen Wiltu daSNORM SLONGuSLONGß haben 
+				<lb n="N020"/>SLONGo nim honig vnd tuo daSNORM dar zuo SLONGo wirt eSNORM SLONGuSLONGSLONGe 
+				<lb n="N021"/>hauSLONGtu zuker SLONGo darffSLONGtu deSNORM honigSNORM nicht vnd 
+				<lb n="N022"/>tu darfSLONGt den zuker nit In den hefen tuon wenn
+				<lb n="N023"/>du daSNORM eSLONGSLONGen berait hauSLONGt auß der SLONGchuSLONGSLONGel SLONGo 
+				<lb n="N024"/>beSLONGtrou eSNORM mit dem zuker SLONGo iSLONGt dein eSLONGSLONGen berait
+				<lb n="N025"/>Ain keSNORM von kraiSLONGSLONGen vnd milch
+			
+			<pb xml:id="W3_207v" n="207v"/>
+			
+				<lb n="N001"/>Wiltu ain guoten keSNORM machen da von daSNORM da 
+				<lb n="N002"/>bey ain ander iSLONGt auf dem tuoch SNORMGo nim daSNORM tuoch 
+				<lb n="N003"/>zwifach vnd bind daSNORM zuo vnd bind daSNORM zuo vnd 
+				<lb n="N004"/>leg eSNORM auf ainen tiSLONGch vnd leg SLONGtain dar auff 
+				<lb n="N005"/>vnd SLONGchwar daSNORM wol vnd pind daSNORM auff SLONGo iSLONGt 
+				<lb n="N006"/>eSNORM SLONGam ain keß Wiltu In gancz auff geben 
+				<lb n="N007"/>oder wiltu In zuo SLONGneiden vnd brue dar uber 
+				<lb n="N008"/>machen SLONGo nim ain brot vnd roSLONGt eSNORM vnd peter
+				<lb n="N009"/>SLONGilg mit ain ander vnd SLONGeud daSNORM brot vnd 
+				<lb n="N010"/>peterSLONGilg mit ain ander mit eSLONGSLONGich vnd mit wein 
+				<lb n="N011"/>oder mach SLONGuSLONGt ain brue mit aiern wie du wilt
+				<lb n="N012"/>Gemueß mit holler
+				<lb n="N013"/>Wiltu von holder ain guot gemueß machen SLONGo SLONGocz 
+				<lb n="N014"/>ain guote milich zuo ainem feur SLONGo prich die plut 
+				<lb n="N015"/>ab vnd wirff die In die milich vnd lauß SLONGy gar 
+				<lb n="N016"/>wol dar Inn SLONGieden SLONGo SLONGchmokt die milch nach 
+				<lb n="N017"/>dem pluet vnd SLONGeich dan die milch durch ain tuoch 
+				<lb n="N018"/>vnd koch ain SLONGemel griSNORM vnd SLONGaltz eSNORM auch machSLONGtu 
+				<lb n="N019"/>daSNORM mit SLONGaffran gel machen vnd tuo SLONGmalcz genuog 
+				<lb n="N020"/>dar zuo SLONGo haSLONGtu ain guot muoß
+				<lb n="N021"/>Holler muoß
+				<lb n="N022"/>Wiltu daSNORM muoSNORM aber anderSNORM machen SLONGo nim guot 
+				<lb n="N023"/>SLONGemelmel In ain SLONGchuSLONGSLONGel SLONGlach air genuog dar ein
+			
+			<pb xml:id="W3_208r" n="208r"/>
+			
+				<lb n="N001"/>vnd mach ain guoten dunnen taig dar auSNORM 
+				<lb n="N002"/>haSLONGtu der aier nit genuog SLONGo geuSNORM der milch auSNORM 
+				<lb n="N003"/>dem hafen dar zuo vnd mach daSNORM zuo SLONGamen SLONGo 
+				<lb n="N004"/>haSLONGtu ain guot muoSNORM
+				<lb n="N005"/>Holdermuoß
+				<lb n="N006"/>Wiltu eSNORM aber anderSNORM machen zuo dem dritten mal 
+				<lb n="N007"/>SLONGo nim ain SLONGemelbrot vnd reib daSNORM klain an 
+				<lb n="N008"/>ainem reib eySLONGen SLONGchutt daSNORM In die milch SLONGo haSLONGtu 
+				<lb n="N009"/>ain guot muoSNORM laß eSNORM weiSNORM
+				<lb n="N010"/>Gemuß guot ze machen
+				<lb n="N011"/>Wiltu ander gemuß machen an die holderplut 
+				<lb n="N012"/>SLONGo mach SLONGy ouch alSLONGo mit SLONGolicher matery SLONGo SLONGind SLONGy 
+				<lb n="N013"/>guot welicher lay gemuß du maSLONGt machSLONGt von milch 
+				<lb n="N014"/>yemer du air dar zuo tuoSLONGt ye beSLONGSLONGer SLONGy werden
+				<lb n="N015"/>Gefult apfel
+				<lb n="N016"/>Wiltu guot gefult opfel machen SLONGo nim guot SLONGaur 
+				<lb n="N017"/>oppfel vnd SLONGchell die rain SLONGneid dye zuo SLONGcheiben 
+				<lb n="N018"/>SLONGneid den grubSLONGen dar auSNORM nim aber ander opfel 
+				<lb n="N019"/>SLONGchell die rain SLONGneid die kern dar auSNORM hack die 
+				<lb n="N020"/>opfel auf ainem hackpret gar klain nim ain pfann 
+				<lb n="N021"/>tuo honig gnuog dar ein SLONGchutt die gehackten 
+				<lb n="N022"/>opfel auch dar ein rur daSNORM rein mit ainem loffel 
+				<lb n="N023"/>auf dem feur SLONGo SLONGeut eSNORM SLONGich vnd wirt praun
+			
+			<pb xml:id="W3_208v" n="208v"/>
+			
+				<lb n="N001"/>laß eSNORM dick genuog werden vnd SLONGtubp daSNORM ab mit  
+				<lb n="N002"/>ainem pfeffer daSNORM iSLONGt die full zuo den gefulten 
+				<lb n="N003"/>opfelen vnd nim die geSLONGchelten opfel vnd die full 
+				<lb n="N004"/>vnd SLONGtreich daSNORM auf ain SLONGeit deck ain ander SLONGcheiben 
+				<lb n="N005"/>die da uon den opfeln SLONGind gemacht truck tu SLONGy 
+				<lb n="N006"/>ze SLONGamen SLONGo haSLONGtu ain gefulten apfel mach der 
+				<lb n="N007"/>alSLONGo uil alSNORM du wilt nim mel In ain SLONGchuSLONGSLONGel 
+				<lb n="N008"/>geuSNORM ain wein dar zuo vnd mach dar auSNORM ain 
+				<lb n="N009"/>taig der nicht zuo dunn SLONGey vnd mach In auch 
+				<lb n="N010"/>In nit zuo dick SLONGaltz In gar ain wenig mach In 
+				<lb n="N011"/>mit ainem SLONGaffran gel vnd nim SLONGchmaltz oder putter 
+				<lb n="N012"/>oder oll nim die gefulten opfel vnd welltz SLONGy 
+				<lb n="N013"/>gar wol vm-### In dem taig wirff SLONGy In die 
+				<lb n="N014"/>pfannen tuo daSNORM SLONGmalcz oder daSNORM oll Innen iSLONGt 
+				<lb n="N015"/>vnd bach SLONGy wol vnd rain SLONGo haSLONGtu guot gefult 
+				<lb n="N016"/>opfel
+				<lb n="N017"/>Gefult oblat 
+				<lb n="N018"/>Wiltu auSNORM der SLONGelben full ain ander eSLONGSLONGen machen 
+				<lb n="N019"/>SLONGo nim oblat vnd SLONGneid die viereckecht alSNORM du 
+				<lb n="N020"/>wilt nim der SLONGelben full vnd SLONGtreichSNORM auf ain 
+				<lb n="N021"/>SLONGeit deck ain ander plat dar uber druck eSNORM rain 
+				<lb n="N022"/>zuo SLONGamen nun nim druck SLONGy mit den SLONGeitten In 
+				<lb n="N023"/>dem taig zuo ring vmb SLONGo bleibt eSNORM In der mitten 
+				<lb n="N024"/>weiß wirff daSNORM In ain pfannen vnd laSLONGß SLONGy pachen 
+				<lb n="N025"/>war In du wilt SLONGo werden SLONGy guot vnd lauß SLONGy  
+			
+			<pb xml:id="W3_209r" n="209r"/>
+			
+				<lb n="N001"/>nit lang In der pfannen bachen daSNORM SLONGy Icht SLONGwarcz 
+				<lb n="N002"/>werden
+				<lb n="N003"/>Gefult opfel am SLONGpiß 
+				<lb n="N004"/>Wiltu auSNORM der SLONGelben full aber ain ander eSLONGSLONGen machen 
+				<lb n="N005"/>daSNORM iSLONGt daSNORM dritt nim apfel vnd SLONGchell die rain 
+				<lb n="N006"/>SLONGneid SLONGy zuo SLONGcheiben vnd SLONGneid SLONGy dar nach klain 
+				<lb n="N007"/>alSNORM groß alSNORM ain pfenning oder praiter Nu nim 
+				<lb n="N008"/>ain SLONGullhe full alSNORM du zum erSLONGten mal haSLONGt gehabt 
+				<lb n="N009"/>vnd mach klaine kuchel dar auSNORM nim vnd SLONGneid 
+				<lb n="N010"/>klaine SLONGpiSLONGSLONGel dar auSNORM alSNORM die SLONGtrohelmer ainer 
+				<lb n="N011"/>SLONGpannen lang vnd SLONGtoß zum erSLONGten ain SLONGcheibopfel 
+				<lb n="N012"/>vnd ain kugel darzwiSLONGchen ymmer ainSNORM nach dem
+				<lb n="N013"/>andern vnd nim ain SLONGulhen taig alSNORM du ee haSLONGt 
+				<lb n="N014"/>gehabt zuo dem andern tail ain wein muoSNORM da 
+				<lb n="N015"/>bey SLONGein nim SLONGmalcz oder butter vnd tuo In geleicher 
+				<lb n="N016"/>weiß alSNORM von erSLONGten ven Ir gepachen habt SLONGo 
+				<lb n="N017"/>nempt die SLONGpiß dar auSNORM SLONGneid eSNORM nach der leng 
+				<lb n="N018"/>mit ainem SLONGcharpfen meSLONGSLONGer SLONGecz eSNORM auf ain SLONGchuSLONG
+				<lb n="N019"/>SLONGel SLONGo haSLONGtu die drey gericht vnd die ain iSLONGt an
+				<lb n="N020"/>derSNORM den die ander vnd kumpt alSNORM von ainer 
+				<lb n="N021"/>full
+				<lb n="N022"/>Gepraten aier an dem SNORMGpiß
+				<lb n="N023"/>Wiltu aier machen gepraten an dem SLONGpiß an SLONGchaln 
+				<lb n="N024"/>SLONGo nim aier vnd leg SLONGy In ain SLONGiedenSNORM waSLONGSLONGer In
+			
+			<pb xml:id="W3_209v" n="209v"/>
+			
+				<lb n="N001"/>ain pfann wenn du SLONGichSLONGt daSNORM SLONGy auf SLONGieden SLONGo nim 
+				<lb n="N002"/>SLONGy zuo hant ab brich SLONGy an baiden orten auf vnd 
+				<lb n="N003"/>nicht weit vnd SLONGchutt den totter dar auSLONGß In ain 
+				<lb n="N004"/>raine pfann tuo ain klain pißlein puttern dar ein 
+				<lb n="N005"/>vnd vergiß deSNORM SLONG?l? SLONGalcz nicht vnd rur daSNORM wol 
+				<lb n="N006"/>auf dem feur nicht mach eSNORM zuo dick full eSNORM wider 
+				<lb n="N007"/>Inn die SLONGchal vnd tuo SLONGy wider In ain haiß waSLONGSLONGer 
+				<lb n="N008"/>vnd SLONGeudSNORM daSNORM dich dunckt daSNORM SLONGy hert werden 
+				<lb n="N009"/>nim SLONGy auSNORM vnd SLONGchutt SLONGy In ain kalt waSLONGSLONGer vnd 
+				<lb n="N010"/>SLONGchell SLONGy rain SLONGneid ain SLONGpiß von holtz dar da 
+				<lb n="N011"/>dunn genuog iSLONGt vnd SLONGtoß die aier nach der 
+				<lb n="N012"/>leng dar an vnd leg eSNORM zuo dem feur brat SLONGy 
+				<lb n="N013"/>alSLONGo uil alSNORM du wilt brat SLONGy daSNORM SLONGy braun werden 
+				<lb n="N014"/>vnd begeuß SLONGy mit SLONGmalcz SLONGneid den SLONGpiß von ain 
+				<lb n="N015"/>ander wenn du SLONGy auf wilt geben
+				<lb n="N016"/>Gemueß an milch 
+				<lb n="N017"/>Wiltu aber ain guot gemueß machen an milch SLONGo 
+				<lb n="N018"/>nim SLONGemelmel vnd SLONGlach aier dar In genuog vnd 
+				<lb n="N019"/>geuSNORM wein dar zuo der da guot iSLONGt vnd mach daSNORM 
+				<lb n="N020"/>dunn genuog vnd uergiß deSNORM SLONGalcz nicht SLONGtup 
+				<lb n="N021"/>daSNORM wol vnd nim ain wenig putter In ain pfann 
+				<lb n="N022"/>mach die putter haiß In der pfannen### vnd SLONGecz 
+				<lb n="N023"/>daSNORM auf ain guote gluot bey dem feur ruer 
+				<lb n="N024"/>daSNORM wol SLONGo erheben SLONGich die aier dar Inn vnd
+			
+			<pb xml:id="W3_210r" n="210r"/>
+			
+				<lb n="N001"/>wirt guot vnd lauß SLONGy alSNORM lang nach dem auf 
+				<lb n="N002"/>dem feur SLONGtan daSNORM eSNORM dick genuog wirt daSNORM 
+				<lb n="N003"/>haiSLONGt ain geprant wein muoß daSNORM wirt belder 
+				<lb n="N004"/>berait wenn ain anderSNORM gemuß ?
+				<lb n="N005"/>Gemuß an milch
+				<lb n="N006"/>Wiltu daSNORM gemuß anderSNORM machen SLONGo nim gar 
+				<lb n="N007"/>ain wenig SLONGemelmel vnd nim aier totter vnd 
+				<lb n="N008"/>SLONGlach SLONGy dar In vnd kain weiSLONGSLONGeSNORM nicht geuSNORM ain 
+				<lb n="N009"/>wenick milch dar ein die da roch iSLONGt vnd ain
+				<lb n="N010"/>wenig guotz weinSNORM nim butter In ainer pfannen
+				<lb n="N011"/>mach daSNORM haiß wurcz daSNORM wol SLONGecz eSNORM auf 
+				<lb n="N012"/>die kolen vnd rur eSNORM wol vnd lauß eSNORM dick 
+				<lb n="N013"/>genuog werden daSNORM haiSLONGt ain tutter gemueß 
+				<lb n="N014"/>Wiltu eSNORM gern guot haben SLONGo beSLONGtreich eSNORM mit 
+				<lb n="N015"/>buttern vnd mit zuker
+				<lb n="N016"/>Mandelkeß
+				<lb n="N017"/>Wiltu haben ain mandelkeß SLONGo muoSLONGtu haben ain 
+				<lb n="N018"/>hauSLONGen plater vnd deSNORM mandelSNORM muoSLONGtu haben i1/2 lib-###
+				<lb n="N019"/>auf ain eSLONGSLONGen SLONGo magSLONGtu den von dem mandel 
+				<lb n="N020"/>den reib SLONGchon vnd SLONGlach den durch ain weiß 
+				<lb n="N021"/>tuoch vnd ain lot hauSLONGen plater daSNORM SLONGoltu In 
+				<lb n="N022"/>ainem waSLONGSLONGer SLONGieden vnd die plater SLONGoltu mit dem
+			
+			<pb xml:id="W3_210v" n="210v"/>
+			
+				<lb n="N001"/>mandel durch SLONGlahen mit geSLONGotten waSLONGSLONGer vnd SLONGolt 
+				<lb n="N002"/>der milch nit SLONGieden mach SLONGy SLONGuß mit ainem 1/2 fierdung 
+				<lb n="N003"/>zukerSNORM vnd SLONGchik SLONGy zuo ainem keß SLONGo nim ain ver
+				<lb n="N004"/>glaSLONGt reinlen da SLONGchub den die milch In SLONGo wirt 
+				<lb n="N005"/>SLONGy hert vnd lauß ain weil SLONGten SLONGo wirtSNORM ain keSNORM 
+				<lb n="N006"/>vnd mach ain SLONGuSLONGSLONGe mandelmilch daran vnd du 
+				<lb n="N007"/>magt In wol SLONGneiden In viertail SLONGo kumpt die 
+				<lb n="N008"/>milch da zwiSLONGchen vnd beSLONGteck In mit mandel 
+				<lb n="N009"/>kern vnd gib In hin
+				<lb n="N010"/>Ain SLONGchwartze geißlicz
+				<lb n="N011"/>Nim ain 1/2 lib-### weinber vnd reib die SLONGchon daSNORM 
+				<lb n="N012"/>SLONGy klain werden du SLONGolt nemen SLONGchifflen von 
+				<lb n="N013"/>lebzelten gemacht machSLONGtu Ir nit gehaben SLONGo 
+				<lb n="N014"/>nim ain ander lebzelten vnd SLONGneid In dann vnd 
+				<lb n="N015"/>prenn In SLONGwarcz vnd lauß In kalt werden vnd SLONGtoß 
+				<lb n="N016"/>In klain vnd SLONGeich In durch ain pfeffer SLONGib daSNORM 
+				<lb n="N017"/>SLONGoltu tuon dar an alSNORM uil daSNORM SLONGein genuog iSLONGt vnd
+				<lb n="N018"/>SLONGcholt haben ain 1/2 lib-### honigSNORM vnd SLONGolt daSNORM dar 
+				<lb n="N019"/>an tuon vnd guot gewurcz tuo auch dar an mit 
+				<lb n="N020"/>der geißlicz SLONGoltu die temperieren vnd SLONGolt die 
+				<lb n="N021"/>weinper durch SLONGlahen vnd SLONGolt SLONGy In In SLONGieden 
+				<lb n="N022"/>lauSLONGSLONGen wol weiSLONGSLONGen Imgber tuo dar an vnd 
+				<lb n="N023"/>ruer eSNORM wol ab vnd zukerSNORM SLONGoltu auch haben 
+				<lb n="N024"/>wann SLONGy zuo dik wil werden SLONGo geuSNORM romaneyer 
+			
+			<pb xml:id="W3_211r" n="211r"/>
+			
+				<lb n="N001"/>dar vnder vnd gib SLONGy kalteÿ
+				<lb n="N002"/>Ain graue geißlicz 
+				<lb n="N003"/>Nim geißlicz vnd SLONGlach die durch ain tuoch vnd 
+				<lb n="N004"/>lauß wol SLONGieden daSNORM SLONGy recht tunn werden SLONGo 
+				<lb n="N005"/>geuSNORM auf ain SLONGchuSLONGSLONGel vnd lauSNORM kalt werden 
+				<lb n="N006"/>vnd tuo die haut darab vnd gib eSNORM mit wein 
+				<lb n="N007"/>oder mit kalter milch wie du wilt vnd gib eSNORM hin
+				<lb n="N008"/>Ain gemueß von gruenem wiltpret
+				<lb n="N009"/>Nim ain SLONGtuck wiltpretSNORM daSNORM geSLONGotten SLONGey vnd 
+				<lb n="N010"/>hack daSNORM klain SLONGo muoSLONGtu haben ain rainen SLONGwaiSNORM
+				<lb n="N011"/>haSLONGtu deSNORM nicht SLONGo nim von huenern ain SLONGwaiSNORM 
+				<lb n="N012"/>den lauSNORM lauffen In ain haiSLONGSLONGen wein alSNORM uil alSNORM 
+				<lb n="N013"/>auf ain eSLONGSLONGen tuo daSNORM In ainen hafen vnd ruer 
+				<lb n="N014"/>eSNORM SLONGchon ab daSNORM eSNORM wall daSNORM du gehackt haSLONGt 
+				<lb n="N015"/>klain daSNORM tuo In daSNORM SLONGmalcz vnd laß dar In 
+				<lb n="N016"/>SLONGieden mach eSNORM ab daSNORM eSNORM nit SLONGtark werde 
+				<lb n="N017"/>ain guete SLONGtreu tuo dar auf von Imgber vnd von
+				<lb n="N018"/>zimetrinten vnd von zuker da mit SLONGoltu eSNORM be
+				<lb n="N019"/>SLONGtrowen vnd gib eSNORM hin
+				<lb n="N020"/>Ain gemuß von viSLONGchen2
+				<lb n="N021"/>Nim viSLONGch welicherlay du wilt die geSLONGotten SLONGein
+			
+			<pb xml:id="W3_211v" n="211v"/>
+			
+				<lb n="N001"/>die hack klain vnd tuo SLONGy In die mandelmilch vnd 
+				<lb n="N002"/>SLONGeud SLONGy rain daSNORM eSNORM dick werde richt eSNORM an vnd 
+				<lb n="N003"/>verSLONGalcz nicht vnd gib eSNORM hin
+				<lb n="N004"/>Ain ander gemuß von fiSLONGchenn
+				<lb n="N005"/>Nim SLONGwaiSNORM von hechten oder von hauSLONGen oder von 
+				<lb n="N006"/>SLONGchaiden vnd SLONGlachSNORM durch ain tuoch SLONGo wirt eSNORM 
+				<lb n="N007"/>praun magSLONGtu deSNORM SLONGwaiSNORM nit genuog gehaben 
+				<lb n="N008"/>SLONGo nim ain lebzelten vnd prenn denn vnd laß In kalt 
+				<lb n="N009"/>werden vnd SLONGtoß In vnd tuo In dar ein SLONGo wirt eSNORM 
+				<lb n="N010"/>praun vnd mit guotem gewurcz mach eSNORM ab daSNORM 
+				<lb n="N011"/>deSNORM SLONGaltz nicht ze uil SLONGey tuo Im ain gewurtz SLONGtroeu 
+				<lb n="N012"/>dar auf gib eSNORM hin
+				<lb n="N013"/>Ain haberkernn 
+				<lb n="N014"/>Den nim vnd waSLONGch den SLONGchon Erklaub In 
+				<lb n="N015"/>well In In ainem waSLONGSLONGer tuo In In aine SLONGuSLONGSLONGe 
+				<lb n="N016"/>kuemilch lauß In dar In SLONGieden daSNORM er nicht dar 
+				<lb n="N017"/>Inn verSLONGiede nim zwoelff tuttern zuo ainem 
+				<lb n="N018"/>eSLONGSLONGen zuo treib die wol nim ain wenig SLONGemelmelSNORM 
+				<lb n="N019"/>Wenn du wilt anrichten SLONGo SLONGee daSNORM dar ein vnd 
+				<lb n="N020"/>lauß nymmer SLONGieden gibSNORM hin
+				<lb n="N021"/>Ain weigSLONGelmueß
+				<lb n="N022"/>Nim weigSLONGeln vnd brich SLONGy ab den SLONGtiln vnd SLONGeud
+			
+			<pb xml:id="W3_212r" n="212r"/>
+			
+				<lb n="N001"/>SLONGy mit ainem wenigen wein vnd SLONGlach SLONGy durch 
+				<lb n="N002"/>ain tuoch mit ainer SLONGemel broSLONGen wol derwelt 
+				<lb n="N003"/>In ainem haffen vnd tuo SLONGmalcz genuog dar 
+				<lb n="N004"/>an vnd rur eSNORM mit aier totter ab vnd SLONGtrou ge
+				<lb n="N005"/>wurcz dar an SLONGo man an richt
+				<lb n="N006"/>Ain viol gemueß 
+				<lb n="N007"/>Nim ain dike mandelmilch wol gerurt mit 
+				<lb n="N008"/>grießmel vnd tuo dar In SLONGmalcz genuog vnd 
+				<lb n="N009"/>verb eSNORM mit uiol bluomen daSNORM iSLONGt ain violmuoß 
+				<lb n="N010"/>verSLONGalcz nicht
+				<lb n="N011"/>WaSNORM wiltprecz SLONGol gewurcz werden oder nicht
+				<lb n="N012"/>Merck an welichSNORM wiltpret man gewurcz 
+				<lb n="N013"/>In den hafen thuon SLONGol oder nicht zuo allem 
+				<lb n="N014"/>wiltprett SLONGol man gewurcz thuon In den hafen 
+				<lb n="N015"/>den zuo ainem gepraten rehen oder hirSLONGen 
+				<lb n="N016"/>zuo dem SLONGeczt man beSLONGunder In ainer andern SLONGchuSLONGSLONGeln 
+				<lb n="N017"/>Aber zuo haSLONGen aichhorn vnd vogeln an die 
+				<lb n="N018"/>alle geuSLONGt man gewurtz In den haffen nu 
+				<lb n="N019"/>merk man SLONGoll auch nach chainem pfeffer 
+				<lb n="N020"/>nach gewurtz SLONGalcz zuo dem wiltpret uil 
+				<lb n="N021"/>tuon wann daSNORM wiltpret iSLONGt uor geSLONGalczen
+				<lb n="N022"/>von g
+				<lb n="N023"/>Von guoten SNORMGulczfiSLONGchen
+			
+			<pb xml:id="W3_212v" n="212v"/>
+			
+				<lb n="N001"/>Nim guot lebendig hecht vnd SLONGchueb die rain 
+				<lb n="N002"/>vnd nim die SLONGchuppen vnd SLONGeud SLONGy In dem wein 
+				<lb n="N003"/>vnd eSLONGSLONGich nim die uiSLONGch vnd tuo SLONGy auf vnd 
+				<lb n="N004"/>uergelSNORM nicht nim ain guoten wein vnd waSLONGch 
+				<lb n="N005"/>die uiSLONGch auß vnd SLONGtuk SLONGy wie du wilt wenn die 
+				<lb n="N006"/>SLONGchuppen geSLONGotten SLONGind SLONGo SLONGlach die durch mit 
+				<lb n="N007"/>dem wein vnd SLONGecz die prue auf In ainem SLONGchonenn 
+				<lb n="N008"/>keSLONGSLONGel wann die prue nun SLONGieden wil SLONGo leg die 
+				<lb n="N009"/>groSLONGten SLONGtuk von erSLONGten dar ein wann die fiSLONGch 
+				<lb n="N010"/>gar dar ein komen SLONGo SLONGoltu SLONGy nit vaSLONGt SLONGchau
+				<lb n="N011"/>men vnd nicht zuo uaSLONGt SLONGieden laSLONGSLONGen SLONGy SLONGullen 
+				<lb n="N012"/>gemelich SLONGieden Nu tuo In recht mit gewurcz 
+				<lb n="N013"/>vnd mit eSLONGSLONGich wann SLONGy nun geSLONGotten SLONGein SLONGo nim 
+				<lb n="N014"/>vnd SLONGech die prue ab vnd leg SLONGy auf ain muolter
+				<lb n="N015"/>oder auf ain SLONGchaff waSLONGtu haSLONGt truck trag SLONGy 
+				<lb n="N016"/>In ain kul vnd SLONGeig die prue dar auf durch 
+				<lb n="N017"/>ain SLONGib haSLONGtu guot gewurcz daSNORM tuo dar an daSNORM 
+				<lb n="N018"/>iSLONGt deineSNORM herren from tuo darfft nicht mer erczney 
+				<lb n="N019"/>dar zuo eSNORM SLONGey dann gar haiß vnd uerSLONGaltz nicht 
+				<lb n="N020"/>vnd lauß geSLONGteen vnd nim kain waSLONGSLONGer dar zuo
+				<lb n="N021"/>von ander SNORMGulczfiSLONGchen
+				<lb n="N022"/>Nim wein vnd waSLONGSLONGer gleich vnd SLONGeud die fiSLONGch 
+			
+			<pb xml:id="W3_213r" n="213r"/>
+			
+				<lb n="N001"/>dar ein vnd gewurcz SLONGey wol vnd verbSNORM vnd 
+				<lb n="N002"/>SLONGecz SLONGy kalt
+				<lb n="N003"/>von viSLONGchen vnd von krepSLONGen ze SLONGieden
+				<lb n="N004"/>Ruthnn grvndeln vnd kreuSLONGSLONGen SLONGol man In kaltem 
+				<lb n="N005"/>waSLONGSLONGer SLONGieden man SLONGol auch grundeln vnd kreuSLONGSLONGen 
+				<lb n="N006"/>nicht lenger SLONGieden den mit ainer guoten wall SLONGo 
+				<lb n="N007"/>haben SLONGy SLONGein genuog
+				<lb n="N008"/>Von hechten gemecht vnd SLONGieden
+				<lb n="N009"/>SNORMGeud hecht vnd reib die SLONGchuben mit ainem 
+				<lb n="N010"/>peterSLONGilg vnd mit der uiSLONGch brue vnd SLONGeich eSNORM 
+				<lb n="N011"/>durch ain SLONGib ISLONGt ab die fiSLONGch SLONGchuepen verSLONGalczen 
+				<lb n="N012"/>geuSNORM ain wenig waSLONGSLONGer dar an vnd gewurtz eSNORM 
+				<lb n="N013"/>vnd lauß daSNORM ain wenig weil wallen SLONGo tuo eSNORM 
+				<lb n="N014"/>auff ain hecht vnd iß da mit alle hecht SLONGol 
+				<lb n="N015"/>man SLONGieden In eSLONGSLONGich vnd In wein vnd nicht In 
+				<lb n="N016"/>waSLONGSLONGer
+				<lb n="N017"/>Von ainem hecht der mitten geSLONGotten SLONGey vnd an 
+				<lb n="N018"/>baiden orten gebratten
+				<lb n="N019"/>SNORMGo nim ain weiß tuoch daSNORM ainer hant prait SLONGey 
+				<lb n="N020"/>oder prait vnd necz In ainem wein vnd nim Im 
+				<lb n="N021"/>auß die leber vnd den magen vnd daSNORM der magen 
+				<lb n="N022"/>gancz beleib von ainem andern hecht nim ain
+			
+			<pb xml:id="W3_213v" n="213v"/>
+			
+				<lb n="N001"/>SLONGtuk vnd full den magen da mit vnd ain faiSLONGt tuo 
+				<lb n="N002"/>dar vnder vnd laß SLONGieden an die SLONGtat die leber 
+				<lb n="N003"/>vnd den magen daSNORM die leber gancz beleib vnd 
+				<lb n="N004"/>daSNORM full wider In den hecht daSNORM der mag 
+				<lb n="N005"/>vnd die leber bey ain ander beleib In der mitt 
+				<lb n="N006"/>In dem hecht nim daSNORM tuoch vnd machSNORM naß 
+				<lb n="N007"/>In dem daSNORM SLONGol alSNORM lang SLONGein daSNORM eSNORM zwir 
+				<lb n="N008"/>vmb get SLONGlach eSNORM ainSNORM vm- den hecht wann 
+				<lb n="N009"/>du eSNORM vnd geSLONGlagen haSLONGt SLONGo leg eSNORM alSLONGo vmb 
+				<lb n="N010"/>daSNORM tuoch SLONGalcz vnd daSNORM tuoch SLONGlach daSNORM tuoch 
+				<lb n="N011"/>uber daSNORM SLONGalcz vnd auf den ruken vnd uber 
+				<lb n="N012"/>all vnd wurcz den hecht vmb an baiden SLONGeiten 
+				<lb n="N013"/>SLONGol er geSLONGalczen SLONGein vm-### vnd vmb zwiSLONGchen baiden 
+				<lb n="N014"/>tuchern nim ain faden vnd wint den vmb vnd 
+				<lb n="N015"/>vmb fieruach muoß daSNORM tuoch SLONGein nim vnd 
+				<lb n="N016"/>SLONGchupp In zuo baiden oerten wiltu In bratten 
+				<lb n="N017"/>SLONGo nim ain SLONGpiß vnd SLONGtich In daSNORM tuoch SLONGo beleipt 
+				<lb n="N018"/>er alSLONGo ganczer SNORMGalcz In alSNORM ain brat fiSLONGch 
+				<lb n="N019"/>vnd nim zwen ziegel vnd leg die an die 
+				<lb n="N020"/>egg vnd leg den SLONGpiß dar auf vnd brat In 
+				<lb n="N021"/>ab alSNORM ain andern uiSLONGch vnd vnder daSNORM tuoch 
+				<lb n="N022"/>mach ain guot feur vnd vnder daSNORM andr 
+				<lb n="N023"/>ain klain feur vnd SLONGcholt nemen ain prue
+				<lb n="N024"/>wann du den hecht wilt SLONGieden SLONGo SLONGol man daSNORM
+			
+			<pb xml:id="W3_214r" n="214r"/>
+			
+				<lb n="N001"/>tuoch da mit begieSLONGSLONGen daSNORM eSNORM nit verpruen SLONGo 
+				<lb n="N002"/>SLONGeudt SLONGich der uiSLONGch In der pinten nu SLONGoltu nemen 
+				<lb n="N003"/>klain kißling die SLONGullen haiß SLONGein die SLONGoltu 
+				<lb n="N004"/>rechen vnder daSNORM tuoch vnd SLONGolt daSNORM tuoch be
+				<lb n="N005"/>gieSLONGSLONGen mit ainer haiSLONGSLONGen prue SLONGo rint die prue 
+				<lb n="N006"/>her ab auf die SLONGtain SLONGo SLONGeut der hecht rain 
+				<lb n="N007"/>prat In nur rain
+				<lb n="N008"/>Mach zwayerlay SLONGallzen vnd ain SLONGupplein 
+				<lb n="N009"/>an den hecht 
+				<lb n="N010"/>Zuo dem zagel mach ain gruene SLONGallczen die 
+				<lb n="N011"/>SLONGlach durch mit eSLONGSLONGich SLONGo wirt SLONGy SLONGcharppf vnd 
+				<lb n="N012"/>thuo gewurcz dar an zuo dem haubt nim ain 
+				<lb n="N013"/>fierding weinper vnd ain 1/2 fierdung mandel die 
+				<lb n="N014"/>SLONGchell SLONGchon SLONGtoß die weinper vnd die mandel 
+				<lb n="N015"/>durch ein ander 
+				<lb n="N016"/>Wiltu ain guot SLONGallczen haben SLONGo SLONGlach die kreuter 
+				<lb n="N017"/>vnd daSNORM prot mit rainfal oder mit rumenier 
+				<lb n="N018"/>durch ain tuoch da tuo ain guot gewurcz an vnd 
+				<lb n="N019"/>zuker SNORMGo haSLONGtu ain guote SLONGalczen
+				<lb n="N020"/>von dem hecht guot pachSLONGtetenn
+				<lb n="N021"/>SNORMGchuepp den hecht vnd haw den zuo SLONGtuckenn 
+				<lb n="N022"/>hack peterSLONGilg SLONGaluej pfeffer Imgber kum
+			
+			<pb xml:id="W3_214v" n="214v"/>
+			
+				<lb n="N001"/>SLONGch SLONGaffran SLONGalcz wein oder eSLONGSLONGich mach ain kopf 
+				<lb n="N002"/>uol nim taig vnd tuo dar ein den fiSLONGch mit dem 
+				<lb n="N003"/>Condiment mach eSNORM oben gancz mit taig bach eSNORM 
+				<lb n="N004"/>In ainem ofen alSNORM lang alSNORM ain roken brot vnd 
+				<lb n="N005"/>gib eSNORM hin AlSLONGo magSLONGtu machen forhen laxen 
+				<lb n="N006"/>all vnd ander fiSLONGch
+				<lb n="N007"/>Ain gemuß von deSNORM rechSNORM plut vnd von der lungel
+				<lb n="N008"/>Nim daSNORM pluot vnd lungel von dem rech vnd SLONGeud 
+				<lb n="N009"/>eSNORM mar vnd SLONGneid eSNORM wurfflacht SLONGeich die SLONGuppen 
+				<lb n="N010"/>durch ain tuoch daSNORM da nit harSNORM dar Inne beleib 
+				<lb n="N011"/>tuo daSNORM alleSNORM In ain haffen tuo dar zuo SLONGmalcz vnd 
+				<lb n="N012"/>wein lauß eSNORM uaSLONGt SLONGieden SLONGo du eSNORM hin gibSLONGt 
+				<lb n="N013"/>SLONGo tuo dar zuo gemaln pfeffer vnd daSNORM eSNORM doch 
+				<lb n="N014"/>eben dick SLONGey
+				<lb n="N015"/>Von manigerlay gepachen 
+				<lb n="N016"/>Zuo dem gebachen muoSLONGtu SLONGiben varb haben die 
+				<lb n="N017"/>vindeSLONGtu nach ain ander vnd du muoSLONGt durch 
+				<lb n="N018"/>daSNORM Iar dar nach trachten die erSLONGten findeSLONGtu In 
+				<lb n="N019"/>dem SLONGumer plau pluomen der muoSLONGtu haben uil die 
+				<lb n="N020"/>SLONGoltu derren In ainem ouen vnd daSNORM In nit zuo 
+				<lb n="N021"/>haiß SLONGey wenn SLONGy nun getrucknet SLONGeyen SNORMGo SLONGtoß 
+				<lb n="N022"/>SLONGy rain behalt die farb vnd mach von SLONGlehen ain
+			
+			<pb xml:id="W3_215r" n="215r"/>
+			
+				<lb n="N001"/>muoß vnd tuo der varb dar an SLONGo wirt eSNORM plau 
+				<lb n="N002"/>vnd tuo honig dar an SLONGo wirt eSNORM SLONGuSLONGß vnd mit 
+				<lb n="N003"/>guotem gewurtz mach eSNORM wol ab vnd gib eSNORM hin
+				<lb n="N004"/>Ain hoffleich liecht zuo ainem SLONGchimpff 
+				<lb n="N005"/>Nim daSNORM kraut daSNORM da haiSLONGSLONGet Centanicca vnd 
+				<lb n="N006"/>nim ameSNORM vnd hoppfen pluot vnd tuo oel darzuo 
+				<lb n="N007"/>vnd tuo daSNORM In ainen liechtSLONGtain oder In ain lam
+				<lb n="N008"/>pelen SLONGo iSLONGt allen den die daSNORM an SLONGehen wie aim 
+				<lb n="N009"/>der halSNORM lang SLONGey daSNORM er Im an daSNORM geSLONGtirn raich 
+				<lb n="N010"/>vnd daSNORM haubt In den himelruer vnd SLONGtet daSNORM 
+				<lb n="N011"/>liecht daSNORM man den SLONGchein der SLONGtern mag an 
+				<lb n="N012"/>geSLONGehen SNORMGo iSLONGt den leuten alSNORM die SLONGtern gegen 
+				<lb n="N013"/>ain ander lauffen vnd mit ain ander kriegen 
+				<lb n="N014"/>vnd SLONGtreytten
+				<lb n="N015"/>Aber ain ander liecht
+				<lb n="N016"/>Nim ain gruene aideSLONGch vnd tuo daSNORM SLONGmalcz auSNORM Ir 
+				<lb n="N017"/>mach dauon ain tacht vnd zuont daSNORM an deSNORM 
+				<lb n="N018"/>nachteSNORM daSNORM kain ander liecht In ainer SLONGtuben 
+				<lb n="N019"/>prin den daSNORM ain vnd wer l daSNORM licht an SLONGich 
+				<lb n="N020"/>der wil wennen die went SLONGeyn SLONGilbrein
+				<lb n="N021"/>Nempt von dem hecht In aber vnd vleiSLONGtl auch 
+				<lb n="N022"/>deSNORM pluotz dar vnder ze nemen vnd ain geriben 
+			
+			<pb xml:id="W3_215v" n="215v"/>
+			
+				<lb n="N001"/>brot vnd SLONGaltz eSNORM vnd gewurcz daSNORM nach euvern 
+				<lb n="N002"/>muot vnd kain SLONGaffar bert eSNORM wol SLONGiedt eSNORM In 
+				<lb n="N003"/>ainer arbeiSNORM prue lat eSNORM SLONGten drey SLONGtunnd alSNORM lang 
+				<lb n="N004"/>alSNORM ander hecht nempt aber ain roken brot vnd 
+				<lb n="N005"/>macht ainen pfeffer von der arbeiSNORM prue vnd 
+				<lb n="N006"/>ain geheck von oppfelen dar an
+				<lb n="N007"/>Ain beSLONGunder kunSLONGtlen zuo den SLONGulczen 
+				<lb n="N008"/>Nempt wegrach SLONGamen SLONGiedt den mit den SLONGchueppen 
+				<lb n="N009"/>SLONGeich deSNORM mit ain andern durch daSNORM iSLONGt ain guot 
+				<lb n="N010"/>Condiment
+				<lb n="N011"/>SNORMGchweinSNORM koppff mit helliSLONGchen flammen 
+				<lb n="N012"/>Wiltu ainen wilden SLONGweinSLONGkopf machen daSNORM helleSLONGch 
+				<lb n="N013"/>flammen auß Im farn SLONGo SLONGeud In von erSLONGt an die 
+				<lb n="N014"/>SLONGtat vnd wenn er geSLONGotten iSLONGt SLONGo tuo In auf ainen 
+				<lb n="N015"/>roSLONGt vnd roSLONGt In SLONGchon daSNORM er praun werde vnd 
+				<lb n="N016"/>SLONGneid In wurfflacht daSNORM er denocht gancz SLONGey 
+				<lb n="N017"/>vnd SLONGtrouve In auSLONGSLONGen mit Imgber uber all vnd 
+				<lb n="N018"/>nim ain SLONGalzen SLONGchuSLONGSLONGel uol gepranteSNORM weinSNORM 
+				<lb n="N019"/>vnd Ingber dar ein vnd SLONGchutt In haff habd in 
+				<lb n="N020"/>den halSNORM halben in den halSNORM vnd trouf daSNORM 
+				<lb n="N021"/>ander auSLONGSLONGen auß vnd nim tur brot alSNORM ainer nuß 
+				<lb n="N022"/>groß vnd mach ain klain loch an mitten dar ein 
+				<lb n="N023"/>vnd tuo ain gluenden kißlig dar ein alSNORM groß 
+			
+			<pb xml:id="W3_216r" n="216r"/>
+			
+				<lb n="N001"/>alSNORM ain bon SLONGo tuo eSNORM alSNORM du eSNORM dar welSLONGt geben 
+				<lb n="N002"/>auff den tiSLONGch SLONGo SLONGtoß InnSNORM In den halSNORM hin ein 
+				<lb n="N003"/>vnd SLONGperre Im daSNORM maul auf mit ainem roten apfel 
+				<lb n="N004"/>vnd laß eSNORM roSLONGchlich hin tragen wann man eSNORM 
+				<lb n="N005"/>an ruret vnd eSLONGSLONGen wil SLONGo entzunt eSNORM SLONGich von 
+				<lb n="N006"/>dem wein vnd von dem kißlig daSNORM helliSLONGch 
+				<lb n="N007"/>flamman herauß farn grun vnd plau vnd SLONGmeket 
+				<lb n="N008"/>alSNORM ain viol vnd iSLONGt vnSLONGchedlich
+				<lb n="N009"/>Hunerbru von mandel 
+				<lb n="N010"/>Wiltu machen ain guote huenerbrue von mandel 
+				<lb n="N011"/>SLONGo nim mandel vnd SLONGtoß den vngeSLONGchelt vnd waSLONGch 
+				<lb n="N012"/>In hin vnd nim SLONGein 1/2 lib- vnd drey len ayertottern 
+				<lb n="N013"/>dar vnder vnd SLONGemelbrot alSNORM zway aer vnd milch 
+				<lb n="N014"/>rawn vm- ### zwen pfenning vnd nim von iiij alten 
+				<lb n="N015"/>hennen die prue oder von acht Iungen die wol 
+				<lb n="N016"/>geSLONGotten SLONGeyn vnd SLONGtreiSLONG SLONGtreich eSNORM da mit dur 
+				<lb n="N017"/>vnd nim zway lot zinamom dar vnder vnd 
+				<lb n="N018"/>1/2 lot negelein vnd SLONGaltz eSNORM zuo rechter maß vnd 
+				<lb n="N019"/>leg die iiij alten hennen dar ein oder die 8 acht 
+				<lb n="N020"/>Iungen vnd laß die SLONGieden In der brue daSNORM SLONGy warmm 
+				<lb n="N021"/>werden vnd daSNORM die brue nicht zuo tunn SLONGy vnd 
+				<lb n="N022"/>SLONGol ander uarb noch geSLONGtalt nicht haben den alSNORM 
+				<lb n="N023"/>oben geSLONGchriben SLONGtet vnd gib eSNORM denn hin
+				<lb n="N024"/>Ain geSLONGtanden prue von kalbSNORM fuSLONGSLONGen vnd auter ### 
+			
+			<pb xml:id="W3_216v" n="216v"/>
+			
+				<lb n="N001"/>Wiltu machen ain guote geSLONGtanden prue auf ain 
+				<lb n="N002"/>SLONGchuSLONGSLONGel oder zwo von kalbSNORM fuSLONGSLONGen oder von auter 
+				<lb n="N003"/>SLONGo nim zehen kalbSNORM fuSLONGß vnd ain gancz kue auter 
+				<lb n="N004"/>vnd SLONGeud daSNORM auter vnd SLONGneid eSNORM zuo guoten SLONGnitten 
+				<lb n="N005"/>die nicht zuo greß SLONGind noch zu wenig vnd roSLONGt 
+				<lb n="N006"/>eSNORM auf ainem roSLONGt vnd trouf eSNORM mit eSLONGSLONGich vnd 
+				<lb n="N007"/>mit honig alSNORM SLONGy nun geroSLONGt SLONGeind SLONGo tail SLONGy auf 
+				<lb n="N008"/>zwo SLONGchiSLONGSLONGel vnd wan die kalbSNORM fuSLONGß geSLONGotten SLONGein 
+				<lb n="N009"/>SNORMGo SLONGtoß SLONGy wol vnd SLONGtreich SLONGy mit eSLONGSLONGich durch vnd 
+				<lb n="N010"/>mit ainer halben hof SLONGchiSLONGSLONGel uol brue vnd mit ainem 
+				<lb n="N011"/>fiertail eSLONGSLONGich vnd mit ainer halben fiertal kanel 
+				<lb n="N012"/>hoenig vnd SLONGtreich eSNORM da mit durch vnd wirff 
+				<lb n="N013"/>ain lot negellein dar ein alSLONGo gancz vnd einen gar 
+				<lb n="N014"/>geSLONGtoSLONGnen Imgber winczig vnd alSNORM uil geSLONGtoSLONGSLONGen 
+				<lb n="N015"/>pfefferSNORM alSNORM du wol mit dreyen fingern magSLONGt 
+				<lb n="N016"/>gehaben vnd ain wenig SLONGaffrahan vnd gar ain 
+				<lb n="N017"/>wenig SLONGalcz vnd hebSNORM uber daSNORM feur vnd lauß 
+				<lb n="N018"/>erwellen alSNORM ain aier SLONGauffen vnd geuß eSNORM uber 
+				<lb n="N019"/>daSNORM auter daSNORM haiSLONGt ain kalendin  Galentin
+				<lb n="N020"/>Roten wein ze machen 
+				<lb n="N021"/>Wiltu machen ain roten wein zuo welher zeit 
+				<lb n="N022"/>du wilt Im Iar SLONGo nimm haidper vnd tuo die In ain 
+				<lb n="N023"/>muolter vnd wann du daSNORM prot auß dem ouen nimpSLONGt 
+				<lb n="N024"/>SLONGo SLONGcheuß die muolten In ain mit den pern In den 
+				<lb n="N025"/>ouen vnd lauß zwen tag dar Inn SLONGten vnd z tuo
+			
+			<pb xml:id="W3_217r" n="217r"/>
+			
+				<lb n="N001"/>SLONGy her wider auß vnd nim den klaine tuchel vnd 
+				<lb n="N002"/>tuo In yecz tuchel der ber alSNORM uil SLONGam ain ay vnd 
+				<lb n="N003"/>tuo SLONGy dann In den wein AlSLONGo magSLONGtu guoten roten 
+				<lb n="N004"/>wein wann du der ber haSLONGt Der iSLONGt alSNORM guot SLONGam 
+				<lb n="N005"/>ain wein da man rot weinber In tuot
+				<lb n="N006"/>KreuSLONGchen zegel gemacht 
+				<lb n="N007"/>Von kreuSLONGchen zegel du SLONGolt nemmen kreuSLONGSLONGen 
+				<lb n="N008"/>zegel wann SLONGy nun geSLONGotten SLONGey vnd SLONGchell die zegel 
+				<lb n="N009"/>ab vnd leg SLONGy In ain reinly vnd geuSNORM dar an 
+				<lb n="N010"/>gewurcz vnd eSLONGSLONGich SNORMGulcz ?
+				<lb n="N011"/>SNORMGulcz guot zemachen
+				<lb n="N012"/>Wiltu machen guot SLONGulcz nim friSLONGch hecht brechSLONGen 
+				<lb n="N013"/>oder ander guot uiSLONGch die du In die galred machen 
+				<lb n="N014"/>wilt SLONGchuobSNORM vnd hackSNORM zuo SLONGtucken leg SLONGey In ain 
+				<lb n="N015"/>SLONGcheffel geuSNORM dar an wein vnd eSLONGSLONGich vnd### zuo maß 
+				<lb n="N016"/>SLONGalcz die SLONGauber SLONGeud SLONGy SLONGchon alSNORM SLONGy nun gar geSLONGoten 
+				<lb n="N017"/>SLONGind wirff dar ein ein geSLONGtoSLONGSLONGen Ingber zynamom 
+				<lb n="N018"/>galgant neglein AneiSNORM pfeffer SLONGaffran daSNORM 
+				<lb n="N019"/>temperier nach dem geSLONGmach daSNORM eSNORM guot werd laß 
+				<lb n="N020"/>erwallen mit den uiSLONGchen leg die fiSLONGch In SLONGchiSLONGSLONGeln 
+				<lb n="N021"/>vnd lauß SLONGy erkalten daSNORM SLONGy geSLONGten
+				<lb n="N022"/>Galdrain ze machen
+			
+			<pb xml:id="W3_217v" n="217v"/>
+			
+				<lb n="N001"/>Nim ain SLONGchweineSNORM flaiSLONGch vnd magen vnd SLONGneid 
+				<lb n="N002"/>SLONGy großwurfflacht SNORMGo nim peterSLONGilg SLONGaluej 
+				<lb n="N003"/>minczen polay herte aier prot kum mer den pfeffer 
+				<lb n="N004"/>daSNORM mal mit eSLONGSLONGich vnd mit guoter prue daSNORM geuß 
+				<lb n="N005"/>auf die galdrain tuo ain SLONGmalcz dar zuo laß eSNORM 
+				<lb n="N006"/>der wallen daSNORM eSNORM dik werd haSLONGtunit grun ding 
+				<lb n="N007"/>SNORMGo nim andry kondiment AlSLONGo machen galrein
+				<lb n="N008"/>SNORMGaumegen ze fullen
+				<lb n="N009"/>Wie man SLONGweinez magen fullet Nim SLONGweinn flaiSLONGch 
+				<lb n="N010"/>gehackt aier weiß prot geSLONGnitten uaiSLONGt flaiSLONGch 
+				<lb n="N011"/>pfeffer kum SLONGaffran SLONGalcz dem temperier daSNORM zuo 
+				<lb n="N012"/>SLONGamen vnd full da mit ainen SLONGweinen magen nicht 
+				<lb n="N013"/>zuo uol vnd SLONGeud In grun SNORMGo er gar SLONGey geSLONGotten 
+				<lb n="N014"/>SLONGo lauSNORM die fulle alle gar auß dem magen SLONGneid 
+				<lb n="N015"/>eSNORM zuo SLONGcheiben hack eSNORM wol mit aieren
+				<lb n="N016"/>Leber guot ze machen 
+				<lb n="N017"/>Von rindeSNORM leber nim ain friSLONGche rinderiSNORM leber
+				<lb n="N018"/>die nicht SLONGtanig SLONGey SLONGneid die dar nach In funf 
+				<lb n="N019"/>SLONGtuck prat SLONGy dan dar nach auf ainem roSLONGt alSNORM 
+				<lb n="N020"/>SLONGy SLONGich dann geSLONGaubert hat SLONGo waSLONGch SLONGy In der 
+				<lb n="N021"/>brue oder waSLONGSLONGer dreySLONGtund SLONGo brat SLONGy dann gar 
+				<lb n="N022"/>lauß SLONGy kalt werden beSLONGneid SLONGy SLONGchon SLONGtoß der
+			
+			<pb xml:id="W3_218r" n="218r"/>
+			
+				<lb n="N001"/>SLONGtuk ainSNORM In ainen morSLONGer vnd tuo dar zuo pfeffer 
+				<lb n="N002"/>Ingber aneiSNORM mal daSNORM klain zuo SLONGamen mit eSLONGSLONGich 
+				<lb n="N003"/>erwell eSNORM daSNORM eSNORM dick werde lauSNORM eSNORM erkalten 
+				<lb n="N004"/>leg die leber dar ein vnd gibSNORM fur hirSLONGen 
+				<lb n="N005"/>DeSNORM wilden SLONGweinSNORM leber mach auch alSLONGo mit 
+				<lb n="N006"/>guoter pru
+				<lb n="N007"/>Knodeln von kuttelnn
+				<lb n="N008"/>Item knodlen von kutteln nim geSLONGoten SLONGephen SLONGchoephen 
+				<lb n="N009"/>kutteln herte aier ain wenig weiSNORM brot SLONGaluej 
+				<lb n="N010"/>SLONGalcz hack daSNORM klain vnd meng geSLONGnitten SLONGpeck 
+				<lb n="N011"/>dar zuo rohe aier vnd SLONGaffran vnd mach den pellelein 
+				<lb n="N012"/>alSNORM aier vnd bach SLONGy In der SLONGuppen In ainem kar 
+				<lb n="N013"/>vnd alSNORM SLONGy erhertend SLONGo erwell SLONGy In dem aiertaig 
+				<lb n="N014"/>SLONGtoß SLONGy In ainen SLONGpiß vnd brat SLONGy vnd gibSNORM hin
+				<lb n="N015"/>LambSNORMhaupt vnd ander haupt ze bachen 
+				<lb n="N016"/>Nim ain lambSNORMhaupt vnd SLONGeudSNORM gar nim alleSNORM vleiSLONGch 
+				<lb n="N017"/>daSNORM die bain beleiben tuo dar zuo herte aier vnd
+				<lb n="N018"/>SLONGaluej vnd hackSNORM klain meng dar zuo rohe aier
+				<lb n="N019"/>geSLONGnitten SLONGpeck pfeffer kum diSNORM kondiment full 
+				<lb n="N020"/>In die hirnn SLONGchall vnd mach eSNORM an die SLONGtatt hin 
+				<lb n="N021"/>wider daSNORM eSNORM gancz werd zeuchSNORM wider durch 
+				<lb n="N022"/>ain aier taig vnd bachSNORM Im SLONGmalcz alSLONGo mach auch
+			
+			<pb xml:id="W3_218v" n="218v"/>
+			
+				<lb n="N001"/>rech haupt vnd auch der SLONGpen ferlin haubt
+				<lb n="N002"/>GepratenSNORM fromdlich zemachen von pirn 
+				<lb n="N003"/>Ain fromder SLONGin von praten nim gepraten pirn 
+				<lb n="N004"/>vnd roch SLONGaur oppfel vnd geSLONGotten SLONGweinen oder 
+				<lb n="N005"/>ochSLONGen fleiSLONGch pfeffer aneiSNORM SLONGaffran daSNORM pach 
+				<lb n="N006"/>alleSNORM vnd machSNORM waich vnd mit rowen airn 
+				<lb n="N007"/>daSNORM eSNORM zuo SLONGamen kleiben mach SLONGo mach den ain 
+				<lb n="N008"/>plat von airn vnd tail daSNORM Condiment gleich 
+				<lb n="N009"/>dar auf pint daSNORM plat zuo SLONGamen vnd zeuch 
+				<lb n="N010"/>ainen aier taig dar uber bachSNORM hert In SLONGmalcz 
+				<lb n="N011"/>bratSNORM an ainem SLONGpiSNORM beSLONGlach eSNORM gar vnd gib eSNORM den 
+				<lb n="N012"/>hin Item### man mag eSNORM SLONGpicken alSNORM rech gepraten 
+				<lb n="N013"/>oder wermen pey dem feur dicz haiSLONGt biren braten
+				<lb n="N014"/>Von huener lebern vnd mogen laruSNORM ze machen 
+				<lb n="N015"/>Von huener leber vnd magen SLONGneidSNORM tuem bachSNORM gar 
+				<lb n="N016"/>Im SLONGmalcz vnd duo dar zuo aier pfeffer SLONGalcz kuem 
+				<lb n="N017"/>rurSNORM vnder ain ander alSNORM getufftelnt air waich 
+				<lb n="N018"/>SLONGtreich SLONGy In SLONGideningSNORM SLONGmalcz In ain SLONGchaff daSNORM 
+				<lb n="N019"/>SLONGy gancz beleiben SLONGo eSNORM gar SLONGey geSLONGotten SLONGo gibSNORM 
+				<lb n="N020"/>hin daSNORM haiSLONGSLONGet lauruSNORM 
+				<lb n="N021"/>Item alSLONGo mach auch Iunge huener oder lambfleiSLONGch
+				<lb n="N022"/>Condiment zuo rechpraten 
+				<lb n="N023"/>Wiltu machen ain Condiment zuo rechpraten daSNORM 
+			
+			<pb xml:id="W3_219r" n="219r"/>
+			
+				<lb n="N001"/>du beraiteSLONGt von dem vnd daSNORM wilt behalten 
+				<lb n="N002"/>SLONGo SLONGoltu eSNORM nicht SLONGpiken vnd lauß eSNORM allenthalben 
+				<lb n="N003"/>be trouffen mit SLONGmalcz all die weil eSNORM bratt alSNORM 
+				<lb n="N004"/>alSNORM eSNORM nu gar gepraten iSLONGt SLONGo lauß eSNORM kalten vnd 
+				<lb n="N005"/>nim rinden von brot pfeffer Ingber kumel eSLONGSLONGich 
+				<lb n="N006"/>vnd mal daSNORM zuo SLONGamen vnd erwelSNORM daSNORM eSNORM eben 
+				<lb n="N007"/>dick werd vnd legSNORM In daSNORM Condiment In dem 
+				<lb n="N008"/>SLONGelben Condiment gib dem herren den praten vnd
+				<lb n="N009"/>auch den gebraten haSLONGen
+				<lb n="N010"/>Ruggbraten von ainem rech oder gancz haSLONGen 
+				<lb n="N011"/>geprattenn 
+				<lb n="N012"/>Von ruggpratten nim den ruggpraten von dem 
+				<lb n="N013"/>rech SLONGpik den wol mit klainem SLONGpeck SLONGpreng In 
+				<lb n="N014"/>wol mit SLONGaltz wirff dar auf Imgber kuem pfeffer 
+				<lb n="N015"/>pint In In ainen taig alSNORM krapflein lauß In In 
+				<lb n="N016"/>ainem oven pachen wart an dem liecht daSNORM er 
+				<lb n="N017"/>gar gepraten SLONGey alSLONGo mach du den haSLONGen gancz 
+				<lb n="N018"/>gepraten
+				<lb n="N019"/>RechflaiSLONGch ze machen In ain Condiment 
+				<lb n="N020"/>Von dem rech nim daSNORM rechflaiSLONGch SLONGaltz eSNORM lind 
+				<lb n="N021"/>laß SLONGieden tuo dar auf peterSLONGilg von SLONGaluej behack 
+				<lb n="N022"/>den SLONGpeck SLONGo er geSLONGotten iSLONGt SLONGo nim rinten von rucken 
+				<lb n="N023"/>prot Imgber pfeffer eSLONGSLONGich mal dauon ain Condiment 
+				<lb n="N024"/>vnd la eSNORM da mit erwallen vnd gib eSNORM hin
+			
+			<pb xml:id="W3_219v" n="219v"/>
+			
+				<lb n="N001"/>Von rechpluot vnd lungen
+				<lb n="N002"/>Von deSNORM rechSNORMpluot vnd lungen nim daSNORM pluot vnd 
+				<lb n="N003"/>die lungen von dem rech vnd SLONGeudSNORM mar vnd SLONGneidSNORM 
+				<lb n="N004"/>wurfflacht SLONGeych die SLONGuppen durch ain tuoch daSNORM 
+				<lb n="N005"/>da icht har Inne SLONGey tuo daSNORM alleSNORM vnder in den hafen 
+				<lb n="N006"/>tuo dar zuo SLONGmalcz vnd wein lauß uaSLONGt SLONGieden SNORMGo du 
+				<lb n="N007"/>eSNORM hin gibSLONGt SLONGo tuo dar auf gemalen pfeffer eSNORM 
+				<lb n="N008"/>SLONGol doch eben dick beleiben
+				<lb n="N009"/>Ain materi truken zuo machen zuo Condi
+				<lb n="N010"/>ment zuo behalten 
+				<lb n="N011"/>Ein Condiment derr weiß brot rur eSNORM durch 
+				<lb n="N012"/>ain SLONGib daSNORM behalt In ainem lidrein beutel daSNORM 
+				<lb n="N013"/>eSNORM nicht naSLONGß werde SNORMGo du eSNORM dann eSLONGSLONGen welleSLONGt 
+				<lb n="N014"/>SLONGo legSNORM In ainen wein vnd rur dar zuo SLONGmalcz 
+				<lb n="N015"/>aier pfeffer oder waSNORM du dik haben wilt
+				<lb n="N016"/>SNORMGaltzSLONGen naturlich ze machen
+				<lb n="N017"/>Wiltu ain naturlich SLONGalcz machen nim dru haupt 
+				<lb n="N018"/>knoblauch vnd pfeffer mer dan Imgber temperier 
+				<lb n="N019"/>daSNORM zuo SLONGamen laSNORM SLONGieden vnd lauSNORM eSNORM praun werden 
+				<lb n="N020"/>daSNORM haiSLONGt ain naturlich SLONGalcz die SLONGol man eSLONGSLONGen 
+				<lb n="N021"/>In kaltem wetter
+				<lb n="N022"/>Ain durre SLONGalczSLONGen 
+				<lb n="N023"/>Ain ander SLONGaelczen nim SLONGaluej minczen polay peter
+				<lb n="N024"/>SLONGilg Iungen vnd alten SLONGaurampfern koren kl-###
+			
+			<pb xml:id="W3_220r" n="220r"/>
+			
+				<lb n="N001"/>die kreuter waSLONGch SLONGchon vnd derr SLONGy an der SLONGunnen 
+				<lb n="N002"/>Nim dar zuo pfeffer galgant Imgber Cinoney aneiSNORM
+				<lb n="N003"/>Car-?m### guk Cubeben nagelin muSLONGcat puluer pariSLONGkoerner 
+				<lb n="N004"/>vnd ain wenig artikeSNORM daSNORM machet die SLONGalczSLONGen 
+				<lb n="N005"/>SLONGchon vnd gedert weiß prot auSNORM dem allem mach 
+				<lb n="N006"/>puluer wenn du SLONGy denn eSLONGSLONGen wilt SLONGo temperier SLONGy mit 
+				<lb n="N007"/>wein oder mit eSLONGSLONGich die behalt wie lang du wilt 
+				<lb n="N008"/>vnd haiSLONGß ain durre SLONGalczen
+				<lb n="N009"/>DoberiSNORM condiment
+				<lb n="N010"/>Ain Condiment nim SLONGaur opfel nach SLONGant mertiSNORM 
+				<lb n="N011"/>tag SLONGchell SLONGy vnd SLONGneid SLONGy dunn leg SLONGy In hoenig 
+				<lb n="N012"/>dranck laß SLONGieden alSNORM lang biSNORM daSNORM eSNORM praun vnd 
+				<lb n="N013"/>SLONGwarcz werd daSNORM magSLONGtu ain Iar behalten Ditz 
+				<lb n="N014"/>Condiment haiSLONGSLONGet DoberiSNORM Man mag auch da uon 
+				<lb n="N015"/>krapfen bachen
+				<lb n="N016"/>Kuochen mit doberiSNORM gemac zemachen
+				<lb n="N017"/>Wiltu machen ain guoten kuochen mach ain plat von 
+				<lb n="N018"/>zwayn airn nim deSNORM SLONGt DoberiSNORM vnd mach den mit 
+				<lb n="N019"/>SLONGiedendem waSLONGSLONGer alSNORMo dunn daSNORM er kleben mag 
+				<lb n="N020"/>vnd kleb In auf daSNORM plat an uier enden entweriSNORM 
+				<lb n="N021"/>uber vnd bind daSNORM zuo SLONGamen vnd zeuchSNORM durch 
+				<lb n="N022"/>ainen aier taig mit ainer walczen daSNORM er dunn werd 
+				<lb n="N023"/>doch In der dick alSNORM ain halm vnd braitSNORM alSNORM ain 
+				<lb n="N024"/>kuochen
+			
+			<pb xml:id="W3_220v" n="220v"/>
+			
+				<lb n="N001"/>Krapfen mit SLONGaltz gepachen   
+				<lb n="N002"/>Ain SLONGalcz zuo krapfen SLONGo mach ain full SLONGaltzen 
+				<lb n="N003"/>mit geriben keß vnd mit aiern vnd auch gehackten 
+				<lb n="N004"/>SLONGpeck vnd kleib daSNORM auf daSNORM ain plat vnd daSNORM 
+				<lb n="N005"/>andertail dar an vnd wind alSLONGo fladen vnd bachSNORM 
+				<lb n="N006"/>Im SLONGmalcz gar tuo macht die SLONGelben krepflein
+				<lb n="N007"/>fullen mit aiern vnd mit oppflen
+				<lb n="N008"/>HaidniSLONGch kuochen oder hauSLONGen plater 
+				<lb n="N009"/>Ainen aier taig zuo treib mit ainer waltzen dunn 
+				<lb n="N010"/>alSLONGSNORM ain oblat vnd SLONGneidSNORM dreyer finger braitt 
+				<lb n="N011"/>vnd lenger den ain hand vnd bachSNORM Im SLONGmalcz 
+				<lb n="N012"/>geuSNORM dar auf gepfeffertSNORM honig getranck oder 
+				<lb n="N013"/>honig wurtz vnd den gibSNORM hin daSNORM haiSLONGt haid
+				<lb n="N014"/>niSLONGch kuochen oder hauSLONGen plater
+				<lb n="N015"/>Krapfen von geSLONGotten oppfeln 
+				<lb n="N016"/>Aber von kraphen merck SLONGchell SLONGaur oppfel SLONGneid 
+				<lb n="N017"/>SLONGy dunn SLONGeud SLONGy In waSLONGSLONGer SLONGeich daSNORM waSLONGSLONGer dar 
+				<lb n="N018"/>ab nim zuo den oppfeln aier vnd mel vnd gekreut 
+				<lb n="N019"/>vnd mach ainen taig da von vnd hack dar auß 
+				<lb n="N020"/>krepflein
+				<lb n="N021"/>Kugel pip ze machen
+				<lb n="N022"/>Item SLONGchell SLONGaur oppfel SLONGneid die dunn SLONGeud SLONGy waich 
+				<lb n="N023"/>Im SLONGmalcz SLONGeych daSNORM SLONGmalcz ab zuo brich die opfel 
+				<lb n="N024"/>gar meng dar zu Ingber air vnd kraut vnd bachSNORM
+			
+			<pb xml:id="W3_221r" n="221r"/>
+			
+				<lb n="N001"/>In SLONGmalcz mach ain plat von airn geuSNORM die opfel 
+				<lb n="N002"/>auf daSNORM plat vnd vald eSNORM ab den oppfeln lauß In 
+				<lb n="N003"/>klainem SLONGmalcz bachen biSNORM eSNORM vnden rot werd be
+				<lb n="N004"/>SLONGtreich eSNORM mit ainer SLONGchuSLONGSLONGel vnd gibSNORM hin DaSNORM haiSLONGt 
+				<lb n="N005"/>ain kugelpipp mit den SLONGelben appfeln machSLONGtu kra
+				<lb n="N006"/>phen fullen
+				<lb n="N007"/>Air gefult an ainem SLONGpiSNORM gepraten 
+				<lb n="N008"/>Von gefulten airn merck nim air vnd SLONGlach SLONGy an 
+				<lb n="N009"/>baiden ortn auf blauSNORM an ainem ort daSNORM der dotter 
+				<lb n="N010"/>herauSNORM uar hack SLONGaluej klain vnd meng SLONGy zuo 
+				<lb n="N011"/>den tutternn vnd full die wider ein vnd wirff SLONGy 
+				<lb n="N012"/>In haiSNORM waSLONGSLONGer vnd SLONGchell die air vnd brat SLONGy beSLONGlach 
+				<lb n="N013"/>SLONGy mit airn vnd mit kraut vnd mit SLONGaffran vnd 
+				<lb n="N014"/>gib SLONGy hin
+				<lb n="N015"/>Air gebratten an ainem SLONGpiß 
+				<lb n="N016"/>Reib SLONGchon brot brat eSNORM hert In buttern meng dar 
+				<lb n="N017"/>zuo aier vnd durren SLONGaluej pfeffer full die aierSLONGchalen 
+				<lb n="N018"/>damit prat SLONGy an ainem SLONGpiSNORM vnd gibSNORM hin
+				<lb n="N019"/>Gefulte Air 
+				<lb n="N020"/>Von gefulten Air hack SLONGaluej klain prat SLONGy 
+				<lb n="N021"/>In buttern meng dar zuo aier vnd kraut SLONGaffran
+			
+			<pb xml:id="W3_221v" n="221v"/>
+			
+				<lb n="N001"/>SLONGaltz vnd dar auß mach ain habich muoß vnd full 
+				<lb n="N002"/>eSNORM wider In die SLONGchalen leg SLONGy In SLONGiedenSNORM waSLONGSLONGer
+				<lb n="N003"/>Condiment an gefullte aier 
+				<lb n="N004"/>Item aber von gefulten airn nim milch air SLONGchoen 
+				<lb n="N005"/>broSLONGt SLONGaffran SLONGalcz mal daSNORM zuo mal dick leg die 
+				<lb n="N006"/>air dar ein eerwell SLONGy vnd gib SLONGy hin
+				<lb n="N007"/>GeSLONGtuckte air 
+				<lb n="N008"/>Wiltu machen geSLONGtuckte air auf ainem plat SLONGeud 
+				<lb n="N009"/>air hert SLONGneid SLONGy In die leng lauSNORM auSNORM die dutter
+				<lb n="N010"/>meng dar zuo rohe air ker dar zuo die dutter a?
+				<lb n="N011"/>zuo dem SLONGchaffen bach SLONGy rot mach ain dunn plat 
+				<lb n="N012"/>leg die air dar auf lauSNORM beiden plat vnd air 
+				<lb n="N013"/>zuo SLONGamen bachen SLONGneid iegklichSNORM von dem andern 
+				<lb n="N014"/>vnd geuSNORM In gib eSNORM hin
+				<lb n="N015"/>HirSNORM oder greeuSNORM an aim SLONGpiß gebraten 
+				<lb n="N016"/>Wie man ain hirSNORM oder greuSNORM pret an dem SLONGpiß 
+				<lb n="N017"/>Nim hirSNORM oder greuSNORM SLONGlach air dar zuo daSNORM eSNORM dik 
+				<lb n="N018"/>werd SLONGneid In auSNORM vnd SLONGteck In an ainen SLONGpiß vnd
+				<lb n="N019"/>brat In vnd beSLONGlach In mit airn vnd gib In hin 
+				<lb n="N020"/>mit SLONGaltz oder mit andern Condimenten
+				<lb n="N021"/>Gefulte air mit nußkern
+				<lb n="N022"/>Item gefulte air hack air vnd nußkern vnd waiche 
+				<lb n="N023"/>air dar zuo hackSNORM klain vnd fulSNORM In die SLONGchalen
+			
+			<pb xml:id="W3_222r" n="222r"/>
+			
+				<lb n="N001"/>bratSNORM vnd gibSNORM hin
+				<lb n="N002"/>Ein fladen oder praitig
+				<lb n="N003"/>Waichen keSNORM buttern pfeffer daSNORM meng zuo SLONGamenn 
+				<lb n="N004"/>vnd mach ainen hafen von taig vnd full den mit 
+				<lb n="N005"/>dem keß mer den uber halbSNORM laSNORM In bachen In 
+				<lb n="N006"/>ainem ouen
+				<lb n="N007"/>Gepachen pon oder nunnenfurcz In geSLONGuff
+				<lb n="N008"/>Item von gemueß SLONGo zuo treib ainen aiertaig mit 
+				<lb n="N009"/>ainer waltzen daSNORM eSNORM werd aineSNORM halben vingerSNORM 
+				<lb n="N010"/>dick SLONGneid den wurfflacht alSNORM die bon wirff 
+				<lb n="N011"/>den taig In haiß SLONGmalcz eSNORM iSLONGt SLONGnell gepachen geuSNORM 
+				<lb n="N012"/>ab daSNORM SLONGmalcz vnd lauSNORM eSNORM truken vnd machSNORM 
+				<lb n="N013"/>In ain SLONGauSLONGSLONGen oder SLONGuSLONGt In ainn kondiment vnd 
+				<lb n="N014"/>lauß erwallen die wein SLONGauSLONGSLONGen ee du die pon dar 
+				<lb n="N015"/>ein tuoSLONGt bewar eSNORM uor naSLONGchem SLONGo magSLONGtu eSNORM be
+				<lb n="N016"/>halten ? lange zeit
+				<lb n="N017"/>Condiment vnd an pon 
+				<lb n="N018"/>SNORMGeud grun pon waich mit SLONGchoenem brot pfeffer
+				<lb n="N019"/>drey SLONGtund alSNORM uil vnd kum SLONGaffran SLONGalcz eSLONGSLONGich 
+				<lb n="N020"/>vnd bier mal daSNORM zuo SLONGamen druken die pon 
+				<lb n="N021"/>geuß auß geuSNORM daSNORM gemaln geSLONGotten dar auß 
+				<lb n="N022"/>Grun arbaiSNORM mach alSLONGo hert bon mach alSLONGo tuo 
+				<lb n="N023"/>SLONGy In ain wallende laug vncz In die pelg ab geen 
+			
+			<pb xml:id="W3_222v" n="222v"/>
+			
+				<lb n="N001"/>SLONGo geuSNORM SLONGy In ain SLONGib Reib ab die pelg eerwell SLONGy 
+				<lb n="N002"/>mit dem vorgenanten Condiment
+				<lb n="N003"/>Gemueß von greuSNORM waicz oder hirSNORM
+				<lb n="N004"/>Waychk od aber greuSNORM oder von waicz oder von 
+				<lb n="N005"/>hirSNORM SLONGeud SLONGy mit milch dunnelecht tuo dar zuo SLONGaf
+				<lb n="N006"/>fran puttern SLONGalcz erwell SLONGy vnd gib SLONGy
+				<lb n="N007"/>GeSLONGeurt hert arbaiSNORM In aim Condiment 
+				<lb n="N008"/>Item geSLONGotten arbeiSNORM mach alSLONGo tuo eSLONGSLONGich dar an 
+				<lb n="N009"/>nim ain gefuogen hafen mit milch dar zuo SLONGlach 
+				<lb n="N010"/>xij aier SLONGalcz vnd SLONGaffran SLONGlach daSNORM SLONGer mit ainem 
+				<lb n="N011"/>twirle SLONGecz die milch mit dem hafen In ainen 
+				<lb n="N012"/>wallenden keSLONGSLONGel mit waSLONGSLONGer laSNORM die dar Inn 
+				<lb n="N013"/>der SLONGieden alSNORM lang alSNORM rintfleiSLONGch SLONGo SLONGy gar 
+				<lb n="N014"/>geSLONGotten SLONGein SLONGo gib SLONGy hin an ganczen SLONGtuken 
+				<lb n="N015"/>vnd gib dar auf kreuter
+				<lb n="N016"/>Gepraten arbeiSNORM 
+				<lb n="N017"/>Wiltu SLONGy praten SLONGo tuo SLONGy In ainen peutel die wil 
+				<lb n="N018"/>SLONGy gancz iSLONGt vnd beSLONGchwaer SLONGy mit ainem SLONGtain von 
+				<lb n="N019"/>morgen biSNORM auf die nacht SLONGneid SLONGy dunn vnd 
+				<lb n="N020"/>SLONGtoß an ainen SLONGpiß vnd SLONGpreng SLONGy mit SLONGalcz vnd 
+				<lb n="N021"/>mit pfeffer mal SLONGenef kum aneiSNORM pfeffer honig 
+				<lb n="N022"/>SLONGaffran mit eSLONGSLONGich In diSNORMen kondiment machSLONGtu SLONGulczen 
+				<lb n="N023"/>peterSLONGilgen birn holwangen vnd kompoSLONGt
+				<lb n="N024"/>Haberkern zuo machen
+			
+			<pb xml:id="W3_223r" n="223r"/>
+			
+				<lb n="N001"/>Wiltu guot haberkern vnd habermel machen SLONGo 
+				<lb n="N002"/>nim ainen metzen habern vnd reite### den gar SLONGchon 
+				<lb n="N003"/>vnd SLONGeud In dar nach vncz daSNORM man den weiSLONGSLONGen 
+				<lb n="N004"/>kernen SLONGicht Dar nach lauß In truken gar wol 
+				<lb n="N005"/>vnd SLONGtampf In den alSLONGo lang vncz der kern lauter 
+				<lb n="N006"/>werd fur die
+				<lb n="N007"/>Fur die wurm In dem kraut
+				<lb n="N008"/>Item nim bieSLONGSLONGen kraut vnd SLONGeud daSNORM gar wol 
+				<lb n="N009"/>dar nach laSNORM eSNORM wider erkalten vnd beSLONGpreng 
+				<lb n="N010"/>da mit den pflanczen SLONGamen SLONGo der SLONGam getruknet 
+				<lb n="N011"/>SLONGo SLONGey In SLONGo eSLONGSLONGen In die wurm den SLONGelben kraut 
+				<lb n="N012"/>SLONGamen nit
+				<lb n="N013"/>Zehen wein friSLONGch ze machen 
+				<lb n="N014"/>Item zuo zehen wein SLONGo nim zuo ainem faSNORM vaSNORM wein 
+				<lb n="N015"/>ainen hauß leib vnd SLONGolt den nit bachen vnd SLONGol 
+				<lb n="N016"/>In von Im SLONGelber SLONGaur laSLONGSLONGen werden alSNORM ain vrhab 
+				<lb n="N017"/>vnd macht den kugel dar auß alSNORM groß SLONGam die 
+				<lb n="N018"/>aier vnd werff SLONGy dan In daSNORM uaSNORM vnd verSLONGlach 
+				<lb n="N019"/>eSNORM dar nach drey tag vnd an dem vierden brichSNORM 
+				<lb n="N020"/>auf vnd geuSNORM den auSNORM ainem rechten prun ain 
+				<lb n="N021"/>viertail waSLONGSLONGer dar ein SLONGo haSLONGtu friSLONGchen wein
+				<lb n="N022"/>Ain gemecht daSNORM man lang halten mag zuo SLONGulczen 
+				<lb n="N023"/>DaSNORM man uiSLONGch ain wochen eSNORMß da SLONGol man die 
+			
+			<pb xml:id="W3_223v" n="223v"/>
+			
+				<lb n="N001"/>SLONGchuppen da von SLONGammen In ain hefen vnd waSLONGSLONGer dar 
+				<lb n="N002"/>auf gieSLONGSLONGen vnd laSLONGSLONGen ain halbe SLONGtund SLONGieden vnd 
+				<lb n="N003"/>tuo SLONGy dan In ain morSLONGer vnd SLONGtoß dann vnd SLONGlachSNORM 
+				<lb n="N004"/>durch mit der brue da SLONGy Inn geSLONGotten vnd tuo SLONGy In 
+				<lb n="N005"/>ain pfann vnd SLONGetz an ain kul daSNORM eSNORM geSLONGtee SLONGo SLONGol 
+				<lb n="N006"/>man uber ain feur haben daSNORM eSNORM SLONGich entlauß 
+				<lb n="N007"/>vnd alSNORM eSNORM SLONGich entlaSLONGSLONGen hat SLONGo tuo eSNORM auf ain 
+				<lb n="N008"/>SLONGchonSNORM brett vnd SLONGneid dann daSNORM dik da vonn 
+				<lb n="N009"/>waSNORM SLONGich von podm geSLONGeczt haut SLONGo mag man 
+				<lb n="N010"/>eSNORM behalten wie lang man wil vnd legSNORM denn 
+				<lb n="N011"/>In die SLONGulcz pru vnd lauß eSNORM erwarmen vncz eSNORM 
+				<lb n="N012"/>ergee vnd die SLONGchuppen ab den uiSLONGchen die man 
+				<lb n="N013"/>SLONGultzen wil die SLONGol man auch dar? ? zuo nemmen 
+				<lb n="N014"/>alSNORM uil du erSLONGultzen wilt
+				<lb n="N015"/>ReiSNORM guot ze machen
+				<lb n="N016"/>Von reiß waSLONGch den SLONGchon mit warmem waSLONGSLONGer 
+				<lb n="N017"/>tuo In In ain hafen vnd geuSNORM warm waSLONGSLONGer dar 
+				<lb n="N018"/>auf daSNORM eSNORM ainSNORM taum brait SLONGey ab dem reiß 
+				<lb n="N019"/>SLONGecz eSNORM haiß uber daSNORM feur oder kalt SLONGo er 2beginnet 
+				<lb n="N020"/>faim auf werffen SLONGo SLONGeich die brue ab SLONGecz In hin 
+				<lb n="N021"/>vnd lauSNORM In kalden SNORMGo du In aber wilt machen 
+				<lb n="N022"/>SLONGo geuSNORM mandelmilch dar auf vnd SLONGecz den auf 
+				<lb n="N023"/>die kolen vnd rur In alSLONGo daSNORM er gancz beleib SLONGo 
+				<lb n="N024"/>er beginnet diken SLONGo weiß mit der milch alSNORM du 
+			
+			<pb xml:id="W3_224r" n="224r"/>
+			
+				<lb n="N001"/>weiSLONGSLONGen wilt ob er SLONGey geSLONGotten SNORMGo nim dru korner 
+				<lb n="N002"/>zwiSLONGchen die vinger zer gend die alSNORM ziger daSNORM da 
+				<lb n="N003"/>icht herteSNORM pleibt SLONGo iSLONGt er gar berait SLONGo gib In 
+				<lb n="N004"/>hin mit zuker
+				<lb n="N005"/>Ain SLONGelczenSNORM koeSLONGtlein
+				<lb n="N006"/>Nim guot pru SLONGaffran vnd eSLONGSLONGich zuo maSLONGSLONGen SLONGecz eSNORM 
+				<lb n="N007"/>zuo dem feur vnd lauß eSNORM erwallen SLONGo temperier 
+				<lb n="N008"/>zuo SLONGammen air vnd SLONGchoen prot dar zuo geSLONGnitten 
+				<lb n="N009"/>SLONGpeck legSNORM In SLONGiedendeSNORM waSLONGSLONGer vnd laß er
+				<lb n="N010"/>wallen vnd gibSNORM hin
+				<lb n="N011"/>Huener In Condiment 
+				<lb n="N012"/>Mach ain guot Condiment von huener vnd 
+				<lb n="N013"/>von honig dar zuo gewurcz zuo glid dann die 
+				<lb n="N014"/>prattne huener vnd gib SLONGy hin
+				<lb n="N015"/>Ain kriechenn muoß 
+				<lb n="N016"/>Nim weiß kriechen vnd SLONGeud SLONGy gar wol vnd 
+				<lb n="N017"/>SLONGlach SLONGy durch ain SLONGib vnd nicht zuo ziger daSNORM 
+				<lb n="N018"/>die puttern von den kernenn vnder der haut dar zuo 
+				<lb n="N019"/>icht komen tuo auch dar zuo guot honig vnd auch 
+				<lb n="N020"/>guot weiß prot vnd gekreut erwell eSNORM gib eSNORM 
+				<lb n="N021"/>alSLONGo hin auf den tiSLONGch
+			
+		</ab></body>
+   </text>
+</TEI>
