@@ -63,7 +63,7 @@ $( document ).ready( function distribM10() {
       yaxis: 'y2',//eigene y Achse
       type: 'bar',
       marker: {
-        color: ['#5bb0a9', '#5bb05f']
+        color: ['#207858', '#205e78']
         },
       hoverinfo: 'text',
       hovertext: ['2 (100%)','0 (0%)']
@@ -139,7 +139,7 @@ $( document ).ready( function distribM10() {
     let initial = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[17,13,23,17,17,22,24,25,16,16,15,19,21,22,25,13,12,15,5,8], 
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'initial',
       marker: {
         color: '#3fcca9',
@@ -150,7 +150,7 @@ $( document ).ready( function distribM10() {
     let medial = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[11,12,18,18,11,17,16,14,8,3,14,6,14,11,17,12,8,11,5,2],
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'medial',
       marker: {
         color: '#e32d46',
@@ -186,7 +186,7 @@ $( document ).ready( function distribM10() {
     let initial = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,1,1], 
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'initial',
       marker: {
         color: '#3fcca9',
@@ -197,7 +197,7 @@ $( document ).ready( function distribM10() {
     let medial = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0],
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'medial',
       marker: {color: '#e32d46',
         size: 5
@@ -232,7 +232,7 @@ $( document ).ready( function distribM10() {
     let initial_slong = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[17,13,23,17,17,22,24,25,16,16,15,19,21,22,25,13,12,15,5,8], 
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'initial long-s',
       marker: {
         color: '#5ed6c2',
@@ -243,7 +243,7 @@ $( document ).ready( function distribM10() {
     let medial_slong = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[11,12,18,18,11,17,16,14,8,3,14,6,14,11,17,12,8,11,5,2],
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'medial long-s',
       marker: {
         color: '#4cadad',
@@ -254,7 +254,7 @@ $( document ).ready( function distribM10() {
     let initial_snorm = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], 
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'initial round-s',
       marker: {
         color: '#ffc782',
@@ -265,7 +265,7 @@ $( document ).ready( function distribM10() {
     let medial_snorm = {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
       y:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0],
-      mode: 'lines+markers',
+      mode: 'lines',
       name: 'medial round-s',
       marker: {color: '#d1633f',
         size: 5
