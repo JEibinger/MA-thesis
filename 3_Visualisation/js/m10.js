@@ -1,6 +1,57 @@
-///702 s overall, slong: 573, snorm: 129
-///M10 distribution position placement long-s compared s-norm
+//Double bar chart: M10 position placement long s and round s (How many on each position)
 $( document ).ready( function distribM10() {
+  let slong = {
+      x: ["initial", "medial", "final"],
+      y: [345, 228, 0],
+      name: 'long s',
+      type: 'bar',
+      marker: {
+        color: ['#1ba3c4', '#1ba3c4', '#1ba3c4']
+      },
+      text: ['345 (60,21%)','228 (39,79%)','0 (0%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['345 (97,73%)','228 (99,56%)','0 (0%)']
+  };
+  
+    let snorm = {
+      x: ["initial", "medial", "final"],
+      y: [8, 1, 128],
+      name: 'round s',
+      xaxis: 'x2',//eigene x Achse
+      yaxis: 'y2',//eigene y Achse
+      type: 'bar',
+      marker: {
+        color: ['#faca82', '#faca82', '#faca82']
+        },
+      text: ['15 (27,78%)','2 (3,70%)', '37 (68,52%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['8 (2,27%)','1 (0,44%)','128 (100%)']
+    };
+  
+  let data = [slong, snorm]
+
+  let layout = {
+    title:{
+      text:'Position distribution of long s and round s in M10',
+      font: {
+        family: 'Georgia, Times New Roman, Times, serif',
+        size: 24
+      },
+    },
+    grid: {rows: 2,
+    columns: 1,
+    pattern: 'independent',
+    roworder: 'top to bottom'},
+    font: {family: "Georgia, Times, serif"},
+  };
+
+  Plotly.newPlot('distribM10', data, layout);
+  })
+
+///M10 distribution position placement long-s compared s-norm
+$( document ).ready( function posM10() {
   let slong = {
     x: ['initial', 'medial', 'final'],
     y: [345, 228, 0],
@@ -9,8 +60,10 @@ $( document ).ready( function distribM10() {
     marker: {
       color: '#1ba3c4'
     },
-    hoverinfo: 'name+text',
-    hovertext: ['345 (60,21%)','228 (39,79%)','0 (0%)']
+    text: ['345 (60,21%)','228 (39,79%)','0 (0%)'],
+    textposition: 'auto',
+    // hoverinfo: 'name+text',
+    // hovertext: ['345 (60,21%)','228 (39,79%)','0 (0%)']
   };
   
   let snorm = {
@@ -21,15 +74,17 @@ $( document ).ready( function distribM10() {
     marker: {
       color: '#faca82'
     },
-    hoverinfo: 'name+text',
-    hovertext: ['8 (5,84%)','1 (0,73%)','128 (93,43%)']
+    text: ['8 (5,84%)','1 (0,73%)','128 (93,43%)'],
+    textposition: 'auto',
+    // hoverinfo: 'name+text',
+    // hovertext: ['8 (5,84%)','1 (0,73%)','128 (93,43%)']
   };
   
   let data = [slong, snorm];
   
   let layout = {
     title:{
-      text:'Distribution of Word Position',
+      text:'Comparison of each word position in M10',
       font: {
         family: 'Georgia, Times New Roman, Times, serif',
         size: 24
@@ -39,7 +94,7 @@ $( document ).ready( function distribM10() {
     font: {family: "Georgia, Times, serif"}
   };
   
-  Plotly.newPlot('distribM10', data, layout);
+  Plotly.newPlot('posM10', data, layout);
   })
 
 
@@ -52,8 +107,10 @@ $( document ).ready( function distribM10() {
       marker: {
         color: ['#207858', '#205e78', '#78202f']
       },
-        hoverinfo: 'text',
-        hovertext: ['54 (96,43%)','0 (0%)','2 (3,57%)']
+      text: ['54 (96,43%)','0 (0%)','2 (3,57%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['54 (96,43%)','0 (0%)','2 (3,57%)']
   };
   
     let leader = {
@@ -65,15 +122,17 @@ $( document ).ready( function distribM10() {
       marker: {
         color: ['#207858', '#205e78']
         },
-      hoverinfo: 'text',
-      hovertext: ['2 (100%)','0 (0%)']
+      text: ['2 (100%)','0 (0%)'],
+      textposition: 'auto', 
+      // hoverinfo: 'text',
+      // hovertext: ['2 (100%)','0 (0%)']
     };
   
   let data = [double, leader]
 
   let layout = {
     title:{
-      text:'Double s Features',
+      text:'Double s constellations in M10',
       font: {
         family: 'Georgia, Times New Roman, Times, serif',
         size: 24
@@ -101,8 +160,10 @@ $( document ).ready( function distribM10() {
       marker: {
         color: '#1ba3c4'
       },
-      hoverinfo: 'name+text',
-      hovertext: ['72 (100%)','114 (100%)']
+      text: ['72 (100%)','114 (100%)'],
+      textposition: 'auto',
+      // hoverinfo: 'name+text',
+      // hovertext: ['72 (100%)','114 (100%)']
     };
     
     let snorm = {
@@ -113,15 +174,17 @@ $( document ).ready( function distribM10() {
       marker: {
         color: '#faca82'
       },
-      hoverinfo: 'name+text',
-      hovertext: ['0 (0%)','0 (0%)']
+      text: ['0 (0%)','0 (0%)'],
+      textposition: 'auto',
+      // hoverinfo: 'name+text',
+      // hovertext: ['0 (0%)','0 (0%)']
     };
     
     let data = [slong, snorm];
     
     let layout = {
       title:{
-        text:'Comparison of typical graph combinations',
+        text:'Comparison of typical s allograph combinations in M10',
         font: {
           family: 'Georgia, Times New Roman, Times, serif',
           size: 24

@@ -46,6 +46,10 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="t:date">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="t:abbr">
         <xsl:apply-templates/>
     </xsl:template>

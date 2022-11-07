@@ -1,5 +1,57 @@
-///Gr1 distribution position placement long-s compared s-norm
+//Double bar chart: M10 position placement long s and round s (How many on each position)
 $( document ).ready( function distribGr1() {
+  let slong = {
+      x: ["initial", "medial", "final"],
+      y: [2580, 2535, 15],
+      name: 'long s',
+      type: 'bar',
+      marker: {
+        color: ['#1ba3c4', '#1ba3c4', '#1ba3c4']
+      },
+      text: ['2580 (49,65%)','2535 (49,25%)','15 (0,29%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['2580 (49,65%)','2535 (49,25%)','15 (0,29%)']
+  };
+  
+    let snorm = {
+      x: ["initial", "medial", "final"],
+      y: [329, 95, 2196],
+      name: 'round s',
+      xaxis: 'x2',//eigene x Achse
+      yaxis: 'y2',//eigene y Achse
+      type: 'bar',
+      marker: {
+        color: ['#faca82', '#faca82', '#faca82']
+        },
+      text: ['329 (12,56%)','95 (3,63%)','2196 (83,82%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['329 (12,56%)','95 (3,63%)','2196 (83,82%)']
+    };
+  
+  let data = [slong, snorm]
+
+  let layout = {
+    title:{
+      text:'Position distribution of long s and round s in Gr1',
+      font: {
+        family: 'Georgia, Times New Roman, Times, serif',
+        size: 24
+      },
+    },
+    grid: {rows: 2,
+    columns: 1,
+    pattern: 'independent',
+    roworder: 'top to bottom'},
+    font: {family: "Georgia, Times, serif"},
+  };
+
+  Plotly.newPlot('distribGr1', data, layout);
+  })
+
+///Gr1 distribution position placement long s compared s-norm
+$( document ).ready( function posGr1() {
   let slong = {
     x: ['initial', 'medial', 'final'],
     y: [2580, 2535, 15],
@@ -8,8 +60,10 @@ $( document ).ready( function distribGr1() {
     marker: {
       color: '#1ba3c4'
     },
-    hoverinfo: 'name+text',
-    hovertext: ['2580 (49,65%)','2535 (49,25%)','15 (0,29%)']
+    text: ['2580 (88,69%)','2535 (96,39%)','15 (0,68%)'],
+    textposition: 'auto',
+    // hoverinfo: 'name+text',
+    // hovertext: ['2580 (88,69%)','2535 (96,39%)','15 (0,68%)']
   };
   
   let snorm = {
@@ -20,15 +74,17 @@ $( document ).ready( function distribGr1() {
     marker: {
       color: '#faca82'
     },
-    hoverinfo: 'name+text',
-    hovertext: ['329 (12,56%)','95 (3,63%)','2196 (83,82%)']
+    text: ['329 (11,31%)','95 (3,61%)','2196 (99,32%)'],
+    textposition: 'auto',
+    // hoverinfo: 'name+text',
+    // hovertext: ['329 (11,31%)','95 (3,61%)','2196 (99,32%)']
   };
   
   let data = [slong, snorm];
   
   let layout = {
     title:{
-      text:'Distribution of Word Position',
+      text:'Comparison of each word position in Gr1',
       font: {
         family: 'Georgia, Times New Roman, Times, serif',
         size: 24
@@ -38,25 +94,27 @@ $( document ).ready( function distribGr1() {
     font: {family: "Georgia, Times, serif"}
   };
   
-  Plotly.newPlot('distribGr1', data, layout);
+  Plotly.newPlot('posGr1', data, layout);
   })
 
 
 ///Gr1 double s ratio - double shaft, double round, ratio of combo shaft/round, word positions
   $( document ).ready( function doublesGr1() {
   let double = {
-      x: ['double long-s', 'double round-s', 'combo'],
+      x: ['double long s', 'double round s', 'combo'],
       y: [491, 9, 244],
       type: 'bar',
       marker: {
         color: ['#207858', '#205e78', '#78202f']
       },
-        hoverinfo: 'text',
-        hovertext: ['491 (65,99%)','9 (1,21%)','244 (32,80%)']
+      text: ['491 (65,99%)','9 (1,21%)','244 (32,80%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['491 (65,99%)','9 (1,21%)','244 (32,80%)']
   };
   
     let leader = {
-      x: ['leading long-s', 'leading round-s'],
+      x: ['leading long s', 'leading round s'],
       y: [244, 0],
       xaxis: 'x2',//eigene x Achse
       yaxis: 'y2',//eigene y Achse
@@ -64,15 +122,17 @@ $( document ).ready( function distribGr1() {
       marker: {
         color: ['#207858', '#205e78']
         },
-      hoverinfo: 'text',
-      hovertext: ['244 (100%)','0 (0%)']
+      text: ['244 (100%)','0 (0%)'],
+      textposition: 'auto',
+      // hoverinfo: 'text',
+      // hovertext: ['244 (100%)','0 (0%)']
     };
   
   let data = [double, leader]
 
   let layout = {
     title:{
-      text:'Double s Features',
+      text:'Double s constellations in Gr1',
       font: {
         family: 'Georgia, Times New Roman, Times, serif',
         size: 24
@@ -93,8 +153,8 @@ $( document ).ready( function distribGr1() {
   /* Pie chart was replaced by bar charts above
   $( document ).ready( function doublesGr1() {
     let allLabels = [
-      ['double long-s', 'double round-s', 'combo'],
-      ['leading long-s', 'leading round-s']
+      ['double long s', 'double round s', 'combo'],
+      ['leading long s', 'leading round s']
     ]
   
     let allValues = [
@@ -160,8 +220,10 @@ $( document ).ready( function distribGr1() {
       marker: {
         color: '#1ba3c4'
       },
-      hoverinfo: 'name+text',
-      hovertext: ['810 (96,54%)','534 (96,04%)']
+      text: ['810 (96,54%)','534 (96,04%)'],
+      textposition: 'auto',
+      // hoverinfo: 'name+text',
+      // hovertext: ['810 (96,54%)','534 (96,04%)']
     };
     
     let snorm = {
@@ -172,15 +234,17 @@ $( document ).ready( function distribGr1() {
       marker: {
         color: '#faca82'
       },
-      hoverinfo: 'name+text',
-      hovertext: ['29 (3,46%)','22 (3,96%)']
+      text: ['29 (3,46%)','22 (3,96%)'],
+      textposition: 'auto',
+      // hoverinfo: 'name+text',
+      // hovertext: ['29 (3,46%)','22 (3,96%)']
     };
     
     let data = [slong, snorm];
     
     let layout = {
       title:{
-        text:'Comparison of typical graph combinations',
+        text:'Comparison of typical s allograph combinations in Gr1',
         font: {
           family: 'Georgia, Times New Roman, Times, serif',
           size: 24
@@ -231,7 +295,7 @@ $( document ).ready( function distribGr1() {
     let data = [ initial, medial, final ];
     
     let layout = {
-      title: "Positioning of long-s throughout Gr1",
+      title: "Positioning of long s throughout Gr1",
       font: {family: "Georgia, Times, serif"}
     };
     
@@ -277,7 +341,7 @@ $( document ).ready( function distribGr1() {
     let data = [ initial, medial, final ];
     
     let layout = {
-      title: "Positioning of round-s throughout Gr1",
+      title: "Positioning of round s throughout Gr1",
       font: {family: "Georgia, Times, serif"}
     };
     
@@ -292,7 +356,7 @@ $( document ).ready( function distribGr1() {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170],
       y:[18,21,29,17,11,14,14,20,11,14,23,15,10,28,28,15,20,23,22,21,11,12,14,18,12,21,20,18,17,13,11,20,12,29,22,15,17,12,12,18,11,14,10,18,12,13,17,9,18,23,23,13,13,14,14,9,10,13,11,20,14,18,29,12,21,22,20,13,14,10,16,11,9,15,21,20,25,14,18,21,24,12,17,11,14,16,14,19,12,14,17,15,14,13,14,17,13,11,11,17,16,9,11,24,33,18,15,10,16,9,9,10,11,21,12,12,15,13,19,24,23,12,16,14,18,19,14,19,19,24,22,20,16,15,29,14,23,22,17,13,11,12,16,20,13,23,27,14,23,16,33,3,2,1,0,0,2,5,7,4,4,10,0,5,4,1,15,12], 
       mode: 'lines',
-      name: 'initial long-s',
+      name: 'initial long s',
       marker: {
         color: '#5ed6c2',
         size: 5
@@ -303,7 +367,7 @@ $( document ).ready( function distribGr1() {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170],
       y:[15,8,12,3,18,10,10,9,10,11,2,12,10,9,15,16,20,11,11,21,15,13,21,15,9,22,10,11,13,13,29,16,17,13,17,11,19,16,10,19,14,13,3,7,15,15,9,17,17,9,15,16,10,11,11,10,8,4,13,9,12,11,13,12,6,16,18,13,14,8,17,13,13,14,13,11,24,21,17,21,22,25,20,11,13,12,26,19,25,15,12,20,17,13,14,18,14,15,10,19,24,29,28,9,17,21,13,16,8,23,19,8,20,7,15,9,24,17,19,13,15,5,13,15,14,24,7,22,11,20,11,11,10,20,25,23,25,27,22,13,25,20,22,13,23,26,17,19,15,16,26,7,19,10,13,5,8,14,28,16,35,24,21,21,21,3,18,7],
       mode: 'lines',
-      name: 'medial long-s',
+      name: 'medial long s',
       marker: {
         color: '#4cadad',
         size: 5
@@ -314,7 +378,7 @@ $( document ).ready( function distribGr1() {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170],
       y:[5,5,4,3,4,3,7,2,3,2,6,2,3,4,1,4,0,1,0,4,2,2,2,3,5,3,2,1,2,3,4,1,2,1,0,0,2,1,3,2,4,1,3,5,3,2,0,1,3,2,1,2,2,1,2,1,0,1,5,1,1,0,3,2,1,1,1,0,1,0,0,1,0,1,1,0,0,2,1,1,0,1,1,0,0,1,0,0,1,3,2,1,0,0,0,0,1,2,5,2,4,1,2,3,2,3,0,1,2,2,2,0,0,0,0,0,1,0,1,7,2,2,3,6,3,3,4,6,2,1,0,1,1,1,2,2,2,0,1,1,2,5,1,0,1,1,0,0,0,1,0,4,0,2,4,2,2,1,6,4,4,6,11,7,1,3,4,2], 
       mode: 'lines',
-      name: 'initial round-s',
+      name: 'initial round s',
       marker: {
         color: '#ffc782',
         size: 5
@@ -325,7 +389,7 @@ $( document ).ready( function distribGr1() {
       x:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170],
       y:[2,0,1,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,3,0,0,1,0,0,1,3,1,2,2,0,0,0,3,0,2,0,3,0,0,2,1,0,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,4,0,0,1,1,0,0,0,1,0,0,3,2,0,0,1,5,2,0,0,0,0,0,0,3,3,4,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,4,0,0,2,0,1,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0],
       mode: 'lines',
-      name: 'medial round-s',
+      name: 'medial round s',
       marker: {color: '#d1633f',
         size: 5
       }
