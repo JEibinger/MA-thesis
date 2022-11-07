@@ -8,8 +8,6 @@ $( document ).ready( function slongB2() {
     x: labels,
     y: values,
     type: "bar",
-    text: values.map(String),
-    textposition: 'auto',
     hoverinfo: 'text',
     hovertext: ['63 (52,94%)','51 (42,86%)','5 (4,20%)'] ,
     marker: {
