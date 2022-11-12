@@ -102,10 +102,10 @@ $( document ).ready( function posW3() {
   $( document ).ready( function doublesW3() {
   let double = {
       x: ['double long s', 'double round s', 'combo'],
-      y: [215, 0, 3],
+      y: [215, 3, 3],
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78', '#78202f']
+        color: ['#1ba3c4', '#faca82', '#78202f']
       },
       text: ['215 (98,62%)','0 (0%)','3 (1,38%)'],
     textposition: 'auto',
@@ -120,7 +120,7 @@ $( document ).ready( function posW3() {
       yaxis: 'y2',//eigene y Achse
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78']
+        color: ['#1ba3c4', '#faca82']
         },
         text: ['3 (100%)','0 (0%)'],
     textposition: 'auto',
@@ -160,24 +160,24 @@ $( document ).ready( function posW3() {
       marker: {
         color: '#1ba3c4'
       },
-      text: ['403 (100%)','306 (100%)'],
+      text: ['403 (99,02%)','308 (99,04%)'],
   textposition: 'auto',
       // hoverinfo: 'name+text',
-      // hovertext: ['403 (100%)','306 (100%)']
+      // hovertext: ['403 (99,02%)','308 (99,04%)']
     };
     
     let snorm = {
       x: ['s & t', 's & ch'],
-      y: [0,0],
+      y: [4, 3],
       name: 'round s',
       type: 'bar',
       marker: {
         color: '#faca82'
       },
-      text: ['0 (0%)','0 (0%)'],
+      text: ['4 (0,98%)','3 (0,96%)'],
   textposition: 'auto',
       // hoverinfo: 'name+text',
-      // hovertext: ['0 (0%)','0 (0%)']
+      // hovertext: ['4 (0,98%)','3 (0,96%)']
     };
     
     let data = [slong, snorm];

@@ -2,16 +2,16 @@
 $( document ).ready( function distribGr1() {
   let slong = {
       x: ["initial", "medial", "final"],
-      y: [2580, 2535, 15],
+      y: [2580, 2559, 17],
       name: 'long s',
       type: 'bar',
       marker: {
         color: ['#1ba3c4', '#1ba3c4', '#1ba3c4']
       },
-      text: ['2580 (49,65%)','2535 (49,25%)','15 (0,29%)'],
+      text: ['2580 (50,04%)','2559 (49,63%)','17 (0,33%)'],
       textposition: 'auto',
       // hoverinfo: 'text',
-      // hovertext: ['2580 (49,65%)','2535 (49,25%)','15 (0,29%)']
+      // hovertext: ['2580 (50,04%)','2559 (49,63%)','17 (0,33%)']
   };
   
     let snorm = {
@@ -54,13 +54,13 @@ $( document ).ready( function distribGr1() {
 $( document ).ready( function posGr1() {
   let slong = {
     x: ['initial', 'medial', 'final'],
-    y: [2580, 2535, 15],
+    y: [2580, 2559, 15],
     name: 'long s',
     type: 'bar',
     marker: {
       color: '#1ba3c4'
     },
-    text: ['2580 (88,69%)','2535 (96,39%)','15 (0,68%)'],
+    text: ['2580 (88,69%)','2559 (96,42%)','15 (0,68%)'],
     textposition: 'auto',
     // hoverinfo: 'name+text',
     // hovertext: ['2580 (88,69%)','2535 (96,39%)','15 (0,68%)']
@@ -74,7 +74,7 @@ $( document ).ready( function posGr1() {
     marker: {
       color: '#faca82'
     },
-    text: ['329 (11,31%)','95 (3,61%)','2196 (99,32%)'],
+    text: ['329 (11,31%)','95 (3,58%)','2196 (99,32%)'],
     textposition: 'auto',
     // hoverinfo: 'name+text',
     // hovertext: ['329 (11,31%)','95 (3,61%)','2196 (99,32%)']
@@ -102,12 +102,12 @@ $( document ).ready( function posGr1() {
   $( document ).ready( function doublesGr1() {
   let double = {
       x: ['double long s', 'double round s', 'combo'],
-      y: [491, 9, 244],
+      y: [491, 2, 244],
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78', '#78202f']
+        color: ['#1ba3c4', '#faca82', '#78202f']
       },
-      text: ['491 (65,99%)','9 (1,21%)','244 (32,80%)'],
+      text: ['491 (66,62%)','2 (0,27%)','244 (33,11%)'],
       textposition: 'auto',
       // hoverinfo: 'text',
       // hovertext: ['491 (65,99%)','9 (1,21%)','244 (32,80%)']
@@ -120,7 +120,7 @@ $( document ).ready( function posGr1() {
       yaxis: 'y2',//eigene y Achse
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78']
+        color: ['#1ba3c4', '#faca82']
         },
       text: ['244 (100%)','0 (0%)'],
       textposition: 'auto',

@@ -11,7 +11,7 @@ $( document ).ready( function distribM10() {
       text: ['345 (60,21%)','228 (39,79%)','0 (0%)'],
       textposition: 'auto',
       // hoverinfo: 'text',
-      // hovertext: ['345 (97,73%)','228 (99,56%)','0 (0%)']
+      // hovertext: ['345 (60,21%)','228 (39,79%)','0 (0%)']
   };
   
     let snorm = {
@@ -24,10 +24,10 @@ $( document ).ready( function distribM10() {
       marker: {
         color: ['#faca82', '#faca82', '#faca82']
         },
-      text: ['15 (27,78%)','2 (3,70%)', '37 (68,52%)'],
+      text: ['8 (5,84%)','1 (0,73%)', '128 (93,43%)'],
       textposition: 'auto',
       // hoverinfo: 'text',
-      // hovertext: ['8 (2,27%)','1 (0,44%)','128 (100%)']
+      // hovertext: ['8 (5,84%)','1 (0,73%)', '128 (93,43%)']
     };
   
   let data = [slong, snorm]
@@ -60,10 +60,10 @@ $( document ).ready( function posM10() {
     marker: {
       color: '#1ba3c4'
     },
-    text: ['345 (60,21%)','228 (39,79%)','0 (0%)'],
+    text: ['345 (97,73%)','228 (99,56%)','0 (0%)'],
     textposition: 'auto',
     // hoverinfo: 'name+text',
-    // hovertext: ['345 (60,21%)','228 (39,79%)','0 (0%)']
+    // hovertext: [345 (97,73%)','228 (99,56%)','0 (0%)']
   };
   
   let snorm = {
@@ -74,10 +74,10 @@ $( document ).ready( function posM10() {
     marker: {
       color: '#faca82'
     },
-    text: ['8 (5,84%)','1 (0,73%)','128 (93,43%)'],
+    text: ['8 (2,27%)','1 (0,44%)','128 (100%)'],
     textposition: 'auto',
     // hoverinfo: 'name+text',
-    // hovertext: ['8 (5,84%)','1 (0,73%)','128 (93,43%)']
+    // hovertext: ['8 (2,27%)','1 (0,44%)','128 (100%)']
   };
   
   let data = [slong, snorm];
@@ -105,7 +105,7 @@ $( document ).ready( function posM10() {
       y: [54, 0, 2],
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78', '#78202f']
+        color: ['#1ba3c4', '#faca82', '#78202f']
       },
       text: ['54 (96,43%)','0 (0%)','2 (3,57%)'],
       textposition: 'auto',
@@ -120,7 +120,7 @@ $( document ).ready( function posM10() {
       yaxis: 'y2',//eigene y Achse
       type: 'bar',
       marker: {
-        color: ['#207858', '#205e78']
+        color: ['#1ba3c4', '#faca82']
         },
       text: ['2 (100%)','0 (0%)'],
       textposition: 'auto', 
