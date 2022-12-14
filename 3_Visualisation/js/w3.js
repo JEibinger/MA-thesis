@@ -8,10 +8,8 @@ $( document ).ready( function distribW3() {
       marker: {
         color: ['#1ba3c4', '#1ba3c4', '#1ba3c4']
       },
-      text: ['1567 (58,19%)','1120 (41,59%)','6 (0,22%)'],
-      textposition: 'auto',
-      // hoverinfo: 'text',
-      // hovertext: ['1567 (58,19%)','1120 (41,59%)','6 (0,22%)']
+      hoverinfo: 'text',
+      hovertext: ['1567 (58,19%)','1120 (41,59%)','6 (0,22%)']
   };
   
     let snorm = {
@@ -24,10 +22,8 @@ $( document ).ready( function distribW3() {
       marker: {
         color: ['#faca82', '#faca82', '#faca82']
         },
-      text: ['52 (3,98%)','6 (0,46%)','1250 (95,57%)'],
-      textposition: 'auto',
-      // hoverinfo: 'text',
-      // hovertext: ['52 (3,98%)','6 (0,46%)','1250 (95,57%)']
+      hoverinfo: 'text',
+      hovertext: ['52 (3,98%)','6 (0,46%)','1250 (95,57%)']
     };
   
   let data = [slong, snorm]
@@ -60,10 +56,8 @@ $( document ).ready( function posW3() {
     marker: {
       color: '#1ba3c4'
     },
-    text: ['1567 (96,79%)','1120 (99,47%)','6 (0,48%)'],
-    textposition: 'auto',
-    // hoverinfo: 'name+text',
-    // hovertext: ['1567 (96,79%)','1120 (99,47%)','6 (0,48%)']
+    hoverinfo: 'name+text',
+    hovertext: ['1567 (96,79%)','1120 (99,47%)','6 (0,48%)']
   };
   
   let snorm = {
@@ -74,10 +68,8 @@ $( document ).ready( function posW3() {
     marker: {
       color: '#faca82'
     },
-    text: ['52 (3,21%)','6 (0,53%)','1250 (99,52%)'],
-    textposition: 'auto',
-    // hoverinfo: 'name+text',
-    // hovertext: ['52 (3,21%)','6 (0,53%)','1250 (99,52%)']
+    hoverinfo: 'name+text',
+    hovertext: ['52 (3,21%)','6 (0,53%)','1250 (99,52%)']
   };
   
   let data = [slong, snorm];
@@ -107,10 +99,8 @@ $( document ).ready( function posW3() {
       marker: {
         color: ['#1ba3c4', '#faca82', '#78202f']
       },
-      text: ['215 (98,62%)','0 (0%)','3 (1,38%)'],
-    textposition: 'auto',
-        hoverinfo: 'text',
-        hovertext: ['215 (98,62%)','0 (0%)','3 (1,38%)']
+      hoverinfo: 'text',
+      hovertext: ['215 (98,62%)','0 (0%)','3 (1,38%)']
   };
   
     let leader = {
@@ -122,10 +112,8 @@ $( document ).ready( function posW3() {
       marker: {
         color: ['#1ba3c4', '#faca82']
         },
-        text: ['3 (100%)','0 (0%)'],
-    textposition: 'auto',
-      // hoverinfo: 'text',
-      // hovertext: ['3 (100%)','0 (0%)']
+      hoverinfo: 'text',
+      hovertext: ['3 (100%)','0 (0%)']
     };
   
   let data = [double, leader]
@@ -160,10 +148,8 @@ $( document ).ready( function posW3() {
       marker: {
         color: '#1ba3c4'
       },
-      text: ['403 (99,02%)','308 (99,04%)'],
-  textposition: 'auto',
-      // hoverinfo: 'name+text',
-      // hovertext: ['403 (99,02%)','308 (99,04%)']
+      hoverinfo: 'name+text',
+      hovertext: ['403 (99,02%)','308 (99,04%)']
     };
     
     let snorm = {
@@ -174,10 +160,8 @@ $( document ).ready( function posW3() {
       marker: {
         color: '#faca82'
       },
-      text: ['4 (0,98%)','3 (0,96%)'],
-  textposition: 'auto',
-      // hoverinfo: 'name+text',
-      // hovertext: ['4 (0,98%)','3 (0,96%)']
+      hoverinfo: 'name+text',
+      hovertext: ['4 (0,98%)','3 (0,96%)']
     };
     
     let data = [slong, snorm];

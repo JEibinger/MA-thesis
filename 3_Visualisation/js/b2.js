@@ -8,8 +8,6 @@ $( document ).ready( function slongB2() {
     x: labels,
     y: values,
     type: "bar",
-    // text: ['63 (52,94%)','51 (42,86%)','5 (4,20%)'] ,
-    // textposition: 'auto',
     hoverinfo: 'text',
     hovertext: ['63 (52,94%)','51 (42,86%)','5 (4,20%)'] ,
     marker: {
@@ -39,10 +37,8 @@ $( document ).ready( function distribB2() {
       marker: {
         color: ['#1ba3c4', '#1ba3c4', '#1ba3c4']
       },
-      text: ['63 (52,94%)','51 (42,86%)','5 (4,20%)'],
-      textposition: 'auto',
-      // hoverinfo: 'text',
-      // hovertext: ['63 (52,94%)','51 (42,86%)','5 (4,20%)']
+      hoverinfo: 'text',
+      hovertext: ['63 (52,94%)','51 (42,86%)','5 (4,20%)']
   };
   
     let snorm = {
@@ -55,10 +51,8 @@ $( document ).ready( function distribB2() {
       marker: {
         color: ['#faca82', '#faca82', '#faca82']
         },
-      text: ['15 (27,78%)','2 (3,70%)', '37 (68,52%)'],
-      textposition: 'auto',
-      // hoverinfo: 'text',
-      // hovertext: ['15 (27,78%)','2 (3,70%)', '37 (68,52%)']
+      hoverinfo: 'text',
+      hovertext: ['15 (27,78%)','2 (3,70%)', '37 (68,52%)']
     };
   
   let data = [slong, snorm]
@@ -91,10 +85,8 @@ $( document ).ready( function posB2() {
     marker: {
       color: '#1ba3c4'
     },
-    text: ['63 (80,77%)', '51 (96,23%)', '5 (11,90%)'],
-    textposition: 'auto',
-    // hoverinfo: 'name+text',
-    // hovertext: ['63 (80,77%)', '51 (96,23%)', '5 (11,90%)'] ,
+    hoverinfo: 'name+text',
+    hovertext: ['63 (80,77%)', '51 (96,23%)', '5 (11,90%)'] ,
   };
   
   let snorm = {
@@ -105,10 +97,8 @@ $( document ).ready( function posB2() {
     marker: {
       color: '#faca82'
     },
-    text: ['15 (19,23%)','2 (3,77%)','37 (88,10%)'],
-    textposition: 'auto',
-    // hoverinfo: 'name+text',
-    // hovertext: ['15 (19,23%)','2 (3,77%)','37 (88,10%)'] ,
+    hoverinfo: 'name+text',
+    hovertext: ['15 (19,23%)','2 (3,77%)','37 (88,10%)'] ,
   };
   
   let data = [slong, snorm];
